@@ -1,0 +1,30 @@
+#summary Essa página guarda a alocação de papeis durante o projeto.
+
+= Papeis =
+
+Os papeis estão divididos da seguinte forma:
+  * Iteração 1
+||_*Nome*_||_*Papel*_||
+||Fabio||Testador||
+||Renato||Desenvolvedor||
+||Solon||Gerente||
+
+  * Iteração 2
+||_*Nome*_||_*Papel*_||
+||Fabio||Gerente||
+||Renato||Testador||
+||Solon||Desenvolvedor||
+
+  * Iteração 3
+||_*Nome*_||_*Papel*_||
+||Fabio||Desenvolvedor||
+||Renato||Gerente||
+||Solon||Testador||
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
