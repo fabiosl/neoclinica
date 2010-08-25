@@ -1,3 +1,8 @@
 =Riscos=
 
-TODO (passar pro wiki)
+|| *Nome* || *Tipo de Risco* || *Descrição* || *Probabilidade* || *Efeito* || *Alternativa* || *Status* ||
+|| Hardware || Projeto || Algum membro do time ficar sem hardware para realizar seu trabalho || Média || Sério || Usar ambiente da universidade para atividades; redistribuir tarefas entre os outros membros. || ||
+|| Problema de saúde || Projeto || Algum membro do time ficar doente. || Média || Tolerável || Redistribuir tarefas entre os outros membros. || ||
+|| Problemas com a tecnologia a ser usada || Produto e Projeto || Dificuldade de aprendizado das tecnologias a ser usadas. || Média-Baixa || Sério || Alocar mais tempo para aprendizado e prática da tecnologia. || ||
+|| Mudança Requisitos || Produto e Projeto || Maior mudança de requisitos do que o esperado. || Média || Sério || Avaliar o impacto e às alternativas às mudanças propostas. || ||
+|| Tamanho || Produto e Projeto || Subestimar o tamanho do projeto || Média-Baixa || Catastrófico || Reavaliar os requisitos e a alocação de tarefas.|| ||
