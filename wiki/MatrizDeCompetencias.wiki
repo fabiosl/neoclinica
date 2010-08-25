@@ -1,6 +1,6 @@
 =Matriz de Competências=
 
-|| Integrante || Competências ||
+|| *Integrante* || *Competências* ||
 || Fabio || ||
 || Renato || ||
 || Solon  || ||
