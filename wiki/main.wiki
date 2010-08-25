@@ -7,7 +7,7 @@ Aqui são guardadas todas as informações essenciais e os links para as outras 
 
 = Links =
 
-Divisão de atividades: [http://code.google.com/p/neoclinica/wiki/DivisaoPapeis Divisão Tarefas]
+Divisão de atividades: [http://code.google.com/p/neoclinica/wiki/DivisaoPapeis Divisão Papeis]
 
 Datas Importantes: [http://code.google.com/p/neoclinica/wiki/InformacoesDaDisciplina Datas]
 
