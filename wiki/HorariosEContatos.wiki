@@ -1,0 +1,16 @@
+=Contatos=
+  * _Equipe_
+    * Fábio (sousaleal.fabio@gmail.com)
+    * Renato (slade2005@gmail.com)
+    * Solon (solon.liam.aguiar@gmail.com)
+
+  * _Cliente_
+    * Harrison (harrison73oft@gmail.com)
+
+=Horários disponíveis para reunião semanal (equipe e cliente)=
+
+||       || SEGUNDA || TERÇA || QUARTA || QUINTA || SEXTA ||
+|| 8:00  || R       ||       ||        ||        ||       ||
+|| 10:00 ||         ||       ||        || R      ||       ||
+|| 14:00 ||         ||       || R      ||        || R     ||
+|| 16:00 ||         ||       || R      ||        || R     ||
