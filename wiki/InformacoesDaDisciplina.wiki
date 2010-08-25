@@ -1,0 +1,343 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Add your content here.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+
+Para a avaliação da etapa de PLANEJAMENTO, aprontar:
+
+sumbul1a  Página do projeto com os dados iniciais (indicar a URL), seguindo o fluxo do YP, e os artefatos abaixo:
+
+·         Projeto (descrição);
+
+·         Equipe (com nomes e papéis, indicando também disponibilidades de horários para o projeto e reuniões semanais  e e-mail)
+
+·         Documento de visão
+
+·         User Stories
+
+·         Modelo lógico (caso necessite de Banco de Dados)
+
+·         Projeto de Interface (Resumo das Necessidades, Perfil do Usuário, Objetivos da usabilidade)
+
+·         Projeto arquitetural.
+
+·         Modelo da Tarefa.
+
+Dica: Estabeleça rapidamente as atividades de cada um, pois o tempo é curto e sem buffer de contingência.
+
+Plano de Atividades / Datas:
+
+Aulas + Fechamento de Projetos – 4, 11, 18, 25 de Agosto e 1 de Setembro. Aula com os monitores deve ser combinada (data, local e horário).
+
+ 
+
+Cronograma da Avaliação: (TODAS as avaliações serão na sala de aula – CD 105)
+
+Avaliação
+	
+
+Data
+	
+
+Observação
+
+Definição Projeto/Equipe
+	
+
+18 Agosto
+	
+
+ 
+
+Planejamento
+	
+
+8 Setembro
+	
+
+Iteração 1
+	
+
+22 Setembro
+	
+
+Iteração 2 – Release 1
+	
+
+6 Outubro
+	
+
+Iteração 3
+	
+
+20 Outubro
+	
+
+Iteração 4 – Release 2
+	
+
+3 Novembro
+	
+
+Iteração 5
+	
+
+17 Novembro
+	
+
+Iteração 6 – Release Final
+	
+
+1 Dezembro
+	
+
+ 
+
+Evento
+	
+
+Agosto
+	
+
+Setembro
+	
+
+Outubro
+	
+
+Novembro
+	
+
+Dezembro
+
+Aulas
+	
+
+4, 11, 18,25
+	
+
+1
+	
+
+ 
+	
+
+ 
+	
+
+ 
+
+Definição projetos/equipes
+	
+
+     18
+	
+
+ 
+	
+
+ 
+	
+
+ 
+	
+
+ 
+
+Avaliação Planejamento
+		
+
+  8
+	
+
+ 
+	
+
+ 
+	
+
+ 
+
+Avaliação Iteração 1
+	
+
+ 
+	
+
+           22
+	
+
+ 
+	
+
+ 
+	
+
+ 
+
+Release 1
+	
+
+ 
+	
+
+             
+	
+
+  6    
+	
+
+ 
+	
+
+ 
+
+Avaliação Iteração 3
+	
+
+ 
+	
+
+ 
+	
+
+          20
+	
+
+ 
+	
+
+ 
+
+Release 2
+	
+
+ 
+	
+
+ 
+	
+
+              
+	
+
+3   
+	
+
+ 
+
+Avaliação Iteração 5
+	
+
+ 
+	
+
+ 
+	
+
+ 
+	
+
+        17
+	
+
+ 
+
+Release 3
+	
+
+ 
+	
+
+ 
+	
+
+ 
+	
+
+       
+	
+
+1        
+
+ 
+
+ 
+
+Modelo de avaliação:
+
+ 
+
+Cada etapa fechada tem um percentual, como mostra a tabela abaixo:
+
+ 
+
+Planejamento
+	
+
+25%
+
+Iteração 1
+	
+
+10%
+
+Release 1
+	
+
+15%
+
+Iteração 3
+	
+
+10%
+
+Release 2
+	
+
+15%
+
+Iteração 5
+	
+
+10%
+
+Release 3
+	
+
+15%
+
+ 
+
+Na etapa de planejamento, irá pesar:
+
+   1. Elaboração/apresentação do site do projeto – 15%;
+   2. Artefatos desta etapa (Doc Visão, Aspectos de usabilidade, Projeto Arquitetural, Cronograma, Descrição de testes, Plano da Iteração 1) – 60%;
+   3. Organização do ambiente de trabalho (hospedagem do site, ferramentas de apoio, tecnologias) – 25%.
+
+ 
+
+No fechamento de Iteração, irá pesar:
+
+   1. Defesa da iteração – 20%;
+   2. Artefatos (US concluídas, Big Chart, Testes, Código) + Ambiente – 60%;
+   3. Cumprimento do processo – 20%.
+
+ 
+
+No fechamento da Release, irá pesar:
+
+   1. Defesa da release – 20%;
+   2. Artefatos (US concluídas, Big Chart, Testes, Código, Protótipo) + Ambiente – 60%;
+   3. Cumprimento do processo – 10%;
+
+    4. Avaliação do cliente – 10%.
