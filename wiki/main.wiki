@@ -1,0 +1,16 @@
+#summary Pagina Principal do wiki
+
+= Introdução =
+
+Aqui são guardadas todas as informações essenciais e os links para as outras páginas importantes. É a página de referência para qualquer consulta.
+
+
+= Links =
+
+Divisão de atividades: [http://code.google.com/p/neoclinica/wiki/DivisaoPapeis Divisão Tarefas]
+
+Datas Importantes: [http://code.google.com/p/neoclinica/wiki/InformacoesDaDisciplina Datas]
+
+Riscos do Projeto: [https://spreadsheets.google.com/pub?key=0Ap5kNKrWmbbAdEpqclktSFczRHYyT2g0ZmVNaGo4dFE&hl=en&single=true&gid=0&output=html Riscos] - _Em Construção_.
+
+Roteiro da Entrevista: [https://docs.google.com/document/pub?id=12b5wIoTkoJdZxJVZxmabSbi5YXL9s1yEhc6EStCZYhI Roteiro] - _Em Construção_.
