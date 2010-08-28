@@ -1,3 +1,48 @@
 =Documento de Visão=
 
-TODO (passar pro wiki)
+_NEO Clínica Software_
+
+*Descrição*
+
+A clínica Núcleo Especializado em Oftalmologia (NEO), fundada em  2003 está localizada na cidade de Campina Grande e atende pacientes de Campina Grande e região. As consultas realizadas estão ligadas a serviços oftalmológicos. Atualmente dois médicos atendem a consultas durante a semana e o corpo de funcionários é formado por três funcionários.
+Os serviços realizados na clínica vão desde o agendamento de consultas para pacientes até o pedido de lentes oftalmológicas junto aos fornecedores. Para esses e outros pedidos, tanto pacientes quanto lentes e fornecedores são cadastrados em um banco de dados e todas transações são registradas. Atualmente parte desse processo é feito manualmente em fichas de papel, o que dificulta muito a agilidade do processo, o conhecimento do andamento dos pedidos e o acompanhamento, por parte dos médicos, do controle do estoque.
+Diante disso, percebe-se que um sistema de informação ajudará completamente todos os envolvidos no processo. Ele fará com que as informações sejam acessadas de maneira mais eficiente e precisa por todos a qualquer momento. Isso agilizará o processo e fará com que se tenha maior controle tanto no atendimento aos clientes quanto no contato com os fornecedores e no controle do estoque. 
+Assim, percebe-se que o sistema é formado, em suma, por dois componentes: Banco de Dados e Visões. O Banco de Dados é o componente responsável por lidar (tanto armazenar os dados quanto prover interfaces de cadastro, atualização, remoção e modificação) com as informações que devem ser armazenadas no sistema para consultas posteriores. Já as Visões representam as diferentes interfaces que serão fornecidas para os diferentes níveis hierárquicos de usuários dos sistema. Cada um desses componentes iniciais pode ser decomposto, ao longo do processo, em componentes menores de acordo com eventuais necessidades que surgirem.
+
+*Requisitos Funcionais*
+
+  *  1.  Componente: Banco de Dados 
+     * a.	CRUD de Pacientes;
+     * b.	CRUD de Funcionários;
+     * c.     CRUD de Médicos;
+     * d.	CRUD de Lentes;
+     * e.	Registro de Pedidos;
+     * f.	Registro de Transações;
+     * g.	Geração de Relatórios.
+
+
+   *  2. Componente: Visões
+     * a.	Obtenção de Relatórios;
+     * b.	Telas de Login;
+     * c.	Gerenciamento do Estoque;
+     * d.	Gerenciamento de Pacientes;
+     * e.	Gerenciamento de Médicos;
+     * f.	Obtenção de Informações de Fornecedores;
+     * g.    Envio de email para médicos com relatórios.
+
+*Requisitos não-funcionais*
+
+     * 1.	Banco de Dados relacional;
+     * 2.	Uso de login de usuário;
+     * 3.	Interface web; 
+     * 4.	Uso de padrões de projeto;
+     * 5.	Segurança com dados dos pacientes;
+     * 6.	Integridade dos dados.
+
+
+*Perfil do Usuário*
+
+
+O sistema será usado diariamente de forma direta por funcionários e médicos da clínica. Essas pessoas estão na faixa etária dos 30 anos de idade. Os usuários serão pessoas que já têm experiência com computadores e sistemas informatizados seja por utilizarem outros sistemas na própria clínica e em outros locais de trabalho ou por serem capacitados através de cursos já finalizados. 
+
+Os pacientes interagirão com o sistema por intermédio dos funcionários e médicos. Esses quem serão responsáveis por passar para o sistema todos as informações necessárias. Dessa forma, não serão necessárias, a princípio, preocupações relativas a treinamento de usuários totalmente despreparados no uso de computadores.
