@@ -2,35 +2,10 @@
 =Ata das Reuniões=
 
 ==Primeira Reunião com o Cliente (11/08/2010)==
-   * Essa reunião serviu apenas para que o grupo tivesse uma ideia superficial a respeito do que se tratava o projeto. Na realidade, a reunião foi bastante superficial e serviu para que ocorresse a definição da proposta de projeto para a disciplina de Laboratório de Engenharia de Software.
+   * A reunião realizada no dia 11 de Agosto serviu apenas para confirmar o interesse do cliente no projeto e para que o grupo tivesse uma ideia superficial a respeito do que ele se tratava.  Pode-se levantar, de maneira informal e sem qualquer precisão, alguns dos requisitos que o cliente desejaria que o sistema fornecesse como funcionalidades. A reunião serviu, basicamente, para que ocorresse a definição da proposta de projeto para a disciplina.
 
 ==Segunda Reunião com o Cliente (28/08/2010)==
-   * Durante essa reunião o grupo entrevistou tanto o cliente como os futuros usuários do sistema que será desenvolvido na disciplina: 
+   * A segunda reunião demorou um pouco mais do que o planejado à primeira vista, porém ainda ocorreu dentro do cronograma estabelecido. Durante essa reunião o grupo entrevistou o cliente com relação ao sistema desejado, o funcionamento da clínica e a infra-estrutura do loca. Os outros usuários do sistema também foram entrevistados como forma de se conhecer um pouco mais de seu perfil. Foram elaborados dois documentos como forma de se preparar para a entrevista: Roteiro - que guiou todos os passos a serem seguidos; Roteiro de Entrevista - que guiou as perguntas e dúvidas a serem tiradas com o cliente.
 
-* Roteiro de Entrevista com o Cliente *
-
-   # O Sistema foi dito para ser local. Quão local isso? Será acessado de mais de um computador?
-   # Qual a sua experiência com computadores?
-   # Quem serão os usuários? Você também utilizará o sistema?
-         1. Se sim, as suas permissões serão a mesma dos demais usuários?
-   # Será necessário log de atividades no sistema?
-   # Como é feito o controle do processo hoje? Há registro das atividades realizadas?
-   # Os pacientes lidarão com o sistema diretamente ou através dos médicos e funcionários?
-   # Qual o banco de dados usado atualmente?
-
-
-
-
-
-
-* Roteiro de Entrevista com o Usuário *
-
-   # Qual a sua experiência com computadores? E sistemas de informação?
-   # Qual o ambiente (se tem internet ou pelo menos uma rede local, nível das máquinas, sistema operacional, browser caso seja web) usado pelos funcionários)?
-
-
-**Pedir permissão para tentar visualizar/copiar o BD.*
-
-**Verificar disponibilidade de o cliente deixar uma máquina na clínica para acesso remoto.*
-
-** Lembrar de não sair de lá sem pelo menos, boa parte das user stories definidas.*
+* Roteiro de Entrevista com o Cliente e com os usuários*
+O roteiro da entrevista com o cliente pode ser encontrado [https://docs.google.com/document/pub?id=12b5wIoTkoJdZxJVZxmabSbi5YXL9s1yEhc6EStCZYhI aqui].
