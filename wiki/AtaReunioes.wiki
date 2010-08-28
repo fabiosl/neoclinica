@@ -7,5 +7,10 @@
 ==Segunda Reunião com o Cliente (28/08/2010)==
    * A segunda reunião demorou um pouco mais do que o planejado à primeira vista, porém ainda ocorreu dentro do cronograma estabelecido. Durante essa reunião o grupo entrevistou o cliente com relação ao sistema desejado, o funcionamento da clínica e a infra-estrutura do loca. Os outros usuários do sistema também foram entrevistados como forma de se conhecer um pouco mais de seu perfil. Foram elaborados dois documentos como forma de se preparar para a entrevista: Roteiro - que guiou todos os passos a serem seguidos; Roteiro de Entrevista - que guiou as perguntas e dúvidas a serem tiradas com o cliente.
 
+* Roteiro da Conversa*
+
+O roteiro da conversa com o cliente pode ser encontrado [https://docs.google.com/document/pub?id=1TBkQZNmWpu-qz6rPiKPRfxYX9mmfOxROWYB-VD1qsJo aqui].
+
 * Roteiro de Entrevista com o Cliente e com os usuários*
+
 O roteiro da entrevista com o cliente pode ser encontrado [https://docs.google.com/document/pub?id=12b5wIoTkoJdZxJVZxmabSbi5YXL9s1yEhc6EStCZYhI aqui].
