@@ -17,6 +17,6 @@ Substituir _at_ por @ e _dot_ por .
 || 8:00  || R;S;      ||       ||        ||        ||       ||
 || 10:00 ||         ||       ||        || R      || F      ||
 || 14:00 ||S         ||       || R;F      ||        || R;S;F    ||
-|| 16:00 ||         ||       || R;F      ||S        || R;S;F\*     ||
+|| 16:00 ||         ||       || R;F      ||S        || R;S;F²     ||
 
-\* Tenho aula de estágio mensalmente, aviso quando não puder.
+² Tenho aula de estágio mensalmente, aviso quando não puder.
