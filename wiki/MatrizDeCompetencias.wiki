@@ -1,3 +1,5 @@
+#summary Página que guarda a matriz de competência dos membros do grupo.
+
 =Matriz de Competências=
 
 || *Integrante* || *Competências* ||
