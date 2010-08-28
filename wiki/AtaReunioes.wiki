@@ -5,7 +5,12 @@
    * A reunião realizada no dia 11 de Agosto serviu apenas para confirmar o interesse do cliente no projeto e para que o grupo tivesse uma ideia superficial a respeito do que ele se tratava.  Pode-se levantar, de maneira informal e sem qualquer precisão, alguns dos requisitos que o cliente desejaria que o sistema fornecesse como funcionalidades. A reunião serviu, basicamente, para que ocorresse a definição da proposta de projeto para a disciplina.
 
 ==Segunda Reunião com o Cliente (28/08/2010)==
-   * A segunda reunião demorou um pouco mais do que o planejado à primeira vista, porém ainda ocorreu dentro do cronograma estabelecido. Durante essa reunião o grupo entrevistou o cliente com relação ao sistema desejado, o funcionamento da clínica e a infra-estrutura do loca. Os outros usuários do sistema também foram entrevistados como forma de se conhecer um pouco mais de seu perfil. Foram elaborados dois documentos como forma de se preparar para a entrevista: Roteiro - que guiou todos os passos a serem seguidos; Roteiro de Entrevista - que guiou as perguntas e dúvidas a serem tiradas com o cliente.
+   * A segunda reunião demorou um pouco mais do que o planejado à primeira vista, porém ainda ocorreu dentro do cronograma estabelecido. Durante essa reunião o grupo entrevistou o cliente com relação ao sistema desejado, o funcionamento da clínica e a infra-estrutura do loca. Os outros usuários do sistema também foram entrevistados como forma de se conhecer um pouco mais de seu perfil. Foram elaborados dois documentos como forma de se preparar para a entrevista: Roteiro - que guiou todos os passos a serem seguidos; Roteiro de Entrevista - que guiou as perguntas e dúvidas a serem tiradas com o cliente. Abaixo segue o que foi definido com o cliente, além das user stories:
+       * O software deve ser web, com servidor na própria clínica.
+       * Os pacientes não terão acesso ao sistema.
+       * Deverá haver um controle de permissões (médico/outros funcionários).
+       * Deverá haver log das atividades do sistema.
+       * User stories.
 
 * Roteiro da Conversa*
 
