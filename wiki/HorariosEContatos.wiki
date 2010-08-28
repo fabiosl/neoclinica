@@ -1,3 +1,5 @@
+#summary Página que guarda o email dos membros do grupo e do cliente assim como os horários dos membros do grupo.
+
 =Contatos=
   * _Equipe_
     * Fábio (sousaleal _dot_ fabio _at_ gmail _dot _com)
