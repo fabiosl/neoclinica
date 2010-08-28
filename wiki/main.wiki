@@ -7,10 +7,18 @@ Aqui são guardadas todas as informações essenciais e os links para as outras 
 
 = Links =
 
-Divisão de atividades: [http://code.google.com/p/neoclinica/wiki/DivisaoPapeis Divisão Papeis]
+Divisão de papeis: [http://code.google.com/p/neoclinica/wiki/DivisaoPapeis Divisão Papeis].
 
-Datas Importantes: [http://code.google.com/p/neoclinica/wiki/InformacoesDaDisciplina Datas]
+Datas Importantes: [http://code.google.com/p/neoclinica/wiki/InformacoesDaDisciplina Datas].
 
-Riscos do Projeto: [https://spreadsheets.google.com/pub?key=0Ap5kNKrWmbbAdEpqclktSFczRHYyT2g0ZmVNaGo4dFE&hl=en&single=true&gid=0&output=html Riscos] - _Em Construção_.
+Riscos do Projeto: [http://code.google.com/p/neoclinica/wiki/Riscos Riscos] - _Em Construção_.
 
-Roteiro da Entrevista: [https://docs.google.com/document/pub?id=12b5wIoTkoJdZxJVZxmabSbi5YXL9s1yEhc6EStCZYhI Roteiro] - _Em Construção_.
+Reuniões: [http://code.google.com/p/neoclinica/wiki/AtaReunioes Reuniões].
+
+Plano de Release: [http://code.google.com/p/neoclinica/wiki/PlanoRelease Plano de Release].
+
+Objetivos e Usabilidade: [http://code.google.com/p/neoclinica/wiki/ObjetivosUsabilidade Objetivos].
+
+Horários e Contatos: [http://code.google.com/p/neoclinica/wiki/HorariosEContatos Horários].
+
+Matriz de Competências: [http://code.google.com/p/neoclinica/wiki/MatrizDeCompetencias Matriz].
