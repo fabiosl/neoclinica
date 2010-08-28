@@ -15,3 +15,5 @@ Algumas coisas importantes sobre o código da aplicação:
   * É essencial manter conformidade entre os documentos no wiki do repositório e os arquivos que estão no SVN. Para isso, após qualquer modificação no wiki ou nos arquivos, fazer com que o outro também seja alterado para que ambos tenham a mesma informação. Isso facilitará o trabalho final de gravar as informações no CD para entrega final.
   * Ao criar qualquer página no wiki, um email deve ser mandado para o grupo interno de discussão com informações sobre a utilidade da página criada. Assim, todos podem conhecê-la melhor e discutir o tema abordado.
   * As mensagens de commit devem conter informações básicas sobre a atividade realizada para que os outros membros possam ter uma big picture do trabalho feito.
+
+//Linha para teste de Email nos commits
