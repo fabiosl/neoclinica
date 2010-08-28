@@ -1,3 +1,5 @@
+#summary Página que contém o documento de visão do sistema.
+
 =Documento de Visão=
 
 _NEO Clínica Software_
