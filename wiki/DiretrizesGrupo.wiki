@@ -2,7 +2,7 @@
 
 = Ambiente de Desenvolvimento =
 
-O projeto será desenvolvido em Java e Grails. Para isso, todos devem usar o Eclipse SpringSource como IDE de desenvolvimento e usar a instalação do Grails versão 1.3.1.
+O projeto será desenvolvido em Java e Grails. Para isso, todos devem usar o Eclipse Springsource como IDE de desenvolvimento e usar a instalação do Grails versão 1.3.1.
 
 = Sobre o código e o SVN =
 
