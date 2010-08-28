@@ -1,16 +1,18 @@
 =Contatos=
   * _Equipe_
-    * Fábio (sousaleal.fabio@gmail.com)
-    * Renato (slade2005@gmail.com)
-    * Solon (solon.liam.aguiar@gmail.com)
+    * Fábio (sousaleal[[dot]]fabio[[at]]gmail[[dot]]com)
+    * Renato (slade2005[[at]]gmail[[dot]]com)
+    * Solon (solon[[dot]]liam[[dot]]aguiar[[at]]gmail[[dot]]com)
 
   * _Cliente_
-    * Harrison (harrison73oft@gmail.com)
+    * Harrison (harrison73oft[[at]]gmail.com)
+
+_Substituir [[at]] por @ e [[dot]] por ._
 
 =Horários disponíveis para reunião semanal (equipe e cliente)=
 
 ||       || SEGUNDA || TERÇA || QUARTA || QUINTA || SEXTA ||
-|| 8:00  || R       ||       ||        ||        ||       ||
+|| 8:00  || R;S      ||       ||        ||        ||       ||
 || 10:00 ||         ||       ||        || R      ||       ||
-|| 14:00 ||         ||       || R      ||        || R     ||
-|| 16:00 ||         ||       || R      ||        || R     ||
+|| 14:00 ||S         ||       || R      ||        || R;S    ||
+|| 16:00 ||         ||       || R      ||S        || R;S     ||
