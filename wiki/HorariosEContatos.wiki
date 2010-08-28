@@ -14,7 +14,9 @@ Substituir _at_ por @ e _dot_ por .
 =Horários disponíveis para reunião semanal (equipe e cliente)=
 
 ||       || SEGUNDA || TERÇA || QUARTA || QUINTA || SEXTA ||
-|| 8:00  || R;S      ||       ||        ||        ||       ||
-|| 10:00 ||         ||       ||        || R      ||       ||
-|| 14:00 ||S         ||       || R      ||        || R;S    ||
-|| 16:00 ||         ||       || R      ||S        || R;S     ||
+|| 8:00  || R;S;      ||       ||        ||        ||       ||
+|| 10:00 ||         ||       ||        || R      || F      ||
+|| 14:00 ||S         ||       || R;F      ||        || R;S;F    ||
+|| 16:00 ||         ||       || R;F      ||S        || R;S;F\*     ||
+
+\* Tenho aula de estágio mensalmente, aviso quando não puder.
