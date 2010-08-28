@@ -24,3 +24,4 @@ O roteiro da entrevista com o cliente pode ser encontrado [https://docs.google.c
 
 
 ==Terceira Reunião com o Cliente (03/09/2010)==
+* Pedir máquina para dar deploy
