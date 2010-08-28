@@ -15,9 +15,9 @@ Riscos do Projeto: [http://code.google.com/p/neoclinica/wiki/Riscos Riscos] - _E
 
 Reuniões: [http://code.google.com/p/neoclinica/wiki/AtaReunioes Reuniões].
 
-Plano de Release: [http://code.google.com/p/neoclinica/wiki/PlanoRelease Plano de Release].
+Plano de Release: [http://code.google.com/p/neoclinica/wiki/PlanoRelease Plano de Release] - _Em Construção_..
 
-Objetivos e Usabilidade: [http://code.google.com/p/neoclinica/wiki/ObjetivosUsabilidade Objetivos].
+Objetivos e Usabilidade: [http://code.google.com/p/neoclinica/wiki/ObjetivosUsabilidade Objetivos] - _Em Construção_.
 
 Horários e Contatos: [http://code.google.com/p/neoclinica/wiki/HorariosEContatos Horários].
 
