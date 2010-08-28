@@ -1,4 +1,4 @@
-#summary - Página que guarda os tópicos discutidos nas reuniões com o cliente.
+#summary Página que guarda os tópicos discutidos nas reuniões com o cliente.
 #labels Phase-Requirements
 
 =Ata das Reuniões=
