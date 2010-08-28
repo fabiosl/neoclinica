@@ -1,13 +1,13 @@
 =Contatos=
   * _Equipe_
-    * Fábio (sousaleal[[dot]]fabio[[at]]gmail[[dot]]com)
-    * Renato (slade2005[[at]]gmail[[dot]]com)
-    * Solon (solon[[dot]]liam[[dot]]aguiar[[at]]gmail[[dot]]com)
+    * Fábio (sousaleal _dot_ fabio _at_ gmail _dot _com)
+    * Renato (slade2005 _at_ gmail _dot_ com)
+    * Solon (solon _dot_ liam _dot_ aguiar _at_ gmail _dot_ com)
 
   * _Cliente_
-    * Harrison (harrison73oft[[at]]gmail.com)
+    * Harrison (harrison73oft _at_ gmail.com)
 
-_Substituir [[at]] por @ e [[dot]] por ._
+Substituir _at_ por @ e _dot_ por .
 
 =Horários disponíveis para reunião semanal (equipe e cliente)=
 
