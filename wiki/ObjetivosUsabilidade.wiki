@@ -1,0 +1,14 @@
+#summary Objetivos de Usabilidade do Sistema
+
+= Introdução =
+
+Essa página descreve os objetivos de usabilidadedo sistema e algumas métricas para medi-los.
+
+
+= Tabela =
+
+||_*Objetivo*_||_*Métrica*_||
+||Redução da taxa de erros cometidos pelo usuário||Número de tarefas completadas sem falhas ao longo do tempo.||
+||Interface amigável||Tempo gasto procurando a funcionalidade desejada em cada tela.||
+||Documentação acessível||Facilidade e rapidez para encontrar a informação desejada na documentação fornecida.||
+||Não crescimento do tempo médio gasto para realizar operação||Tempo médio gasto em operações realizadas.||
