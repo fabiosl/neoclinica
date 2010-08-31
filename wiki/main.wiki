@@ -22,3 +22,5 @@ Objetivos e Usabilidade: [http://code.google.com/p/neoclinica/wiki/ObjetivosUsab
 Horários e Contatos: [http://code.google.com/p/neoclinica/wiki/HorariosEContatos Horários].
 
 Matriz de Competências: [http://code.google.com/p/neoclinica/wiki/MatrizDeCompetencias Matriz].
+
+Telas Prototipadas: [http://code.google.com/p/neoclinica/wiki/Telas Telas].
