@@ -19,3 +19,6 @@ _Tela de Cadastro de Paciente_: Tela que mostra o cadastramento dos pacientes no
 
 _Tela de Envio de Email_: Tela que mostra a opção de envio de email para os pacientes do sistema: [http://code.google.com/p/neoclinica/source/browse/trunk/telasPrototipadas/envio%20de%20email%20para%20paciente.jpg link].
 
+_Tela de Listagem dos Pacientes_: Tela que mostra a listagem de pacientes do sistema: [http://code.google.com/p/neoclinica/source/browse/trunk/telasPrototipadas/lista%20de%20pacientes.jpg link].
+
+_Tela de Ficha Médica_: Tela que mosta a ficha médica de um paciente. Esse modelo é só um primeiro esboço, pois a tela final será no _template_ da ficha usada na clínica: [http://code.google.com/p/neoclinica/source/browse/trunk/telasPrototipadas/ficha%20médica%20(modelo).jpg link].
