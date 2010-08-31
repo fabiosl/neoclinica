@@ -2,10 +2,20 @@
 
 = Prototipação =
 
-Nessa página serão disponibilizadas as telas que foram prototipadas para aprovação do cliente. As telas da etapa 1 foram elaboradas logo após a segunda conversa com o cliente quando foram conhecidos os requisitos de maneira alto nível (sem as user stories totalmente definidas). As telas da etapa 2 foram elaboradas após a validação das telas da etapa 1 e após definição mais precisa das user stories com o cliente.
+Nessa página serão disponibilizadas as telas que foram prototipadas para aprovação do cliente. As telas da etapa 1 foram elaboradas logo após a segunda conversa com o cliente quando foram conhecidos os requisitos de maneira alto nível (sem as user stories totalmente definidas). As telas da etapa 2 foram elaboradas após a validação das telas da etapa 1 e após definição mais precisa das user stories com o cliente. Para visualizar as imagens é preciso apertar com o botão direito e clicar em Salvar Arquivo Como.
 
 
 == Telas da Etapa 1 ==
 
 _Tela de Login_: Tela de Login de usuário no sistema: [http://code.google.com/p/neoclinica/source/browse/trunk/telasPrototipadas/login.jpg link].
+
+_Tela Inicial do Sistema_: Menu inicial mostrado aos usuários: [http://code.google.com/p/neoclinica/source/browse/trunk/telasPrototipadas/tela_inicial.jpg link].
+
+_Tela Consultas 1_: Tela que lista as consultas marcadas em um período de 7 dias. Ela organiza as consultas em um pequeno calendário com horários: [http://code.google.com/p/neoclinica/source/browse/trunk/telasPrototipadas/consultas%20(modo%20calendario).jpg link].
+
+_Tela Consultas 2_: Tela que lista todas as consultas marcadas como uma tabela. Ela está organizada por data de criação das consultas: [http://code.google.com/p/neoclinica/source/browse/trunk/telasPrototipadas/consultas%20(modo%20de%20lista).jpg link].
+
+_Tela de Cadastro de Paciente_: Tela que mostra o cadastramento dos pacientes no sistema: [http://code.google.com/p/neoclinica/source/browse/trunk/telasPrototipadas/cadastrando%20paciente.jpg link].
+
+_Tela de Envio de Email_: Tela que mostra a opção de envio de email para os pacientes do sistema: [http://code.google.com/p/neoclinica/source/browse/trunk/telasPrototipadas/envio%20de%20email%20para%20paciente.jpg link].
 
