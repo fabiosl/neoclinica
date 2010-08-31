@@ -1,0 +1,11 @@
+#summary Página que guarda a prototipação das telas
+
+= Prototipação =
+
+Nessa página serão disponibilizadas as telas que foram prototipadas para aprovação do cliente. As telas da etapa 1 foram elaboradas logo após a segunda conversa com o cliente quando foram conhecidos os requisitos de maneira alto nível (sem as user stories totalmente definidas). As telas da etapa 2 foram elaboradas após a validação das telas da etapa 1 e após definição mais precisa das user stories com o cliente.
+
+
+== Telas da Etapa 1 ==
+
+_Tela de Login_: Tela de Login de usuário no sistema: [http://code.google.com/p/neoclinica/source/browse/trunk/telasPrototipadas/login.jpg link].
+
