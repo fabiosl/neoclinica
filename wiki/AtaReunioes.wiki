@@ -24,4 +24,12 @@ O roteiro da entrevista com o cliente pode ser encontrado [https://docs.google.c
 
 
 ==Terceira Reunião com o Cliente (03/09/2010)==
+Objetivos da reunião:
+  * Validar Arquitetura;
+  * Validar Telas prototipadas na etapa 1;
+  * Discutir _User Stories_;
+  * Discutir datas de entregas das _User Stories_;
+  * Discutir Aspectos de Usabilidade;
+  * Descrever Melhor os testes de aceitação.
+
 * Pedir máquina para dar deploy
