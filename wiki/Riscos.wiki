@@ -1,3 +1,5 @@
+#summary Tabela de riscos do projeto
+
 =Riscos=
 
 || *Nome* || *Tipo de Risco* || *Descrição* || *Probabilidade* || *Efeito* || *Alternativa* || *Status* ||
@@ -6,3 +8,4 @@
 || Problemas com a tecnologia a ser usada || Produto e Projeto || Dificuldade de aprendizado das tecnologias a ser usadas. || Média-Baixa || Sério || Alocar mais tempo para aprendizado e prática da tecnologia. || ||
 || Mudança Requisitos || Produto e Projeto || Maior mudança de requisitos do que o esperado. || Média || Sério || Avaliar o impacto e às alternativas às mudanças propostas. || ||
 || Tamanho || Produto e Projeto || Subestimar o tamanho do projeto || Média-Baixa || Catastrófico || Reavaliar os requisitos e a alocação de tarefas.|| ||
+|| Viagem || Projeto || Algum membro da equipe precisar viajar || Média || Sério || Adiantar as atividades ou distribuí-las para outros membros da equipe (dependendo da duração || ||
