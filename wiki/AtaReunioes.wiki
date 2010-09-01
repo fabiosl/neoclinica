@@ -32,4 +32,4 @@ Objetivos da reunião (por ordem de prioridade):
   * Discutir Aspectos de Usabilidade;
   * Descrever melhor os testes de aceitação.
   * _Obs.:_ Pedir máquina para dar deploy
-  * _Obs 2.:_ Pegar modelos de ficha médica e dados que requerem CRUD para elaborar modelo de dados;
+  * _Obs 2.:_ Pegar modelos de ficha médica e dados que requerem persistência para elaborar modelo de dados;
