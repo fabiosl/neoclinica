@@ -11,7 +11,7 @@ Divisão de papeis: [http://code.google.com/p/neoclinica/wiki/DivisaoPapeis Divi
 
 Datas Importantes: [http://code.google.com/p/neoclinica/wiki/InformacoesDaDisciplina Datas].
 
-Riscos do Projeto: [http://code.google.com/p/neoclinica/wiki/Riscos Riscos] - _Em Construção_.
+Riscos do Projeto: [http://code.google.com/p/neoclinica/wiki/Riscos Riscos].
 
 Reuniões: [http://code.google.com/p/neoclinica/wiki/AtaReunioes Reuniões].
 
@@ -28,3 +28,9 @@ Telas Prototipadas: [http://code.google.com/p/neoclinica/wiki/Telas Telas].
 Documento Arquitetural: [http://code.google.com/p/neoclinica/wiki/PageName Arquitetura].
 
 Plano de Iteração Um: [http://code.google.com/p/neoclinica/wiki/PlanoIteracao1 Plano De Iteração Um].
+
+User Stories: [http://code.google.com/p/neoclinica/wiki/UserStories User Stories] - _Em Construção_.
+
+Modelo lógico dos dados: [http://code.google.com/p/neoclinica/wiki/ModeloLogicoBD Modelo Lógico Banco de Dados] - _Em Construção_.
+
+Modelo de Tarefas: [http://code.google.com/p/neoclinica/wiki/ModeloTarefas Tarefas] - _Em Construção_.
