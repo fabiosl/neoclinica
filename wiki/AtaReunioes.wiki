@@ -24,12 +24,12 @@ O roteiro da entrevista com o cliente pode ser encontrado [https://docs.google.c
 
 
 ==Terceira Reunião com o Cliente (03/09/2010)==
-Objetivos da reunião:
-  * Validar Arquitetura;
-  * Validar Telas prototipadas na etapa 1;
-  * Discutir _User Stories_;
+Objetivos da reunião (por ordem de prioridade):
+  * Discutir _User Stories_ (quais são prioritárias);
   * Discutir datas de entregas das _User Stories_;
+  * Validar Telas prototipadas na etapa 1;
+  * Validar Arquitetura;
   * Discutir Aspectos de Usabilidade;
-  * Descrever Melhor os testes de aceitação.
-
-* Pedir máquina para dar deploy
+  * Descrever melhor os testes de aceitação.
+  * _Obs.:_ Pedir máquina para dar deploy
+  * _Obs 2.:_ Pegar modelos de ficha médica e dados que requerem CRUD para elaborar modelo de dados;
