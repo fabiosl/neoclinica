@@ -7,30 +7,26 @@ Aqui são guardadas todas as informações essenciais e os links para as outras 
 
 = Links =
 
-Divisão de papeis: [http://code.google.com/p/neoclinica/wiki/DivisaoPapeis Divisão Papeis].
+=== Geral ===
 
-Datas Importantes: [http://code.google.com/p/neoclinica/wiki/InformacoesDaDisciplina Datas].
+ * Divisão de papeis: [http://code.google.com/p/neoclinica/wiki/DivisaoPapeis Divisão Papeis].
+ * Datas Importantes: [http://code.google.com/p/neoclinica/wiki/InformacoesDaDisciplina Datas].
+ * Reuniões: [http://code.google.com/p/neoclinica/wiki/AtaReunioes Reuniões].
+ * Horários e Contatos: [http://code.google.com/p/neoclinica/wiki/HorariosEContatos Horários].
+ * Matriz de Competências: [http://code.google.com/p/neoclinica/wiki/MatrizDeCompetencias Matriz].
 
-Riscos do Projeto: [http://code.google.com/p/neoclinica/wiki/Riscos Riscos].
+=== Planejamento ===
 
-Reuniões: [http://code.google.com/p/neoclinica/wiki/AtaReunioes Reuniões].
+ * Documento de Visão: [http://code.google.com/p/neoclinica/wiki/DocumentoDeVisao Documento de Visão]
+ * Projeto Arquitetural: [http://code.google.com/p/neoclinica/wiki/PageName Arquitetura].
+ * Telas Prototipadas: [http://code.google.com/p/neoclinica/wiki/Telas Telas].
+ * User Stories: [http://code.google.com/p/neoclinica/wiki/UserStories User Stories] - _Em Construção_.
+ * Plano de Release: [http://code.google.com/p/neoclinica/wiki/PlanoRelease Plano de Release] - _Em Construção_..
+ * Objetivos e Usabilidade: [http://code.google.com/p/neoclinica/wiki/ObjetivosUsabilidade Objetivos] - _Em Construção_.
+ * Modelo lógico dos dados: [http://code.google.com/p/neoclinica/wiki/ModeloLogicoBD Modelo Lógico Banco de Dados] - _Em Construção_.
+ * Modelo de Tarefas: [http://code.google.com/p/neoclinica/wiki/ModeloTarefas Tarefas] - _Em Construção_.
 
-Plano de Release: [http://code.google.com/p/neoclinica/wiki/PlanoRelease Plano de Release] - _Em Construção_..
+=== Iteração 1 ===
 
-Objetivos e Usabilidade: [http://code.google.com/p/neoclinica/wiki/ObjetivosUsabilidade Objetivos] - _Em Construção_.
-
-Horários e Contatos: [http://code.google.com/p/neoclinica/wiki/HorariosEContatos Horários].
-
-Matriz de Competências: [http://code.google.com/p/neoclinica/wiki/MatrizDeCompetencias Matriz].
-
-Telas Prototipadas: [http://code.google.com/p/neoclinica/wiki/Telas Telas].
-
-Documento Arquitetural: [http://code.google.com/p/neoclinica/wiki/PageName Arquitetura].
-
-Plano de Iteração Um: [http://code.google.com/p/neoclinica/wiki/PlanoIteracao1 Plano De Iteração Um].
-
-User Stories: [http://code.google.com/p/neoclinica/wiki/UserStories User Stories] - _Em Construção_.
-
-Modelo lógico dos dados: [http://code.google.com/p/neoclinica/wiki/ModeloLogicoBD Modelo Lógico Banco de Dados] - _Em Construção_.
-
-Modelo de Tarefas: [http://code.google.com/p/neoclinica/wiki/ModeloTarefas Tarefas] - _Em Construção_.
+ * Plano de Iteração Um: [http://code.google.com/p/neoclinica/wiki/PlanoIteracao1 Plano De Iteração Um].
+ * Riscos do Projeto: [http://code.google.com/p/neoclinica/wiki/Riscos Riscos].
