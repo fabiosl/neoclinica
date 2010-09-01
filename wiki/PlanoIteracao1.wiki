@@ -1,0 +1,33 @@
+#summary Plano da iteração 1
+
+= Iteração 1 (_08/09/2010 -> 22/09/2010_) =
+
+== User Story 1 - Estudar tecnologias da camada de dados ==
+
+=== Testes de Aceitação ===
+
+_a._ Teste de Aceitação 1.1: Verificar se exemplos gerados satisfazem os requisitos de CRUD e persistência desejados pelo cliente.
+
+=== Atividades ===
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+|| A1.1 || Estudar integração de Grails com MySQL || Renato || 2h || || ||
+|| A1.2 || Estudar padrão DAO || Todos || 2h || || ||
+|| A1.3 || Configurar integração de Grails com MySQL no projeto || Renato || 8h || || ||
+|| A1.4 || Gerar classes de domínio Grails para testar mapeamento || Renato || 1h || || ||
+
+== User Story 2 - Configurar ambiente no servidor ==
+
+=== Testes de Aceitação ===
+
+_a._ Teste de Aceitação 2.1: Fazer uma requisição HTTP com sucesso ao servidor.
+
+=== Atividades ===
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+|| A2.1 || Instalar Tomcat || Fabio || 1h || || ||
+|| A2.2 || Instalar cliente no-ip || Fabio || 1h || || ||
+|| A2.3 || Instalar MySQL || Fabio || 1h || || ||
+|| A2.4 || Instalar Grails || Fabio || 2h || || ||
+|| A2.5 || Realizar integração do sistema com o servidor || Fabio || 3h || || ||
+|| A2.6 || Fazer um manual de configuração do ambiente || Fabio || 1h || || ||
