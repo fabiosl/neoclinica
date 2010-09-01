@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Página que guarda o projeto Arquitetural
 
 = Projeto Arquitetural =
 http://dl.dropbox.com/u/4330681/LES/Imagens/ScreenShot007.png
