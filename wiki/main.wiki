@@ -24,3 +24,5 @@ Horários e Contatos: [http://code.google.com/p/neoclinica/wiki/HorariosEContato
 Matriz de Competências: [http://code.google.com/p/neoclinica/wiki/MatrizDeCompetencias Matriz].
 
 Telas Prototipadas: [http://code.google.com/p/neoclinica/wiki/Telas Telas].
+
+Documento Arquitetural: [http://code.google.com/p/neoclinica/wiki/PageName Arquitetura]
