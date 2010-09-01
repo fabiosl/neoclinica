@@ -31,3 +31,27 @@ _a._ Teste de Aceitação 2.1: Fazer uma requisição HTTP com sucesso ao servid
 || A2.4 || Instalar Grails || Fabio || 2h || || ||
 || A2.5 || Realizar integração do sistema com o servidor || Fabio || 3h || || ||
 || A2.6 || Fazer um manual de configuração do ambiente || Fabio || 1h || || ||
+
+== User Story 3 - Estudo de testes de aceitação em Grails ==
+
+=== Testes de Aceitação ===
+
+_a._ Teste de Aceitação 3.1: Elaboração de script de teste de aceitação.
+
+=== Atividades ===
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+|| A3.1 || Pesquisar testes de aceitação em Grails || Fabio || 2h || || ||
+|| A3.2 || Elaborar script de testes || Fabio || 1h || || ||
+
+== User Story 4 - Funcionalidade de login com privilégios ==
+
+=== Testes de Aceitação ===
+
+_a._ Teste de Aceitação 3.1: Elaboração de script de teste de aceitação.
+
+=== Atividades ===
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+|| A4.1 || Estudar melhor alternativa de login em Grails || Solon || 3h || || ||
+|| A4.2 || Implementar mecanismo de login || Solon || 2h || || ||
