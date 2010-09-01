@@ -8,6 +8,6 @@ Essa página tem o planos de entregas para o cliente, onde ele irá validar as u
 = Plano =
 
 || _Release_ || _User Stories_ || _Data de Entrega (cliente)_ || _Data da Defesa (disciplina)_ || _Gerente_ ||
-|| 1  || A definir || A definir || 06/10/2010 || Solon ||
-|| 2  || A definir || A definir || 03/11/2010 || Fábio ||
-|| 3  || A definir || A definir || 01/12/2010 || Renato ||
+|| 1  || || || 06/10/2010 || Solon ||
+|| 2  || || || 03/11/2010 || Fábio ||
+|| 3  || || || 01/12/2010 || Renato ||
