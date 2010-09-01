@@ -1,3 +1,5 @@
+#summary Página com as principais informações da disciplina (para caso o servidor saia do ar)
+
 =Informações da Disciplina=
 
 *Datas:*
