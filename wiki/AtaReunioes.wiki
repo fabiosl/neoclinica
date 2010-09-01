@@ -30,6 +30,8 @@ Objetivos da reunião (por ordem de prioridade):
   * Validar Telas prototipadas na etapa 1;
   * Validar Arquitetura;
   * Discutir Aspectos de Usabilidade;
-  * Descrever melhor os testes de aceitação.
-  * _Obs.:_ Pedir máquina para dar deploy
+  * Descrever melhor os testes de aceitação;
+  * _Obs.:_ Pedir máquina para dar deploy;
   * _Obs 2.:_ Pegar modelos de ficha médica e dados que requerem persistência para elaborar modelo de dados;
+  * _Obs 3.:_ Pegar dados necessários para as "tabelas";
+  * _Obs 4.:_ Perguntar quando ele volta de viagem.
