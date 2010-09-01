@@ -9,3 +9,4 @@
 || Mudança Requisitos || Produto e Projeto || Maior mudança de requisitos do que o esperado. || Média || Sério || Avaliar o impacto e às alternativas às mudanças propostas. || ||
 || Tamanho || Produto e Projeto || Subestimar o tamanho do projeto || Média-Baixa || Catastrófico || Reavaliar os requisitos e a alocação de tarefas.|| ||
 || Viagem || Projeto || Algum membro da equipe precisar viajar || Média || Sério || Adiantar as atividades ou distribuí-las para outros membros da equipe (dependendo da duração || ||
+|| Easyaccept || Produto e Projeto || Testes de aceitação para Grails || Baixa || Sério || Buscar alternativa para testes de aceitação em Grails || ||
