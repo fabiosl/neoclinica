@@ -2,7 +2,7 @@
 
 = Introdução =
 
-Essa página descreve os objetivos de usabilidadedo sistema e algumas métricas para medi-los.
+Essa página descreve os objetivos de usabilidade do sistema e algumas métricas para medi-los.
 
 
 = Tabela =
