@@ -1,21 +1,8 @@
 #summary One-sentence summary of this page.
 
 ==Tabela 1==
-http://neoclinica.googlecode.com/svn/trunk/TabelasFinanceiras/Imagem%20(4).jpg
+<img src="http://neoclinica.googlecode.com/svn/trunk/TabelasFinanceiras/Imagem%20(4).jpg" heigth="800" width="600">
 
 ==Tabela 2==
-http://neoclinica.googlecode.com/svn/trunk/TabelasFinanceiras/Imagem%20(5).jpg
-
-==Tabela 3==
-http://neoclinica.googlecode.com/svn/trunk/TabelasFinanceiras/Imagem%20(6).jpg
-
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+<img src="http://neoclinica.googlecode.com/svn/trunk/TabelasFinanceiras/Imagem%20(5).jpg" heigth="800" width="600">
+==Tabela 3==<img src="http://neoclinica.googlecode.com/svn/trunk/TabelasFinanceiras/Imagem%20(6).jpg" heigth="800" width="600">
