@@ -4,12 +4,12 @@
 
 || *Nome* || *Responsável* || *Descrição* || *Probabilidade* || *Efeito* || *Alternativa* || *Status* ||
 || Hardware || Todos || Algum membro do time ficar sem hardware para realizar seu trabalho || Média || Sério || Usar ambiente da universidade para atividades; redistribuir tarefas entre os outros membros. || ||
-|| Problema de saúde || Todos || Algum membro do time ficar doente. || Média || Tolerável || Redistribuir tarefas entre os outros membros. || ||
+|| Problema de saúde || Todos || Algum membro do time ficar doente. || Média || Moderado || Redistribuir tarefas entre os outros membros. || ||
 || Problemas com a tecnologia a ser usada || Todos || Dificuldade de aprendizado das tecnologias a ser usadas. || Média-Baixa || Sério || Alocar mais tempo para aprendizado e prática da tecnologia. || ||
 || Tamanho || Todos || Subestimar o tamanho do projeto || Média-Baixa || Catastrófico || Reavaliar os requisitos e a alocação de tarefas.|| ||
 || Viagem membro time || Solon || Algum membro da equipe precisar viajar || Média || Sério || Adiantar as atividades ou distribuí-las para outros membros da equipe (dependendo da duração). || ||
 || Easyaccept || Todos || Testes de aceitação para Grails || Baixa || Sério || Buscar alternativa para testes de aceitação em Grails. || ||
-|| Servidor || Cliente || Não existir servidor web para receber o projeto || Médio || Sério || Cliente adquirir hardware necessário para funcionamento do sistema. || ||
-|| Rede || Cliente || Não existir rede instalada para funcionamento do sistema em vários computadores || Baixo || Moderado || Cliente estabelecer infra-estrutura de rede para funcionamento do sistema em vários computadores.|| ||
+|| Servidor || Cliente || Não existir servidor web para receber o projeto || Baixa || Sério || Cliente adquirir hardware necessário para funcionamento do sistema. || ||
+|| Rede || Cliente || Não existir rede instalada para funcionamento do sistema em vários computadores || Médio || Moderado || Cliente estabelecer infra-estrutura de rede para funcionamento do sistema em vários computadores.|| ||
 || Viagem Cliente || Cliente || Cliente precisar viajar || Médio || Sério || Cliente estabelecer outro responsável; dar as diretrizes antecipadamente; marcar reunião antecipada.|| ||
 || Reunião Cliente || Cliente/Time || Não ser possível estabelecer horário adequado para a reunião durante a semana || Médio || Sério || Estabelecer horário alternativo ao qual ao menos um membro do time compareça; marcar reunião com antecedência e duração maior.|| ||
