@@ -18,7 +18,7 @@ Aqui são guardadas todas as informações essenciais e os links para as outras 
 
  * Definição de Papéis: [http://code.google.com/p/neoclinica/wiki/DivisaoPapeis link].
  * Documento de Visão (descrição, requisitos e perfil do usuário): [http://code.google.com/p/neoclinica/wiki/DocumentoDeVisao link].
- * Projeto Arquitetural: [http://code.google.com/p/neoclinica/wiki/PageName link].
+ * Projeto Arquitetural: [http://code.google.com/p/neoclinica/wiki/ProjetoArquitetural link].
  * Protótipo da Interface: [http://code.google.com/p/neoclinica/wiki/Telas link].
  * Modelo Lógico dos Dados: [http://code.google.com/p/neoclinica/wiki/ModeloLogicoBD link].
  * Objetivos de Usabilidade: [http://code.google.com/p/neoclinica/wiki/ObjetivosUsabilidade link].
