@@ -34,7 +34,6 @@
 || A2.3 || Instalar MySQL || Fabio || 1h || || ||
 || A2.4 || Instalar Grails || Fabio || 2h || || ||
 || A2.5 || Realizar integração do sistema com o servidor || Fabio || 3h || || ||
-|| A2.6 || Fazer um manual de configuração do ambiente || Fabio || 1h || || ||
 
 ----
 
@@ -66,3 +65,16 @@
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
 || A4.1 || Estudar melhor alternativa de login em Grails || Solon || 3h || || ||
 || A4.2 || Implementar mecanismo de login || Solon || 2h || || ||
+
+----
+
+== User Story 14 - Elaborar Manual de Configuração do Sistema ==
+
+=== Testes de Aceitação ===
+
+   * Teste de Aceitação 14.1: Manual do sistema.
+
+=== Atividades ===
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+|| A14.1 || Fazer um manual de configuração do ambiente || Fabio || 1h || || ||
