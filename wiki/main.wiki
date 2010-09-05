@@ -21,12 +21,12 @@ Aqui são guardadas todas as informações essenciais e os links para as outras 
  * Projeto Arquitetural: [http://code.google.com/p/neoclinica/wiki/PageName Arquitetura].
  * Telas Prototipadas: [http://code.google.com/p/neoclinica/wiki/Telas Telas].
  * Modelo lógico dos dados: [http://code.google.com/p/neoclinica/wiki/ModeloLogicoBD Modelo Lógico Banco de Dados].
- * Plano de Release: [http://code.google.com/p/neoclinica/wiki/PlanoRelease Plano de Release] - _Em Construção_.
  * User Stories: [http://code.google.com/p/neoclinica/wiki/UserStories User Stories] - _Em Construção_.
  * Objetivos de Usabilidade: [http://code.google.com/p/neoclinica/wiki/ObjetivosUsabilidade Objetivos] - _Em Construção_.
  * Modelo de Tarefas: [http://code.google.com/p/neoclinica/wiki/ModeloTarefas Tarefas] - _Em Construção_.
 
 === Iteração 1 ===
 
- * Plano de Iteração Um: [http://code.google.com/p/neoclinica/wiki/PlanoIteracao1 Plano De Iteração Um].
+ * Plano de Iteração Um: [http://code.google.com/p/neoclinica/wiki/PlanoIteracao1 Plano De Iteração Um] - _Em Construção_.
+ * Plano de Release: [http://code.google.com/p/neoclinica/wiki/PlanoRelease Plano de Release] - _Em Construção_.
  * Riscos do Projeto: [http://code.google.com/p/neoclinica/wiki/Riscos Riscos].
