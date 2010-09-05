@@ -2,37 +2,35 @@
 
 == User Story 1 - Estudar tecnologias da camada de dados ==
 
+=== Estimativa Inicial: 13 horas ===
 === Testes de Aceitação ===
 
   * Teste de Aceitação 1.1: Verificar se exemplos gerados satisfazem os requisitos de CRUD e persistência desejados pelo cliente.
-
-=== Estimativa Inicial: 13 horas ===
 
 ----
 
 == User Story 2 - Configurar ambiente no servidor ==
 
+=== Estimativa Inicial: 8 horas ===
 === Testes de Aceitação ===
 
   * Teste de Aceitação 2.1: Fazer uma requisição HTTP com sucesso ao servidor.
-
-=== Estimativa Inicial: 8 horas ===
 
 ----
 
 == User Story 3 - Estudo de testes de aceitação em Grails ==
 
+=== Estimativa Inicial: 3 horas ===
 === Testes de Aceitação ===
 
   * Teste de Aceitação 3.1: Elaboração de script de teste de aceitação.
 
-=== Estimativa Inicial: 3 horas ===
-
 ----
 
 == User Story 4 - Funcionalidade de login com privilégios ==
-O sistema deve ter logins com diferentes privilégios.
+O sistema deve ter logins com dois níveis de privilégio (administrador e funcionário).
 
+=== Estimativa Inicial: 5 horas ===
 === Testes de Aceitação ===
 
  * Teste de Aceitação 4.1: Fazer login com usuário do tipo "administrador" (login com sucesso).
@@ -40,13 +38,13 @@ O sistema deve ter logins com diferentes privilégios.
  * Teste de Aceitação 4.3: Fazer login com usuário do tipo "administrador" (login sem sucesso).  
  * Teste de Aceitação 4.4: Fazer login com usuário do tipo "funcionario" (login sem sucesso).
 
-=== Estimativa Inicial: 5 horas ===
 
 ----
 
 == User Story 5 - Funcionalidade de controle de pacientes ==
-O sistema deve prover o controle dos pacientes da clínica. Ele armazenará dados sobre esses pacientes.
+O sistema deve prover o controle dos pacientes da clínica. Ele armazenará dados básicos sobre esses pacientes.
 
+=== Estimativa Inicial: x horas ===
 === Testes de Aceitação ===
 
  * Teste de Aceitação 5.1: Cadastrar um cliente com todos os dados corretos (Cadastro Realizado com Sucesso).
@@ -56,32 +54,22 @@ O sistema deve prover o controle dos pacientes da clínica. Ele armazenará dado
  * Teste de Aceitação 5.5: Atualizar dados de paciente existente no sistema (Operação Realizada com Sucesso).
  * Teste de Aceitação 5.6: Atualizar dados de paciente inexistente no sistema (Operação Realizada sem Sucesso).
 
-=== Estimativa Inicial: x horas ===
 
 ----
 
-== User Story 6 - Funcionalidade de controle de usuário do sistema ==
+== User Story 6 - Funcionalidade de controle de usuários do sistema ==
 O sistema deve prover o controle dos usuários que o utilizam.
 
+=== Estimativa Inicial: x horas ===
 === Testes de Aceitação ===
 
- * Teste de Aceitação 6.1: Cadastrar um usuário do tipo "administrador" com todos os dados corretos (Cadastro Realizado com Sucesso - se logado como administrador).
- * Teste de Aceitação 6.2: Cadastrar um usuário do tipo "administrador" com todos os dados corretos (Cadastro Realizado sem Sucesso - se não logado como administrador).
- * Teste de Aceitação 6.3: Cadastrar um usuário do tipo "administrador" com dados obrigatórios faltando (Cadastro não Realizado - caso logado como administrador ou secretária).
- * Teste de Aceitação 6.4: Cadastrar um usuário do tipo "secretaria" com todos os dados corretos (Cadastro Realizado com Sucesso - caso logado como administrador ou secretária).
- * Teste de Aceitação 6.5: Cadastrar um usuário do tipo "secretaria" com dados obrigatórios faltando (Cadastro não Realizado -  caso logado como administrador ou secretária).
- * Teste de Aceitação 6.6: Retirar usuário existente da lista de administradores (Operação Realizada com Sucesso - caso logado como administrador).
- * Teste de Aceitação 6.7: Retirar usuário existente da lista de administradores (Operação Realizada sem Sucesso - caso logado como secretária)
- * Teste de Aceitação 6.8: Retirar usuário existente da lista de secretárias (Operação Realizada com Sucesso -  caso logado como administrador ou secretária).
- * Teste de Aceitação 6.9: Retirar usuário inexistente da lista de administradores (Operação Realizada sem Sucesso - caso logado como administrador ou secretária).
- * Teste de Aceitação 6.10: Retirar usuário inexistente da lista de secretárias (Operação Realizada sem Sucesso -  caso logado como administrador ou secretária).
- * Teste de Aceitação 6.11: Atualizar dados de administrador existente no sistema (Operação Realizada com Sucesso - caso logado como administrador).
- * Teste de Aceitação 6.12: Atualizar dados de administrador existente no sistema (Operação Realizada sem Sucesso - caso logado como secretária).
- * Teste de Aceitação 6.13: Atualizar dados de secretária existente no sistema (Operação Realizada com Sucesso -  caso logado como administrador ou secretária).
- * Teste de Aceitação 6.14: Atualizar dados de administrador inexistente no sistema (Operação Realizada sem Sucesso - caso logado como administrador ou secretária).
- * Teste de Aceitação 6.15: Atualizar dados de secretária inexistente no sistema (Operação Realizada sem Sucesso -  caso logado como administrador ou secretária).
-
-=== Estimativa Inicial: x horas ===
+ * Teste de Aceitação 6.1: Cadastrar um usuário com todos os dados corretos (Cadastro Realizado com Sucesso - se logado como administrador).
+ * Teste de Aceitação 6.2: Cadastrar um usuário com todos os dados corretos (Cadastro Realizado sem Sucesso - se não logado como administrador).
+ * Teste de Aceitação 6.3: Cadastrar um usuário com dados obrigatórios faltando (Cadastro Realizado sem Sucesso - se logado como administrador ou secretária).
+ * Teste de Aceitação 6.4: Retirar usuário existente (Operação Realizada com Sucesso - se logado como administrador).
+ * Teste de Aceitação 6.5: Retirar usuário existente (Operação Realizada sem Sucesso - se logado como funcionario)
+ * Teste de Aceitação 6.6: Retirar usuário inexistente (Operação Realizada sem Sucesso - se logado como administrador ou funcionario).
+ * Teste de Aceitação 6.7: Atualizar dados do usuário logado (Operação Realizada com Sucesso - se logado com o usuário que se quer editar os dados).
 
 ----
 
