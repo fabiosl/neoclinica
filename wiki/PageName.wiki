@@ -17,7 +17,7 @@ A camada de apresentação será desenvolvida com auxílio do framework para des
 A camada de negócio do sistema a ser desenvolvido também será feita usando a tecnologia Grails. A escolha de Grails, ao invés de outra qualquer, deu-se devido à experiência da equipe de desenvolvimento com a mesma e por Grails ser um framework Web para a linguagem Groovy que roda em cima da plataforma Java{6}, que por sua vez possui grande número de ferramentas disponíveis que auxiliam o desenvolvimento, e também já é familiar à todo o time.
 
 ===Camada de Dados===
-A persistência de dados do sistema será auxiliada pelo SGBD relacional MySQL{7}. A escolha do MySQL deu-se, principalmente, pelo fato de ser uma tecnologia de código aberto e não necessitar de licenças ou taxas para seu uso. Adotaremos, preferencialmente, o padrão DAO{8} para realizar a persistência dos dados.
+A persistência de dados do sistema será auxiliada pelo SGBD relacional MySQL{7}. A escolha do MySQL deu-se, principalmente, pelo fato de ser uma tecnologia de código aberto e não necessitar de licenças ou taxas para seu uso. Adotaremos, preferencialmente, o padrão DAO{8} para realizar a persistência dos dados. Para a modelagem das tabelas no banco de dados será utilizado o framework Hibernate{9}, que já é integrado ao framework Grails e faz o mapeamento automático das entidades para o mundo relacional.
 
 ==Referências Externas: ==
 {1} - Grails Framework. http://grails.org/. Acesso em 31/08/2010
@@ -35,3 +35,5 @@ A persistência de dados do sistema será auxiliada pelo SGBD relacional MySQL{7
 {7} - SGBD MySQL. http://www.mysql.com/. Acesso em 31/08/2010.
 
 {8} - Padrão DAO http://java.sun.com/blueprints/corej2eepatterns/Patterns/DataAccessObject.html. Acesso em 31/08/2010.
+
+{9} - Hibernate http://www.dsc.ufcg.edu.br/~jacques/cursos/daca/html/hibernate/hibernate.htm. Acesso em 05/09/2010.
