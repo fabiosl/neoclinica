@@ -1,3 +1,111 @@
 #summary Página com as user stories definidas pelo cliente
 
-*Em construção*
+== User Story 1 - Estudar tecnologias da camada de dados ==
+
+=== Testes de Aceitação ===
+
+  * Teste de Aceitação 1.1: Verificar se exemplos gerados satisfazem os requisitos de CRUD e persistência desejados pelo cliente.
+
+=== Atividades ===
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+|| A1.1 || Estudar integração de Grails com MySQL || Renato || 2h || || ||
+|| A1.2 || Estudar padrão DAO || Todos || 2h || || ||
+|| A1.3 || Configurar integração de Grails com MySQL no projeto || Renato || 8h || || ||
+|| A1.4 || Gerar classes de domínio Grails para testar mapeamento || Renato || 1h || || ||
+
+----
+
+
+== User Story 2 - Configurar ambiente no servidor ==
+
+=== Testes de Aceitação ===
+
+  * Teste de Aceitação 2.1: Fazer uma requisição HTTP com sucesso ao servidor.
+
+=== Atividades ===
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+|| A2.1 || Instalar Tomcat || Fabio || 1h || || ||
+|| A2.2 || Instalar cliente no-ip || Fabio || 1h || || ||
+|| A2.3 || Instalar MySQL || Fabio || 1h || || ||
+|| A2.4 || Instalar Grails || Fabio || 2h || || ||
+|| A2.5 || Realizar integração do sistema com o servidor || Fabio || 3h || || ||
+|| A2.6 || Fazer um manual de configuração do ambiente || Fabio || 1h || || ||
+
+----
+
+== User Story 3 - Estudo de testes de aceitação em Grails ==
+
+=== Testes de Aceitação ===
+
+  * Teste de Aceitação 3.1: Elaboração de script de teste de aceitação.
+
+=== Atividades ===
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+|| A3.1 || Pesquisar testes de aceitação em Grails || Fabio || 2h || || ||
+|| A3.2 || Elaborar script de testes || Fabio || 1h || || ||
+
+----
+
+== User Story 4 - Funcionalidade de login com privilégios ==
+
+=== Testes de Aceitação ===
+
+ * Teste de Aceitação 4.1: Fazer login com usuário do tipo "administrador" (login com sucesso).
+ * Teste de Aceitação 4.2: Fazer login com usuário do tipo "funcionario" (login com sucesso).
+ * Teste de Aceitação 4.3: Fazer login com usuário do tipo "administrador" (login sem sucesso).  
+ * Teste de Aceitação 4.4: Fazer login com usuário do tipo "funcionario" (login sem sucesso).
+ * Teste de Aceitação 4.5: Acessar opções restritas ao administrador estando logado como administrador (acesso realizado com sucesso).
+  * Teste de Aceitação 4.6: Acessar opções restritas ao administrador estando logado como funcionario (acesso não realizado).
+
+=== Atividades ===
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+|| A4.1 || Estudar melhor alternativa de login em Grails || Solon || 3h || || ||
+|| A4.2 || Implementar mecanismo de login || Solon || 2h || || || 
+
+----
+
+== User Story 5 - Funcionalidade de funcionalidade de cadastro de paciente ==
+
+=== Testes de Aceitação ===
+
+ * Teste de Aceitação 5.1: Cadastrar um cliente com todos os dados corretos (Cadastro Realizado com Sucesso).
+ * Teste de Aceitação 5.2: Cadastrar um cliente com dados obrigatórios faltando (Cadastro não Realizado).
+ * Teste de Aceitação 5.3: Cadastrar um cliente com CPF inválido (Cadastro não Realizado).
+
+=== Atividades ===
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+
+----
+
+== User Story 6 - Funcionalidade de funcionalidade de cadastro de usuário do sistema ==
+
+=== Testes de Aceitação ===
+
+ * Teste de Aceitação 6.1: Cadastrar um usuário do tipo "administrador" com todos os dados corretos (Cadastro Realizado com Sucesso).
+ * Teste de Aceitação 6.2: Cadastrar um usuário do tipo "administrador" com dados obrigatórios faltando (Cadastro não Realizado).
+ * Teste de Aceitação 6.3: Cadastrar um usuário do tipo "secretaria" com todos os dados corretos (Cadastro Realizado com Sucesso).
+ * Teste de Aceitação 6.4: Cadastrar um usuário do tipo "secretaria" com dados obrigatórios faltando (Cadastro não Realizado).
+
+=== Atividades ===
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+
+----
+
+== User Story 7 - Funcionalidade de controle do estoque de lentes ==
+
+=== Testes de Aceitação ===
+
+ * Teste de Aceitação 7.1: Cadastrar a chegada de lentes com todos os dados corretos (Operação Realizada sem Sucesso).
+ * Teste de Aceitação 7.2: Cadastrar a saída de lentes existentes no sistema (Operação Realizada com Sucesso).
+ * Teste de Aceitação 7.3: Cadastrar a saída de lentes inexistentes no sistema (Operação Realizada sem Sucesso).
+ * Teste de Aceitação 7.4: Consultar quantidade de lentes disponíveis no sistema (Operação Realizada com Sucesso).
+
+=== Atividades ===
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
