@@ -101,10 +101,68 @@
 
 === Testes de Aceitação ===
 
- * Teste de Aceitação 7.1: Cadastrar a chegada de lentes com todos os dados corretos (Operação Realizada sem Sucesso).
- * Teste de Aceitação 7.2: Cadastrar a saída de lentes existentes no sistema (Operação Realizada com Sucesso).
- * Teste de Aceitação 7.3: Cadastrar a saída de lentes inexistentes no sistema (Operação Realizada sem Sucesso).
- * Teste de Aceitação 7.4: Consultar quantidade de lentes disponíveis no sistema (Operação Realizada com Sucesso).
+ * Teste de Aceitação 7.1: Cadastrar a chegada de lentes com todos os dados corretos (Operação Realizada com Sucesso).
+ * Teste de Aceitação 7.2: Cadastrar a chegada de lentes com dados faltando (Operação Realizada sem Sucesso).
+ * Teste de Aceitação 7.3: Cadastrar a saída de lentes existentes no sistema (Operação Realizada com Sucesso).
+ * Teste de Aceitação 7.4: Cadastrar a saída de lentes inexistentes no sistema (Operação Realizada sem Sucesso).
+ * Teste de Aceitação 7.5: Consultar quantidade de lentes disponíveis no sistema (Operação Realizada com Sucesso).
+ * Teste de Aceitação 7.6: Modificar a quantidade de lentes disponíveis no sistema (Operação Realizada com Sucesso - se existe tal tipo de lente).
+ * Teste de Aceitação 7.7: Modificar a quantidade de lentes disponíveis no sistema (Operação Realizada sem Sucesso - se não existe tal tipo de lente).
+
+=== Atividades ===
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+
+----
+
+== User Story 8 - Funcionalidade de cadastro de fornecedores ==
+
+=== Testes de Aceitação ===
+
+ * Teste de Aceitação 8.1: Cadastrar fornecedor no sistema com todos os dados corretos (Operação Realizada com Sucesso).
+ * Teste de Aceitação 8.2: Cadastrar fornecedor no sistema com dados faltando (Operação Realizada sem Sucesso).
+ * Teste de Aceitação 8.3: Retirar fornecedor existente da lista dos fornecedores (Operação Realizada com Sucesso).
+ * Teste de Aceitação 8.4: Retirar fornecedor inexistente da lista dos fornecedores (Operação Realizada sem Sucesso).
+ * Teste de Aceitação 8.5: Consultar dados de fornecedor existente no sistema (Operação Realizada com Sucesso).
+ * Teste de Aceitação 8.6: Consultar dados de fornecedor inexistente no sistema (Operação Realizada sem Sucesso).
+ * Teste de Aceitação 8.7: Atualizar dados de fornecedor existente no sistema (Operação Realizada com Sucesso).
+ * Teste de Aceitação 8.8: Atualizar dados de fornecedor inexistente no sistema (Operação Realizada sem Sucesso).
+
+=== Atividades ===
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+
+----
+
+== User Story 9 - Funcionalidade de controle de procedimentos ==
+
+=== Testes de Aceitação ===
+
+ * Teste de Aceitação 9.1: Cadastrar procedimento no sistema com todos os dados corretos (Operação Realizada com Sucesso).
+ * Teste de Aceitação 9.2: Cadastrar procedimento no sistema com dados faltando (Operação Realizada sem Sucesso).
+ * Teste de Aceitação 9.3: Retirar procedimento existente da lista de procedimentos (Operação Realizada com Sucesso).
+ * Teste de Aceitação 9.4: Retirar fornecedor inexistente da lista de procedimentos (Operação Realizada sem Sucesso).
+ * Teste de Aceitação 9.5: Consultar dados de procedimento existente no sistema (Operação Realizada com Sucesso).
+ * Teste de Aceitação 9.6: Consultar dados de procedimento inexistente no sistema (Operação Realizada sem Sucesso).
+ * Teste de Aceitação 9.7: Atualizar dados de procedimento existente no sistema (Operação Realizada com Sucesso).
+ * Teste de Aceitação 9.8: Atualizar dados de procedimento inexistente no sistema (Operação Realizada sem Sucesso).
+
+=== Atividades ===
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+
+== User Story 10 - Funcionalidade de emissão de relatórios ==
+
+=== Testes de Aceitação ===
+
+ * Teste de Aceitação 10.1: Emitir relatório das atividades do dia.
+ * Teste de Aceitação 10.2: Emitir relatório das atividades da semana.
+ * Teste de Aceitação 10.3: Emitir relatório das atividades da quinzena.
+ * Teste de Aceitação 10.4: Emitir relatório das atividades do mês.
+ * Teste de Aceitação 10.5: Emitir relatório das atividades de cada médico.
+ * Teste de Aceitação 10.6: Emitir relatório organizado por convênio médico.
+ * Teste de Aceitação 10.7: Emitir relatório organizado por tipo de lente.
+ * Teste de Aceitação 10.8: Emitir relatório organizado por paciente.
 
 === Atividades ===
 
