@@ -35,3 +35,4 @@ Objetivos da reunião (por ordem de prioridade):
 ==Quarta Reunião com o Cliente (_a definir_)==
 Objetivos da reunião (por ordem de prioridade):
   * Validar Telas prototipadas na etapa 1;
+  * Perguntar que informações são restritas e quem tem acesso a o que.
