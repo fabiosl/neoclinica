@@ -2,58 +2,57 @@
 
 =Documento de Visão=
 
-_NEO Clínica Software_
+_SI NEO_
 
 *Descrição*
 
-A clínica Núcleo Especializado em Oftalmologia (NEO), fundada em  2003 está localizada na cidade de Campina Grande e atende pacientes de Campina Grande e região. As consultas realizadas estão ligadas a serviços oftalmológicos. Atualmente dois médicos atendem na clínica e o corpo de funcionários é formado por três funcionárias.
+A clínica Núcleo Especializado em Oftalmologia (NEO), fundada em  2003 está localizada na cidade de Campina Grande e atende pacientes de Campina Grande e região. As consultas realizadas estão ligadas a serviços oftalmológicos. Atualmente dois médicos atendem na clínica e o corpo de funcionários é formado por três secretárias.
 
-Os serviços realizados na clínica vão desde o agendamento de consultas para pacientes até o pedido de lentes oftalmológicas junto aos fornecedores. Para esses e outros pedidos, tanto pacientes quanto lentes e fornecedores são cadastrados em um banco de dados e todas transações são registradas. Atualmente parte desse processo é feito manualmente em fichas de papel e planilhas eletrônicas, o que dificulta muito a agilidade do processo; o conhecimento do andamento dos pedidos e o acompanhamento, por parte dos médicos, do controle do estoque e do caixa.
+Os serviços realizados na clínica vão desde o agendamento de consultas para pacientes até o pedido de lentes oftalmológicas junto aos fornecedores. Para esses e outros pedidos, tanto pacientes quanto lentes e fornecedores são cadastrados em um banco de dados e todas transações são registradas. Atualmente parte desse processo é feita manualmente em fichas de papel e planilhas eletrônicas, o que dificulta muito a agilidade do processo; o conhecimento do andamento dos pedidos e o acompanhamento, por parte dos médicos, do controle do estoque e do caixa é lento pois depende da análise manual das planilhas por parte das responsáveis.
 
-Diante disso, percebe-se que um sistema de informação que agilize esse processo ajudará completamente todos os envolvidos. Ele fará com que as informações sejam acessadas de maneira mais eficiente e precisa por todos a qualquer momento. Isso fará com que se tenha maior controle tanto no atendimento aos clientes quanto no contato com os fornecedores e no controle do estoque. 
+Diante disso, percebe-se que um sistema de informação que agilize esse processo ajudará completamente todos os envolvidos. Ele fará com que as informações sejam acessadas de maneira mais eficiente e precisa por todos a qualquer momento. Fará ainda com que se tenha maior controle tanto no atendimento aos clientes quanto no contato com os fornecedores e no controle do estoque. 
 
-A infra-estrutura computacional da clínica conta com 3 máquinas e disponibilidade de compra de mais uma. Um dos computadores está localizado na recepção, outro na sala de atendimento das consultas e o terceiro fica em uma outra sala isolada. Todos esses computadores estão ligados em rede e têm acesso a internet. Dessa forma, é desejável que o sistema possa ser acionado de qualquer um dessas máquinas mediante autenticação de usuários.
+A infra-estrutura computacional da clínica conta com 3 máquinas e disponibilidade de compra de mais uma. Um dos computadores está localizado na recepção, outro na sala de atendimento das consultas e o terceiro fica em uma outra sala isolada. Todos esses computadores serão ligados em rede, e dessa forma é desejável que o sistema possa ser acionado de qualquer um dessas máquinas mediante autenticação de usuários.
 
 Percebe-se, então, que o sistema é formado, em suma, por dois componentes: *Banco de Dados* e *Visões*. O Banco de Dados é o componente central responsável por lidar (tanto armazenar os dados quanto prover interfaces de cadastro, atualização, remoção e modificação) com as informações que devem ser armazenadas no sistema para consultas posteriores. Já as Visões representam as diferentes interfaces que serão fornecidas para os diferentes níveis hierárquicos de usuários dos sistema. Cada um desses componentes iniciais pode ser decomposto, ao longo do processo, em componentes menores de acordo com eventuais necessidades que surgirem.
-
 
 *Requisitos Funcionais*
 
   *  1.  Componente: Banco de Dados 
-     * a.	CRUD de Pacientes;
-     * b.	CRUD de Funcionários;
-     * c.     CRUD de Médicos;
-     * d.	CRUD de Lentes;
-     * e.	Registro de Pedidos;
-     * f.	Registro de Transações;
-     * g.	Geração de Relatórios.
-
+     * a. CRUD de Pacientes;
+     * b. CRUD de Usuários;
+     * c. CRUD de Médicos;
+     * d. CRUD de Lentes;
+     * e. CRUD de Funcionários;
+     * f. Registro de Pedidos;
+     * g. Registro de Transações;
+     * h. Emissão de Relatórios (detalhados) Financeiros e de Estoque.
+     * i. Agenda Médica;
 
    *  2. Componente: Visões
-     * a.	Obtenção de Relatórios;
-     * b.	Telas de Login;
-     * c.	Gerenciamento do Estoque;
-     * d.	Gerenciamento de Pacientes;
-     * e.	Gerenciamento de Médicos;
-     * f.	Obtenção de Informações de Fornecedores;
-     * g.    Envio de email para médicos com relatórios;
-     * h.    Gerenciamento de Consultas;
-     * i.     Obtenção de dados relativos ao caixa;
-     * j.     Obtenção de dados relativos a medicamentos e doenças.
+     * a. Obtenção de Relatórios;
+     * b. Telas de Login;
+     * c. Gerenciamento do Estoque;
+     * d. Gerenciamento de Pacientes;
+     * e. Gerenciamento de Médicos;
+     * f. Gerenciamento de Fornecedores;
+     * g. Envio de email para médicos com relatórios;
+     * h. Gerenciamento de Procedimentos Médicos;
+     * i. Obtenção de dados relativos ao caixa;
+     * j. Obtenção de dados relativos ao estoque.
 
 *Requisitos não-funcionais*
 
-     * 1.	Banco de Dados relacional;
-     * 2.	Uso de login de usuário;
-     * 3.	Interface web; 
-     * 4.	Uso de padrões de projeto;
-     * 5.	Segurança com dados dos pacientes;
-     * 6.	Integridade dos dados.
+     * 1. Banco de Dados MySQL;
+     * 2. Uso de login com níveis de acesso distintos;
+     * 3. Interface web; 
+     * 4. Uso de padrões de projeto;
+     * 5. Segurança com os dados;
+     * 6. Integridade dos dados.
 
 
 *Perfil do Usuário*
 
-
-O sistema será usado diariamente de forma direta por funcionários e médicos da clínica. Essas pessoas estão na faixa etária dos 30 anos de idade. Os usuários serão pessoas que já têm experiência com computadores e sistemas informatizados seja por utilizarem outros sistemas na própria clínica e em outros locais de trabalho ou por serem capacitados através de cursos já finalizados. 
+O sistema será usado diariamente de forma direta por funcionários e médicos da clínica. Essas pessoas estão na faixa etária dos 30 anos de idade. Os usuários serão pessoas que já têm experiência com computadores e sistemas informatizados seja por utilizarem outros sistemas na própria clínica e em outros locais de trabalho ou por serem capacitados através de cursos. 
 
 Os pacientes interagirão com o sistema por intermédio dos funcionários e médicos. Esses quem serão responsáveis por passar para o sistema todos as informações necessárias. Dessa forma, não serão necessárias, a princípio, preocupações relativas a treinamento de usuários totalmente despreparados no uso de computadores.
