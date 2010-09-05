@@ -18,7 +18,7 @@
 
 ----
 
-== User Story 3 - Estudo de testes de aceitação em Grails ==
+== User Story 3 - Estudar testes de aceitação em Grails ==
 
 === Estimativa Inicial: 3 horas ===
 === Testes de Aceitação ===
@@ -27,7 +27,7 @@
 
 ----
 
-== User Story 4 - Funcionalidade de login com privilégios ==
+== User Story 4 - Implementar funcionalidade de login com privilégios ==
 O sistema deve ter logins com dois níveis de privilégio (administrador e funcionário).
 
 === Estimativa Inicial: 5 horas ===
@@ -40,7 +40,7 @@ O sistema deve ter logins com dois níveis de privilégio (administrador e funci
 
 ----
 
-== User Story 5 - Funcionalidade de controle de pacientes ==
+== User Story 5 - Implementar funcionalidade de controle de pacientes ==
 O sistema deve prover o controle dos pacientes da clínica. Ele armazenará dados básicos sobre esses pacientes.
 
 === Estimativa Inicial: x horas ===
@@ -56,7 +56,7 @@ O sistema deve prover o controle dos pacientes da clínica. Ele armazenará dado
 
 ----
 
-== User Story 6 - Funcionalidade de controle de usuários do sistema ==
+== User Story 6 - Implementar funcionalidade de controle de usuários do sistema ==
 O sistema deve prover o controle dos usuários que o utilizam.
 
 === Estimativa Inicial: x horas ===
@@ -72,7 +72,7 @@ O sistema deve prover o controle dos usuários que o utilizam.
 
 ----
 
-== User Story 7 - Funcionalidade de controle do estoque de lentes ==
+== User Story 7 - Implementar funcionalidade de controle do estoque de lentes ==
 O sistema deve prover o controle do estoque de lentes da clínica. Cada lente possui várias informações que devem ser armazenadas.
 
 === Estimativa Inicial: x horas ===
@@ -89,7 +89,7 @@ O sistema deve prover o controle do estoque de lentes da clínica. Cada lente po
 
 ----
 
-== User Story 8 - Funcionalidade de cadastro de fornecedores ==
+== User Story 8 - Implementar funcionalidade de cadastro de fornecedores ==
 O sistema deve armazenar os fornecedores de lentes da clínica.
 
 === Estimativa Inicial: x horas ===
@@ -106,7 +106,7 @@ O sistema deve armazenar os fornecedores de lentes da clínica.
 
 ----
 
-== User Story 9 - Funcionalidade de controle de procedimentos ==
+== User Story 9 - Implementar funcionalidade de controle de procedimentos ==
 O sistema deve prover controle dos procedimentos (procedimentos médicos e compras) realizados na clínica.
 
 === Estimativa Inicial: x horas ===
@@ -123,7 +123,7 @@ O sistema deve prover controle dos procedimentos (procedimentos médicos e compr
 
 ----
 
-== User Story 10 - Funcionalidade de emissão de relatórios financeiros ==
+== User Story 10 - Implementar funcionalidade de emissão de relatórios financeiros ==
 O sistema deve emitir relatórios financeiros das atividades realizadas na clínica. Esses relatórios podem ser organizados em diferentes categorias: por data; por médico; por procedimento médico; por lentes vendidas; por paciente e por convênio médico.
 
 === Estimativa Inicial: x horas ===
@@ -140,7 +140,7 @@ O sistema deve emitir relatórios financeiros das atividades realizadas na clín
 
 ----
 
-== User Story 11 - Funcionalidade de emissão de relatórios de estoque ==
+== User Story 11 - Implementar funcionalidade de emissão de relatórios de estoque ==
 O sistema deve emitir relatórios do estoque de lentes para consulta por parte dos médicos.
 
 === Estimativa Inicial: x horas ===
@@ -151,7 +151,7 @@ O sistema deve emitir relatórios do estoque de lentes para consulta por parte d
 
 ----
 
-== User Story 12 - Funcionalidade de agenda médica ==
+== User Story 12 - Implementar funcionalidade de agenda médica ==
 O sistema deve prover aos usuários (médicos e secretárias) informações sobre os procedimentos médicos a serem realizados, bem como informações sobre os pacientes relacionados.
 
 === Estimativa Inicial: x horas ===
@@ -163,7 +163,7 @@ O sistema deve prover aos usuários (médicos e secretárias) informações sobr
 
 ----
 
-== User Story 13 - Relatório de Paciente ==
+== User Story 13 - Implementar funcionalidade de relatório de paciente ==
 O sistema deve permitir busca por nome dos pacientes no sistema, que deve retornar uma lista em ordem alfanumérica (nome e número), com a opção de exibir relatório com os dados pessoais dos clientes, assim como as informações dos procedimentos médicos realizados e agendados.
 
 === Estimativa Inicial: x horas ===
