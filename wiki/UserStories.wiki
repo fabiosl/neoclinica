@@ -16,7 +16,7 @@
 
   * Teste de Aceitação 2.1: Fazer uma requisição HTTP com sucesso ao servidor.
 
-=== Estimativa Inicial: 9 horas ===
+=== Estimativa Inicial: 8 horas ===
 
 ----
 
@@ -44,7 +44,7 @@ O sistema deve ter logins com diferentes privilégios.
 
 ----
 
-== User Story 5 - Funcionalidade de funcionalidade de controle de pacientes ==
+== User Story 5 - Funcionalidade de controle de pacientes ==
 O sistema deve prover o controle dos pacientes da clínica. Ele armazenará dados sobre esses pacientes.
 
 === Testes de Aceitação ===
@@ -60,7 +60,7 @@ O sistema deve prover o controle dos pacientes da clínica. Ele armazenará dado
 
 ----
 
-== User Story 6 - Funcionalidade de funcionalidade de controle de usuário do sistema ==
+== User Story 6 - Funcionalidade de controle de usuário do sistema ==
 O sistema deve prover o controle dos usuários que o utilizam.
 
 === Testes de Aceitação ===
