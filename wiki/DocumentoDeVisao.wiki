@@ -2,7 +2,7 @@
 
 =Documento de Visão=
 
-_SI NEO_
+===SI NEO===
 
 *Descrição*
 
@@ -43,13 +43,12 @@ Percebe-se, então, que o sistema é formado, em suma, por dois componentes: *Ba
 
 *Requisitos não-funcionais*
 
-     * 1. Banco de Dados MySQL;
+     * 1. SGBD MySQL;
      * 2. Uso de login com níveis de acesso distintos;
      * 3. Interface web; 
      * 4. Uso de padrões de projeto;
      * 5. Segurança com os dados;
      * 6. Integridade dos dados.
-
 
 *Perfil do Usuário*
 
