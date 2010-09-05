@@ -14,36 +14,30 @@ Diante disso, percebe-se que um sistema de informação que agilize esse process
 
 A infra-estrutura computacional da clínica conta com 3 máquinas e disponibilidade de compra de mais uma. Um dos computadores está localizado na recepção, outro na sala de atendimento das consultas e o terceiro fica em uma outra sala isolada. Todos esses computadores serão ligados em rede, e dessa forma é desejável que o sistema possa ser acionado de qualquer um dessas máquinas mediante autenticação de usuários.
 
-Percebe-se, então, que o sistema é formado, em suma, por dois componentes: *Banco de Dados* e *Visões*. O Banco de Dados é o componente central responsável por lidar (tanto armazenar os dados quanto prover interfaces de cadastro, atualização, remoção e modificação) com as informações que devem ser armazenadas no sistema para consultas posteriores. Já as Visões representam as diferentes interfaces que serão fornecidas para os diferentes níveis hierárquicos de usuários dos sistema. Cada um desses componentes iniciais pode ser decomposto, ao longo do processo, em componentes menores de acordo com eventuais necessidades que surgirem.
+Percebe-se, então, que o sistema é formado, em suma, por dois componentes: *controle financeiro* e *agenda médica*. O _Controle Financeiro_ é o componente de maior prioridade, responsável tanto por prover interfaces de cadastro, atualização, remoção e consulta dos dados relevantes (cadastro de pacientes, fornecedores, médicos, vendas de lentes, procedimentos médicos, estoque, etc.) quanto fornecer informações detalhadas sobre o balanço financeiro da clínica. Já a _Agenda Médica_ é um componente que deve possibilitar aos usuários consultas às atividades dos médicos em datas específicas. A agenda é um componente de menor prioridade pois já é controlada por outra aplicação, embora torne-se necessária pelo fato dos médicos desejarem ver sua agenda de diversos lugares - funcionalidade que essa aplicação não fornece por ser _desktop_.
+
+Cada um desses componentes iniciais pode ser decomposto, ao longo do processo, em componentes menores de acordo com eventuais necessidades que surgirem.
 
 *Requisitos Funcionais*
 
-  *  1.  Componente: Banco de Dados 
-     * a. CRUD de Pacientes;
-     * b. CRUD de Usuários;
-     * c. CRUD de Médicos;
-     * d. CRUD de Lentes;
-     * e. CRUD de Funcionários;
-     * f. Registro de Pedidos;
-     * g. Registro de Transações;
-     * h. Emissão de Relatórios (detalhados) Financeiros e de Estoque.
-     * i. Agenda Médica;
+  *  _1. Componente: Controle financeiro_
+     * a. Gerenciamento de Pacientes;
+     * b. Gerenciamento de Usuários;
+     * c. Gerenciamento de Médicos;
+     * d. Gerenciamento de Funcionários;
+     * e. Gerenciamento de Lentes;
+     * f. Gerenciamento de Pedidos;
+     * g. Gerenciamento de Procedimentos médicos;
+     * h. Emissão de relatórios financeiros;
+     * i. Emissão de relatórios de estoque;
 
-   *  2. Componente: Visões
-     * a. Obtenção de Relatórios;
-     * b. Telas de Login;
-     * c. Gerenciamento do Estoque;
-     * d. Gerenciamento de Pacientes;
-     * e. Gerenciamento de Médicos;
-     * f. Gerenciamento de Fornecedores;
-     * g. Envio de email para médicos com relatórios;
-     * h. Gerenciamento de Procedimentos Médicos;
-     * i. Obtenção de dados relativos ao caixa;
-     * j. Obtenção de dados relativos ao estoque.
+   * _2. Componente: Agenda médica_
+     * a. Consulta à agenda do médico por data;
+     * b. Busca de dados dos pacientes com consultas por realizar.
 
 *Requisitos não-funcionais*
 
-     * 1. SGBD MySQL;
+     * 1. Banco de dados relacional com SGBD MySQL;
      * 2. Uso de login com níveis de acesso distintos;
      * 3. Interface web; 
      * 4. Uso de padrões de projeto;
