@@ -21,7 +21,7 @@ Aqui são guardadas todas as informações essenciais e os links para as outras 
  * Projeto Arquitetural: [http://code.google.com/p/neoclinica/wiki/PageName link].
  * Protótipo da Interface: [http://code.google.com/p/neoclinica/wiki/Telas link].
  * Modelo Lógico dos Dados: [http://code.google.com/p/neoclinica/wiki/ModeloLogicoBD link].
- * Objetivos de Usabilidade: [http://code.google.com/p/neoclinica/wiki/ObjetivosUsabilidade link] - _Em Construção_.
+ * Objetivos de Usabilidade: [http://code.google.com/p/neoclinica/wiki/ObjetivosUsabilidade link].
  * User Stories e Testes de Aceitação: [http://code.google.com/p/neoclinica/wiki/UserStories link] - _Em Construção_.
  * Modelo de Tarefas: [http://code.google.com/p/neoclinica/wiki/ModeloTarefas link] - _Em Construção_.
 
