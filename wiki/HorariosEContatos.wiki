@@ -20,4 +20,5 @@ Substituir _at_ por @ e _dot_ por .
 || *16:00* ||           ||         || R; F; S    ||          || R²; S; F² ||
 
 ¹ Nas semanas que não houverem aula de LES;
+
 ² Nas semanas que hão houverem aula de Estágio Integrado.
