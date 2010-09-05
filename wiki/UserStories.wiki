@@ -39,8 +39,6 @@ O sistema deve ter logins com diferentes privilégios.
  * Teste de Aceitação 4.2: Fazer login com usuário do tipo "funcionario" (login com sucesso).
  * Teste de Aceitação 4.3: Fazer login com usuário do tipo "administrador" (login sem sucesso).  
  * Teste de Aceitação 4.4: Fazer login com usuário do tipo "funcionario" (login sem sucesso).
- * Teste de Aceitação 4.5: Acessar opções restritas ao administrador estando logado como administrador (acesso realizado com sucesso).
- * Teste de Aceitação 4.6: Acessar opções restritas ao administrador estando logado como funcionario (acesso não realizado).
 
 === Estimativa Inicial: 5 horas ===
 
@@ -67,18 +65,21 @@ O sistema deve prover o controle dos usuários que o utilizam.
 
 === Testes de Aceitação ===
 
- * Teste de Aceitação 6.1: Cadastrar um usuário do tipo "administrador" com todos os dados corretos (Cadastro Realizado com Sucesso).
- * Teste de Aceitação 6.2: Cadastrar um usuário do tipo "administrador" com dados obrigatórios faltando (Cadastro não Realizado).
- * Teste de Aceitação 6.3: Cadastrar um usuário do tipo "secretaria" com todos os dados corretos (Cadastro Realizado com Sucesso).
- * Teste de Aceitação 6.4: Cadastrar um usuário do tipo "secretaria" com dados obrigatórios faltando (Cadastro não Realizado).
- * Teste de Aceitação 6.5: Retirar usuário existente da lista de administradores (Operação Realizada com Sucesso).
- * Teste de Aceitação 6.6: Retirar usuário existente da lista de secretárias (Operação Realizada com Sucesso).
- * Teste de Aceitação 6.7: Retirar usuário inexistente da lista de administradores (Operação Realizada sem Sucesso).
- * Teste de Aceitação 6.8: Retirar usuário inexistente da lista de secretárias (Operação Realizada sem Sucesso).
- * Teste de Aceitação 6.9: Atualizar dados de administrador existente no sistema (Operação Realizada com Sucesso).
- * Teste de Aceitação 6.10: Atualizar dados de secretária existente no sistema (Operação Realizada com Sucesso).
- * Teste de Aceitação 6.11: Atualizar dados de administrador inexistente no sistema (Operação Realizada sem Sucesso).
- * Teste de Aceitação 6.12: Atualizar dados de secretária inexistente no sistema (Operação Realizada sem Sucesso).
+ * Teste de Aceitação 6.1: Cadastrar um usuário do tipo "administrador" com todos os dados corretos (Cadastro Realizado com Sucesso - se logado como administrador).
+ * Teste de Aceitação 6.2: Cadastrar um usuário do tipo "administrador" com todos os dados corretos (Cadastro Realizado sem Sucesso - se não logado como administrador).
+ * Teste de Aceitação 6.3: Cadastrar um usuário do tipo "administrador" com dados obrigatórios faltando (Cadastro não Realizado - caso logado como administrador ou secretária).
+ * Teste de Aceitação 6.4: Cadastrar um usuário do tipo "secretaria" com todos os dados corretos (Cadastro Realizado com Sucesso - caso logado como administrador ou secretária).
+ * Teste de Aceitação 6.5: Cadastrar um usuário do tipo "secretaria" com dados obrigatórios faltando (Cadastro não Realizado -  caso logado como administrador ou secretária).
+ * Teste de Aceitação 6.6: Retirar usuário existente da lista de administradores (Operação Realizada com Sucesso - caso logado como administrador).
+ * Teste de Aceitação 6.7: Retirar usuário existente da lista de administradores (Operação Realizada sem Sucesso - caso logado como secretária)
+ * Teste de Aceitação 6.8: Retirar usuário existente da lista de secretárias (Operação Realizada com Sucesso -  caso logado como administrador ou secretária).
+ * Teste de Aceitação 6.9: Retirar usuário inexistente da lista de administradores (Operação Realizada sem Sucesso - caso logado como administrador ou secretária).
+ * Teste de Aceitação 6.10: Retirar usuário inexistente da lista de secretárias (Operação Realizada sem Sucesso -  caso logado como administrador ou secretária).
+ * Teste de Aceitação 6.11: Atualizar dados de administrador existente no sistema (Operação Realizada com Sucesso - caso logado como administrador).
+ * Teste de Aceitação 6.12: Atualizar dados de administrador existente no sistema (Operação Realizada sem Sucesso - caso logado como secretária).
+ * Teste de Aceitação 6.13: Atualizar dados de secretária existente no sistema (Operação Realizada com Sucesso -  caso logado como administrador ou secretária).
+ * Teste de Aceitação 6.14: Atualizar dados de administrador inexistente no sistema (Operação Realizada sem Sucesso - caso logado como administrador ou secretária).
+ * Teste de Aceitação 6.15: Atualizar dados de secretária inexistente no sistema (Operação Realizada sem Sucesso -  caso logado como administrador ou secretária).
 
 === Estimativa Inicial: x horas ===
 
