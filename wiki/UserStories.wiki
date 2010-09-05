@@ -68,13 +68,17 @@
 
 ----
 
-== User Story 5 - Funcionalidade de funcionalidade de cadastro de paciente ==
+== User Story 5 - Funcionalidade de funcionalidade de controle de pacientes ==
 
 === Testes de Aceitação ===
 
  * Teste de Aceitação 5.1: Cadastrar um cliente com todos os dados corretos (Cadastro Realizado com Sucesso).
  * Teste de Aceitação 5.2: Cadastrar um cliente com dados obrigatórios faltando (Cadastro não Realizado).
  * Teste de Aceitação 5.3: Cadastrar um cliente com CPF inválido (Cadastro não Realizado).
+* Teste de Aceitação 5.4: Retirar paciente existente da lista dos pacientes (Operação Realizada com Sucesso).
+ * Teste de Aceitação 5.5: Retirar paciente inexistente da lista dos pacientes (Operação Realizada sem Sucesso).
+ * Teste de Aceitação 5.8: Atualizar dados de paciente existente no sistema (Operação Realizada com Sucesso).
+ * Teste de Aceitação 5.9: Atualizar dados de paciente inexistente no sistema (Operação Realizada sem Sucesso).
 
 === Atividades ===
 
@@ -82,7 +86,7 @@
 
 ----
 
-== User Story 6 - Funcionalidade de funcionalidade de cadastro de usuário do sistema ==
+== User Story 6 - Funcionalidade de funcionalidade de controle de usuário do sistema ==
 
 === Testes de Aceitação ===
 
@@ -90,6 +94,14 @@
  * Teste de Aceitação 6.2: Cadastrar um usuário do tipo "administrador" com dados obrigatórios faltando (Cadastro não Realizado).
  * Teste de Aceitação 6.3: Cadastrar um usuário do tipo "secretaria" com todos os dados corretos (Cadastro Realizado com Sucesso).
  * Teste de Aceitação 6.4: Cadastrar um usuário do tipo "secretaria" com dados obrigatórios faltando (Cadastro não Realizado).
+ * Teste de Aceitação 6.5: Retirar usuário existente da lista de administradores (Operação Realizada com Sucesso).
+ * Teste de Aceitação 6.6: Retirar usuário existente da lista de secretárias (Operação Realizada com Sucesso).
+ * Teste de Aceitação 6.7: Retirar usuário inexistente da lista de administradores (Operação Realizada sem Sucesso).
+ * Teste de Aceitação 6.8: Retirar usuário inexistente da lista de secretárias (Operação Realizada sem Sucesso).
+ * Teste de Aceitação 6.9: Atualizar dados de administrador existente no sistema (Operação Realizada com Sucesso).
+ * Teste de Aceitação 6.10: Atualizar dados de secretária existente no sistema (Operação Realizada com Sucesso).
+ * Teste de Aceitação 6.11: Atualizar dados de administrador inexistente no sistema (Operação Realizada sem Sucesso).
+ * Teste de Aceitação 6.12: Atualizar dados de secretária inexistente no sistema (Operação Realizada sem Sucesso).
 
 === Atividades ===
 
@@ -151,7 +163,9 @@
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
 
-== User Story 10 - Funcionalidade de emissão de relatórios ==
+----
+
+== User Story 10 - Funcionalidade de emissão de relatórios de atividades ==
 
 === Testes de Aceitação ===
 
@@ -163,6 +177,50 @@
  * Teste de Aceitação 10.6: Emitir relatório organizado por convênio médico.
  * Teste de Aceitação 10.7: Emitir relatório organizado por tipo de lente.
  * Teste de Aceitação 10.8: Emitir relatório organizado por paciente.
+
+=== Atividades ===
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+
+----
+
+== User Story 11 - Funcionalidade de emissão de relatórios de estoque ==
+
+=== Testes de Aceitação ===
+
+ * Teste de Aceitação 11.1: Emitir relatório do estoque disponível de lentes.
+ * Teste de Aceitação 11.2: Emitir relatório da atividade do estoque de lentes.
+
+=== Atividades ===
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+
+----
+
+== User Story 12 - Funcionalidade de agenda médica ==
+
+=== Testes de Aceitação ===
+
+ * Teste de Aceitação 12.1: Mostrar a agenda médica da semana.
+ * Teste de Aceitação 12.2: Marcar uma consulta para um cliente existente no sistema em uma data válida com o médico disponível (Consulta Agendada).
+ * Teste de Aceitação 12.3: Marcar uma consulta para um cliente que não existe em uma data válida com o médico disponível (Consulta não Agendada).
+ * Teste de Aceitação 12.4: Marcar uma consulta para um cliente existente no sistema em uma data inválida com o médico disponível (Consulta não Agendada).
+ * Teste de Aceitação 12.5: Marcar uma consulta para um cliente que não existe em uma data válida com o médico indisponível (Consulta não Agendada).
+ * Teste de Aceitação 12.6: Alterar dados de uma consulta marcada (operação realizada).
+ * Teste de Aceitação 12.7: Alterar dados de uma consulta não marcada (operação não realizada).
+
+=== Atividades ===
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+
+----
+
+== User Story 13 - Pesquisa de Paciente ==
+
+=== Testes de Aceitação ===
+
+ * Teste de Aceitação 13.1: Consultar dados de paciente existente no sistema (Operação Realizada com Sucesso).
+ * Teste de Aceitação 13.2: Consultar dados de paciente inexistente no sistema (Operação Realizada sem Sucesso). 
 
 === Atividades ===
 
