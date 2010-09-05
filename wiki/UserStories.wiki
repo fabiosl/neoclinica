@@ -58,7 +58,7 @@
  * Teste de Aceitação 4.3: Fazer login com usuário do tipo "administrador" (login sem sucesso).  
  * Teste de Aceitação 4.4: Fazer login com usuário do tipo "funcionario" (login sem sucesso).
  * Teste de Aceitação 4.5: Acessar opções restritas ao administrador estando logado como administrador (acesso realizado com sucesso).
-  * Teste de Aceitação 4.6: Acessar opções restritas ao administrador estando logado como funcionario (acesso não realizado).
+ * Teste de Aceitação 4.6: Acessar opções restritas ao administrador estando logado como funcionario (acesso não realizado).
 
 === Atividades ===
 
@@ -75,7 +75,7 @@
  * Teste de Aceitação 5.1: Cadastrar um cliente com todos os dados corretos (Cadastro Realizado com Sucesso).
  * Teste de Aceitação 5.2: Cadastrar um cliente com dados obrigatórios faltando (Cadastro não Realizado).
  * Teste de Aceitação 5.3: Cadastrar um cliente com CPF inválido (Cadastro não Realizado).
-* Teste de Aceitação 5.4: Retirar paciente existente da lista dos pacientes (Operação Realizada com Sucesso).
+ * Teste de Aceitação 5.4: Retirar paciente existente da lista dos pacientes (Operação Realizada com Sucesso).
  * Teste de Aceitação 5.5: Retirar paciente inexistente da lista dos pacientes (Operação Realizada sem Sucesso).
  * Teste de Aceitação 5.8: Atualizar dados de paciente existente no sistema (Operação Realizada com Sucesso).
  * Teste de Aceitação 5.9: Atualizar dados de paciente inexistente no sistema (Operação Realizada sem Sucesso).
