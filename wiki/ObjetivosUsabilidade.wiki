@@ -9,7 +9,7 @@ Essa página descreve os objetivos de usabilidade do sistema e algumas métricas
 
 || _*Objetivo*_ || _*Métrica*_ ||
 || Redução da taxa de erros cometidos pelo usuário || Número de tarefas completadas sem falhas ao longo do tempo. ||
-|| Similar a outros softwares || Manter a interface parecida com a de outras aplicações web que os usuários tenham acesso. |
+|| Similar a outros softwares || Manter a interface parecida com a de outras aplicações web que os usuários tenham acesso. ||
 || Interface amigável || Diminuir tempo gasto procurando a funcionalidade desejada em cada tela. ||
 || Serviços automáticos || Evitar que usuário precise clicar em algum lugar para emitir relatórios, por exemplo. ||
 || Documentação acessível || Facilidade e rapidez para encontrar a informação desejada na documentação fornecida. ||
