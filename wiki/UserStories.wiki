@@ -6,32 +6,13 @@
 
   * Teste de Aceitação 1.1: Verificar se exemplos gerados satisfazem os requisitos de CRUD e persistência desejados pelo cliente.
 
-=== Atividades ===
-
-|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-|| A1.1 || Estudar integração de Grails com MySQL || Renato || 2h || || ||
-|| A1.2 || Estudar padrão DAO || Todos || 2h || || ||
-|| A1.3 || Configurar integração de Grails com MySQL no projeto || Renato || 8h || || ||
-|| A1.4 || Gerar classes de domínio Grails para testar mapeamento || Renato || 1h || || ||
-
 ----
-
 
 == User Story 2 - Configurar ambiente no servidor ==
 
 === Testes de Aceitação ===
 
   * Teste de Aceitação 2.1: Fazer uma requisição HTTP com sucesso ao servidor.
-
-=== Atividades ===
-
-|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-|| A2.1 || Instalar Tomcat || Fabio || 1h || || ||
-|| A2.2 || Instalar cliente no-ip || Fabio || 1h || || ||
-|| A2.3 || Instalar MySQL || Fabio || 1h || || ||
-|| A2.4 || Instalar Grails || Fabio || 2h || || ||
-|| A2.5 || Realizar integração do sistema com o servidor || Fabio || 3h || || ||
-|| A2.6 || Fazer um manual de configuração do ambiente || Fabio || 1h || || ||
 
 ----
 
@@ -41,15 +22,10 @@
 
   * Teste de Aceitação 3.1: Elaboração de script de teste de aceitação.
 
-=== Atividades ===
-
-|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-|| A3.1 || Pesquisar testes de aceitação em Grails || Fabio || 2h || || ||
-|| A3.2 || Elaborar script de testes || Fabio || 1h || || ||
-
 ----
 
 == User Story 4 - Funcionalidade de login com privilégios ==
+O sistema deve ter logins com diferentes privilégios.
 
 === Testes de Aceitação ===
 
@@ -60,33 +36,24 @@
  * Teste de Aceitação 4.5: Acessar opções restritas ao administrador estando logado como administrador (acesso realizado com sucesso).
  * Teste de Aceitação 4.6: Acessar opções restritas ao administrador estando logado como funcionario (acesso não realizado).
 
-=== Atividades ===
-
-|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-|| A4.1 || Estudar melhor alternativa de login em Grails || Solon || 3h || || ||
-|| A4.2 || Implementar mecanismo de login || Solon || 2h || || || 
-
 ----
 
 == User Story 5 - Funcionalidade de funcionalidade de controle de pacientes ==
+O sistema deve prover o controle dos pacientes da clínica. Ele armazenará dados sobre esses pacientes.
 
 === Testes de Aceitação ===
 
  * Teste de Aceitação 5.1: Cadastrar um cliente com todos os dados corretos (Cadastro Realizado com Sucesso).
  * Teste de Aceitação 5.2: Cadastrar um cliente com dados obrigatórios faltando (Cadastro não Realizado).
- * Teste de Aceitação 5.3: Cadastrar um cliente com CPF inválido (Cadastro não Realizado).
- * Teste de Aceitação 5.4: Retirar paciente existente da lista dos pacientes (Operação Realizada com Sucesso).
- * Teste de Aceitação 5.5: Retirar paciente inexistente da lista dos pacientes (Operação Realizada sem Sucesso).
- * Teste de Aceitação 5.8: Atualizar dados de paciente existente no sistema (Operação Realizada com Sucesso).
- * Teste de Aceitação 5.9: Atualizar dados de paciente inexistente no sistema (Operação Realizada sem Sucesso).
-
-=== Atividades ===
-
-|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+ * Teste de Aceitação 5.3: Retirar paciente existente da lista dos pacientes (Operação Realizada com Sucesso).
+ * Teste de Aceitação 5.4: Retirar paciente inexistente da lista dos pacientes (Operação Realizada sem Sucesso).
+ * Teste de Aceitação 5.5: Atualizar dados de paciente existente no sistema (Operação Realizada com Sucesso).
+ * Teste de Aceitação 5.6: Atualizar dados de paciente inexistente no sistema (Operação Realizada sem Sucesso).
 
 ----
 
 == User Story 6 - Funcionalidade de funcionalidade de controle de usuário do sistema ==
+O sistema deve prover o controle dos usuários que o utilizam.
 
 === Testes de Aceitação ===
 
@@ -103,13 +70,10 @@
  * Teste de Aceitação 6.11: Atualizar dados de administrador inexistente no sistema (Operação Realizada sem Sucesso).
  * Teste de Aceitação 6.12: Atualizar dados de secretária inexistente no sistema (Operação Realizada sem Sucesso).
 
-=== Atividades ===
-
-|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-
 ----
 
 == User Story 7 - Funcionalidade de controle do estoque de lentes ==
+O sistema deve prover o controle do estoque de lentes da clínica. Cada lente possui várias informações que devem ser armazenadas.
 
 === Testes de Aceitação ===
 
@@ -121,13 +85,10 @@
  * Teste de Aceitação 7.6: Modificar a quantidade de lentes disponíveis no sistema (Operação Realizada com Sucesso - se existe tal tipo de lente).
  * Teste de Aceitação 7.7: Modificar a quantidade de lentes disponíveis no sistema (Operação Realizada sem Sucesso - se não existe tal tipo de lente).
 
-=== Atividades ===
-
-|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-
 ----
 
 == User Story 8 - Funcionalidade de cadastro de fornecedores ==
+O sistema deve armazenar os fornecedores de lentes da clínica.
 
 === Testes de Aceitação ===
 
@@ -140,13 +101,10 @@
  * Teste de Aceitação 8.7: Atualizar dados de fornecedor existente no sistema (Operação Realizada com Sucesso).
  * Teste de Aceitação 8.8: Atualizar dados de fornecedor inexistente no sistema (Operação Realizada sem Sucesso).
 
-=== Atividades ===
-
-|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-
 ----
 
 == User Story 9 - Funcionalidade de controle de procedimentos ==
+O sistema deve prover controle dos procedimentos realizados na clínica.
 
 === Testes de Aceitação ===
 
@@ -159,13 +117,10 @@
  * Teste de Aceitação 9.7: Atualizar dados de procedimento existente no sistema (Operação Realizada com Sucesso).
  * Teste de Aceitação 9.8: Atualizar dados de procedimento inexistente no sistema (Operação Realizada sem Sucesso).
 
-=== Atividades ===
-
-|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-
 ----
 
 == User Story 10 - Funcionalidade de emissão de relatórios de atividades ==
+O sistema deve emitir relatórios das atividades realizadas na clínica. Esses relatórios podem ser organizados em diferentes categorias: por data; por médico; por procedimento; por lentes; por paciente e por convênio médico.
 
 === Testes de Aceitação ===
 
@@ -178,26 +133,20 @@
  * Teste de Aceitação 10.7: Emitir relatório organizado por tipo de lente.
  * Teste de Aceitação 10.8: Emitir relatório organizado por paciente.
 
-=== Atividades ===
-
-|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-
 ----
 
 == User Story 11 - Funcionalidade de emissão de relatórios de estoque ==
+O sistema deve emitir relatórios do estoque de lentes para consulta por parte dos médicos.
 
 === Testes de Aceitação ===
 
  * Teste de Aceitação 11.1: Emitir relatório do estoque disponível de lentes.
  * Teste de Aceitação 11.2: Emitir relatório da atividade do estoque de lentes.
 
-=== Atividades ===
-
-|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-
 ----
 
 == User Story 12 - Funcionalidade de agenda médica ==
+O sistema deve prover aos usuários (médicos e secretárias) informações sobre as consultas e procedimentos a serem realizados.
 
 === Testes de Aceitação ===
 
@@ -209,19 +158,20 @@
  * Teste de Aceitação 12.6: Alterar dados de uma consulta marcada (operação realizada).
  * Teste de Aceitação 12.7: Alterar dados de uma consulta não marcada (operação não realizada).
 
-=== Atividades ===
-
-|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-
 ----
 
 == User Story 13 - Pesquisa de Paciente ==
+O sistema deve mostrar os dados pessoais dos clientes cadastrados, assim como as informações dos procedimentos e consultas realizadas.
 
 === Testes de Aceitação ===
 
  * Teste de Aceitação 13.1: Consultar dados de paciente existente no sistema (Operação Realizada com Sucesso).
  * Teste de Aceitação 13.2: Consultar dados de paciente inexistente no sistema (Operação Realizada sem Sucesso). 
 
-=== Atividades ===
+----
 
-|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+== User Story 14 - Elaborar Manual de Configuração do Sistema == 
+Deve ser elaborado um manual de configuração do sistema pelo usuário.
+
+=== Testes de Aceitação ===
+ * Teste de Aceitação 14.1: Manual do sistema.
