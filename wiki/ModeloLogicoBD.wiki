@@ -3,4 +3,6 @@
 ==Modelo de Dados==
 <img src="http://neoclinica.googlecode.com/svn/trunk/documentos/modeloDeDados/Modelo de Dados.jpg">
 
-O modelo de dados esboçado acima baseia-se nas informações obtidas nas primeiras reuniões com o cliente e nas tabelas fornecidas pelos usuários do sistema, que atualmente realizam o controle financeiro através de planilhas Excel. Estas são as entidades que de fato vão ser armazenadas no banco de dados para realização das user stories descritas pelo cliente.
+O modelo de dados esboçado acima baseia-se nas informações obtidas nas primeiras reuniões com o cliente e nas tabelas fornecidas pelos usuários do sistema. Atualmente, o controle financeiro é feito através de planilhas do Microsoft Excel. 
+
+Nesse modelo estão as entidades que de fato serão armazenadas no banco de dados para realização das user stories descritas pelo cliente.
