@@ -20,8 +20,8 @@ Aqui são guardadas todas as informações essenciais e os links para as outras 
  * Documento de Visão: [http://code.google.com/p/neoclinica/wiki/DocumentoDeVisao Documento de Visão]
  * Projeto Arquitetural: [http://code.google.com/p/neoclinica/wiki/PageName Arquitetura].
  * Telas Prototipadas: [http://code.google.com/p/neoclinica/wiki/Telas Telas].
- * Plano de Release: [http://code.google.com/p/neoclinica/wiki/PlanoRelease Plano de Release] - _Em Construção_.
  * Modelo lógico dos dados: [http://code.google.com/p/neoclinica/wiki/ModeloLogicoBD Modelo Lógico Banco de Dados].
+ * Plano de Release: [http://code.google.com/p/neoclinica/wiki/PlanoRelease Plano de Release] - _Em Construção_.
  * User Stories: [http://code.google.com/p/neoclinica/wiki/UserStories User Stories] - _Em Construção_.
  * Objetivos de Usabilidade: [http://code.google.com/p/neoclinica/wiki/ObjetivosUsabilidade Objetivos] - _Em Construção_.
  * Modelo de Tarefas: [http://code.google.com/p/neoclinica/wiki/ModeloTarefas Tarefas] - _Em Construção_.
