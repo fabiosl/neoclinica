@@ -2,7 +2,7 @@
 
 == User Story 1 - Estudar tecnologias da camada de dados ==
 
-=== Estimativa Inicial: 13 horas ===
+=== Estimativa Inicial: 12 horas ===
 === Testes de Aceitação ===
 
   * Teste de Aceitação 1.1: Verificar se exemplos gerados satisfazem os requisitos de CRUD e persistência desejados pelo cliente.
