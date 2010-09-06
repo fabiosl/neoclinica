@@ -3,56 +3,54 @@
 = Modelo de Tarefa =
 
 == Uso do sistema ==
-http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot000.bmp
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot000.jpg
 
 == Gerenciamento de Consultas ==
-http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot001.bmp
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot001.jpg
 
 == Gerenciamento de Contas == 
-http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot003.bmp
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot003.jpg
 
 === Adicionar Secretária === 
-http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot002.bmp
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot002.jpg
 
 === Adicionar Médico === 
-http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot004.bmp
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot004.jpg
 
 == Gerenciamento de Fornecedor ==
-http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot005.bmp
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot005.jpg
 
 === Adição, Remoção e Pesquisa de Fornecedor ===
-http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot006.bmp
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot006.jpg
 
 === Modificação de fornecedor ===
-http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot007.bmp
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot007.jpg
 
 == Gerenciamento do estoque de lentes 1 ==
-http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot008.bmp
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot008.jpg
 
 === Gerenciamento do estoque de lentes 2 ===
-http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot009.bmp
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot009.jpg
 
 === Cadastro e Remoção de Lentes === 
-http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot010.bmp
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot010.jpg
 
 === Consulta e Modificação do Estoque ===
-http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot011.bmp
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot011.jpg
 
 == Gerência de Pacientes 1 ==
-http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot014.bmp
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot014.jpg
 
 == Gerência de Pacientes 2 ==
-http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot015.bmp
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot015.jpg
 
 === Cadastramento de Pacientes === 
-http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot012.bmp
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot012.jpg
 
 === Remoção, Pesquisa e Modificação de Pacientes === 
-http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot013.bmp
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot013.jpg
 
 == Geração de Relatórios == 
-http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot016.bmp
-
-
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot016.jpg
 
 
