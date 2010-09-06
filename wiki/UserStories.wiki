@@ -177,7 +177,7 @@ O sistema deve permitir busca por nome dos pacientes no sistema, que deve retorn
 == User Story 14 - Elaborar Manual de Configuração do Sistema == 
 Deve ser elaborado um manual de configuração do sistema para a equipe de desenvolvimento e para o usuário.
 
-=== Estimativa Inicial: x horas ===
+=== Estimativa Inicial: 1 hora ===
 === Testes de Aceitação ===
  * Teste de Aceitação 14.1: Manual do sistema.
 
