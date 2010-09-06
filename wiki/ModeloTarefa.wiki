@@ -1,6 +1,6 @@
 #summary One-sentence summary of this page.
 
-= Modelo de Tarefa =
+= Modelo de Tarefas =
 
 == Uso do sistema ==
 http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot000.jpg
