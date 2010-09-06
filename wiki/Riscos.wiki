@@ -7,10 +7,11 @@
 || Problema de saúde || Todos || Algum membro do time ficar doente. || Média || Moderado || Redistribuir tarefas entre os outros membros. || ||
 || Problemas com a tecnologia a ser usada || Todos || Dificuldade de aprendizado das tecnologias a ser usadas. || Média-Baixa || Sério || Alocar mais tempo para aprendizado e prática da tecnologia. || ||
 || Tamanho || Todos || Subestimar o tamanho do projeto || Média-Baixa || Catastrófico || Reavaliar os requisitos e a alocação de tarefas.|| ||
-|| Viagem membro time || Solon || Algum membro da equipe precisar viajar || Média || Sério || Adiantar as atividades ou distribuí-las para outros membros da equipe (dependendo da duração). || ||
+|| Viagem de membro do time || Solon || Algum membro da equipe precisar viajar || Média || Sério || Adiantar as atividades ou distribuí-las para outros membros da equipe (dependendo da duração). || ||
 || Easyaccept || Todos || Testes de aceitação para Grails || Baixa || Sério || Buscar alternativa para testes de aceitação em Grails. || ||
 || Servidor || Cliente || Não existir servidor web para receber o projeto || Baixa || Sério || Cliente adquirir hardware necessário para funcionamento do sistema. || ||
-|| Rede || Cliente || Não existir rede instalada para funcionamento do sistema em vários computadores || Médio || Moderado || Cliente estabelecer infra-estrutura de rede para funcionamento do sistema em vários computadores.|| ||
+|| Rede || Cliente || Não existir rede instalada para funcionamento do sistema em vários computadores || Baixa || Moderado || Cliente estabelecer infra-estrutura de rede para funcionamento do sistema em vários computadores.|| ||
 || Viagem Cliente || Cliente || Cliente precisar viajar || Médio || Sério || Cliente estabelecer outro responsável; dar as diretrizes antecipadamente; marcar reunião antecipada.|| ||
 || Reunião Cliente || Cliente/Time || Não ser possível estabelecer horário adequado para a reunião durante a semana || Médio || Sério || Estabelecer horário alternativo ao qual ao menos um membro do time compareça; marcar reunião com antecedência e duração maior.|| ||
-|| Dados Financeiros || Time || Cliente sonegar informações das planilhas financeiras que devem ser automatizadas || Alto || Sério || Requisitar planilhas sem dados financeiros como forma de saber as fórmulas usadas no cálculo dos valores a serem automatizados.|| ||
+|| Dados Financeiros || Cliente/Time || Cliente sonegar informações das planilhas financeiras que devem ser automatizadas || Alto || Sério || Requisitar planilhas sem dados financeiros como forma de saber as fórmulas usadas no cálculo dos valores a serem automatizados.|| ||
+|| Horários para trabalhar junto || Time || Não ser possível estabelecer mais de um horário para a equipe trabalhar junta semana || Médio || Tolerável || Estar sempre em contato via internet (através de Skype e Gtalk) e aproveitar as tardes sem aula de LES || ||
