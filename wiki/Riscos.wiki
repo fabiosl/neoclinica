@@ -3,6 +3,7 @@
 =Riscos=
 
 || *Nome* || *Responsável* || *Descrição* || *Probabilidade* || *Efeito* || *Alternativa* || *Status* ||
+|| Google Code || Todos || O Google Code passa por manutenções periódicas e isso pode prejudicar a equipe se a manutenção for inesperada ou muito próxima a uma data de entrega da disciplina. || Baixa || Médio|| Usar um repositório externo, como o SourceForge || ||
 || Hardware || Todos || Algum membro do time ficar sem hardware para realizar seu trabalho || Média || Sério || Usar ambiente da universidade para atividades; redistribuir tarefas entre os outros membros. || ||
 || Problema de saúde || Todos || Algum membro do time ficar doente. || Média || Moderado || Redistribuir tarefas entre os outros membros. || ||
 || Problemas com a tecnologia a ser usada || Todos || Dificuldade de aprendizado das tecnologias a ser usadas. || Média-Baixa || Sério || Alocar mais tempo para aprendizado e prática da tecnologia. || ||
