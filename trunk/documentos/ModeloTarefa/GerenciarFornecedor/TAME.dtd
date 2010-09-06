@@ -1,0 +1,119 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Pedro Barbosa Cordeiro (HOME) -->
+<!ELEMENT model (taskTree, objects, agents, tools, things, situations, methods)>
+<!ATTLIST model
+	name CDATA #REQUIRED
+	description CDATA #REQUIRED
+>
+<!ELEMENT taskTree (task)>
+<!-- Dynamic concepts -->
+<!ELEMENT task (preSituation, postSituation, howToPerform, additionalAttribute*, (task | action)*)>
+<!ATTLIST task
+	number CDATA #REQUIRED
+	name CDATA #REQUIRED
+	description CDATA #REQUIRED
+	duration CDATA #REQUIRED
+	frequency CDATA #REQUIRED
+	importance CDATA #REQUIRED
+	interruptability CDATA #REQUIRED
+	modality CDATA #REQUIRED
+	occurrence CDATA #REQUIRED
+	type CDATA #REQUIRED
+	priority CDATA #REQUIRED
+>
+<!ELEMENT action (preSituation, postSituation, actionAgents, actionTools, actionThings, additionalAttribute*)>
+<!ATTLIST action
+	number CDATA #REQUIRED
+	name CDATA #REQUIRED
+	description CDATA #REQUIRED
+	duration CDATA #REQUIRED
+	frequency CDATA #REQUIRED
+	importance CDATA #REQUIRED
+	interruptability CDATA #REQUIRED
+	modality CDATA #REQUIRED
+	occurrence CDATA #REQUIRED
+	type CDATA #REQUIRED
+	priority CDATA #REQUIRED
+	status CDATA #REQUIRED
+>
+<!-- Static concepts -->
+<!ELEMENT object (components, additionalAttribute*)>
+<!ATTLIST object
+	name CDATA #REQUIRED
+	description CDATA #REQUIRED
+	instant CDATA #REQUIRED
+>
+<!ELEMENT agent (components, competences, additionalAttribute*)>
+<!ATTLIST agent
+	name CDATA #REQUIRED
+	description CDATA #REQUIRED
+	instant CDATA #REQUIRED
+	computationalExperience CDATA #REQUIRED
+	taskExperience CDATA #REQUIRED
+>
+<!ELEMENT tool (components, applying, operators, additionalAttribute*)>
+<!ATTLIST tool
+	name CDATA #REQUIRED
+	description CDATA #REQUIRED
+	instant CDATA #REQUIRED
+>
+<!ELEMENT thing (components, characteristics, additionalAttribute*)>
+<!ATTLIST thing
+	name CDATA #REQUIRED
+	description CDATA #REQUIRED
+	instant CDATA #REQUIRED
+>
+<!ELEMENT situation (situationObjects, howToObtain, additionalAttribute*)>
+<!ATTLIST situation
+	name CDATA #REQUIRED
+	description CDATA #REQUIRED
+	instant CDATA #REQUIRED
+	restriction CDATA #REQUIRED
+>
+<!ELEMENT method (additionalAttribute*)>
+<!ATTLIST method
+	name CDATA #REQUIRED
+	description CDATA #REQUIRED
+	instant CDATA #REQUIRED
+	body CDATA #REQUIRED
+>
+<!-- Remainder elements -->
+<!-- Objects that would compound an object -->
+<!ELEMENT components (reference*)>
+<!-- Actions that an agent would Perform -->
+<!ELEMENT competences (reference*)>
+<!-- Actions in wich a tool would be used -->
+<!ELEMENT applying (reference*)>
+<!-- Agents that would use a tool to Perform an action -->
+<!ELEMENT operators (reference*)>
+<!--  -->
+<!ELEMENT characteristics (reference*)>
+<!-- Actions that lead to a situation -->
+<!ELEMENT howToObtain (reference*)>
+<!-- Methods that tell how a task would be Performed -->
+<!ELEMENT howToPerform (reference*)>
+<!-- Pre situation of a dynamic concept -->
+<!ELEMENT preSituation (reference*)>
+<!-- Post situation of a dynamic concept -->
+<!ELEMENT postSituation (reference*)>
+<!-- Tools used to perform actions -->
+<!ELEMENT actionTools (reference*)>
+<!-- agents that perform actions -->
+<!ELEMENT actionAgents (reference*)>
+<!-- situations' objects -->
+<!ELEMENT situationObjects (reference*)>
+<!-- concepts' additional attributes -->
+<!ELEMENT additionalAttribute EMPTY>
+<!ATTLIST additionalAttribute
+	name CDATA #REQUIRED
+	value CDATA #REQUIRED
+>
+<!ELEMENT reference EMPTY>
+<!ATTLIST reference
+	name CDATA #REQUIRED
+>
+<!ELEMENT objects (object*)>
+<!ELEMENT agents (agent*)>
+<!ELEMENT tools (tool*)>
+<!ELEMENT things (thing*)>
+<!ELEMENT situations (situation*)>
+<!ELEMENT methods (method*)>
