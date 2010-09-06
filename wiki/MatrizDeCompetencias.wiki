@@ -4,5 +4,5 @@
 
 || *Integrante* || *Competências* ||
 || Fabio || Java - Grails - Easyaccept - Junit - MySQL||
-|| Renato || Java - Grails - Easyaccept - Junit - GWT - Oracle||
+|| Renato || Java - Grails - Easyaccept - Junit - Oracle||
 || Solon  ||  Java - Grails - Easyaccept - Junit - Oracle||
