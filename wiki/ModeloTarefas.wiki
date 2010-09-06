@@ -1,3 +1,0 @@
-#summary Página que guarda o modelo de tarefas do projeto.
-
-*Em construção!*
