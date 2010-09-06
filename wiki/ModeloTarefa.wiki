@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Página que contém o modelo de tarefas do projeto.
 
 = Modelo de Tarefas =
 
