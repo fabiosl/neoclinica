@@ -30,7 +30,7 @@
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || *Observação* ||
 || A2.1 || Instalar Tomcat || Fabio || 1h || 20 min || OK || ||
-|| A2.2 || Instalar cliente no-ip || Fabio || 1h || 20 min || OK || clinicaneo.sytes.net ||
+|| A2.2 || Instalar cliente no-ip || Fabio || 1h || 20 min || OK || www.clinicaneo.sytes.net ||
 || A2.3 || Instalar MySQL || Fabio || 1h || 30 min || OK || ||
 || A2.4 || Instalar Grails || Fabio || 2h || 20 min || OK || ||
 || A2.5 || Realizar integração do sistema com o servidor || Fabio || 3h || || || ||
