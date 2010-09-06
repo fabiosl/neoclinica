@@ -1,0 +1,9 @@
+Observações no Modelo de dados:
+
+Fornecedor deve mesmo herdar de Pessoa?
+Acho que o fornecedor deve ser tratado mais como uma empresa, não? Td blz que tem um cnpj ali e tal, mas achei a herança meio forçação de barra. :P
+
+O pagamento pode ser sem parcelas (à vista). Cardinalidade 0..*
+
+Paciente tem o external id, que é o id do Personal Med, que a gente vai ter que incluir no nosso BD.
+
