@@ -6,3 +6,5 @@
 O modelo de dados esboçado acima baseia-se nas informações obtidas nas primeiras reuniões com o cliente e nas tabelas fornecidas pelos usuários do sistema. Atualmente, o controle financeiro é feito através de planilhas do Microsoft Excel. 
 
 Nesse modelo estão as entidades que de fato serão armazenadas no banco de dados para realização das user stories descritas pelo cliente.
+
+_Obs.:_ O "idExterno" é um dado relativo ao sistema em uso na clínica (PersonalMed).
