@@ -15,8 +15,8 @@
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
 || A1.1 || Estudar MySQL e padrão DAO || Todos || 2h || || ||
 || A1.2 || Estudar integração de Grails com MySQL || Renato || 2h || || ||
-|| A1.3 || Configurar integração de Grails com MySQL no projeto || Renato || 6h || || ||
-|| A1.4 || Gerar classes de domínio Grails para testar mapeamento || Renato || 2h || || ||
+|| A1.3 || Configurar integração de Grails com MySQL no projeto || Renato || 4h || || ||
+|| A1.4 || Gerar classes de domínio Grails seguindo o modelo de dados para testar mapeamento || Renato || 4h || || ||
 
 ----
 
