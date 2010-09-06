@@ -6,11 +6,11 @@
 
 *Descrição*
 
-A clínica Núcleo Especializado em Oftalmologia (NEO), fundada em  2003 está localizada na cidade de Campina Grande e atende pacientes de Campina Grande e região. As consultas realizadas estão ligadas a serviços oftalmológicos. Atualmente dois médicos atendem na clínica e o corpo de funcionários é formado por três secretárias.
+A clínica Núcleo Especializado em Oftalmologia (NEO), fundada em  2003, está localizada na cidade de Campina Grande e atende pacientes de Campina Grande e região. As consultas realizadas estão ligadas a serviços oftalmológicos. Atualmente dois médicos atendem na clínica e o corpo de funcionários é formado por três secretárias.
 
-Os serviços realizados na clínica vão desde o agendamento de consultas para pacientes até o pedido de lentes oftalmológicas junto aos fornecedores. Para esses e outros pedidos, tanto pacientes quanto lentes e fornecedores são cadastrados em um banco de dados e todas transações são registradas. Atualmente parte desse processo é feita manualmente em fichas de papel e planilhas eletrônicas, o que dificulta muito a agilidade do processo; o conhecimento do andamento dos pedidos e o acompanhamento, por parte dos médicos, do controle do estoque e do caixa é lento pois depende da análise manual das planilhas por parte das responsáveis.
+Os serviços realizados na clínica vão desde o agendamento de consultas para pacientes até a venda e  pedido de lentes oftalmológicas junto aos fornecedores. Para esses e outros pedidos, tanto pacientes quanto lentes e fornecedores são cadastrados em um banco de dados e todas transações são registradas. Atualmente parte desse processo é feita manualmente em fichas de papel e planilhas eletrônicas, o que dificulta muito a agilidade do processo; o conhecimento do andamento dos pedidos e o acompanhamento, por parte dos médicos, do controle do estoque e do caixa é lento pois depende da análise manual das planilhas por parte das responsáveis.
 
-Diante disso, percebe-se que um sistema de informação que agilize esse processo ajudará completamente todos os envolvidos. Ele fará com que as informações sejam acessadas de maneira mais eficiente e precisa por todos a qualquer momento. Fará ainda com que se tenha maior controle tanto no atendimento aos clientes quanto no contato com os fornecedores e no controle do estoque. 
+Diante disso, percebe-se que um sistema de informação que agilize esse processo ajudará fortemente o trabalho dos envolvidos. Ele fará com que as informações sejam acessadas de maneira mais eficiente e precisa por todos a qualquer momento. Fará ainda com que se tenha maior controle tanto no atendimento aos clientes quanto no contato com os fornecedores e no controle do estoque. 
 
 A infra-estrutura computacional da clínica conta com 3 máquinas e disponibilidade de compra de mais uma. Um dos computadores está localizado na recepção, outro na sala de atendimento das consultas e o terceiro fica em uma outra sala isolada. Todos esses computadores serão ligados em rede, e dessa forma é desejável que o sistema possa ser acionado de qualquer um dessas máquinas mediante autenticação de usuários.
 
@@ -22,14 +22,11 @@ Cada um desses componentes iniciais pode ser decomposto, ao longo do processo, e
 
   *  _1. Componente: Controle financeiro_
      * a. Gerenciamento de Pacientes;
-     * b. Gerenciamento de Usuários;
-     * c. Gerenciamento de Médicos;
-     * d. Gerenciamento de Funcionários;
-     * e. Gerenciamento de Lentes;
-     * f. Gerenciamento de Pedidos;
-     * g. Gerenciamento de Procedimentos médicos;
-     * h. Emissão de relatórios financeiros;
-     * i. Emissão de relatórios de estoque;
+     * b. Gerenciamento de Usuários(Médicos e Funcionários);
+     * c. Gerenciamento de Lentes (Pedidos e Cadastro de Fornecedores);
+     * d. Gerenciamento de Procedimentos médicos;
+     * e. Emissão de relatórios financeiros;
+     * f. Emissão de relatórios de estoque;
 
    * _2. Componente: Agenda médica_
      * a. Consulta à agenda do médico por data;
@@ -37,8 +34,8 @@ Cada um desses componentes iniciais pode ser decomposto, ao longo do processo, e
 
 *Requisitos não-funcionais*
 
-     * 1. Banco de dados relacional com SGBD MySQL;
-     * 2. Uso de login com níveis de acesso distintos;
+     * 1. Banco de dados relacional com o SGBD MySQL;
+     * 2. Uso de login com níveis de acesso distintos(Administrador/Funcionários);
      * 3. Interface web; 
      * 4. Uso de padrões de projeto;
      * 5. Segurança com os dados;
@@ -48,4 +45,4 @@ Cada um desses componentes iniciais pode ser decomposto, ao longo do processo, e
 
 O sistema será usado diariamente de forma direta por funcionários e médicos da clínica. Essas pessoas estão na faixa etária dos 30 anos de idade. Os usuários serão pessoas que já têm experiência com computadores e sistemas informatizados seja por utilizarem outros sistemas na própria clínica e em outros locais de trabalho ou por serem capacitados através de cursos. 
 
-Os pacientes interagirão com o sistema por intermédio dos funcionários e médicos. Esses quem serão responsáveis por passar para o sistema todos as informações necessárias. Dessa forma, não serão necessárias, a princípio, preocupações relativas a treinamento de usuários totalmente despreparados no uso de computadores.
+Os pacientes interagirão com o sistema por intermédio dos funcionários e médicos. Esses últimos serão os responsáveis por passar para o sistema todos as informações necessárias. Dessa forma, não serão necessárias, a princípio, preocupações relativas a treinamento de usuários totalmente despreparados no uso de computadores.
