@@ -24,11 +24,11 @@ Aqui são guardadas todas as informações essenciais e os links para as outras 
  * Modelo Lógico dos Dados: [http://code.google.com/p/neoclinica/wiki/ModeloLogicoBD link].
  * Objetivos de Usabilidade: [http://code.google.com/p/neoclinica/wiki/ObjetivosUsabilidade link].
  * Modelo de Tarefas: [http://code.google.com/p/neoclinica/wiki/ModeloTarefas link].
- * User Stories e Testes de Aceitação: [http://code.google.com/p/neoclinica/wiki/UserStories link] - _Em Construção_.
+ * User Stories e Testes de Aceitação: [http://code.google.com/p/neoclinica/wiki/UserStories link].
 
 === Iteração 1 ===
 
- * Plano de Iteração Um: [http://code.google.com/p/neoclinica/wiki/PlanoIteracao1 link] - _Em Construção_.
- * Plano de Release: [http://code.google.com/p/neoclinica/wiki/PlanoRelease link] - _Em Construção_.
+ * Plano de Iteração Um: [http://code.google.com/p/neoclinica/wiki/PlanoIteracao1 link].
+ * Plano de Release: [http://code.google.com/p/neoclinica/wiki/PlanoRelease link].
  * Riscos do Projeto: [http://code.google.com/p/neoclinica/wiki/Riscos link].
  * Matriz de Competências: [http://code.google.com/p/neoclinica/wiki/MatrizDeCompetencias link].
