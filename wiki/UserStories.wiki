@@ -43,7 +43,7 @@ O sistema deve ter logins com dois níveis de privilégio (administrador e funci
 == User Story 5 - Implementar funcionalidade de controle de pacientes ==
 O sistema deve prover o controle dos pacientes da clínica. Ele armazenará dados básicos sobre esses pacientes.
 
-=== Estimativa Inicial: x horas ===
+=== Estimativa Inicial: 10 horas ===
 === Testes de Aceitação ===
 
  * Teste de Aceitação 5.1: Cadastrar um cliente com todos os dados corretos (Cadastro Realizado com Sucesso).
@@ -59,7 +59,7 @@ O sistema deve prover o controle dos pacientes da clínica. Ele armazenará dado
 == User Story 6 - Implementar funcionalidade de controle de usuários do sistema ==
 O sistema deve prover o controle dos usuários que o utilizam.
 
-=== Estimativa Inicial: x horas ===
+=== Estimativa Inicial: 8 horas ===
 === Testes de Aceitação ===
 
  * Teste de Aceitação 6.1: Cadastrar um usuário com todos os dados corretos (Cadastro Realizado com Sucesso - se logado como administrador).
@@ -75,7 +75,7 @@ O sistema deve prover o controle dos usuários que o utilizam.
 == User Story 7 - Implementar funcionalidade de controle do estoque de lentes ==
 O sistema deve prover o controle do estoque de lentes da clínica. Cada lente possui várias informações que devem ser armazenadas.
 
-=== Estimativa Inicial: x horas ===
+=== Estimativa Inicial: 5 horas ===
 === Testes de Aceitação ===
 
  * Teste de Aceitação 7.1: Cadastrar novo tipo de lente com todos os dados corretos (Operação Realizada com Sucesso).
@@ -92,7 +92,7 @@ O sistema deve prover o controle do estoque de lentes da clínica. Cada lente po
 == User Story 8 - Implementar funcionalidade de cadastro de fornecedores ==
 O sistema deve armazenar os fornecedores de lentes da clínica.
 
-=== Estimativa Inicial: x horas ===
+=== Estimativa Inicial: 5 horas ===
 === Testes de Aceitação ===
 
  * Teste de Aceitação 8.1: Cadastrar fornecedor no sistema com todos os dados corretos (Operação Realizada com Sucesso).
@@ -109,7 +109,7 @@ O sistema deve armazenar os fornecedores de lentes da clínica.
 == User Story 9 - Implementar funcionalidade de controle de procedimentos ==
 O sistema deve prover controle dos procedimentos (procedimentos médicos e compras) realizados na clínica.
 
-=== Estimativa Inicial: x horas ===
+=== Estimativa Inicial: 10 horas ===
 === Testes de Aceitação ===
 
  * Teste de Aceitação 9.1: Cadastrar procedimento no sistema com todos os dados corretos (Operação Realizada com Sucesso).
@@ -126,7 +126,7 @@ O sistema deve prover controle dos procedimentos (procedimentos médicos e compr
 == User Story 10 - Implementar funcionalidade de emissão de relatórios financeiros ==
 O sistema deve emitir relatórios financeiros das atividades realizadas na clínica. Esses relatórios podem ser organizados em diferentes categorias: por data; por médico; por procedimento médico; por lentes vendidas; por paciente e por convênio médico.
 
-=== Estimativa Inicial: x horas ===
+=== Estimativa Inicial: 8 horas ===
 === Testes de Aceitação ===
 
  * Teste de Aceitação 10.1: Emitir relatório das atividades do dia.
@@ -143,7 +143,7 @@ O sistema deve emitir relatórios financeiros das atividades realizadas na clín
 == User Story 11 - Implementar funcionalidade de emissão de relatórios de estoque ==
 O sistema deve emitir relatórios do estoque de lentes para consulta por parte dos médicos.
 
-=== Estimativa Inicial: x horas ===
+=== Estimativa Inicial: 2 horas ===
 === Testes de Aceitação ===
 
  * Teste de Aceitação 11.1: Emitir relatório do estoque disponível de lentes.
@@ -154,7 +154,7 @@ O sistema deve emitir relatórios do estoque de lentes para consulta por parte d
 == User Story 12 - Implementar funcionalidade de agenda médica ==
 O sistema deve prover aos usuários (médicos e secretárias) informações sobre os procedimentos médicos a serem realizados, bem como informações sobre os pacientes relacionados.
 
-=== Estimativa Inicial: x horas ===
+=== Estimativa Inicial: 10 horas ===
 === Testes de Aceitação ===
 
  * Teste de Aceitação 12.1: Mostrar os procedimentos marcados para o dia atual.
@@ -166,7 +166,7 @@ O sistema deve prover aos usuários (médicos e secretárias) informações sobr
 == User Story 13 - Implementar funcionalidade de relatório de paciente ==
 O sistema deve permitir busca por nome dos pacientes no sistema, que deve retornar uma lista em ordem alfanumérica (nome e número), com a opção de exibir relatório com os dados pessoais dos clientes, assim como as informações dos procedimentos médicos realizados e agendados.
 
-=== Estimativa Inicial: x horas ===
+=== Estimativa Inicial: 8 horas ===
 === Testes de Aceitação ===
 
  * Teste de Aceitação 13.1: Pesquisar dados de paciente existente no sistema (Operação Realizada com Sucesso).
