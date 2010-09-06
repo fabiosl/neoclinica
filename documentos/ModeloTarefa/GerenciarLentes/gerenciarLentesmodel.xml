@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model SYSTEM "TAME.dtd">
+<model name="" description="">
+<taskTree>
+<task number="1" name="Ger Est Lentes" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0">
+<preSituation />
+<postSituation />
+<howToPerform>
+<reference name="Method task Ger Est Lentes" />
+<reference name="Method task Ger Est Lentes 1" />
+</howToPerform>
+<task number="1.1" name="Cadastrar Lente" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0">
+<preSituation />
+<postSituation />
+<howToPerform>
+<reference name="Method task Cadastrar Lente 1.1" />
+</howToPerform>
+<action number="1.1.1" name="Inf Nome" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.2" name="Inf Preco" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.3" name="Inf Medico" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.4" name="Inf Qtd" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.5" name="Ger Codigo" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+</task>
+<task number="1.2" name="Remover Lente" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0">
+<preSituation />
+<postSituation />
+<howToPerform>
+<reference name="Method task Remover Lente 1.2" />
+</howToPerform>
+<action number="1.2.1" name="Inf codigo" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.2.2" name="Inf Medico" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.2.3" name="Inf Qtd" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+</task>
+<task number="1.3" name="Cons Estoque" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0">
+<preSituation />
+<postSituation />
+<howToPerform>
+<reference name="Method task Cons Estoque" />
+</howToPerform>
+<action number="1.3.1" name="Inf Medico" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.3.2" name="Inf Nome" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.3.3" name="Inf Marca" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+</task>
+<task number="1.4" name="Modificar lente" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0">
+<preSituation />
+<postSituation />
+<howToPerform>
+<reference name="Method task Modificar lente 1.4" />
+</howToPerform>
+<action number="1.4.1" name="Inf Dados Antigos" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.4.2" name="Inf Dados Novos" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+</task>
+</task>
+</taskTree>
+<objects />
+<agents />
+<tools />
+<things />
+<situations />
+<methods>
+<method name="Method task Ger Est Lentes" description="" instant="0" body="SEQ(Cadastrar Lente, Remover Lente, Consultar Estoque, Modificar lente)" />
+<method name="Method task Cadastrar Lente 1.1" description="" instant="0" body="SEQ(AND(Inf Nome, Inf Preco,Inf Medico,Inf Qtd), Ger Codigo)" />
+<method name="Method task Remover Lente 1.2" description="" instant="0" body="SEQ(AND(Inf codigo, Inf Medico), Inf Qtd)" />
+<method name="Method task Cons Estoque" description="" instant="0" body="SEQ(Inf Medico, Inf Nome, Inf Marca)" />
+<method name="Method task Ger Est Lentes 1" description="" instant="0" body="SEQ(OR(Cadastrar Lente, Remover Lente,Cons Estoque), Modificar lente)" />
+<method name="Method task Modificar lente 1.4" description="" instant="0" body="SEQ(Inf Dados Antigos, Inf Dados Novos)" />
+</methods>
+</model>
+

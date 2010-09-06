@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model SYSTEM "TAME.dtd">
+<model name="" description="">
+<taskTree>
+<task number="1" name="Ger Relatorios" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0">
+<preSituation />
+<postSituation />
+<howToPerform>
+<reference name="Method task Ger Relatorios 1" />
+</howToPerform>
+<task number="1.1" name="Exib Relat Lent" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0">
+<preSituation />
+<postSituation />
+<howToPerform>
+<reference name="Method task Exib Relat Lent 1.1" />
+</howToPerform>
+<action number="1.1.1" name="Inf Medico" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.2" name="Inf Fornecedor" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.3" name="Informar Lente" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.4" name="Inf Periodo" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+</task>
+<task number="1.2" name="Exib Relat Pac" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0">
+<preSituation />
+<postSituation />
+<howToPerform>
+<reference name="Method task Exib Relat Pac 1.2" />
+</howToPerform>
+<action number="1.2.1" name="Inf Medico" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.2.2" name="Inf Nome Pac" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.2.3" name="Inf Periodo" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.2.4" name="Inf Convenio" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+</task>
+</task>
+</taskTree>
+<objects />
+<agents />
+<tools />
+<things />
+<situations />
+<methods>
+<method name="Method task Ger Relatorios 1" description="" instant="0" body="SEQ(ask(Exib Relat Lent, Exib Relat Pac))" />
+<method name="Method task Exib Relat Pac 1.2" description="" instant="0" body="SEQ(Inf Medico, Inf Nome Pac, Inf Periodo, Inf Convenio)" />
+<method name="Method task Exib Relat Lent 1.1" description="" instant="0" body="SEQ(Inf Medico, Inf Fornecedor, Informar Lente, Inf Periodo)" />
+</methods>
+</model>
+

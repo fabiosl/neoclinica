@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model SYSTEM "TAME.dtd">
+<model name="" description="">
+<taskTree>
+<task number="1" name="Ger Contas" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0">
+<preSituation />
+<postSituation />
+<howToPerform>
+<reference name="Method task Ger Contas 1" />
+</howToPerform>
+<task number="1.1" name="Ad. Secretaria" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0">
+<preSituation />
+<postSituation />
+<howToPerform>
+<reference name="Method task Ad. Secretaria 1.1" />
+</howToPerform>
+<action number="1.1.1" name="Inf Nome" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(1,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.2" name="Inf Salario" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.3" name="Inf. N. CTPS" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.4" name="Inf CPF" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(1,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.5" name="Inf Data Admissao" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(1,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.6" name="Confirmar" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.7" name="Cancelar" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+</task>
+<task number="1.2" name="Ad. Médico" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0">
+<preSituation />
+<postSituation />
+<howToPerform>
+<reference name="Method task Ad. Médico 1.2" />
+</howToPerform>
+<action number="1.2.1" name="Inf Nome" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(1,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.2.2" name="Inf CRM" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(1,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.2.3" name="Inf CPF" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(1,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.2.4" name="Confirmar" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.2.5" name="Cancelar" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+</task>
+</task>
+</taskTree>
+<objects />
+<agents />
+<tools />
+<things />
+<situations />
+<methods>
+<method name="Method task Ger Contas 1" description="" instant="0" body="SEQ(Ad. Secretaria, Ad. Médico)" />
+<method name="Method task Ad. Secretaria 1.1" description="" instant="0" body="SEQ(Inf Nome, Inf Salario, Inf. N. CTPS, Inf CPF, Inf Data Admissao, XOR(Confirmar, Cancelar))" />
+<method name="Method task Ad. Médico 1.2" description="" instant="0" body="SEQ(Inf Nome, Inf CRM, Inf CPF, XOR(Confirmar, Cancelar))" />
+</methods>
+</model>
+

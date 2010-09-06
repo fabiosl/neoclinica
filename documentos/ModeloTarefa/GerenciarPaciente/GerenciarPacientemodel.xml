@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model SYSTEM "TAME.dtd">
+<model name="" description="">
+<taskTree>
+<task number="1" name="Ger Pacientes" description="asdasd" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0">
+<preSituation />
+<postSituation />
+<howToPerform>
+<reference name="Method task Ger Pacientes 1" />
+</howToPerform>
+<task number="1.1" name="Cadastrar Paciente" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0">
+<preSituation />
+<postSituation />
+<howToPerform>
+<reference name="Method task Cadastrar Paciente 1.1" />
+</howToPerform>
+<action number="1.1.1" name="Inf Nome" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(1,n)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.2" name="Inf Data Nasc" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(1,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.3" name="Inf Email" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,n)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.4" name="Inf Telefones" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,n)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.5" name="inf RG" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.6" name="Inf CPF" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.7" name="Inf Endereco" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,n)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.8" name="Inf Convenio" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.9" name="Inf ExtID" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.1.10" name="Ger Codigo" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+</task>
+<task number="1.2" name="Remover Paciente" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0">
+<preSituation />
+<postSituation />
+<howToPerform />
+<action number="1.2.1" name="Inf ExtID" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+</task>
+<task number="1.3" name="Pesquisar Pac" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0">
+<preSituation />
+<postSituation />
+<howToPerform>
+<reference name="Method task Pesquisar Pac 1.3" />
+</howToPerform>
+<action number="1.3.1" name="Inf Nome" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,n)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.3.2" name="Inf CPF" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.3.3" name="Inf RG" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.3.4" name="inf email" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,n)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.3.5" name="Inf Data Nasc" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+</task>
+<task number="1.4" name="Modific Pac" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,1)" type="Mental" priority="0">
+<preSituation />
+<postSituation />
+<howToPerform>
+<reference name="Method task Modific Pac 1.4" />
+</howToPerform>
+<action number="1.4.1" name="Inf Dados Ant" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,n)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+<action number="1.4.2" name="Inf Dados Novos" description="" duration="0" frequency="High" importance="High" interruptability="No interruptible" modality="Manual" occurrence="(0,n)" type="Mental" priority="0" status="">
+<preSituation />
+<postSituation />
+<actionAgents />
+<actionTools />
+<actionThings />
+</action>
+</task>
+</task>
+</taskTree>
+<objects />
+<agents />
+<tools />
+<things />
+<situations />
+<methods>
+<method name="Method task Ger Pacientes 1" description="" instant="0" body="SEQ(OR(Cadastrar Paciente, Remover Paciente,Pesquisar Pac), Modific Pac)" />
+<method name="Method task Cadastrar Paciente 1.1" description="" instant="0" body="SEQ(Inf Nome, Inf Data Nasc, Inf Email, Inf Telefones, inf RG, Inf CPF, Inf Endereco, Inf Convenio, Inf ExtID, Ger Codigo)" />
+<method name="Method task Pesquisar Pac 1.3" description="" instant="0" body="SEQ(Inf Nome, Inf CPF, Inf RG, inf email, Inf Data Nasc)" />
+<method name="Method task Modific Pac 1.4" description="" instant="0" body="SEQ(Inf Dados Ant, Inf Dados Novos)" />
+</methods>
+</model>
+

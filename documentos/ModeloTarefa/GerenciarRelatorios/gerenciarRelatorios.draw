@@ -1,0 +1,54 @@
+
+    itaos.taosGraph.iTAOSDrawing 21 
+        itaos.taosGraph.GraphicTask "Ger Relatorios" "1" "(0,1)" "SEQ" 108 120 1 2 "1.1" "1.2" 0 "null" 
+            CH.ifa.draw.figures.RectangleFigure "attributes" "attributes" 1 "POPUP_MENU" "POPUP_MENU" 599 10 100 52   
+        itaos.taosGraph.GraphicTask "Exib Relat Lent" "1.1" "(0,1)" "SEQ" 109 120 1 4 "1.1.1" "1.1.2" "1.1.3" "1.1.4" 0 "1" 
+            CH.ifa.draw.figures.RectangleFigure "attributes" "attributes" 1 "POPUP_MENU" "POPUP_MENU" 342 86 100 52   
+        itaos.taosGraph.ArcLine 2 599 50 442 97 NULL NULL 0 0 0 
+            CH.ifa.draw.standard.ChopBoxConnector REF 1  
+            CH.ifa.draw.standard.ChopBoxConnector REF 3   
+        itaos.taosGraph.GraphicTask "Exib Relat Pac" "1.2" "(0,1)" "SEQ" 110 120 1 4 "1.2.1" "1.2.2" "1.2.3" "1.2.4" 0 "1" 
+            CH.ifa.draw.figures.RectangleFigure "attributes" "attributes" 1 "POPUP_MENU" "POPUP_MENU" 862 86 100 52   
+        itaos.taosGraph.ArcLine 2 699 50 862 97 NULL NULL 0 0 0 
+            CH.ifa.draw.standard.ChopBoxConnector REF 1  
+            CH.ifa.draw.standard.ChopBoxConnector REF 8   
+        itaos.taosGraph.GraphicTask "Inf Nome Pac" "1.2.2" "(0,1)" "..." 111 120 0 0 0 "1.2" 
+            CH.ifa.draw.figures.RectangleFigure "no_attributes" 800 162 100 52   
+        itaos.taosGraph.ArcLine 2 890 138 871 162 NULL NULL 0 0 0 
+            CH.ifa.draw.standard.ChopBoxConnector REF 8  
+            CH.ifa.draw.standard.ChopBoxConnector REF 13   
+        itaos.taosGraph.GraphicTask "Inf Periodo" "1.2.3" "(0,1)" "..." 113 120 0 0 0 "1.2" 
+            CH.ifa.draw.figures.RectangleFigure "no_attributes" 930 162 100 52   
+        itaos.taosGraph.ArcLine 2 935 138 956 162 NULL NULL 0 0 0 
+            CH.ifa.draw.standard.ChopBoxConnector REF 8  
+            CH.ifa.draw.standard.ChopBoxConnector REF 18   
+        itaos.taosGraph.GraphicTask "Inf Convenio" "1.2.4" "(0,1)" "..." 114 120 0 0 0 "1.2" 
+            CH.ifa.draw.figures.RectangleFigure "no_attributes" 1060 162 100 52   
+        itaos.taosGraph.ArcLine 2 962 131 1060 168 NULL NULL 0 0 0 
+            CH.ifa.draw.standard.ChopBoxConnector REF 8  
+            CH.ifa.draw.standard.ChopBoxConnector REF 23   
+        itaos.taosGraph.GraphicTask "Inf Medico" "1.2.1" "(0,1)" "..." 115 120 0 0 0 "1.2" 
+            CH.ifa.draw.figures.RectangleFigure "no_attributes" 670 162 100 52   
+        itaos.taosGraph.ArcLine 2 862 131 770 168 NULL NULL 0 0 0 
+            CH.ifa.draw.standard.ChopBoxConnector REF 8  
+            CH.ifa.draw.standard.ChopBoxConnector REF 28   
+        itaos.taosGraph.GraphicTask "Inf Fornecedor" "1.1.2" "(0,1)" "..." 117 120 0 0 0 "1.1" 
+            CH.ifa.draw.figures.RectangleFigure "no_attributes" 280 162 100 52   
+        itaos.taosGraph.ArcLine 2 370 138 351 162 NULL NULL 0 0 0 
+            CH.ifa.draw.standard.ChopBoxConnector REF 3  
+            CH.ifa.draw.standard.ChopBoxConnector REF 33   
+        itaos.taosGraph.GraphicTask "Informar Lente" "1.1.3" "(0,1)" "..." 118 120 0 0 0 "1.1" 
+            CH.ifa.draw.figures.RectangleFigure "no_attributes" 410 162 100 52   
+        itaos.taosGraph.ArcLine 2 415 138 436 162 NULL NULL 0 0 0 
+            CH.ifa.draw.standard.ChopBoxConnector REF 3  
+            CH.ifa.draw.standard.ChopBoxConnector REF 38   
+        itaos.taosGraph.GraphicTask "Inf Periodo" "1.1.4" "(0,1)" "..." 119 120 0 0 0 "1.1" 
+            CH.ifa.draw.figures.RectangleFigure "no_attributes" 540 162 100 52   
+        itaos.taosGraph.ArcLine 2 442 131 540 168 NULL NULL 0 0 0 
+            CH.ifa.draw.standard.ChopBoxConnector REF 3  
+            CH.ifa.draw.standard.ChopBoxConnector REF 43   
+        itaos.taosGraph.GraphicTask "Inf Medico" "1.1.1" "(0,1)" "..." 120 120 0 0 0 "1.1" 
+            CH.ifa.draw.figures.RectangleFigure "no_attributes" 150 162 100 52   
+        itaos.taosGraph.ArcLine 2 342 131 250 168 NULL NULL 0 0 0 
+            CH.ifa.draw.standard.ChopBoxConnector REF 3  
+            CH.ifa.draw.standard.ChopBoxConnector REF 48    
