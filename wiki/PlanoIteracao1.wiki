@@ -13,10 +13,10 @@
 === Atividades ===
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-|| A1.1 || Estudar integração de Grails com MySQL || Renato || 2h || || ||
-|| A1.2 || Estudar padrão DAO || Todos || 2h || || ||
-|| A1.3 || Configurar integração de Grails com MySQL no projeto || Renato || 8h || || ||
-|| A1.4 || Gerar classes de domínio Grails para testar mapeamento || Renato || 1h || || ||
+|| A1.1 || Estudar MySQL e padrão DAO || Todos || 2h || || ||
+|| A1.2 || Estudar integração de Grails com MySQL || Renato || 2h || || ||
+|| A1.3 || Configurar integração de Grails com MySQL no projeto || Renato || 6h || || ||
+|| A1.4 || Gerar classes de domínio Grails para testar mapeamento || Renato || 2h || || ||
 
 ----
 
@@ -46,7 +46,7 @@
 === Atividades ===
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-|| A3.1 || Pesquisar testes de aceitação em Grails || Fabio || 2h || || ||
+|| A3.1 || Estudar testes de aceitação em Grails || Todos|| 2h || || ||
 || A3.2 || Elaborar script de testes || Fabio || 1h || || ||
 
 ----
