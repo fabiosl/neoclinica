@@ -1,0 +1,58 @@
+#summary One-sentence summary of this page.
+
+= Modelo de Tarefa =
+
+== Uso do sistema ==
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot000.bmp
+
+== Gerenciamento de Consultas ==
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot001.bmp
+
+== Gerenciamento de Contas == 
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot003.bmp
+
+=== Adicionar Secretária === 
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot002.bmp
+
+=== Adicionar Médico === 
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot004.bmp
+
+== Gerenciamento de Fornecedor ==
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot005.bmp
+
+=== Adição, Remoção e Pesquisa de Fornecedor ===
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot006.bmp
+
+=== Modificação de fornecedor ===
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot007.bmp
+
+== Gerenciamento do estoque de lentes 1 ==
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot008.bmp
+
+=== Gerenciamento do estoque de lentes 2 ===
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot009.bmp
+
+=== Cadastro e Remoção de Lentes === 
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot010.bmp
+
+=== Consulta e Modificação do Estoque ===
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot011.bmp
+
+== Gerência de Pacientes 1 ==
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot014.bmp
+
+== Gerência de Pacientes 2 ==
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot015.bmp
+
+=== Cadastramento de Pacientes === 
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot012.bmp
+
+=== Remoção, Pesquisa e Modificação de Pacientes === 
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot013.bmp
+
+== Geração de Relatórios == 
+http://neoclinica.googlecode.com/svn/trunk/documentos/ModeloTarefa/ImagensModeloTarefas/ScreenShot016.bmp
+
+
+
+
