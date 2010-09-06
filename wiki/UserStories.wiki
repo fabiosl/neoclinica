@@ -1,4 +1,4 @@
-#summary Página com as user stories definidas pelo cliente
+#summary Página com as user stories e testes de aceitação definidos pelo cliente
 
 == User Story 1 - Estudar tecnologias da camada de dados ==
 
