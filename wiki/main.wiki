@@ -23,7 +23,7 @@ Aqui são guardadas todas as informações essenciais e os links para as outras 
  * Protótipo da Interface: [http://code.google.com/p/neoclinica/wiki/Telas link].
  * Modelo Lógico dos Dados: [http://code.google.com/p/neoclinica/wiki/ModeloLogicoBD link].
  * Objetivos de Usabilidade: [http://code.google.com/p/neoclinica/wiki/ObjetivosUsabilidade link].
- * Modelo de Tarefas: [http://code.google.com/p/neoclinica/wiki/ModeloTarefas link].
+ * Modelo de Tarefas: [http://code.google.com/p/neoclinica/wiki/ModeloTarefa link].
  * User Stories e Testes de Aceitação: [http://code.google.com/p/neoclinica/wiki/UserStories link].
 
 === Iteração 1 ===
