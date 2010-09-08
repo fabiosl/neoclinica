@@ -1,0 +1,40 @@
+#summary Plano da iteração 2
+
+=_EM CONSTRUÇÃO_=
+
+= Iteração 2 (_23/09/2010 -> 06/10/2010_) =
+
+----
+
+== User Story 5 - Implementar funcionalidade de controle de pacientes ==
+
+=== Testes de Aceitação ===
+
+  * Teste de Aceitação 5.1: Verificar se exemplos gerados satisfazem os requisitos de CRUD e persistência desejados pelo cliente.
+
+=== Atividades ===
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+|| A1.1 || Estudar MySQL e padrão DAO || Todos || 2h || || ||
+|| A1.2 || Estudar integração de Grails com MySQL || Renato || 2h || || ||
+|| A1.3 || Configurar integração de Grails com MySQL no projeto || Renato || 4h || || ||
+|| A1.4 || Gerar classes de domínio Grails seguindo o modelo de dados para testar mapeamento || Renato || 4h || || ||
+
+----
+
+== User Story 6 - Implementar funcionalidade de controle de usuários do sistema ==
+
+=== Testes de Aceitação ===
+
+  * Teste de Aceitação 6.1: Fazer uma requisição HTTP com sucesso ao servidor.
+
+=== Atividades ===
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || *Observação* ||
+|| A2.1 || Instalar Tomcat || Fabio || 1h || 20 min || OK || ||
+|| A2.2 || Instalar cliente no-ip || Fabio || 1h || 20 min || OK || www.clinicaneo.sytes.net ||
+|| A2.3 || Instalar MySQL || Fabio || 1h || 30 min || OK || ||
+|| A2.4 || Instalar Grails || Fabio || 2h || 20 min || OK || ||
+|| A2.5 || Realizar integração do sistema com o servidor || Fabio || 3h || || || ||
+
+----
