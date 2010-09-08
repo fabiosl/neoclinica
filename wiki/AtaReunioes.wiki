@@ -36,3 +36,6 @@ Objetivos da reunião (por ordem de prioridade):
 Objetivos da reunião (por ordem de prioridade):
   * Validar Telas prototipadas na etapa 1;
   * Perguntar que informações são restritas e quem tem acesso a o que.
+  * Confirmar dados que são armazenados no cadastro.
+  * Taxa dos parcelamentos.
+  * Perguntar sobre a rede.
