@@ -13,7 +13,7 @@ hibernate {
 environments {
 	development {
 		dataSource {
-			dbCreate =  "create-drop"           // "create"
+			dbCreate =  "update"           // "create"
 			// or "update"   (after you run with create-drop )
 			username = "root"
 			password = "admin"
@@ -22,14 +22,20 @@ environments {
 	}
 	test {
 		dataSource {
-			dbCreate = "update"
-			url = "jdbc:hsqldb:mem:testDb"
+			dbCreate =  "update"           // "create"
+			// or "update"   (after you run with create-drop )
+			username = "root"
+			password = "admin"
+			url = "jdbc:mysql://localhost/neo"
 		}
 	}
 	production {
 		dataSource {
-			dbCreate = "update"
-			url = "jdbc:hsqldb:file:prodDb;shutdown=true"
+			dbCreate =  "update"           // "create"
+			// or "update"   (after you run with create-drop )
+			username = "root"
+			password = "admin"
+			url = "jdbc:mysql://localhost/neo"
 		}
 	}
 }
