@@ -3,12 +3,6 @@
 	<head>
 		<title>Não autorizado</title>
 		<meta name="layout" content="main" />
-		<style type="text/css" media="screen">
-			#pageBody {
-				margin-left:20px;
-				margin-right:20px;
-			}
-		</style>
 	</head>
 	<body>
 		<g:redirectIfNotLogged />

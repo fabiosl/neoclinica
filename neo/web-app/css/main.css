@@ -3,6 +3,58 @@ html * {
     /*padding: 0; SELECT NOT DISPLAYED CORRECTLY IN FIREFOX */
 }
 
+/* PRINCIPAL */
+#nav {
+	margin-top:20px;
+	margin-left:30px;
+	width:228px;
+	float:left;
+}
+			
+.homePagePanel * {
+	margin:0px;
+}
+
+.homePagePanel .panelBody ul {
+	list-style-type:none;
+	margin-bottom:10px;
+}
+
+.homePagePanel .panelBody h1 {
+	text-transform:uppercase;
+	font-size:1.1em;
+	margin-bottom:10px;
+}
+			
+.homePagePanel .panelBody {
+	background: url(images/leftnav_midstretch.png) repeat-y top;
+	margin:0px;
+	padding:15px;
+}
+
+.homePagePanel .panelBtm {
+	background: url(images/leftnav_btm.png) no-repeat top;
+	height:20px;
+	margin:0px;
+}
+
+.homePagePanel .panelTop {
+	background: url(images/leftnav_top.png) no-repeat top;
+	height:11px;
+	margin:0px;
+}
+
+h2 {
+	margin-top:15px;
+	margin-bottom:15px;
+	font-size:1.2em;
+}
+
+#pageBody {
+	margin-left:280px;
+	margin-right:20px;
+}
+
 /* GENERAL */
 
 .spinner {
@@ -18,6 +70,7 @@ body {
 }
 #grailsLogo {
 	padding:20px;
+	text-align:center;
 }
 
 a:link, a:visited, a:hover {
@@ -92,6 +145,31 @@ input:focus, select:focus, textarea:focus {
 }
 .menuButton a.create {
     background: url(../images/skin/database_add.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+.menuButton a.info {
+    background: url(../images/skin/information.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+.menuButton a.duvida {
+    background: url(../images/skin/interrogation.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+.menuButton a.busca {
+    background: url(../images/skin/lupa.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+.menuButton a.login {
+    background: url(../images/skin/login.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+.menuButton a.manage {
+    background: url(../images/skin/manage.png) center left no-repeat;
     color: #333;
     padding-left: 25px;
 }
@@ -267,4 +345,11 @@ th.desc a {
 .buttons input.save {
     background: transparent url(../images/skin/database_save.png) 5px 50% no-repeat;
     padding-left: 28px;
+}
+
+#footer { 
+	clear:both;
+ 	text-align: center; 
+ 	padding: 5px; 
+ 	border-top: 1px solid #333;
 }
