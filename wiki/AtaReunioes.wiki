@@ -32,7 +32,7 @@ Objetivos da reunião (por ordem de prioridade):
   * Pegar modelos de planilhas e dados que são usados atualmente no processo para elaborar modelo de dados;
   * Perguntar quando ele volta de viagem;
 
-==Quarta Reunião com o Cliente (_a definir_)==
+==Quarta Reunião com o Cliente (13/09/2010)==
 Objetivos da reunião (por ordem de prioridade):
   * Validar Telas prototipadas na etapa 1;
   * Perguntar que informações são restritas e quem tem acesso a o que.
