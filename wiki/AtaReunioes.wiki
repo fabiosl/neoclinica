@@ -40,3 +40,4 @@ Objetivos da reunião (por ordem de prioridade):
   * Taxa dos parcelamentos.
   * Perguntar sobre a rede.
   * Ver o browser usado no PC da recepção, e saber se teria disponibilidade de usar firefox.
+  * Pedir arquivo da logomarca da clínica.
