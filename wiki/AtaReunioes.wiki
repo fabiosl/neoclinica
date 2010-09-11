@@ -41,3 +41,5 @@ Objetivos da reunião (por ordem de prioridade):
   * Perguntar sobre a rede.
   * Ver o browser usado no PC da recepção, e saber se teria disponibilidade de usar firefox.
   * Pedir arquivo da logomarca da clínica.
+  * Pegar arquivos das planilhas sem os dados.
+  * Saber se os médicos ganham algum valor pelas lentes vendidas.
