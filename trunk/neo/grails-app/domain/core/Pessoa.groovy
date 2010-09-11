@@ -13,7 +13,7 @@ public abstract class Pessoa implements Comparable {
 		nome(nullable : false, blank : false, maxSize : 100, minSize : 3)
 		endereco(nullable : true, maxSize : 255)
 		rg(nullable : true, maxSize : 15)
-		telefone(nullable : true, blank : true, maxSize : 12)
+		telefone(nullable : true, blank : true, maxSize : 13)
 		sexo(nullable : false)
 		nascimento(nullable : false)
 	}
@@ -36,7 +36,7 @@ public abstract class Pessoa implements Comparable {
 	}
 	
 	public String toString() {
-		return getNome() + " (CPF: " + getCpf() + ")"
+		return getNome() + " (" + dataNascimentoDDMMYY() + ")"
 	}
 	
 	public boolean equals(Object o) {

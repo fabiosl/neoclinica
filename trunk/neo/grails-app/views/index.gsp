@@ -2,23 +2,18 @@
 <html>
     <head>
         <title>SI Neo</title>
-		<meta name="layout" content="main" />
+		<meta name="layout" content="main_sem_table" />
+        <link rel="stylesheet" href="${resource(dir:'css',file:'main_sem_table.css')}" />
     </head>
     <body>
 		<div class="nav">
 		    <span class="menuButton"><g:link class="login">Logout</g:link></span>
 		</div>
-		<div id="pageBody">
+		<div id="pageBody" class="dialog">
 	        <h1>Bem vindo ao SI Neo!</h1>
 	        <br/>
-	        <div id="controllerList" class="dialog">
-				<h2>Serviços disponíveis:</h2>
-	            <ul>
-	              <g:each var="c" in="${grailsApplication.controllerClasses}">
-	                    <li class="controller"><g:link controller="${c.logicalPropertyName}">Controle de ${c.logicalPropertyName}</g:link></li>
-	              </g:each>
-	            </ul>
-	        </div>
+			<h2>Navegue pelos serviços abaixo:</h2>
 		</div>
+        <g:render template="/common/botoes" />
     </body>
 </html>
