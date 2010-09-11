@@ -43,3 +43,4 @@ Objetivos da reunião (por ordem de prioridade):
   * Pedir arquivo da logomarca da clínica.
   * Pegar arquivos das planilhas sem os dados.
   * Saber se os médicos ganham algum valor pelas lentes vendidas.
+  * Validar telas iniciais do sistema já implementadas.
