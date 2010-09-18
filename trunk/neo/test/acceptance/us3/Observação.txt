@@ -1,0 +1,5 @@
+O critério de aceitação definido pra essa user story foi:
+
+  * Teste de Aceitação 3.1: Elaboração de script de teste de aceitação.
+
+Os scripts de aceitação estarão nas pastas das US respectivas, e para executar na pasta test/stories.

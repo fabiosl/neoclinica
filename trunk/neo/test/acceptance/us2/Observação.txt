@@ -1,0 +1,5 @@
+O critério de aceitação definido pra essa user story foi:
+
+  * Teste de Aceitação 2.1: Fazer uma requisição HTTP com sucesso ao servidor.
+  
+Domínio www.clinicaneo.sytes.net

@@ -1,0 +1,6 @@
+Após estudo melhor do padrão, constatou-se que o framework Grails já utiliza o padrão DAO
+no acesso ao banco de dados através do código gerado para acesso aos objetos do modelo
+(grails-app/domain).
+
+Nesse caso, a equipe não precisa se preocupar com o padrão durante o desenvolvimento,
+já que o acesso ao banco é intermediado pelo Grails e este já segue o padrão.

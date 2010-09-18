@@ -1,0 +1,8 @@
+O critério de aceitação definido pra essa user story foi:
+
+ * Teste de Aceitação 4.1: Fazer login com usuário do tipo "administrador" (login com sucesso).
+ * Teste de Aceitação 4.2: Fazer login com usuário do tipo "funcionario" (login com sucesso).
+ * Teste de Aceitação 4.3: Fazer login com usuário do tipo "administrador" (login sem sucesso).  
+ * Teste de Aceitação 4.4: Fazer login com usuário do tipo "funcionario" (login sem sucesso).
+ 
+Ver test/stories/LoginStory.groovy.

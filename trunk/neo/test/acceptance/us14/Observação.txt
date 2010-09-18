@@ -1,0 +1,3 @@
+O critério de aceitação definido pra essa user story foi:
+
+   * Teste de Aceitação 14.1: Manual do sistema.
