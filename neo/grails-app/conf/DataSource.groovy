@@ -16,7 +16,7 @@ environments {
 			dbCreate =  "update"           // "create"
 			// or "update"   (after you run with create-drop )
 			username = "root"
-			password = "admin"
+			password = "r00tpa55"
 			url = "jdbc:mysql://localhost/neo"
 		}
 	}
@@ -25,7 +25,7 @@ environments {
 			dbCreate =  "update"           // "create"
 			// or "update"   (after you run with create-drop )
 			username = "root"
-			password = "admin"
+			password = "r00tpa55"
 			url = "jdbc:mysql://localhost/neo"
 		}
 	}
@@ -34,7 +34,7 @@ environments {
 			dbCreate =  "update"           // "create"
 			// or "update"   (after you run with create-drop )
 			username = "root"
-			password = "admin"
+			password = "r00tpa55"
 			url = "jdbc:mysql://localhost/neo"
 		}
 	}
