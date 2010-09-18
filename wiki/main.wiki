@@ -30,10 +30,10 @@ Aqui são guardadas todas as informações essenciais e os links para as outras 
 
  * Riscos do Projeto: [http://code.google.com/p/neoclinica/wiki/Riscos link].
  * Matriz de Competências: [http://code.google.com/p/neoclinica/wiki/MatrizDeCompetencias link].
+ * Plano de Release: [http://code.google.com/p/neoclinica/wiki/PlanoRelease link].
  * Testes de Aceitação produzidos: [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo/test/acceptance link].
  * Código produzido: [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo link].
 
 ==== Iteração 1 ====
 
- * Plano de Release: [http://code.google.com/p/neoclinica/wiki/PlanoRelease link].
  * Plano de Iteração Um: [http://code.google.com/p/neoclinica/wiki/PlanoIteracao1 link].
