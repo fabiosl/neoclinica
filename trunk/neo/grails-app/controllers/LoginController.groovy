@@ -36,6 +36,11 @@ class LoginController {
 		}
 	}
 
+	def redirectMainPage = {
+		  response.sendRedirect("/NEOSoftGrails/login/auth")
+		
+	 }
+	
 	/**
 	 * Show the login page.
 	 */
