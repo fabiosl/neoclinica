@@ -44,6 +44,13 @@ grails.logging.jul.usebridge = true
 // packages to include in Spring bean scanning
 grails.spring.bean.packages = []
 
+// TOMCAT SETTINGS
+tomcat.deploy.username="admin"
+tomcat.deploy.password="admin"
+tomcat.deploy.url="http://localhost:8080/manager"
+
+
+
 // set per-environment serverURL stem for creating absolute links
 environments {
     production {
