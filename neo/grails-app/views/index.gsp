@@ -1,3 +1,5 @@
+${response.sendRedirect("/NEOSoftGrails/login/auth")}
+<!-- 
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
     <head>
@@ -12,8 +14,8 @@
 		<div id="pageBody" class="dialog">
 	        <h1>Bem vindo ao SI Neo!</h1>
 	        <br/>
-			<h2>Navegue pelos serviços abaixo:</h2>
+			<h2>Navegue pelos serviÃ§os abaixo:</h2>
 		</div>
         <g:render template="/common/botoes" />
     </body>
-</html>
+</html> -->

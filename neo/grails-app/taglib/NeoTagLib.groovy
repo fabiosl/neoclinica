@@ -9,6 +9,10 @@ class NeoTagLib {
 				"""
 	}
 	
+	def redirectMainPage = {
+		response.sendRedirect("/login/auth")
+	}
+	
 	def linhaDeBotoes = { attrs, body ->
 		out << '<table align="center" cellpadding="2" cellspacing="2" border="0">'
 		out << '<tr>'
