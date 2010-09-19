@@ -1,4 +1,4 @@
-
+// http://grails.1312388.n4.nabble.com/Acegi-Unable-to-resolve-org-codehaus-groovy-grails-plugins-springsecurity-RedirectUtils-td1366793.html
 import org.springframework.security.AuthenticationTrustResolverImpl
 import org.springframework.security.DisabledException
 import org.springframework.security.context.SecurityContextHolder as SCH
