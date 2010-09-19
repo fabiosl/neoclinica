@@ -1,5 +1,3 @@
-import org.codehaus.groovy.grails.plugins.springsecurity.RedirectUtils
-import org.grails.plugins.springsecurity.service.AuthenticateService
 
 import org.springframework.security.AuthenticationTrustResolverImpl
 import org.springframework.security.DisabledException
@@ -69,9 +67,7 @@ class LoginController {
 		render view: view, model: [postUrl: postUrl]
 	}
 
-	/**
-	 * Form submit action to start an OpenID authentication.
-	 */
+	
 	def openIdAuthenticate = {
 		String openID = params['j_username']
 		try {
@@ -80,7 +76,7 @@ class LoginController {
 			String redirectUrl = openIDConsumer.beginConsumption(request, openID, returnToURL)
 			redirect url: redirectUrl
 		}
-		catch (org.springframework.security.ui.openid.OpenIDConsumerException e) {
+		catch (Exception e) {
 			log.error "Consumer error: $e.message", e
 			redirect url: openIDAuthenticationProcessingFilter.authenticationFailureUrl
 		}
