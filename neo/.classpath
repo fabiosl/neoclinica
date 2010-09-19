@@ -12,6 +12,8 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="com.springsource.sts.grails.core.CLASSPATH_CONTAINER"/>
 	<classpathentry exported="true" kind="lib" path="lib/mysql-connector-java-5.1.13-bin.jar"/>
-	<classpathentry kind="lib" path="lib/org.springframework.security-sources-2.0.4.A.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.springframework.security-sources-2.0.4.A.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/mail-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/activation-1.1.jar"/>
 	<classpathentry kind="output" path="web-app/WEB-INF/classes"/>
 </classpath>
