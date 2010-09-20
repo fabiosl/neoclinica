@@ -1,6 +1,6 @@
 <html>
   <head>
-	  <title>Grails Runtime Exception</title>
+	  <title>Erro</title>
 	  <style type="text/css">
 	  		.message {
 	  			border: 1px solid black;
@@ -25,7 +25,7 @@
 
   <body>
     <h1>Ocorreu um erro!</h1>
-    <h2>Favor enviar os dados abaixo para a equipe técnica.</h2>
+    <h2>Favor enviar os dados abaixo para a equipe tecnica.</h2>
 
   	<div class="message">
 		<strong>Error ${request.'javax.servlet.error.status_code'}:</strong> ${request.'javax.servlet.error.message'.encodeAsHTML()}<br/>

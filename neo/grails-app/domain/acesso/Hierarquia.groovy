@@ -1,21 +1,15 @@
-
-
-
-
+package acesso
 /**
- * Authority domain class.
+ * Classe gerada no plugin Acegi
  */
 class Hierarquia {
-
 	static hasMany = [people: Usuario]
-
-	/** description */
+	
 	String description
-	/** ROLE String */
 	String authority
-
+	
 	static constraints = {
 		authority(blank: false, unique: true)
-		description()
+		description(nullable:true)
 	}
 }

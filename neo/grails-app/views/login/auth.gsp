@@ -1,19 +1,20 @@
+<%@ page contentType="text/html;charset=UTF-8" %>
 <head>
 <meta name='layout' content='main' />
-<title>Login</title>
+<title>SI Neo</title>
 <style type='text/css' media='screen'>
 #login {
 	margin:15px 0px; padding:0px;
 	text-align:center;
 }
 #login .inner {
-	width:260px;
+	width:300px;
 	margin:0px auto;
 	text-align:left;
 	padding:10px;
-	border-top:1px dashed #499ede;
-	border-bottom:1px dashed #499ede;
-	background-color:#EEF;
+	border-top:1px solid green;
+	border-bottom:1px solid green;
+	background-color:white;
 }
 #login .inner .fheader {
 	padding:4px;margin:3px 0px 3px 0;color:#2e3741;font-size:14px;font-weight:bold;
@@ -23,7 +24,7 @@
 	margin: 0;
 	padding: 5px 0 8px 0;
 	padding-left: 105px;
-	border-top: 1px dashed gray;
+	border-top: 1px dotted gray;
 	margin-bottom: 10px;
 	height: 1%;
 }
@@ -43,28 +44,32 @@
 </head>
 
 <body>
+	<div class="nav">
+		<span class="menuButton"><g:link class="info">Sobre</g:link></span>
+	</div>
+	<g:if test="${flash.message}">
+		<br/><div class="message">${flash.message}</div><br/>
+	</g:if>
 	<div id='login'>
 		<div class='inner'>
-			<g:if test='${flash.message}'>
-			<div class='login_message'>${flash.message}</div>
-			</g:if>
-			<div class='fheader'>Please Login..</div>
+			<div class='fheader'>Digite login e senha</div>
+			<br/>
 			<form action='${postUrl}' method='POST' id='loginForm' class='cssform'>
 				<p>
-					<label for='j_username'>Login ID</label>
+					<label for='j_username'>Login</label>
 					<input type='text' class='text_' name='j_username' id='j_username' value='${request.remoteUser}' />
 				</p>
 				<p>
-					<label for='j_password'>Password</label>
+					<label for='j_password'>Senha</label>
 					<input type='password' class='text_' name='j_password' id='j_password' />
 				</p>
 				<p>
-					<label for='remember_me'>Remember me</label>
+					<label for='remember_me'>Lembrar senha</label>
 					<input type='checkbox' class='chk' name='_spring_security_remember_me' id='remember_me'
 					<g:if test='${hasCookie}'>checked='checked'</g:if> />
 				</p>
 				<p>
-					<input type='submit' value='Login' />
+					<input type='submit' value='OK' />
 				</p>
 			</form>
 		</div>
