@@ -1,17 +1,18 @@
+<%@ page contentType="text/html;charset=UTF-8" %>
 <head>
 	<meta name="layout" content="main" />
-	<title>Usuario List</title>
+	<title>Lista (Usuario)</title>
 </head>
 
 <body>
 
 	<div class="nav">
 		<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>
-		<span class="menuButton"><g:link class="create" action="create">New Usuario</g:link></span>
+		<span class="menuButton"><g:link class="create" action="create">Novo Usuario</g:link></span>
 	</div>
 
 	<div class="body">
-		<h1>Usuario List</h1>
+		<h1>Lista (Usuario)</h1>
 		<g:if test="${flash.message}">
 		<div class="message">${flash.message}</div>
 		</g:if>
@@ -20,10 +21,10 @@
 			<thead>
 				<tr>
 					<g:sortableColumn property="id" title="Id" />
-					<g:sortableColumn property="username" title="Login Name" />
-					<g:sortableColumn property="userRealName" title="Full Name" />
-					<g:sortableColumn property="enabled" title="Enabled" />
-					<g:sortableColumn property="description" title="Description" />
+					<g:sortableColumn property="username" title="Login" />
+					<g:sortableColumn property="userRealName" title="Nome" />
+					<g:sortableColumn property="enabled" title="Habilitado" />
+					<g:sortableColumn property="description" title="Descricao" />
 					<th>&nbsp;</th>
 				</tr>
 			</thead>
@@ -37,7 +38,7 @@
 					<td>${person.description?.encodeAsHTML()}</td>
 					<td class="actionButtons">
 						<span class="actionButton">
-							<g:link action="show" id="${person.id}">Show</g:link>
+							<g:link action="show" id="${person.id}">Ver</g:link>
 						</span>
 					</td>
 				</tr>
@@ -47,7 +48,7 @@
 		</div>
 
 		<div class="paginateButtons">
-			<g:paginate total="${Usuario.count()}" />
+			<g:paginate total="${acesso.Usuario.count()}" />
 		</div>
 
 	</div>
