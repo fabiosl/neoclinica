@@ -2,6 +2,7 @@
 <head>
 </head>
 <div align="center">
+	<!-- USAR TAG ifrole QUE FOI CRIADA NA NeoTagLib PRA RESTRINGIR BOTOES AOS PAPEIS -->
     <neo:linhaDeBotoes>
        <!--  neo:botao link="" imgsrc="${resource(dir:'images/botoes',file:'busca.png')}" descricao="Busca de Pacientes"/ -->
        <neo:botao link="paciente" imgsrc="${resource(dir:'images/botoes',file:'paciente.png')}" descricao="Controle de Pacientes"/>

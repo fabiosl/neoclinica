@@ -13,6 +13,12 @@ class NeoTagLib {
 		response.sendRedirect("/login/auth")
 	}
 	
+	def ifrole = { attrs, body ->
+		out << '<g:ifAllGranted role=' + attrs['roles'] + '>'
+		out << body()
+		out << '</g:ifAllGranted>'
+	}
+	
 	def linhaDeBotoes = { attrs, body ->
 		out << '<table align="center" cellpadding="2" cellspacing="2" border="0">'
 		out << '<tr>'
