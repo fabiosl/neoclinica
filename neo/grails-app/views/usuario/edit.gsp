@@ -1,18 +1,17 @@
+<%@ page contentType="text/html;charset=UTF-8" %>
 <head>
 	<meta name="layout" content="main" />
-	<title>Edit Usuario</title>
+	<title>Editar Usuario</title>
 </head>
 
 <body>
-
 	<div class="nav">
 		<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>
-		<span class="menuButton"><g:link class="list" action="list">Usuario List</g:link></span>
-		<span class="menuButton"><g:link class="create" action="create">New Usuario</g:link></span>
+		<span class="menuButton"><g:link class="list" action="list">Lista (Usuario)</g:link></span>
+		<span class="menuButton"><g:link class="create" action="create">Novo Usuario</g:link></span>
 	</div>
-
 	<div class="body">
-		<h1>Edit Usuario</h1>
+		<h1>Editar Usuario</h1>
 		<g:if test="${flash.message}">
 		<div class="message">${flash.message}</div>
 		</g:if>
@@ -35,35 +34,35 @@
 				<tbody>
 
 					<tr class="prop">
-						<td valign="top" class="name"><label for="username">Login Name:</label></td>
+						<td valign="top" class="name"><label for="username">Login:</label></td>
 						<td valign="top" class="value ${hasErrors(bean:person,field:'username','errors')}">
 							<input type="text" id="username" name="username" value="${person.username?.encodeAsHTML()}"/>
 						</td>
 					</tr>
 
 					<tr class="prop">
-						<td valign="top" class="name"><label for="userRealName">Full Name:</label></td>
+						<td valign="top" class="name"><label for="userRealName">Nome:</label></td>
 						<td valign="top" class="value ${hasErrors(bean:person,field:'userRealName','errors')}">
 							<input type="text" id="userRealName" name="userRealName" value="${person.userRealName?.encodeAsHTML()}"/>
 						</td>
 					</tr>
 
 					<tr class="prop">
-						<td valign="top" class="name"><label for="passwd">Password:</label></td>
+						<td valign="top" class="name"><label for="passwd">Senha:</label></td>
 						<td valign="top" class="value ${hasErrors(bean:person,field:'passwd','errors')}">
 							<input type="password" id="passwd" name="passwd" value="${person.passwd?.encodeAsHTML()}"/>
 						</td>
 					</tr>
 
 					<tr class="prop">
-						<td valign="top" class="name"><label for="enabled">Enabled:</label></td>
+						<td valign="top" class="name"><label for="enabled">Habilitado:</label></td>
 						<td valign="top" class="value ${hasErrors(bean:person,field:'enabled','errors')}">
 							<g:checkBox name="enabled" value="${person.enabled}"/>
 						</td>
 					</tr>
 
 					<tr class="prop">
-						<td valign="top" class="name"><label for="description">Description:</label></td>
+						<td valign="top" class="name"><label for="description">Descrição:</label></td>
 						<td valign="top" class="value ${hasErrors(bean:person,field:'description','errors')}">
 							<input type="text" id="description" name="description" value="${person.description?.encodeAsHTML()}"/>
 						</td>
@@ -77,14 +76,14 @@
 					</tr>
 
 					<tr class="prop">
-						<td valign="top" class="name"><label for="emailShow">Show Email:</label></td>
+						<td valign="top" class="name"><label for="emailShow">Mostrar Email:</label></td>
 						<td valign="top" class="value ${hasErrors(bean:person,field:'emailShow','errors')}">
 							<g:checkBox name="emailShow" value="${person.emailShow}"/>
 						</td>
 					</tr>
 
 					<tr class="prop">
-						<td valign="top" class="name"><label for="authorities">Roles:</label></td>
+						<td valign="top" class="name"><label for="authorities">Papeis:</label></td>
 						<td valign="top" class="value ${hasErrors(bean:person,field:'authorities','errors')}">
 							<ul>
 							<g:each var="entry" in="${roleMap}">
@@ -101,11 +100,9 @@
 			</div>
 
 			<div class="buttons">
-				<span class="button"><g:actionSubmit class="save" value="Update" /></span>
-				<span class="button"><g:actionSubmit class="delete" onclick="return confirm('Are you sure?');" value="Delete" /></span>
+				<span class="button"><g:actionSubmit action="update" class="save" value="Salvar" /></span>
+				<span class="button"><g:actionSubmit action="delete" class="delete" onclick="return confirm('Você tem certeza?');" value="Delete" /></span>
 			</div>
-
 		</g:form>
-
 	</div>
 </body>
