@@ -1,27 +1,28 @@
-
-
+package controllers
+import acesso.Hierarquia;
+import acesso.Usuario;
 
 /**
- * User controller.
+ * Classe gerada no plugin Acegi
  */
-class UsuarioController {
 
+class UsuarioController {	// TODO traduzir frases
 	def authenticateService
-
+	
 	// the delete, save and update actions only accept POST requests
 	static Map allowedMethods = [delete: 'POST', save: 'POST', update: 'POST']
-
+	
 	def index = {
 		redirect action: list, params: params
 	}
-
+	
 	def list = {
 		if (!params.max) {
 			params.max = 10
 		}
 		[personList: Usuario.list(params)]
 	}
-
+	
 	def show = {
 		def person = Usuario.get(params.id)
 		if (!person) {
@@ -38,13 +39,13 @@ class UsuarioController {
 		}
 		[person: person, roleNames: roleNames]
 	}
-
+	
 	/**
 	 * Person delete action. Before removing an existing person,
 	 * he should be removed from those authorities which he is involved.
 	 */
 	def delete = {
-
+		
 		def person = Usuario.get(params.id)
 		if (person) {
 			def authPrincipal = authenticateService.principal()
@@ -54,7 +55,8 @@ class UsuarioController {
 			}
 			else {
 				//first, delete this person from People_Authorities table.
-				Hierarquia.findAll().each { it.removeFromPeople(person) }
+				Hierarquia.findAll().each { it.removeFromPeople(person)
+				}
 				person.delete()
 				flash.message = "Usuario $params.id deleted."
 			}
@@ -62,49 +64,50 @@ class UsuarioController {
 		else {
 			flash.message = "Usuario not found with id $params.id"
 		}
-
+		
 		redirect action: list
 	}
-
+	
 	def edit = {
-
+		
 		def person = Usuario.get(params.id)
 		if (!person) {
 			flash.message = "Usuario not found with id $params.id"
 			redirect action: list
 			return
 		}
-
+		
 		return buildPersonModel(person)
 	}
-
+	
 	/**
 	 * Person update action.
 	 */
 	def update = {
-
+		
 		def person = Usuario.get(params.id)
 		if (!person) {
 			flash.message = "Usuario not found with id $params.id"
 			redirect action: edit, id: params.id
 			return
 		}
-
+		
 		long version = params.version.toLong()
 		if (person.version > version) {
 			person.errors.rejectValue 'version', "person.optimistic.locking.failure",
-				"Another user has updated this Usuario while you were editing."
-				render view: 'edit', model: buildPersonModel(person)
+			"Another user has updated this Usuario while you were editing."
+			render view: 'edit', model: buildPersonModel(person)
 			return
 		}
-
+		
 		def oldPassword = person.passwd
 		person.properties = params
 		if (!params.passwd.equals(oldPassword)) {
 			person.passwd = authenticateService.encodePassword(params.passwd)
 		}
 		if (person.save()) {
-			Hierarquia.findAll().each { it.removeFromPeople(person) }
+			Hierarquia.findAll().each { it.removeFromPeople(person)
+			}
 			addRoles(person)
 			redirect action: show, id: person.id
 		}
@@ -112,16 +115,16 @@ class UsuarioController {
 			render view: 'edit', model: buildPersonModel(person)
 		}
 	}
-
+	
 	def create = {
 		[person: new Usuario(params), authorityList: Hierarquia.list()]
 	}
-
+	
 	/**
 	 * Person save action.
 	 */
 	def save = {
-
+		
 		def person = new Usuario()
 		person.properties = params
 		person.passwd = authenticateService.encodePassword(params.passwd)
@@ -133,7 +136,7 @@ class UsuarioController {
 			render view: 'create', model: [authorityList: Hierarquia.list(), person: person]
 		}
 	}
-
+	
 	private void addRoles(person) {
 		for (String key in params.keySet()) {
 			if (key.contains('ROLE') && 'on' == params.get(key)) {
@@ -141,9 +144,9 @@ class UsuarioController {
 			}
 		}
 	}
-
+	
 	private Map buildPersonModel(person) {
-
+		
 		List roles = Hierarquia.list()
 		roles.sort { r1, r2 ->
 			r1.authority <=> r2.authority
@@ -156,7 +159,7 @@ class UsuarioController {
 		for (role in roles) {
 			roleMap[(role)] = userRoleNames.contains(role.authority)
 		}
-
+		
 		return [person: person, roleMap: roleMap]
 	}
 }

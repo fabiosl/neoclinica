@@ -1,58 +1,36 @@
-// http://grails.1312388.n4.nabble.com/Acegi-Unable-to-resolve-org-codehaus-groovy-grails-plugins-springsecurity-RedirectUtils-td1366793.html
+package controllers
 import org.springframework.security.AuthenticationTrustResolverImpl
 import org.springframework.security.DisabledException
 import org.springframework.security.context.SecurityContextHolder as SCH
 import org.springframework.security.ui.AbstractProcessingFilter
 import org.springframework.security.ui.webapp.AuthenticationProcessingFilter
 
-/**
- * Login Controller (Example).
- */
 class LoginController {
-
-	/**
-	 * Dependency injection for the authentication service.
-	 */
 	def authenticateService
-
-	/**
-	 * Dependency injection for OpenIDConsumer.
-	 */
 	def openIDConsumer
-
-	/**
-	 * Dependency injection for OpenIDAuthenticationProcessingFilter.
-	 */
 	def openIDAuthenticationProcessingFilter
-
+	
 	private final authenticationTrustResolver = new AuthenticationTrustResolverImpl()
-
+	
 	def index = {
-		if (isLoggedIn()) {
-			redirect uri: '/'
-		}
-		else {
-			redirect action: auth, params: params
-		}
+		redirect action: auth, params: params
 	}
-
+	
 	def redirectMainPage = {
-		  response.sendRedirect("/NEOSoftGrails/login/auth")
-		
-	 }
+		response.sendRedirect("/NEOSoftGrails/login/auth")
+	}
 	
 	/**
-	 * Show the login page.
+	 * Acao principal de autenticacao
 	 */
 	def auth = {
-
 		nocache response
-
+		
 		if (isLoggedIn()) {
-			redirect uri: '/'
+			redirect uri: '/main.gsp'
 			return
 		}
-
+		
 		String view
 		String postUrl
 		def config = authenticateService.securityConfig.security
@@ -68,16 +46,16 @@ class LoginController {
 			view = 'auth'
 			postUrl = "${request.contextPath}${config.filterProcessesUrl}"
 		}
-
+		
 		render view: view, model: [postUrl: postUrl]
 	}
-
+	
 	
 	def openIdAuthenticate = {
 		String openID = params['j_username']
 		try {
 			String returnToURL = RedirectUtils.buildRedirectUrl(
-					request, response, openIDAuthenticationProcessingFilter.filterProcessesUrl)
+			request, response, openIDAuthenticationProcessingFilter.filterProcessesUrl)
 			String redirectUrl = openIDConsumer.beginConsumption(request, openID, returnToURL)
 			redirect url: redirectUrl
 		}
@@ -86,8 +64,7 @@ class LoginController {
 			redirect url: openIDAuthenticationProcessingFilter.authenticationFailureUrl
 		}
 	}
-
-	// Login page (function|json) for Ajax access.
+	
 	def authAjax = {
 		nocache(response)
 		//this is example:
@@ -99,17 +76,14 @@ class LoginController {
 		</script>
 		"""
 	}
-
-	/**
-	 * The Ajax success redirect url.
-	 */
+	
 	def ajaxSuccess = {
 		nocache(response)
 		render '{success: true}'
 	}
-
+	
 	/**
-	 * Show denied page.
+	 * Acesso negado
 	 */
 	def denied = {
 		if (isLoggedIn() && authenticationTrustResolver.isRememberMe(SCH.context?.authentication)) {
@@ -117,59 +91,54 @@ class LoginController {
 			redirect action: full, params: params
 		}
 	}
-
-	/**
-	 * Login page for users with a remember-me cookie but accessing a IS_AUTHENTICATED_FULLY page.
-	 */
+	
 	def full = {
 		render view: 'auth', params: params,
-			model: [hasCookie: authenticationTrustResolver.isRememberMe(SCH.context?.authentication)]
+		model: [hasCookie: authenticationTrustResolver.isRememberMe(SCH.context?.authentication)]
 	}
-
+	
 	// Denial page (data|view|json) for Ajax access.
 	def deniedAjax = {
 		//this is example:
 		render "{error: 'access denied'}"
 	}
-
+	
 	/**
-	 * login failed
+	 * Falha de autenticacao
 	 */
 	def authfail = {
-
 		def username = session[AuthenticationProcessingFilter.SPRING_SECURITY_LAST_USERNAME_KEY]
 		def msg = ''
 		def exception = session[AbstractProcessingFilter.SPRING_SECURITY_LAST_EXCEPTION_KEY]
 		if (exception) {
 			if (exception instanceof DisabledException) {
-				msg = "[$username] is disabled."
+				msg = "[$username] esta desabilitado."
 			}
 			else {
-				msg = "[$username] wrong username/password."
+				msg = "Nome ou senha invalidos."
 			}
 		}
-
+		
 		if (isAjax()) {
 			render "{error: '${msg}'}"
-		}
-		else {
+		} else {
 			flash.message = msg
 			redirect action: auth, params: params
 		}
 	}
-
+	
 	/**
-	 * Check if logged in.
+	 * Checa se esta logado
 	 */
 	private boolean isLoggedIn() {
 		return authenticateService.isLoggedIn()
 	}
-
+	
 	private boolean isAjax() {
 		return authenticateService.isAjax(request)
 	}
-
-	/** cache controls */
+	
+	/** controle de cache */
 	private void nocache(response) {
 		response.setHeader('Cache-Control', 'no-cache') // HTTP 1.1
 		response.addDateHeader('Expires', 0)
