@@ -6,11 +6,11 @@
 
 == User Story 1 - Estudar tecnologias da camada de dados ==
 
-As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que das classes do sistema que precisam ser guardadas para um SGBD escolhido (no caso, MySQL). Também estava previsto o estudo do padrão DAO, mas não o foi necessário já que Grails faz todo o mapeamento de acesso e controle dos dados de maneira automática.
+As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que das classes do sistema que precisam ser guardadas para um SGBD escolhido (no caso, MySQL). Também estava previsto o estudo do padrão DAO, mas não o foi necessário já que Grails faz todo o mapeamento de acesso e controle dos dados de maneira automática. 
 
 === Testes de Aceitação ===
 
-  * Teste de Aceitação 1.1: Verificar se exemplos gerados satisfazem os requisitos de CRUD e persistência desejados pelo cliente. _Condição de sucesso: Dados guardados em esquema relacional de dados e com possibilidade de atualização, remoção, consulta e inserção_.
+  * Teste de Aceitação 1.1: Verificar se exemplos gerados satisfazem os requisitos de CRUD e persistência desejados pelo cliente. _Condição de sucesso: Dados guardados em esquema relacional de dados e com possibilidade de atualização, remoção, consulta e inserção_. *Artefatos: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us1/Observação.txt Observações], [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us1/Guia%20Integração.txt integraçãoMySQL], [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us1/Padrão%20DAO.txt padrãoDAO].*
 
 === Atividades ===
 
@@ -26,7 +26,7 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 
 === Testes de Aceitação ===
 
-  * Teste de Aceitação 2.1: Fazer uma requisição HTTP com sucesso ao servidor. _Condição de sucesso: Requisição atendida pelo servidor_.
+  * Teste de Aceitação 2.1: Fazer uma requisição HTTP com sucesso ao servidor. _Condição de sucesso: Requisição atendida pelo servidor_. *Artefato: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us2/Observação.txt Observação] - Só funcionará quando o servidor estiver rodando.*
 
 === Atividades ===
 
@@ -43,7 +43,7 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 
 === Testes de Aceitação ===
 
-  * Teste de Aceitação 3.1: Elaboração de script de teste de aceitação. _Condição de sucesso: Script realiza teste simples de CRUD do sistema_.
+  * Teste de Aceitação 3.1: Elaboração de script de teste de aceitação. _Condição de sucesso: Script realiza teste simples de CRUD do sistema_. *Artefatos: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us3/Observação.txt Observação]*
 
 === Atividades ===
 
@@ -63,6 +63,7 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
  * Teste de Aceitação 4.4: Fazer login com usuário do tipo "funcionario" (login sem sucesso).
 
 *Condição de Sucesso para todos os testes estão definidas em parênteses após o teste.*
+_Para o estudo, foi elaborado o seguinte artefato: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us4/Relatório%20Estudo%20de%20Segurança%20em%20Grails.doc EstudoGrails]. Demais: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us4/Observação.txt Observação]_
 
 === Atividades ===
 
@@ -76,7 +77,7 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 
 === Testes de Aceitação ===
 
-   * Teste de Aceitação 14.1: Manual do sistema. _Condição de sucesso: Instalar corretamente ambiente em máquina que não o tem instalado_.
+   * Teste de Aceitação 14.1: Manual do sistema. _Condição de sucesso: Instalar corretamente ambiente em máquina que não o tem instalado_. *Artefato: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us14/ManualSistema.docx ManualInstalação]; [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us14/Observação.txt Observação]*
 
 === Atividades ===
 
