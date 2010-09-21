@@ -1,3 +1,5 @@
 O critério de aceitação definido pra essa user story foi:
 
-   * Teste de Aceitação 14.1: Manual do sistema.
+    * Teste de Aceitação 14.1: Manual do sistema. Condição de sucesso: Instalar corretamente ambiente em máquina que não o tem instalado.
+    
+OBS.: O manual referido nessa User Story é o manual de CONFIGURAÇÃO do servidor.

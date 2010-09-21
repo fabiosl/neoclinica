@@ -18,9 +18,5 @@ class HierarquiaTests extends GrailsUnitTestCase {
 		assertEquals h1.getAuthority(), "ROLE_ESCRAVO"
 		assertEquals h2.getAuthority(), "ROLE_REI"
 		assertEquals h3.getAuthority(), "ROLE_OUTRO"
-		
-		assertEquals h1.getPeople().size(), 0
-		assertEquals h2.getPeople().size(), 0
-		assertEquals h3.getPeople().size(), 0
 	}
 }

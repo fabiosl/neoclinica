@@ -1,1 +1,5 @@
-Os testes de aceitação relativos a CÓDIGO estarão na pasta test/stories.
+Os testes de *ACEITAÇÃO* relativos a CÓDIGO estarão na pasta test/stories.
+
+Os testes de *UNIDADE* se encontrarão nas pastas test/unit e test/integration (os testes de integração Grails
+permitem acesso a funcionalidades específicas como serviços e banco de dados).
+    -- Para rodar, executar grails test-app -unit

@@ -12,9 +12,9 @@
         <br/>
 		<div class="erroSedare">Desculpe, você não possui nível de acesso suficiente para acessar essa página.</div>
 		<br/>
-			<div align="center">
-        		<input type=button value="Voltar" onClick="history.go(-1)">
-        	</div>
 		</div>
+		<div align="center">
+        	<input type=button value="Voltar" onClick="history.go(-1)">
+        </div>
 	</body>
 </html>
