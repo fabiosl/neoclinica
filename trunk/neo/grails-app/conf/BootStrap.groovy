@@ -23,11 +23,6 @@ class BootStrap {
 			email : 'harrison73oft@gmail.com',
 			passwd : authenticateService.encodePassword('harrison'));
 	
-	
-		roleManutencao.save()
-		roleAdmin.save()
-		roleUser.save()
-				
 		if (!userGod.hasErrors()) {
 			userGod.save()
 			roleManutencao.addToPeople(userGod)
@@ -41,6 +36,12 @@ class BootStrap {
 		} else {
 			println "Usuario administrador com erros!"
 		}
+		
+		
+		roleManutencao.save()
+		roleAdmin.save()
+		roleUser.save()
+					
 		
 		
 		
