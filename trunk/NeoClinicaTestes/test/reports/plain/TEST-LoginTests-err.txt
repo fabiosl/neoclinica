@@ -1,1 +1,5 @@
 --Output from testAnonymousAccess--
+--Output from testManutencaoAccess--
+--Output from testMedicoAccess--
+--Output from testSecretariaAccess--
+--Output from testUnsuccessfullAccess--
