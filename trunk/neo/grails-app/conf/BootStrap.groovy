@@ -22,7 +22,15 @@ class BootStrap {
 			enabled : true,
 			email : 'harrison73oft@gmail.com',
 			passwd : authenticateService.encodePassword('harrison'));
+		
+		def userSec = new Usuario(
+			username:'camila',
+			userRealName : 'camila',
+			enabled : true,
+			email : 'camilaXYZ@gmail.com',
+			passwd : authenticateService.encodePassword('camila'));
 	
+		
 		if (!userGod.hasErrors()) {
 			userGod.save()
 			roleManutencao.addToPeople(userGod)
@@ -36,16 +44,17 @@ class BootStrap {
 		} else {
 			println "Usuario administrador com erros!"
 		}
-		
+		if (!userSec.hasErrors()) {
+			userSec.save()
+			roleUser.addToPeople(userSec)
+		} else {
+			println "Usuario secretaria com erros!"
+		}
 		
 		roleManutencao.save()
 		roleAdmin.save()
 		roleUser.save()
 					
-		
-		
-		
-		
 	}
 	
 	def destroy = {
