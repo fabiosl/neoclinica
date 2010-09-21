@@ -1,0 +1,3 @@
+Aqui estão os testes de aceitação do projeto NeoClinicaSI.
+Tivemos que fazer esses testes em projeto separado devido às incompatibilidades entre os plugins de grails.
+Para rodar os testes basta digitar o comando "grails test-app -functional".
