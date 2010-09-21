@@ -1,11 +1,14 @@
 package controllers
+
 import acesso.Hierarquia;
 import acesso.Usuario;
 
 /**
- * Classe gerada no plugin Acegi
+ * Controladora de usuarios, classe gerada no plugin Acegi. Controla as atividades de CRUD sob
+ * os usuarios do sistema
+ * 
+ * @see acesso.Usuario
  */
-
 class UsuarioController {	// TODO traduzir frases
 	def authenticateService
 	
