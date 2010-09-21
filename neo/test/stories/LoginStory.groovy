@@ -1,19 +1,10 @@
-story "User Login", {
-	before {
-	
-	}
-	
-	after {
-		
-	}
-	
-	scenario "Login do Admin", { 
-		assert 1 == 1 
-	
-	}
-	
-	scenario "Login do Funcionario ", { 
-		assert 1 == 0
-	
+String page = "http://localhost:9000/NEOSoftGrails/login/auth";
+
+story "	Login Story", {
+	scenario "Tela de login", {
+		get (resource: page) {
+			assert status == 200
+			
+		}
 	}
 }
