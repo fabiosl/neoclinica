@@ -10,18 +10,22 @@ class BootStrap {
 		def roleUser  = new Hierarquia(authority:'ROLE_FUNCIONARIO', description:'Funcionarios da clinica')
 		
 		def userGod = new Usuario(
-			username:'manutencao',
-			userRealName :'Equipe de Manutencao',
-			enabled : true,
-			email : '',
-			passwd : authenticateService.encodePassword('admin'))
-		
-		userGod.save()
-		roleManutencao.addToPeople(userGod)
+		username:'manutencao',
+		userRealName :'Equipe de Manutencao',
+		enabled : true,
+		email : '',
+		passwd : authenticateService.encodePassword('admin'));
 		
 		roleManutencao.save()
 		roleAdmin.save()
 		roleUser.save()
+		
+		if (!userGod.hasErrors()) {
+			userGod.save()
+			roleManutencao.addToPeople(userGod)
+		} else {
+			println "Usuario default com erros!"
+		}
 	}
 	
 	def destroy = {

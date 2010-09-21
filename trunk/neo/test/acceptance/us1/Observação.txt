@@ -1,6 +1,5 @@
-O critério de aceitação definido pra essa user story foi:
-
-  * Teste de Aceitação 1.1: Verificar se exemplos gerados satisfazem os requisitos de CRUD e persistência desejados pelo cliente.
-  
 Algumas classes de domínio geradas para verificação encontram-se em grails-app/domain.
 O manual de integração Grails-MySQL gerado para os outros membros encontra-se nessa pasta.
+
+OBS.: Essas classes foram geradas apenas para VERIFICAÇÃO, os testes de unidade e aceitação sobre elas
+serão apenas elaborados quando forem necessarias nas User Stories seguintes.

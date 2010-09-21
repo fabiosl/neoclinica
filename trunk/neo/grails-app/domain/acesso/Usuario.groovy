@@ -6,7 +6,7 @@ package acesso
  */
 class Usuario {
 	static transients = ['pass']
-	static hasMany = [authorities: Hierarquia]
+	static hasMany = [authorities:Hierarquia]
 	static belongsTo = Hierarquia
 	
 	/**
