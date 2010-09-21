@@ -33,6 +33,7 @@ Aqui são guardadas todas as informações essenciais e os links para as outras 
  * Plano de Release: [http://code.google.com/p/neoclinica/wiki/PlanoRelease link].
  * Testes de Aceitação produzidos: [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo/test/acceptance link].
  * Código produzido: [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo link].
+ * BigChart: [http://code.google.com/p/neoclinica/wiki/BigChart link].
 
 ==== Iteração 1 ====
 
