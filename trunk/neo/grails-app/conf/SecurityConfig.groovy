@@ -1,6 +1,7 @@
 security {
 	// see DefaultSecurityConfig.groovy for all settable/overridable properties
 	active = true
+	cacheUsers = false
 	
 	loginUserDomainClass = "Usuario"
 	authorityDomainClass = "Hierarquia"

@@ -29,7 +29,7 @@
 	height: 1%;
 }
 #login .inner .cssform input[type='text'] {
-	width: 120px;
+	width: 180px;
 }
 #login .inner .cssform label {
 	font-weight: bold;
@@ -38,7 +38,7 @@
 	width: 100px;
 }
 #login .inner .login_message {color:red;}
-#login .inner .text_ {width:120px;}
+#login .inner .text_ {width:180px;}
 #login .inner .chk {height:12px;}
 </style>
 </head>
@@ -62,11 +62,6 @@
 				<p>
 					<label for='j_password'>Senha</label>
 					<input type='password' class='text_' name='j_password' id='j_password' />
-				</p>
-				<p>
-					<label for='remember_me'>Lembrar senha</label>
-					<input type='checkbox' class='chk' name='_spring_security_remember_me' id='remember_me'
-					<g:if test='${hasCookie}'>checked='checked'</g:if> />
 				</p>
 				<p>
 					<input type='submit' value='OK' />
