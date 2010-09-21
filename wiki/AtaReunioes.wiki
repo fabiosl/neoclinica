@@ -33,14 +33,19 @@ Objetivos da reunião (por ordem de prioridade):
   * Perguntar quando ele volta de viagem;
 
 ==Quarta Reunião com o Cliente (13/09/2010)==
+Essa reunião teve que ser cancelada de última hora, pois o cliente não teve como atender a equipe, já que teve que realizar um exame em um paciente. Assim, os objetivos foram passados para a próxima reunião. Passamos apenas algumas poucas informações ao cliente.
+
+==Quinta Reunião com o Cliente (20/09/2010)==
+Reunião feita com um dos principais usuários do sistema (Camila).
 Objetivos da reunião (por ordem de prioridade):
   * Validar Telas prototipadas na etapa 1;
-  * Perguntar que informações são restritas e quem tem acesso a o que.
   * Confirmar dados que são armazenados no cadastro.
-  * Taxa dos parcelamentos.
-  * Perguntar sobre a rede.
-  * Ver o browser usado no PC da recepção, e saber se teria disponibilidade de usar firefox.
-  * Pedir arquivo da logomarca da clínica.
-  * Pegar arquivos das planilhas sem os dados.
-  * Saber se os médicos ganham algum valor pelas lentes vendidas.
-  * Validar telas iniciais do sistema já implementadas.
+  * Taxa dos parcelamentos. 
+  * Perguntar sobre a rede. (_Será instalada no final de semana_)
+  * Ver o browser usado no PC da recepção, e saber se teria disponibilidade de usar firefox (_Já existe firefox instalado_).
+  * Pedir arquivo da logomarca da clínica (_Já integrado ao sistema_).
+  * Validar telas iniciais do sistema já implementadas (_Não realizado. Postergado para próxima reunião_).
+
+==Sexta Reunião com o Cliente (_Indefinido_)==
+Objetivos da reunião:
+  * Mostrar partes do sistema já implementadas.
