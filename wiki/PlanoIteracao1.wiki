@@ -6,6 +6,8 @@
 
 == User Story 1 - Estudar tecnologias da camada de dados ==
 
+As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que das classes do sistema que precisam ser guardadas para um SGBD escolhido (no caso, MySQL). Também estava previsto o estudo do padrão DAO, mas não o foi necessário já que Grails faz todo o mapeamento de acesso e controle dos dados de maneira automática.
+
 === Testes de Aceitação ===
 
   * Teste de Aceitação 1.1: Verificar se exemplos gerados satisfazem os requisitos de CRUD e persistência desejados pelo cliente. _Condição de sucesso: Dados guardados em esquema relacional de dados e com possibilidade de atualização, remoção, consulta e inserção_.
