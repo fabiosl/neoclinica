@@ -4,7 +4,23 @@ class LoginTests extends functionaltestplugin.FunctionalTestCase {
 	void testAnonymousAccess() {
 			get(this.defaultLocation);
 			assertContentContains("Digite login e senha")
-			
-			//			checkHomePage()
+									
     }
+	
+	void testManutencaoAccess(){
+
+		get(this.defaultLocation);
+		assertContentContains("Digite login e senha")
+
+		form('loginForm') {
+			j_username = "manutencao"
+			j_password = "admin"
+			click "OK"
+		  }
+		
+		assertStatus 200
+		assertContentContains "Equipe de Manutencao, bem vindo ao SI Neo!"
+	}
+	
+	
 }
