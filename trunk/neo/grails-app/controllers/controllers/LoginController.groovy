@@ -1,21 +1,34 @@
 package controllers
+
 import org.springframework.security.AuthenticationTrustResolverImpl
 import org.springframework.security.DisabledException
 import org.springframework.security.context.SecurityContextHolder as SCH
 import org.springframework.security.ui.AbstractProcessingFilter
 import org.springframework.security.ui.webapp.AuthenticationProcessingFilter
 
+/**
+ * Controladora de login, que atende as requisicoes HTTP dos usuarios e responde de acordo com a acao.
+ */
 class LoginController {
+	/**
+	 * Servicos do plugin Acegi (fornecem, entre outras coisas, criptografia de senhas)
+	 */
 	def authenticateService
 	def openIDConsumer
 	def openIDAuthenticationProcessingFilter
 	
 	private final authenticationTrustResolver = new AuthenticationTrustResolverImpl()
 	
+	/**
+	 * Acao inicial de qualquer controladora (acessada via pagina /login)
+	 */
 	def index = {
 		redirect action: auth, params: params
 	}
 	
+	/**
+	 * Acao que redireciona para a pagina de autenticacao, quando nao se tem autorizacao
+	 */
 	def redirectMainPage = {
 		response.sendRedirect("/NEOSoftGrails/login/auth")
 	}
@@ -65,6 +78,9 @@ class LoginController {
 		}
 	}
 	
+	/**
+	 * Metodos para autenticacao Ajax (gerados automaticamente)
+	 */
 	def authAjax = {
 		nocache(response)
 		//this is example:
@@ -77,13 +93,16 @@ class LoginController {
 		"""
 	}
 	
+	/**
+	 * Metodos para autenticacao Ajax (gerados automaticamente)
+	 */
 	def ajaxSuccess = {
 		nocache(response)
 		render '{success: true}'
 	}
 	
 	/**
-	 * Acesso negado
+	 * Acao de acesso negado, requisitada de acordo com o controle do plugin
 	 */
 	def denied = {
 		if (isLoggedIn() && authenticationTrustResolver.isRememberMe(SCH.context?.authentication)) {
@@ -104,7 +123,7 @@ class LoginController {
 	}
 	
 	/**
-	 * Falha de autenticacao
+	 * Acao de falha de autenticacao, redireciona para pagina de erro
 	 */
 	def authfail = {
 		def username = session[AuthenticationProcessingFilter.SPRING_SECURITY_LAST_USERNAME_KEY]
@@ -134,6 +153,9 @@ class LoginController {
 		return authenticateService.isLoggedIn()
 	}
 	
+	/**
+	 * Checa se a requisicao eh ajax
+	 */
 	private boolean isAjax() {
 		return authenticateService.isAjax(request)
 	}
