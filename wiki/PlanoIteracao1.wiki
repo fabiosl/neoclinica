@@ -8,7 +8,7 @@
 
 === Testes de Aceitação ===
 
-  * Teste de Aceitação 1.1: Verificar se exemplos gerados satisfazem os requisitos de CRUD e persistência desejados pelo cliente.
+  * Teste de Aceitação 1.1: Verificar se exemplos gerados satisfazem os requisitos de CRUD e persistência desejados pelo cliente. _Condição de sucesso: Dados guardados em esquema relacional de dados e com possibilidade de atualização, remoção, consulta e inserção_.
 
 === Atividades ===
 
@@ -24,7 +24,7 @@
 
 === Testes de Aceitação ===
 
-  * Teste de Aceitação 2.1: Fazer uma requisição HTTP com sucesso ao servidor.
+  * Teste de Aceitação 2.1: Fazer uma requisição HTTP com sucesso ao servidor. _Condição de sucesso: Requisição atendida pelo servidor_.
 
 === Atividades ===
 
@@ -41,7 +41,7 @@
 
 === Testes de Aceitação ===
 
-  * Teste de Aceitação 3.1: Elaboração de script de teste de aceitação.
+  * Teste de Aceitação 3.1: Elaboração de script de teste de aceitação. _Condição de sucesso: Script realiza teste simples de CRUD do sistema_.
 
 === Atividades ===
 
@@ -60,11 +60,13 @@
  * Teste de Aceitação 4.3: Fazer login com usuário do tipo "administrador" (login sem sucesso).  
  * Teste de Aceitação 4.4: Fazer login com usuário do tipo "funcionario" (login sem sucesso).
 
+*Condição de Sucesso para todos os testes estão definidas em parênteses após o teste.*
+
 === Atividades ===
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-|| A4.1 || Estudar melhor alternativa de login em Grails || Solon || 3h || || ||
-|| A4.2 || Implementar mecanismo de login || Solon || 2h || || ||
+|| A4.1 || Estudar melhor alternativa de login em Grails || Solon || 3h || 2h30m || OK ||
+|| A4.2 || Implementar mecanismo de login || Solon || 2h || 1h30m|| OK  ||
 
 ----
 
@@ -72,7 +74,7 @@
 
 === Testes de Aceitação ===
 
-   * Teste de Aceitação 14.1: Manual do sistema.
+   * Teste de Aceitação 14.1: Manual do sistema. _Condição de sucesso: Instalar corretamente ambiente em máquina que não o tem instalado_.
 
 === Atividades ===
 
