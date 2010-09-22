@@ -133,14 +133,14 @@ O sistema deve emitir relatórios financeiros das atividades realizadas na clín
 === Estimativa Inicial: 8 horas ===
 === Testes de Aceitação ===
 
- * Teste de Aceitação 10.1: Emitir relatório das atividades do dia.
- * Teste de Aceitação 10.2: Emitir relatório das atividades da semana.
- * Teste de Aceitação 10.3: Emitir relatório das atividades da quinzena.
- * Teste de Aceitação 10.4: Emitir relatório das atividades do mês.
- * Teste de Aceitação 10.5: Emitir relatório das atividades de cada médico.
- * Teste de Aceitação 10.6: Emitir relatório organizado por convênio médico.
- * Teste de Aceitação 10.7: Emitir relatório organizado por tipo de lente.
- * Teste de Aceitação 10.8: Emitir relatório organizado por paciente.
+ * Teste de Aceitação 10.1: Emitir relatório das atividades do dia (Operação Realizada com Sucesso se logado como Administrador).
+ * Teste de Aceitação 10.2: Emitir relatório das atividades da semana (Operação Realizada com Sucesso se logado como Administrador).
+ * Teste de Aceitação 10.3: Emitir relatório das atividades da quinzena (Operação Realizada com Sucesso se logado como Administrador).
+ * Teste de Aceitação 10.4: Emitir relatório das atividades do mês (Operação Realizada com Sucesso se logado como Administrador).
+ * Teste de Aceitação 10.5: Emitir relatório das atividades de cada médico (Operação Realizada com Sucesso se logado como Administrador).
+ * Teste de Aceitação 10.6: Emitir relatório organizado por convênio médico (Operação Realizada com Sucesso se logado como Administrador).
+ * Teste de Aceitação 10.7: Emitir relatório organizado por tipo de lente (Operação Realizada com Sucesso se logado como Administrador).
+ * Teste de Aceitação 10.8: Emitir relatório organizado por paciente (Operação Realizada com Sucesso se logado como Administrador).
 
 ----
 
@@ -150,8 +150,8 @@ O sistema deve emitir relatórios do estoque de lentes para consulta por parte d
 === Estimativa Inicial: 2 horas ===
 === Testes de Aceitação ===
 
- * Teste de Aceitação 11.1: Emitir relatório do estoque disponível de lentes.
- * Teste de Aceitação 11.2: Emitir relatório da atividade do estoque de lentes.
+ * Teste de Aceitação 11.1: Emitir relatório do estoque disponível de lentes (Operação Realizada com Sucesso se logado como Administrador).
+ * Teste de Aceitação 11.2: Emitir relatório da atividade do estoque de lentes (Operação Realizada com Sucesso se logado como Administrador).
 
 ----
 
@@ -161,9 +161,9 @@ O sistema deve prover aos usuários (médicos e secretárias) informações sobr
 === Estimativa Inicial: 10 horas ===
 === Testes de Aceitação ===
 
- * Teste de Aceitação 12.1: Mostrar os procedimentos marcados para o dia atual.
- * Teste de Aceitação 12.2: Mostrar os procedimentos marcados para a semana.
- * Teste de Aceitação 12.3: Mostrar os procedimentos marcados para o mês.
+ * Teste de Aceitação 12.1: Mostrar os procedimentos marcados para o dia atual (Operação Realizada com Sucesso se logado como Administrador ou Funcionário).
+ * Teste de Aceitação 12.2: Mostrar os procedimentos marcados para a semana (Operação Realizada com Sucesso se logado como Administrador ou Funcionário).
+ * Teste de Aceitação 12.3: Mostrar os procedimentos marcados para o mês (Operação Realizada com Sucesso se logado como Administrador ou Funcionário).
 
 ----
 
