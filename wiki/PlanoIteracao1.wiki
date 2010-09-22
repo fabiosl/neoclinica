@@ -40,11 +40,11 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 === Atividades ===
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || *Observação* ||
-|| A2.1 || Instalar Tomcat || Fabio || 1h || 30 min || C || Cliente ainda não providenciou o servidor. ||
+|| A2.1 || Instalar Tomcat || Fabio || 1h || 30m || C || Cliente ainda não providenciou o servidor. ||
 || A2.2 || Instalar cliente no-ip || Fabio || 1h || 1h 30 min || C || www.clinicaneo.sytes.net ||
-|| A2.3 || Instalar MySQL || Fabio || 1h || 48 min || C || Cliente ainda não providenciou o servidor.||
-|| A2.4 || Instalar Grails || Fabio || 2h || 1h 15 min || C || Cliente ainda não providenciou o servidor. ||
-|| A2.5 || Realizar integração do sistema com o servidor || Fabio || 3h || 7h 12 min || C || Cliente ainda não providenciou o servidor.||
+|| A2.3 || Instalar MySQL || Fabio || 1h || 48m || C || Cliente ainda não providenciou o servidor.||
+|| A2.4 || Instalar Grails || Fabio || 2h || 1h15m || C || Cliente ainda não providenciou o servidor. ||
+|| A2.5 || Realizar integração do sistema com o servidor || Fabio || 3h || 7h12m || C || Cliente ainda não providenciou o servidor.||
 
 ----
 
@@ -60,7 +60,7 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
 || A3.1 || Estudar testes de aceitação em Grails || Todos|| 2h || 4h  || C ||
-|| A3.2 || Elaborar script de testes || Fabio || 1h || 30 min || C ||
+|| A3.2 || Elaborar script de testes || Fabio || 1h || 30m || C ||
 
 ----
 
