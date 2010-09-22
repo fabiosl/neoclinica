@@ -1,6 +1,2 @@
 Para a requisição HTTP, será utilizado o seguinte domínio:
 Domínio www.clinicaneo.sytes.net.
-
-Se o servidor não estiver no ar, como resultado de uma requisição HTTP temos qualquer um
-dos testes de aceitação do projeto NeoClinicaTestes, que está no trunk, pois os testes simulam
-browsers fazendo requisições (ver descrição do plugin no projeto Arquitetural).
