@@ -3,6 +3,6 @@
 =Matriz de Competências=
 
 || *Integrante* || *Competências* ||
-|| Fabio || Java - Grails - Easyaccept - Junit - MySQL||
-|| Renato || Java - Grails - Easyaccept - Junit - Oracle - MySQL||
-|| Solon  ||  Java - Grails - Easyaccept - Junit - Oracle - MySQL||
+|| Fabio || Java - Grails - Easyaccept - Junit - MySQL - FunctionalTest Plugin - SpringSecurity Plugin||
+|| Renato || Java - Grails - Easyaccept - Junit - Oracle - MySQL  - FunctionalTest Plugin - SpringSecurity Plugin||
+|| Solon  ||  Java - Grails - Easyaccept - Junit - Oracle - MySQL  - FunctionalTest Plugin - SpringSecurity Plugin||
