@@ -1,0 +1,5 @@
+Para executar o projeto, desde que se tenha as dependências instaladas (Grails, Java) e configuradas
+(variáveis de ambiente), basta executar o comando grails run-app na linha de comando.
+
+OBS.: Só estão documentadas e testadas as classes necessárias para as user stories da ITERAÇÃO CORRENTE,
+visto que outras classes que possam estar no projeto são para adiantar atividades futuras.
