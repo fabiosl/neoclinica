@@ -1,7 +1,5 @@
 #summary Plano da iteração 2
 
-=_EM CONSTRUÇÃO_=
-
 = Iteração 2 (_23/09/2010 -> 06/10/2010_) =
 
 ----
@@ -10,15 +8,20 @@
 
 === Testes de Aceitação ===
 
-  * Teste de Aceitação 5.1: Verificar se exemplos gerados satisfazem os requisitos de CRUD e persistência desejados pelo cliente.
+ * Teste de Aceitação 5.1: Cadastrar um cliente com todos os dados corretos (Cadastro Realizado com Sucesso).
+ * Teste de Aceitação 5.2: Cadastrar um cliente com dados obrigatórios faltando (Cadastro não Realizado).
+ * Teste de Aceitação 5.3: Retirar paciente existente da lista dos pacientes (Operação Realizada com Sucesso).
+ * Teste de Aceitação 5.4: Retirar paciente inexistente da lista dos pacientes (Operação Realizada sem Sucesso).
+ * Teste de Aceitação 5.5: Atualizar dados de paciente existente no sistema (Operação Realizada com Sucesso).
+ * Teste de Aceitação 5.6: Atualizar dados de paciente inexistente no sistema (Operação Realizada sem Sucesso).
 
 === Atividades ===
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-|| A1.1 || Estudar MySQL e padrão DAO || Todos || 2h || || ||
-|| A1.2 || Estudar integração de Grails com MySQL || Renato || 2h || || ||
-|| A1.3 || Configurar integração de Grails com MySQL no projeto || Renato || 4h || || ||
-|| A1.4 || Gerar classes de domínio Grails seguindo o modelo de dados para testar mapeamento || Renato || 4h || || ||
+|| A5.1 || Implementação das classes de domínio || Renato || 1h || || ||
+|| A5.2 || Implementação da lógica de CRUD || Renato || 2h || || ||
+|| A5.3 || Elaboração das páginas GSP's || Solon || 3h || || ||
+|| A5.4 || Realização dos Testes || Fábio || 2h || || ||
 
 ----
 
@@ -26,15 +29,21 @@
 
 === Testes de Aceitação ===
 
-  * Teste de Aceitação 6.1: Fazer uma requisição HTTP com sucesso ao servidor.
+ * Teste de Aceitação 6.1: Cadastrar um usuário com todos os dados corretos (Cadastro Realizado com Sucesso - se logado como administrador).
+ * Teste de Aceitação 6.2: Cadastrar um usuário com todos os dados corretos (Cadastro Realizado sem Sucesso - se não logado como administrador).
+ * Teste de Aceitação 6.3: Cadastrar um usuário com dados obrigatórios faltando (Cadastro Realizado sem Sucesso - se logado como administrador ou secretária).
+ * Teste de Aceitação 6.4: Retirar usuário existente (Operação Realizada com Sucesso - se logado como administrador).
+ * Teste de Aceitação 6.5: Retirar usuário existente (Operação Realizada sem Sucesso - se logado como funcionario)
+ * Teste de Aceitação 6.6: Retirar usuário inexistente (Operação Realizada sem Sucesso - se logado como administrador ou funcionario).
+ * Teste de Aceitação 6.7: Atualizar dados do usuário logado (Operação Realizada com Sucesso - se logado com o usuário que se quer editar os dados).
 
 === Atividades ===
 
-|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || *Observação* ||
-|| A2.1 || Instalar Tomcat || Fabio || 1h || 20 min || OK || ||
-|| A2.2 || Instalar cliente no-ip || Fabio || 1h || 20 min || OK || www.clinicaneo.sytes.net ||
-|| A2.3 || Instalar MySQL || Fabio || 1h || 30 min || OK || ||
-|| A2.4 || Instalar Grails || Fabio || 2h || 20 min || OK || ||
-|| A2.5 || Realizar integração do sistema com o servidor || Fabio || 3h || || || ||
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
+|| A6.1 || Implementação das classes de domínio || Solon || 1h ||  || ||
+|| A6.2 || Implementação da lógica de CRUD || Renato || 2h || || || 
+|| A6.3 || Elaboração das páginas GSP's || Fabio || 2h ||  || || 
+|| A6.4 || Realizar testes || Fabio || 2h || || || 
+|| A6.5 || Mudança de senha para usuário logado || Renato || 1h || || || 
 
 ----
