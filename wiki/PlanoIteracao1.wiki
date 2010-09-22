@@ -52,7 +52,7 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 
 === Testes de Aceitação ===
 
-  * Teste de Aceitação 3.1: Elaboração de script de teste de aceitação. _Condição de sucesso: Script realiza teste simples de CRUD do sistema_. 
+  * Teste de Aceitação 3.1: Elaboração de script de teste de aceitação. _Condição de sucesso: Script realiza teste simples do sistema_. 
 
 *Artefatos Produzidos: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us3/Observação.txt (Ver Observação)]*
 
