@@ -2,6 +2,8 @@
 
 = Iteração 2 (_23/09/2010 -> 06/10/2010_) =
 
+_*As estimativas de tempo, se somadas, para a User Story 5 têm valores diferentes das estimadas inicialmente (na página das User Stories), pois já houve ganho de experiência na Iteração 1 em relação a implementação de CRUDs e melhorias de GSPs.*_
+
 ----
 
 == User Story 5 - Implementar funcionalidade de controle de pacientes ==
