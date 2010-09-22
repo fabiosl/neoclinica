@@ -9,32 +9,36 @@ Aqui são guardadas todas as informações essenciais e os links para as outras 
 
 === Equipe ===
 
- * Datas Importantes: [http://code.google.com/p/neoclinica/wiki/InformacoesDaDisciplina link].
- * Diretrizes: [http://code.google.com/p/neoclinica/wiki/DiretrizesGrupo link].
- * Ata das Reuniões: [http://code.google.com/p/neoclinica/wiki/AtaReunioes link].
- * Horários e Contatos: [http://code.google.com/p/neoclinica/wiki/HorariosEContatos link].
- * Cronograma: [http://www.google.com/calendar/embed?src=thm8j5jiglbk4o39amvl2g44gk%40group.calendar.google.com&ctz=America/Recife link].
+ * [http://code.google.com/p/neoclinica/wiki/InformacoesDaDisciplina Datas Importantes]
+ * [http://code.google.com/p/neoclinica/wiki/DiretrizesGrupo Diretrizes]
+ * [http://code.google.com/p/neoclinica/wiki/AtaReunioes Ata das Reuniões]
+ * [http://code.google.com/p/neoclinica/wiki/HorariosEContatos Horários e Contatos]
+ * [http://www.google.com/calendar/embed?src=thm8j5jiglbk4o39amvl2g44gk%40group.calendar.google.com&ctz=America/Recife Cronograma]
 
 === Etapa de Inicialização e Planejamento ===
 
- * Definição de Papéis: [http://code.google.com/p/neoclinica/wiki/DivisaoPapeis link].
- * Documento de Visão (descrição, requisitos e perfil do usuário): [http://code.google.com/p/neoclinica/wiki/DocumentoDeVisao link].
- * Projeto Arquitetural: [http://code.google.com/p/neoclinica/wiki/ProjetoArquitetural link].
- * Protótipo da Interface: [http://code.google.com/p/neoclinica/wiki/Telas link].
- * Modelo Lógico dos Dados: [http://code.google.com/p/neoclinica/wiki/ModeloLogicoBD link].
- * Objetivos de Usabilidade: [http://code.google.com/p/neoclinica/wiki/ObjetivosUsabilidade link].
- * Modelo de Tarefas: [http://code.google.com/p/neoclinica/wiki/ModeloTarefa link].
- * User Stories e Testes de Aceitação: [http://code.google.com/p/neoclinica/wiki/UserStories link].
+ * [http://code.google.com/p/neoclinica/wiki/DivisaoPapeis Definição de Papéis]
+ * [http://code.google.com/p/neoclinica/wiki/DocumentoDeVisao Documento de Visão (descrição, requisitos e perfil do usuário)]
+ * [http://code.google.com/p/neoclinica/wiki/ProjetoArquitetural Projeto Arquitetural]
+ * [http://code.google.com/p/neoclinica/wiki/Telas Protótipo da Interface]
+ * [http://code.google.com/p/neoclinica/wiki/ModeloLogicoBD Modelo Lógico dos Dados]
+ * [http://code.google.com/p/neoclinica/wiki/ObjetivosUsabilidade Objetivos de Usabilidade]
+ * [http://code.google.com/p/neoclinica/wiki/ModeloTarefa Modelo de Tarefas]
+ * [http://code.google.com/p/neoclinica/wiki/UserStories User Stories e Testes de Aceitação]
 
 === Releases (Geral) ===
 
- * Riscos do Projeto: [http://code.google.com/p/neoclinica/wiki/Riscos link].
- * Matriz de Competências: [http://code.google.com/p/neoclinica/wiki/MatrizDeCompetencias link].
- * Plano de Release: [http://code.google.com/p/neoclinica/wiki/PlanoRelease link].
- * Testes de Aceitação produzidos: [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo/test/acceptance link].
- * Código produzido: [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo link].
- * Planilha do BigChart: [http://code.google.com/p/neoclinica/wiki/BigChart link].
+ * [http://code.google.com/p/neoclinica/wiki/Riscos Riscos do Projeto]
+ * [http://code.google.com/p/neoclinica/wiki/MatrizDeCompetencias Matriz de Competências]
+ * [http://code.google.com/p/neoclinica/wiki/PlanoRelease Plano de Release]
+ * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo/test/acceptance Testes de Aceitação produzidos]
+ * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo Código produzido]
+ * [http://code.google.com/p/neoclinica/wiki/BigChart Planilha do BigChart]
 
 ==== Iteração 1 ====
 
- * Plano de Iteração Um: [http://code.google.com/p/neoclinica/wiki/PlanoIteracao1 link].
+ * [http://code.google.com/p/neoclinica/wiki/PlanoIteracao1 Plano de Iteração Um]
+
+==== Iteração 2 ====
+
+ * [http://code.google.com/p/neoclinica/wiki/PlanoIteracao2 Plano de Iteração Dois]
