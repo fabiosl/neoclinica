@@ -73,7 +73,7 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
  * Teste de Aceitação 4.3: Fazer login com usuário do tipo "administrador" (login sem sucesso).  
  * Teste de Aceitação 4.4: Fazer login com usuário do tipo "funcionario" (login sem sucesso).
 
-*Artefatos Produzidos: [http://code.google.com/p/neoclinica/source/browse/trunk/NeoClinicaTestes/README (Ver Observação)], [http://code.google.com/p/neoclinica/source/browse/trunk/NeoClinicaTestes/test/functional/LoginTests.groovy Testes de Aceitação], [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us4/Relatório%20Estudo%20de%20Segurança%20em%20Grails.doc Estudo da Segurança em Grails]
+*Artefatos Produzidos: [http://code.google.com/p/neoclinica/source/browse/trunk/NeoClinicaTestes/README (Ver Observação)], [http://code.google.com/p/neoclinica/source/browse/trunk/NeoClinicaTestes/test/functional/LoginTests.groovy Testes de Aceitação], [http://code.google.com/p/neoclinica/wiki/EstudoLoginSeguroGrails Estudo da Segurança em Grails]
 
 
 === Atividades ===
