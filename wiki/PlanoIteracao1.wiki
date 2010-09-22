@@ -95,4 +95,4 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 === Atividades ===
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-|| A14.1 || Fazer um manual de configuração do ambiente || Fabio || 1h || 1:17 || C ||
+|| A14.1 || Fazer um manual de configuração do ambiente || Fabio || 1h || 1h17m || C ||
