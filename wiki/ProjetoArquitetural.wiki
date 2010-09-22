@@ -20,8 +20,10 @@ A camada de negócio do sistema a ser desenvolvido também será feita usando a 
 A persistência de dados do sistema será auxiliada pelo SGBD relacional MySQL{7}. A escolha do MySQL deu-se, principalmente, pelo fato de ser uma tecnologia de código aberto e não necessitar de licenças ou taxas para seu uso. Adotaremos, preferencialmente, o padrão DAO{8} para realizar a persistência dos dados. Para a modelagem das tabelas no banco de dados será utilizado o framework Hibernate{9}, que já é integrado ao framework Grails e faz o mapeamento automático das entidades para o mundo relacional.
 
 === Tecnologias de Teste ===
-Os testes de unidade serão realizados através do plugin nativo do framework Grails para testes de unidade - _Grails Unit Test Case_{10}. Os testes de aceitação serão realizados através do plugin _Grails Functional Test_{11}, que permite fazer testes de aceitação através da análise do código de páginas HTML. Com uso do mesmo é possível
-verificar restrições na interface de um determinado tipo do usuário, uma vez que as visões para usuários de tipos distintos serão distintas. O plugin funciona como se fosse um web browser e funciona fazendo requisições HTTP e navegando entre páginas web.
+Os testes de unidade serão realizados através do plugin nativo do framework Grails para testes de unidade - _Grails Unit Test Case_{10}. Os testes de aceitação serão realizados através dos testes de unidade Grails{10} (para testes relativos à lógica de négocio pura) e o plugin _Grails Functional Test_{11}, que permite fazer testes de aceitação através da análise do código de páginas HTML. Com uso deste plugin é possível aplicar os testes à interface, verificando restrições aplicadas um determinado tipo do usuário, uma vez que pode haver restrições de acesso à visões para usuários de determinados distintos. O plugin funciona como se fosse um web browser e funciona fazendo requisições HTTP e navegando entre páginas web.
+
+|| * Tipo de Teste * || *Unidade* || *Aceitação* || *Interface* ||
+|| * Tecnologia * || Grails Unit Test Case || Grails Unit Test Case + Grails Functional Test || Grails Functional Test ||
 
 == Referências Externas: ==
 {1} - Grails Framework. http://grails.org/. Acesso em 31/08/2010
