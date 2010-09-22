@@ -11,7 +11,7 @@ A separação em três camadas tornará o sistema mais flexível, de modo que as
 O sistema, a princípio, será concebido para funcionar como uma aplicação _standalone_ em um servidor Web (_Apache Tomcat_). Isso fará com que o mesmo possa ser executado tanto localmente, via intranet, como remotamente, via internet.  
 
 ===Camada de Apresentação===
-A camada de apresentação será desenvolvida com auxílio do framework para desenvolvimento Web Grails{1}. O framework em si já faz uso de uma arquitetura de três camadas (Model View Controller – MVC {2}), mas o projeto a ser desenvolvido fará uso principalmente das facilidades de Grails para o desenvolvimento de interface gráfica web. A geração do HTML{3} das páginas será feita via Groovy Server Pages – GSP{4]} e/ou Java Server Pages - JSP{5}.
+A camada de apresentação será desenvolvida com auxílio do framework para desenvolvimento Web Grails{1} em sua versão 1.3.1. O framework em si já faz uso de uma arquitetura de três camadas (Model View Controller – MVC {2}), mas o projeto a ser desenvolvido fará uso principalmente das facilidades de Grails para o desenvolvimento de interface gráfica web. A geração do HTML{3} das páginas será feita via Groovy Server Pages – GSP{4]} e/ou Java Server Pages - JSP{5}.
 
 ===Camada de Negócio===
 A camada de negócio do sistema a ser desenvolvido também será feita usando a tecnologia Grails. A escolha de Grails, ao invés de outra qualquer, deu-se devido à experiência da equipe de desenvolvimento com a mesma e por Grails ser um framework Web para a linguagem Groovy que roda em cima da plataforma Java{6}, que por sua vez possui grande número de ferramentas disponíveis que auxiliam o desenvolvimento, e também já é familiar à todo o time.
