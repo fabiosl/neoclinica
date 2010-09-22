@@ -1,0 +1,3 @@
+#summary Página que guarda o estudo dos testes de aceitação em grails.
+
+[http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us3/Estudo+das+ferramentas+de+testes+de+aceita%C3%A7%C3%A3o+para+o+projeto+ClinicaNeoSI.docx?spec=svn320&r=320 Documento]
