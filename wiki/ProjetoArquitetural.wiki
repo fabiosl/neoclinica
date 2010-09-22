@@ -48,4 +48,4 @@ Os testes de unidade serão realizados através do plugin nativo do framework Gr
 
 {11} - Testes Funcionais em Grails http://grails.org/plugin/functional-test. Acesso em 20/09/2010.
 
-_Obs.:_ As tecnologias de teste foram definidas na [http://code.google.com/p/neoclinica/wiki/PlanoIteracao1 iteração 1], user story 2.
+_Obs.:_ As tecnologias de teste foram definidas na [http://code.google.com/p/neoclinica/wiki/PlanoIteracao1 iteração 1], user story 3.
