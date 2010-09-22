@@ -9,4 +9,4 @@ Nesse modelo estão as entidades que de fato serão armazenadas no banco de dado
 
 _Obs.:_ O "idExterno" é um dado relativo ao sistema em uso na clínica (PersonalMed).
 
-_Obs 2.:_ Houveram algumas alterações no modelo, sugeridas pelo monitor (Renato) e uma alteração (removida a hierarquia de classes para procedimento médico, pois na validação do modelo na [http://code.google.com/p/neoclinica/wiki/AtaReunioes reunião 5], essa mudança foi solicitada (pois os procedimentos são flexíveis e deve ser possível cadastrar um novo tipo quando preciso).
+_Obs 2.:_ Houveram algumas alterações menores no modelo sugeridas pelo monitor (troca de uma agregação por associação) e foi removida a hierarquia de classes para procedimento médico, mudança solicitada na validação do modelo na [http://code.google.com/p/neoclinica/wiki/AtaReunioes reunião 5] (pois os procedimentos são flexíveis e deve ser possível cadastrar um novo tipo quando preciso).
