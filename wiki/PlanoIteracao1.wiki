@@ -54,7 +54,7 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 
   * Teste de Aceitação 3.1: Elaboração de script de teste de aceitação. _Condição de sucesso: Script realiza teste simples do sistema_. 
 
-*Artefatos Produzidos: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us3/Observação.txt (Ver Observação)]*
+*Artefatos Produzidos: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us3/Observação.txt (Ver Observação)], [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us3/Estudo%20das%20ferramentas%20de%20testes%20de%20aceita%C3%A7%C3%A3o%20para%20o%20projeto%20ClinicaNeoSI.docx Estudo das Ferramentas]*
 
 === Atividades ===
 
