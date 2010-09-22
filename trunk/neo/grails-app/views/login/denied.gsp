@@ -10,7 +10,7 @@
         </div>
 		<div id="pageBody">
         <br/>
-		<div class="erroSedare">Desculpe, você não possui nível de acesso suficiente para acessar essa página.</div>
+		<div class="erroSedare">Desculpe, você possui nível de acesso insuficiente para acessar essa página.</div>
 		<br/>
 		</div>
 		<div align="center">

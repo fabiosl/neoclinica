@@ -11,7 +11,7 @@
        <!-- neo:botao link="fornecedor" imgsrc="${resource(dir:'images/botoes',file:'fornecedor.png')}" descricao="Controle de Fornecedores"/ -->
     </neo:linhaDeBotoes>
     <neo:linhaDeBotoes>
-       <neo:botao link="usuario" imgsrc="${resource(dir:'images/botoes',file:'usuarios.png')}" descricao="Controle de Usuarios"/>
+       <neo:botao id="linkusuario" link="usuario" imgsrc="${resource(dir:'images/botoes',file:'usuarios.png')}" descricao="Controle de Usuarios"/>
        <!-- neo:botao link="" imgsrc="${resource(dir:'images/botoes',file:'calendario.png')}" descricao="Agenda"/ -->
        <!-- neo:botao link="" imgsrc="${resource(dir:'images/botoes',file:'senha.png')}" descricao="Alterar Senha"/ -->
     </neo:linhaDeBotoes>

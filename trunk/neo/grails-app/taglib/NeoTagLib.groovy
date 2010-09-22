@@ -33,7 +33,7 @@ class NeoTagLib {
 		out << '<tr>'
 		out << '<td>'
 		out << '<div align="center">'
-		out << '<a href="' + attrs["link"] + '"><img src="' + attrs["imgsrc"] + '" border="0"></a>'
+		out << '<a href="' + attrs["link"] + '"><img id="' + attrs["id"] +  '" src="' + attrs["imgsrc"] + '" border="0"></a>'
 		out << '</div>'
 		out << '</td>'
 		out << '</tr>'
