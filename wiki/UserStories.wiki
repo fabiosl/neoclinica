@@ -42,9 +42,6 @@ O sistema deve ter logins com dois níveis de privilégio (administrador e funci
  * Teste de Aceitação 4.3: Fazer login com usuário do tipo "administrador" (login sem sucesso).  
  * Teste de Aceitação 4.4: Fazer login com usuário do tipo "funcionario" (login sem sucesso).
 
-*Condição de Sucesso para todos os testes estão definidas em parênteses após o teste.*
-_Para o estudo, foi elaborado o seguinte artefato: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us4/Relatório%20Estudo%20de%20Segurança%20em%20Grails.doc EstudoGrails]. Demais: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us4/Observação.txt Observação]_
-
 ----
 
 == User Story 5 - Implementar funcionalidade de controle de pacientes ==
