@@ -28,12 +28,15 @@ Aqui são guardadas todas as informações essenciais e os links para as outras 
 
 === Releases e Iterações (Geral) ===
 
- * [http://code.google.com/p/neoclinica/wiki/MatrizDeCompetencias Matriz de Competências] _Atualizado Iteração 1_
- * [http://code.google.com/p/neoclinica/wiki/PlanoRelease Plano de Release] _Atualizado Iteração 1_
- * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo/test/acceptance Testes de Aceitação produzidos] _Atualizado Iteração 1_
- * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo Código produzido] _Atualizado Iteração 1_
- * [http://code.google.com/p/neoclinica/wiki/BigChart BigChart] _Atualizado Iteração 1_
- * [http://code.google.com/p/neoclinica/wiki/Riscos Riscos do Projeto] _Atualizado Iteração 1_
+ * [http://code.google.com/p/neoclinica/wiki/MatrizDeCompetencias Matriz de Competências] (_Atualizado Iteração 1_)
+ * [http://code.google.com/p/neoclinica/wiki/PlanoRelease Plano de Release] (_Atualizado Iteração 1_)
+ * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo/test/ Testes] (_Atualizado Iteração 1_)
+    * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo/test/ Testes de aceitação (geral)] 
+    * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/NeoClinicaTestes/test/functional Testes de aceitação e interface utilizando requisições HTTP]
+    * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo/test/unit/test/unit Testes de unidade]
+ * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo Código produzido] (_Atualizado Iteração 1_)
+ * [http://code.google.com/p/neoclinica/wiki/BigChart BigChart] (_Atualizado Iteração 1_)
+ * [http://code.google.com/p/neoclinica/wiki/Riscos Riscos do Projeto] (_Atualizado Iteração 1_)
 
 ==== Iteração 1 *(Completa)* ====
 
