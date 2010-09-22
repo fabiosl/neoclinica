@@ -46,6 +46,6 @@ Objetivos da reunião (por ordem de prioridade):
   * Pedir arquivo da logomarca da clínica (_Já integrado ao sistema_).
   * Validar telas iniciais do sistema já implementadas (_Não realizado. Postergado para próxima reunião_).
 
-==Sexta Reunião com o Cliente (_Indefinido_)==
-Objetivos da reunião:
-  * Mostrar partes do sistema já implementadas.
+==Sexta Reunião com o Cliente (_A definir_)==
+_Objetivos da reunião:_
+  * Mostrar partes do sistema já implementadas (release 1).
