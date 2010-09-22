@@ -2,6 +2,11 @@
 
 = Iteração 1 (_08/09/2010 -> 22/09/2010_) =
 
+Usando a legenda para o status das US:
+  * C: Concluída;
+  * A: Abortado;
+  * D: Desenvolvimento.
+
 ----
 
 == User Story 1 - Estudar tecnologias da camada de dados ==
@@ -15,10 +20,10 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 === Atividades ===
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-|| A1.1 || Estudar MySQL e padrão DAO || Todos || 2h || 1h25m || OK ||
-|| A1.2 || Estudar integração de Grails com MySQL || Renato || 2h || 1h15m || OK ||
-|| A1.3 || Configurar integração de Grails com MySQL no projeto || Renato || 4h || 3h || OK ||
-|| A1.4 || Gerar classes de domínio Grails seguindo o modelo de dados para testar mapeamento || Renato || 4h || 3h30m || OK ||
+|| A1.1 || Estudar MySQL e padrão DAO || Todos || 2h || 1h25m || C ||
+|| A1.2 || Estudar integração de Grails com MySQL || Renato || 2h || 1h15m || C ||
+|| A1.3 || Configurar integração de Grails com MySQL no projeto || Renato || 4h || 3h || C ||
+|| A1.4 || Gerar classes de domínio Grails seguindo o modelo de dados para testar mapeamento || Renato || 4h || 3h30m || C ||
 
 ----
 
@@ -31,11 +36,11 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 === Atividades ===
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || *Observação* ||
-|| A2.1 || Instalar Tomcat || Fabio || 1h || 30 min || OK || Cliente ainda não providenciou o servidor. ||
-|| A2.2 || Instalar cliente no-ip || Fabio || 1h || 1h 30 min || OK || www.clinicaneo.sytes.net ||
-|| A2.3 || Instalar MySQL || Fabio || 1h || 48 min || OK || Cliente ainda não providenciou o servidor.||
-|| A2.4 || Instalar Grails || Fabio || 2h || 1h 15 min || OK || Cliente ainda não providenciou o servidor. ||
-|| A2.5 || Realizar integração do sistema com o servidor || Fabio || 3h || 7h 12 min || OK || Cliente ainda não providenciou o servidor.||
+|| A2.1 || Instalar Tomcat || Fabio || 1h || 30 min || C || Cliente ainda não providenciou o servidor. ||
+|| A2.2 || Instalar cliente no-ip || Fabio || 1h || 1h 30 min || C || www.clinicaneo.sytes.net ||
+|| A2.3 || Instalar MySQL || Fabio || 1h || 48 min || C || Cliente ainda não providenciou o servidor.||
+|| A2.4 || Instalar Grails || Fabio || 2h || 1h 15 min || C || Cliente ainda não providenciou o servidor. ||
+|| A2.5 || Realizar integração do sistema com o servidor || Fabio || 3h || 7h 12 min || C || Cliente ainda não providenciou o servidor.||
 
 ----
 
@@ -48,8 +53,8 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 === Atividades ===
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-|| A3.1 || Estudar testes de aceitação em Grails || Todos|| 2h || 4h  || OK||
-|| A3.2 || Elaborar script de testes || Fabio || 1h || 30 min || OK ||
+|| A3.1 || Estudar testes de aceitação em Grails || Todos|| 2h || 4h  || C ||
+|| A3.2 || Elaborar script de testes || Fabio || 1h || 30 min || C ||
 
 ----
 
@@ -69,8 +74,8 @@ _Para o estudo, foi elaborado o seguinte artefato: [http://code.google.com/p/neo
 === Atividades ===
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-|| A4.1 || Estudar melhor alternativa de login em Grails || Solon || 3h || 2h30m || OK ||
-|| A4.2 || Implementar mecanismo de login || Solon || 2h || 1h30m|| OK  ||
+|| A4.1 || Estudar melhor alternativa de login em Grails || Solon || 3h || 2h30m || C ||
+|| A4.2 || Implementar mecanismo de login || Solon || 2h || 1h30m|| C  ||
 
 ----
 
@@ -83,4 +88,4 @@ _Para o estudo, foi elaborado o seguinte artefato: [http://code.google.com/p/neo
 === Atividades ===
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-|| A14.1 || Fazer um manual de configuração do ambiente || Fabio || 1h || 1:17 || OK ||
+|| A14.1 || Fazer um manual de configuração do ambiente || Fabio || 1h || 1:17 || C ||
