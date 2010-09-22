@@ -4,8 +4,8 @@
 
 || *Nome* || *Responsável* || *Descrição* || *Probabilidade* || *Efeito* || *Alternativa* || *Status* ||
 || Viagem de membro do time || Solon || Algum membro da equipe precisar viajar e atrapalhar o desenvolver do projeto (CBSOFT, maratona do ICPC) || Alta || Sério || Adiantar as atividades ou distribuí-las para outros membros da equipe (dependendo da duração). || Vigente ||
-|| Easyaccept || Todos || Testes de aceitação para Grails || Baixa || Sério || Buscar alternativa para testes de aceitação em Grails. || Vigente ||
-|| Servidor || Cliente || Não existir servidor web para receber o projeto || Baixa || Sério || Cliente adquirir hardware necessário para funcionamento do sistema. || Superado ||
+|| Easyaccept || Todos || Testes de aceitação para Grails || Baixa || Sério || Buscar alternativa para testes de aceitação em Grails. || Superado ||
+|| Servidor || Cliente || Não existir servidor web para receber o projeto || Baixa || Sério || Cliente adquirir hardware necessário para funcionamento do sistema. || Vigente ||
 || Rede || Cliente || Não existir infra-estrutura de rede instalada para funcionamento do sistema em vários computadores || Baixa || Moderado || Cliente estabelecer infra-estrutura de rede para funcionamento do sistema em vários computadores.|| Vigente ||
 || Viagem Cliente || Cliente || Cliente precisar viajar para atendimento em outro local e não poder atender o time para dúvidas|| Médio || Sério || Cliente estabelecer outro responsável; dar as diretrizes antecipadamente; marcar reunião antecipada.|| Superado ||
 || Reunião Cliente || Cliente/Time || Não ser possível estabelecer horário adequado para a reunião durante a semana o que dificulta a validação do que já foi produzido e não possibilita planejamento junto ao cliente || Médio || Sério || Estabelecer horário alternativo ao qual ao menos um membro do time compareça; marcar reunião com antecedência e duração maior.|| Superado ||
