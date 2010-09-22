@@ -15,7 +15,9 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 
 === Testes de Aceitação ===
 
-  * Teste de Aceitação 1.1: Verificar se exemplos gerados satisfazem os requisitos de CRUD e persistência desejados pelo cliente. _Condição de sucesso: Dados guardados em esquema relacional de dados e com possibilidade de atualização, remoção, consulta e inserção_. *Artefatos: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us1/Observação.txt Observações], [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us1/Guia%20Integração.txt integraçãoMySQL], [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us1/Padrão%20DAO.txt padrãoDAO].*
+  * Teste de Aceitação 1.1: Verificar se exemplos gerados satisfazem os requisitos de CRUD e persistência desejados pelo cliente. _Condição de sucesso: Dados guardados em esquema relacional de dados e com possibilidade de atualização, remoção, consulta e inserção_.
+
+*Artefatos Produzidos: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us1/Observação.txt (Ver Observações)], [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us1/Guia%20Integração.txt Manual Integração MySQL], [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us1/Padrão%20DAO.txt Estudo Padrão DAO].*
 
 === Atividades ===
 
@@ -31,7 +33,9 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 
 === Testes de Aceitação ===
 
-  * Teste de Aceitação 2.1: Fazer uma requisição HTTP com sucesso ao servidor. _Condição de sucesso: Requisição atendida pelo servidor_. *Artefato: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us2/Observação.txt Observação] - Só funcionará quando o servidor estiver rodando.*
+  * Teste de Aceitação 2.1: Fazer uma requisição HTTP com sucesso ao servidor. _Condição de sucesso: Requisição atendida pelo servidor_.
+
+*Artefatos Produzidos: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us2/Observação.txt (Ver Observação)] - Só funcionará quando o servidor estiver rodando.*
 
 === Atividades ===
 
@@ -48,7 +52,9 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 
 === Testes de Aceitação ===
 
-  * Teste de Aceitação 3.1: Elaboração de script de teste de aceitação. _Condição de sucesso: Script realiza teste simples de CRUD do sistema_. *Artefatos: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us3/Observação.txt Observação]*
+  * Teste de Aceitação 3.1: Elaboração de script de teste de aceitação. _Condição de sucesso: Script realiza teste simples de CRUD do sistema_. 
+
+*Artefatos Produzidos: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us3/Observação.txt (Ver Observação)]*
 
 === Atividades ===
 
@@ -61,15 +67,14 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 == User Story 4 - Funcionalidade de login com privilégios ==
 
 === Testes de Aceitação ===
-[http://code.google.com/p/neoclinica/source/browse/trunk/NeoClinicaTestes/test/functional/LoginTests.groovy Artefato1] 
-[http://code.google.com/p/neoclinica/source/browse/trunk/NeoClinicaTestes/README Artefato2]  
+
  * Teste de Aceitação 4.1: Fazer login com usuário do tipo "administrador" (login com sucesso).
  * Teste de Aceitação 4.2: Fazer login com usuário do tipo "funcionario" (login com sucesso).
  * Teste de Aceitação 4.3: Fazer login com usuário do tipo "administrador" (login sem sucesso).  
  * Teste de Aceitação 4.4: Fazer login com usuário do tipo "funcionario" (login sem sucesso).
 
-*Condição de Sucesso para todos os testes estão definidas em parênteses após o teste.*
-_Para o estudo, foi elaborado o seguinte artefato: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us4/Relatório%20Estudo%20de%20Segurança%20em%20Grails.doc EstudoGrails]. Demais: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us4/Observação.txt Observação]_
+*Artefatos Produzidos: [http://code.google.com/p/neoclinica/source/browse/trunk/NeoClinicaTestes/README (Ver Observação)], [http://code.google.com/p/neoclinica/source/browse/trunk/NeoClinicaTestes/test/functional/LoginTests.groovy Testes de Aceitação], [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us4/Relatório%20Estudo%20de%20Segurança%20em%20Grails.doc Estudo da Segurança em Grails], [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us4/Observação.txt (Ver Observação)]
+
 
 === Atividades ===
 
@@ -83,7 +88,9 @@ _Para o estudo, foi elaborado o seguinte artefato: [http://code.google.com/p/neo
 
 === Testes de Aceitação ===
 
-   * Teste de Aceitação 14.1: Manual do sistema. _Condição de sucesso: Instalar corretamente ambiente em máquina que não o tem instalado_. *Artefato: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us14/ManualSistema.docx ManualInstalação]; [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us14/Observação.txt Observação]*
+   * Teste de Aceitação 14.1: Manual do sistema. _Condição de sucesso: Instalar corretamente ambiente em máquina que não o tem instalado_.
+
+*Artefatos Produzidos: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us14/ManualSistema.docx Manual de Deploy]; [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us14/Observação.txt (Ver Observação)]*
 
 === Atividades ===
 
