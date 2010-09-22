@@ -19,7 +19,7 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 
   * Teste de Aceitação 1.1: Verificar se exemplos gerados satisfazem os requisitos de CRUD e persistência desejados pelo cliente. _Condição de sucesso: Dados guardados em esquema relacional de dados e com possibilidade de atualização, remoção, consulta e inserção_.
 
-*Artefatos Produzidos: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us1/Observação.txt (Ver Observações)], [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us1/Guia%20Integração.txt Manual Integração MySQL], [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us1/Padrão%20DAO.txt Estudo Padrão DAO].*
+*Artefatos Produzidos: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us1/Observação.txt (Ver Observações)], [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us1/Guia%20Integração.txt Manual Integração MySQL], [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us1/Padrão%20DAO.txt Estudo Padrão DAO]*
 
 === Atividades ===
 
@@ -37,7 +37,7 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 
   * Teste de Aceitação 2.1: Fazer uma requisição HTTP com sucesso ao servidor. _Condição de sucesso: Requisição atendida pelo servidor_.
 
-*Artefatos Produzidos: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us2/Observação.txt (Ver Observação)] - Só funcionará quando o servidor estiver rodando.*
+*Artefatos Produzidos: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us2/Observação.txt (Ver Observação)] - Só funcionará quando o servidor estiver rodando*
 
 === Atividades ===
 
@@ -56,7 +56,7 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 
   * Teste de Aceitação 3.1: Elaboração de script de teste de aceitação. _Condição de sucesso: Script realiza teste simples do sistema_. 
 
-*Artefatos Produzidos: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us3/README.txt (Ver Observação)], [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us3/Estudo%20das%20ferramentas%20de%20testes%20de%20aceita%C3%A7%C3%A3o%20para%20o%20projeto%20ClinicaNeoSI.docx Estudo das Ferramentas] ou [http://code.google.com/p/neoclinica/wiki/EstudoTestesAceitacaoGrails TestesAceitacao].*
+*Artefatos Produzidos: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us3/README.txt (Ver Observação)], [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us3/Estudo%20das%20ferramentas%20de%20testes%20de%20aceita%C3%A7%C3%A3o%20para%20o%20projeto%20ClinicaNeoSI.docx Estudo das Ferramentas]*
 
 === Atividades ===
 
