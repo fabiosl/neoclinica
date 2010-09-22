@@ -90,7 +90,7 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 
    * Teste de Aceitação 14.1: Manual do sistema. _Condição de sucesso: Instalar corretamente ambiente em máquina que não o tem instalado_.
 
-*Artefatos Produzidos: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us14/ManualSistema.docx Manual de Deploy]; [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us14/Observação.txt (Ver Observação)]*
+*Artefatos Produzidos: [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us14/ManualSistema.docx Manual de Deploy]
 
 === Atividades ===
 
