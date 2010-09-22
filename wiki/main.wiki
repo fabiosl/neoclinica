@@ -10,7 +10,7 @@ Aqui são guardadas todas as informações essenciais e os links para as outras 
 === Equipe ===
 
  * [http://code.google.com/p/neoclinica/wiki/InformacoesDaDisciplina Datas Importantes]
- * [http://code.google.com/p/neoclinica/wiki/DiretrizesGrupo Diretrizes - _ambiente de desenvolvimento_]
+ * [http://code.google.com/p/neoclinica/wiki/DiretrizesGrupo Diretrizes (ambiente de desenvolvimento)]
  * [http://code.google.com/p/neoclinica/wiki/AtaReunioes Ata das Reuniões]
  * [http://code.google.com/p/neoclinica/wiki/HorariosEContatos Horários e Contatos]
  * [http://www.google.com/calendar/embed?src=thm8j5jiglbk4o39amvl2g44gk%40group.calendar.google.com&ctz=America/Recife Cronograma]
