@@ -35,7 +35,7 @@ Aqui são guardadas todas as informações essenciais e os links para as outras 
  * [http://code.google.com/p/neoclinica/wiki/BigChart BigChart] _Atualizado Iteração 1_
  * [http://code.google.com/p/neoclinica/wiki/Riscos Riscos do Projeto] _Atualizado Iteração 1_
 
-==== Iteração 1 ====
+==== Iteração 1 *(Completa)* ====
 
  * [http://code.google.com/p/neoclinica/wiki/PlanoIteracao1 Plano de Iteração Um]
 
