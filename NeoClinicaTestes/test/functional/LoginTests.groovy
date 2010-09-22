@@ -2,10 +2,6 @@
 class LoginTests extends functionaltestplugin.FunctionalTestCase {
 	private String defaultLocation =  "http://localhost:9000/NEOSoftGrails/login/auth";
 	
-	private void login(String user, String pass){
-		
-	}
-	
 	void testAnonymousAccess() {
 		get(this.defaultLocation);
 		assertContentContains("Digite login e senha")
@@ -46,6 +42,10 @@ class LoginTests extends functionaltestplugin.FunctionalTestCase {
 		
 		assertStatus 200
 		assertContentContains "Camila, bem vindo ao SI Neo!"
+		
+		click "linkusuario"
+		assertContentContains "acesso insuficiente"
+		
 	}
 	
 	void testUnsuccessfullAccess(){
@@ -55,6 +55,8 @@ class LoginTests extends functionaltestplugin.FunctionalTestCase {
 			j_password = "outropasswd"
 			click "OK"
 		}
+		
+		
 		assertContentContains "Nome ou senha invalidos."
 		
 	}
