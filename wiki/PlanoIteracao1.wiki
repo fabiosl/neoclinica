@@ -31,11 +31,11 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 === Atividades ===
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || *Observação* ||
-|| A2.1 || Instalar Tomcat || Fabio || 1h || 20 min || OK || Cliente ainda não providenciou o servidor. ||
-|| A2.2 || Instalar cliente no-ip || Fabio || 1h || 20 min || OK || www.clinicaneo.sytes.net ||
-|| A2.3 || Instalar MySQL || Fabio || 1h || 30 min || OK || Cliente ainda não providenciou o servidor.||
-|| A2.4 || Instalar Grails || Fabio || 2h || 20 min || OK || Cliente ainda não providenciou o servidor. ||
-|| A2.5 || Realizar integração do sistema com o servidor || Fabio || 3h || || OK || Cliente ainda não providenciou o servidor.||
+|| A2.1 || Instalar Tomcat || Fabio || 1h || 30 min || OK || Cliente ainda não providenciou o servidor. ||
+|| A2.2 || Instalar cliente no-ip || Fabio || 1h || 1h 30 min || OK || www.clinicaneo.sytes.net ||
+|| A2.3 || Instalar MySQL || Fabio || 1h || 48 min || OK || Cliente ainda não providenciou o servidor.||
+|| A2.4 || Instalar Grails || Fabio || 2h || 1h 15 min || OK || Cliente ainda não providenciou o servidor. ||
+|| A2.5 || Realizar integração do sistema com o servidor || Fabio || 3h || 7h 12 min || OK || Cliente ainda não providenciou o servidor.||
 
 ----
 
@@ -48,15 +48,16 @@ As tecnologias a ser estudadas compreendem àquelas que farão o  mapeamento que
 === Atividades ===
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-|| A3.1 || Estudar testes de aceitação em Grails || Todos|| 2h ||  || OK||
-|| A3.2 || Elaborar script de testes || Fabio || 1h || || OK ||
+|| A3.1 || Estudar testes de aceitação em Grails || Todos|| 2h || 4h  || OK||
+|| A3.2 || Elaborar script de testes || Fabio || 1h || 30 min || OK ||
 
 ----
 
 == User Story 4 - Funcionalidade de login com privilégios ==
 
 === Testes de Aceitação ===
-
+[http://code.google.com/p/neoclinica/source/browse/trunk/NeoClinicaTestes/test/functional/LoginTests.groovy Artefato1] 
+[http://code.google.com/p/neoclinica/source/browse/trunk/NeoClinicaTestes/README Artefato2]  
  * Teste de Aceitação 4.1: Fazer login com usuário do tipo "administrador" (login com sucesso).
  * Teste de Aceitação 4.2: Fazer login com usuário do tipo "funcionario" (login com sucesso).
  * Teste de Aceitação 4.3: Fazer login com usuário do tipo "administrador" (login sem sucesso).  
