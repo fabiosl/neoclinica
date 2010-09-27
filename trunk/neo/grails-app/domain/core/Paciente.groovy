@@ -2,10 +2,28 @@ package core
 
 import java.util.Date;
 
+/**
+ * Classe de domínio pertencente ao "core" do sistema. Mantem as informacoes especificadas no modelo
+ * de dados do projeto.
+ */
 class Paciente extends Pessoa {
-	String profissao
+	String profissao;
+	String rg;
+	
+	/**
+	 * Para guardarem informacoes adicionais que nao cabem ou nao fazem sentido nos outros campos
+	 */
+	String informacoesAdicionais;
+	
+	/**
+	 * ID externo refere-se ao id do paciente no sistema ja em uso na clinica (PersonalMED)
+	 */
+	Integer idExterno;
 	
 	static constraints = {
-		email(email : true, nullable : false, blank : true, maxSize : 50)
+		profissao(nullable : true, blank : true)
+		rg(nullable : true, blank : true)
+		informacoesAdicionais(nullable : true, maxSize : 1000)
+		idExterno(nullable : true)
 	}
 }
