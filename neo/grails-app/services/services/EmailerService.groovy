@@ -1,3 +1,4 @@
+package services
 import javax.mail.MessagingException
 
 import org.springframework.mail.MailException

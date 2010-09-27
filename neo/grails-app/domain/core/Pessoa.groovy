@@ -1,10 +1,12 @@
 package core;
 
+/**
+ * Classe de domínio abstrata (sem repositorio de dados) do "core" do sistema.
+ * Mantem as informacoes especificadas no modelo de dados do projeto (generalizacao de pacientes e medicos).
+ */
 public abstract class Pessoa implements Comparable {
 	String nome;
 	String endereco;
-	String rg;
-	String email;
 	String telefone;
 	Date nascimento;
 	Sexo sexo;
@@ -12,8 +14,7 @@ public abstract class Pessoa implements Comparable {
 	static constraints = {
 		nome(nullable : false, blank : false, maxSize : 100, minSize : 3)
 		endereco(nullable : true, maxSize : 255)
-		rg(nullable : true, maxSize : 15)
-		telefone(nullable : true, blank : true, maxSize : 13)
+		telefone(nullable : true, blank : true, maxSize : 15)
 		sexo(nullable : false)
 		nascimento(nullable : false)
 	}
