@@ -45,7 +45,7 @@
 
 <body>
 	<div class="nav">
-		<span class="menuButton"><g:link class="info">Sobre</g:link></span>
+		<span class="menuButton"><a href="/sobre.gsp" class="info">Sobre</a></span>
 	</div>
 	<g:if test="${flash.message}">
 		<br/><div class="message">${flash.message}</div><br/>
