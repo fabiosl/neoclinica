@@ -24,6 +24,6 @@ class Paciente extends Pessoa {
 		profissao(nullable : true, blank : true)
 		rg(nullable : true, blank : true)
 		informacoesAdicionais(nullable : true, maxSize : 1000)
-		idExterno(nullable : true)
+		idExterno(nullable : true, unique : true)
 	}
 }

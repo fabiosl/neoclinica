@@ -32,6 +32,14 @@ public abstract class Pessoa implements Comparable {
 		return (nascimento.getDate()) + "/" + (1 + nascimento.getMonth()) + "/" + (1900 + nascimento.getYear());
 	}
 	
+	public boolean isHomem() {
+		return sexo == Sexo.MASCULINO;
+	}
+	
+	public boolean isMulher() {
+		return sexo == Sexo.FEMININO;
+	}
+	
 	public int compareTo(obj) {
 		nome.compareTo(obj.nome)
 	}
