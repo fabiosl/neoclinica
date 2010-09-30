@@ -1,13 +1,5 @@
-package controllers
+package core
 
-import core.Paciente 
-
-/**
- * Controladora de pacientes. Controla as atividades de CRUD sob
- * os pacientes do sistema. Classe gerada pelo framework Grails.
- *
- * @see core.Paciente
- */
 class PacienteController {
 	static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
 	
