@@ -86,6 +86,13 @@
                         </tr>
                      
                        <tr class="prop">
+                            <td valign="top" class="name"><g:message code="paciente.convenio.label" default="Convenio" /></td>
+                            
+                            <td valign="top" class="value"><g:link controller="convenio" action="show" id="${pacienteInstance?.convenio?.id}">${pacienteInstance?.convenio?.encodeAsHTML()}</g:link></td>
+                            
+                        </tr>
+                     
+                       <tr class="prop">
                             <td valign="top" class="name"><g:message code="paciente.idExterno.label" default="Id Externo" /></td>
                             
                             <td valign="top" class="value">${fieldValue(bean: pacienteInstance, field: "idExterno")}</td>

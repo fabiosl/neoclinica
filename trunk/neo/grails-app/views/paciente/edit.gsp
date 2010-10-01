@@ -104,6 +104,15 @@
                         
                             <tr class="prop">
                                 <td valign="top" class="name">
+                                  <label for="convenio"><g:message code="paciente.convenio.label" default="Convenio" /></label>
+                                </td>
+                                <td valign="top" class="value ${hasErrors(bean: pacienteInstance, field: 'convenio', 'errors')}">
+                                    <g:select name="convenio.nome" from="${core.Convenio.list()}" optionKey="id" value="${pacienteInstance?.convenio?.nome}" noSelection="['null': '']" />
+                                </td>
+                            </tr>
+                        
+                            <tr class="prop">
+                                <td valign="top" class="name">
                                   <label for="idExterno"><g:message code="paciente.idExterno.label" default="Id Externo" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: pacienteInstance, field: 'idExterno', 'errors')}">
