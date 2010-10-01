@@ -40,8 +40,8 @@
                         
                             <g:sortableColumn property="informacoesAdicionais" title="${message(code: 'paciente.informacoesAdicionais.label', default: 'Informacoes Adicionais')}" />
                         
-                            <g:sortableColumn property="idExterno" title="${message(code: 'paciente.idExterno.label', default: 'Id Externo')}" />
-                        
+                            <th><g:message code="paciente.convenio.label" default="Convenio" /></th>
+                   	    
                         </tr>
                     </thead>
                     <tbody>
@@ -66,7 +66,7 @@
                         
                             <td>${fieldValue(bean: pacienteInstance, field: "informacoesAdicionais")}</td>
                         
-                            <td>${fieldValue(bean: pacienteInstance, field: "idExterno")}</td>
+                            <td>${fieldValue(bean: pacienteInstance, field: "convenio")}</td>
                         
                         </tr>
                     </g:each>
