@@ -9,8 +9,7 @@
     </head>
     <body>
         <div class="nav">
-            <span class="menuButton"><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></span>
-            <span class="menuButton"><g:link class="list" action="list"><g:message code="default.list.label" args="[entityName]" /></g:link></span>
+            <span class="menuButton"><a class="home" href="${createLink(uri: '/paciente')}"><g:message code="default.home.label"/></a></span>
         </div>
         <div class="body">
             <h1><g:message code="default.create.label" args="[entityName]" /></h1>
@@ -65,10 +64,10 @@
                         
                             <tr class="prop">
                                 <td valign="top" class="name">
-                                    <label for="nascimento"><g:message code="paciente.nascimento.label" default="Nascimento (*)" /></label>
+                                    <label for="nascimento"><g:message code="paciente.nascimento.label" default="Data de Nascimento (*)" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: pacienteInstance, field: 'nascimento', 'errors')}">
-                                    <g:datePicker name="nascimento" precision="minute" value="${pacienteInstance?.nascimento}"  />
+                                    <g:datePicker name="nascimento" precision="day" value="${pacienteInstance?.nascimento}"  />
                                 </td>
                             </tr>
                         

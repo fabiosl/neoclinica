@@ -11,8 +11,6 @@ class Paciente extends Pessoa {
 	String rg;
 	Convenio convenio;
 	
-	
-	
 	/**
 	 * Para guardarem informacoes adicionais que nao cabem ou nao fazem sentido nos outros campos
 	 */
@@ -27,7 +25,7 @@ class Paciente extends Pessoa {
 		profissao(nullable : true, blank : true)
 		rg(nullable : true, blank : true)
 		informacoesAdicionais(nullable : true, maxSize : 1000)
-		convenio(nullable:true)
+		convenio(nullable : true)
 		idExterno(nullable : true)
 	}
 }
