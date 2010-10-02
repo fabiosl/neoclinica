@@ -15,9 +15,9 @@
 			<p><b>Equipe de desenvolvimento:</b></p>
 			<br/>
 			<ul>
-				<li>Fábio Leal - sousaleal.fabio@gmail.com</li>
-				<li>Renato Almeida - renatoaf.ufcg@gmail.com</li>
-				<li>Solon Aguiar - solon.liam.aguiar@gmail.com</li>
+				<li>Fábio Leal - <i>sousaleal.fabio@gmail.com</i></li>
+				<li>Renato Almeida - <i>renatoaf.ufcg@gmail.com</i></li>
+				<li>Solon Aguiar - <i>solon.liam.aguiar@gmail.com</i></li>
 			</ul>
 		</div>
     </body>

@@ -5,7 +5,7 @@
 </head>
 <body>
 	<div class="nav">
-		<span class="menuButton"><a class="home" href="${createLinkTo(dir:'usuario')}">Home</a></span>
+		<span class="menuButton"><a class="home" href="${createLinkTo(dir:'/')}">Home</a></span>
 	</div>
 	<div class="body">
 		<h1>Alterar senha</h1>

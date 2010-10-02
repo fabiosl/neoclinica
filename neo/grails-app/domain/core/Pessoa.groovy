@@ -1,5 +1,7 @@
 package core;
 
+import java.util.Date;
+
 /**
  * Classe de dominio abstrata (sem repositorio de dados) do "core" do sistema.
  * Mantem as informacoes especificadas no modelo de dados do projeto (generalizacao de pacientes e medicos).
@@ -19,7 +21,11 @@ public abstract class Pessoa implements Comparable {
 		endereco(nullable : true, maxSize : 255)
 		telefone(nullable : true, blank : true, maxSize : 15)
 		sexo(nullable : false)
-		nascimento(nullable : false)
+		nascimento(nullable : false, validator: {val ->
+			if (val.after(new Date())) {
+				return 'dataNascimentoInvalida'
+			}
+		})
 	}
 	
 	/**
