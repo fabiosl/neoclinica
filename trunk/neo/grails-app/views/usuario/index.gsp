@@ -17,7 +17,7 @@
 		<div align="center">
 			<neo:linhaDeBotoes>
 				<neo:botao id="linkalterarsenha" link="usuario/alterarSenha" imgsrc="${resource(dir:'images/botoes',file:'senha.png')}" descricao="Alterar Senha"/>
-            	<neo:botao id="linkusuario" link="usuario" imgsrc="${resource(dir:'images/botoes',file:'usuarios.png')}" descricao="Controle de Usuarios"/>
+            	<neo:botao id="linkusuario" link="usuario/list" imgsrc="${resource(dir:'images/botoes',file:'usuarios.png')}" descricao="Controle de Usuarios"/>
 			</neo:linhaDeBotoes>
     	</div>
     </body>

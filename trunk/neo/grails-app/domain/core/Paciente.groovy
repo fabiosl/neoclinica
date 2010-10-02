@@ -3,13 +3,12 @@ package core
 import java.util.Date;
 
 /**
- * Classe de domínio pertencente ao "core" do sistema. Mantem as informacoes especificadas no modelo
+ * Classe de dominio pertencente ao "core" do sistema. Mantem as informacoes especificadas no modelo
  * de dados do projeto.
  */
 class Paciente extends Pessoa {
 	String profissao;
 	String rg;
-	Convenio convenio;
 	
 	/**
 	 * Para guardarem informacoes adicionais que nao cabem ou nao fazem sentido nos outros campos
@@ -21,6 +20,15 @@ class Paciente extends Pessoa {
 	 */
 	Integer idExterno;
 	
+	/**
+	 * Define o relacionamento 1-1 unidirecional, paciente pertence a um convenio. Cria uma chave estrangeira
+	 * para convenio.
+	 */
+	static belongsTo = [convenio : Convenio]
+	
+	/**
+	 * Restricoes de integridade
+	 */
 	static constraints = {
 		profissao(nullable : true, blank : true)
 		rg(nullable : true, blank : true)

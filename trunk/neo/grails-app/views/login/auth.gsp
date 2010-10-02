@@ -48,7 +48,7 @@
 		<span class="menuButton"><a class="info" href="${createLinkTo(dir:'sobre.gsp')}">Sobre</a></span>
 	</div>
 	<g:if test="${flash.message}">
-		<br/><div class="message">${flash.message}</div><br/>
+		<br/><div class="errors"><ul><li>${flash.message}</li></ul></div><br/>
 	</g:if>
 	<div id='login'>
 		<div class='inner'>

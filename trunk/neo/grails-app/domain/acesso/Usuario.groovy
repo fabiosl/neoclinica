@@ -5,10 +5,6 @@ package acesso
  * de dados. Um usuario possui varias autoridades (papeis) no sistema, modeladas pela entidade Hierarquia.
  */
 class Usuario {
-	static transients = ['pass']
-	static hasMany = [authorities:Hierarquia]
-	static belongsTo = Hierarquia
-	
 	/**
 	 * Login
 	 */
@@ -49,6 +45,21 @@ class Usuario {
 	 */
 	String pass = '[secret]'
 	
+	static transients = ['pass']
+	
+	/**
+	 * Relacionamento muitos-para-muitos. Um usuario pode ter varios papeis.
+	 */
+	static hasMany = [authorities : Hierarquia]
+	
+	/**
+	 * Define dependencia, para que um papel nao possa ser deletado enquanto houver usuarios.
+	 */
+	static belongsTo = Hierarquia
+	
+	/**
+	 * Restricoes de integridade
+	 */
 	static constraints = {
 		username(blank: false, unique: true)
 		userRealName(blank: false)

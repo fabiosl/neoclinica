@@ -20,7 +20,6 @@ class UsuarioController {	// TODO traduzir frases
 	 * Acao executada ao acessar /usuario.
 	 */
 	def index = {
-		redirect action: list, params: params
 	}
 	
 	/**
@@ -81,7 +80,7 @@ class UsuarioController {	// TODO traduzir frases
 			def authPrincipal = authenticateService.principal()
 			//avoid self-delete if the logged-in user is an admin
 			if (!(authPrincipal instanceof String) && authPrincipal.username == person.username) {
-				flash.message = "Voce não pode deletar você mesmo do sistema"
+				flash.message = "Voce nï¿½o pode deletar vocï¿½ mesmo do sistema"
 			}
 			else {
 				//first, delete this person from People_Authorities table.

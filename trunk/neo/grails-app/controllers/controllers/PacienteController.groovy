@@ -8,7 +8,6 @@ import core.Paciente
  *
  * @see core.Paciente
  */
-
 class PacienteController {
 	def index = {
 	}
