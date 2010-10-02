@@ -1,7 +1,7 @@
 package core;
 
 /**
- * Classe de domínio abstrata (sem repositorio de dados) do "core" do sistema.
+ * Classe de dominio abstrata (sem repositorio de dados) do "core" do sistema.
  * Mantem as informacoes especificadas no modelo de dados do projeto (generalizacao de pacientes e medicos).
  */
 public abstract class Pessoa implements Comparable {
@@ -11,6 +11,9 @@ public abstract class Pessoa implements Comparable {
 	Date nascimento;
 	Sexo sexo;
 	
+	/**
+	 * Restricoes de integridade
+	 */
 	static constraints = {
 		nome(nullable : false, blank : false, maxSize : 100, minSize : 3)
 		endereco(nullable : true, maxSize : 255)
@@ -19,6 +22,10 @@ public abstract class Pessoa implements Comparable {
 		nascimento(nullable : false)
 	}
 	
+	/**
+	 * Calcula a idade da pessoa baseada na hora atual
+	 * @return a idade da pessoa
+	 */
 	public int calculaIdade() {
 		Date atual = new Date()
 		int idade = atual.getYear() - nascimento.getYear()
@@ -28,18 +35,33 @@ public abstract class Pessoa implements Comparable {
 		return idade
 	}
 	
+	/**
+	 * Retorna a data de nascimento formatada no padrao DD/MM/YYYY
+	 * @return a data de nascimento formatada
+	 */
 	public String dataNascimentoDDMMYY() {
 		return (nascimento.getDate()) + "/" + (1 + nascimento.getMonth()) + "/" + (1900 + nascimento.getYear());
 	}
 	
+	/**
+	 * Funcao de ordenacao para pessoas
+	 * @param obj pessoa a comparar
+	 * @return -1 se este convenio for menor, 0 se forem iguais, e 1 se for maior
+	 */
 	public int compareTo(obj) {
-		nome.compareTo(obj.nome)
+		return nome.compareTo(obj.nome)
 	}
 	
+	/**
+	 * Representacao string da pessoa
+	 */
 	public String toString() {
 		return getNome() + " (" + dataNascimentoDDMMYY() + ")"
 	}
 	
+	/**
+	 * Diz se duas pessoas sao iguais
+	 */
 	public boolean equals(Object o) {
 		if (!(o instanceof Pessoa)) {
 			return false;

@@ -3,7 +3,7 @@ package services
 import acesso.Usuario;
 
 /**
- * Serviço que encapsula logica de negocio referente a alteracao de senha dos usuarios.
+ * Servico que encapsula logica de negocio referente a alteracao de senha dos usuarios.
  * Funcionalidade a mais que o Acegi nao prove nativamente.
  */
 class AcessoService {

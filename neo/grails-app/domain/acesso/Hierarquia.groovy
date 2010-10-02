@@ -7,8 +7,6 @@ package acesso
  * @see SecurityConfig.groovy
  */
 class Hierarquia {
-	static hasMany = [people:Usuario]
-	
 	/**
 	 * Descricao do papel
 	 */
@@ -19,6 +17,14 @@ class Hierarquia {
 	 */
 	String authority
 	
+	/**
+	 * Relacionamento muitos para muitos. Um papel pode ter varias pessoas envolvidas.
+	 */
+	static hasMany = [people : Usuario]
+	
+	/**
+	 * Restricoes de integridade
+	 */
 	static constraints = {
 		authority(blank: false, unique: true)
 		description(nullable:true)

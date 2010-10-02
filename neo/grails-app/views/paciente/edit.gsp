@@ -40,7 +40,7 @@
                         
                             <tr class="prop">
                                 <td valign="top" class="name">
-                                  <label for="endereco"><g:message code="paciente.endereco.label" default="Endereco" /></label>
+                                  <label for="endereco"><g:message code="paciente.endereco.label" default="Endere&ccedil;o" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: pacienteInstance, field: 'endereco', 'errors')}">
                                     <g:textArea name="endereco" cols="40" rows="5" value="${pacienteInstance?.endereco}" />
@@ -76,7 +76,7 @@
                         
                             <tr class="prop">
                                 <td valign="top" class="name">
-                                  <label for="profissao"><g:message code="paciente.profissao.label" default="Profissao" /></label>
+                                  <label for="profissao"><g:message code="paciente.profissao.label" default="Profiss&atilde;o" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: pacienteInstance, field: 'profissao', 'errors')}">
                                     <g:textField name="profissao" value="${pacienteInstance?.profissao}" />
@@ -85,7 +85,7 @@
                         
                             <tr class="prop">
                                 <td valign="top" class="name">
-                                  <label for="rg"><g:message code="paciente.rg.label" default="Rg" /></label>
+                                  <label for="rg"><g:message code="paciente.rg.label" default="RG" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: pacienteInstance, field: 'rg', 'errors')}">
                                     <g:textField name="rg" value="${pacienteInstance?.rg}" />
@@ -94,7 +94,7 @@
                         
                             <tr class="prop">
                                 <td valign="top" class="name">
-                                  <label for="informacoesAdicionais"><g:message code="paciente.informacoesAdicionais.label" default="Informacoes Adicionais" /></label>
+                                  <label for="informacoesAdicionais"><g:message code="paciente.informacoesAdicionais.label" default="Informa&ccedil;&otilde;es Adicionais" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: pacienteInstance, field: 'informacoesAdicionais', 'errors')}">
                                     <g:textArea name="informacoesAdicionais" cols="40" rows="5" value="${pacienteInstance?.informacoesAdicionais}" />
@@ -103,16 +103,16 @@
                         
                             <tr class="prop">
                                 <td valign="top" class="name">
-                                  <label for="convenio"><g:message code="paciente.convenio.label" default="Convenio" /></label>
+                                  <label for="convenio"><g:message code="paciente.convenio.label" default="Conv&ecirc;nio" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: pacienteInstance, field: 'convenio', 'errors')}">
-                                    <g:select name="convenio.nome" from="${core.Convenio.list()}" optionKey="id" value="${pacienteInstance?.convenio?.nome}" noSelection="['null': '']" />
+                                    <g:select name="convenio.id" from="${core.Convenio.list()}" optionKey="id" value="${pacienteInstance?.convenio?.id}" noSelection="['null': '']" />
                                 </td>
                             </tr>
                         
                             <tr class="prop">
                                 <td valign="top" class="name">
-                                  <label for="idExterno"><g:message code="paciente.idExterno.label" default="Id Externo" /></label>
+                                  <label for="idExterno"><g:message code="paciente.idExterno.label" default="ID Externo" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: pacienteInstance, field: 'idExterno', 'errors')}">
                                     <g:textField name="idExterno" value="${fieldValue(bean: pacienteInstance, field: 'idExterno')}" />

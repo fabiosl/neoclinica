@@ -1,4 +1,3 @@
-
 <%@ page import="core.Paciente" %>
 <html>
     <head>
@@ -20,84 +19,54 @@
             <div class="dialog">
                 <table>
                     <tbody>
-                     
                        <tr class="prop">
                             <td valign="top" class="name"><g:message code="paciente.id.label" default="Id" /></td>
-                            
                             <td valign="top" class="value">${fieldValue(bean: pacienteInstance, field: "id")}</td>
-                            
                         </tr>
-                     
                        <tr class="prop">
                             <td valign="top" class="name"><g:message code="paciente.nome.label" default="Nome" /></td>
-                            
                             <td valign="top" class="value">${fieldValue(bean: pacienteInstance, field: "nome")}</td>
-                            
                         </tr>
-                     
                        <tr class="prop">
-                            <td valign="top" class="name"><g:message code="paciente.endereco.label" default="Endereco" /></td>
-                            
-                            <td valign="top" class="value">${fieldValue(bean: pacienteInstance, field: "endereco")}</td>
-                            
+                            <td valign="top" class="name"><g:message code="Idade" /></td>
+                            <td valign="top" class="value">${pacienteInstance.calculaIdade()}</td>
                         </tr>
-                     
+                       <tr class="prop">
+                            <td valign="top" class="name"><g:message code="paciente.endereco.label" default="Endere&ccedil;o" /></td>
+                            <td valign="top" class="value">${fieldValue(bean: pacienteInstance, field: "endereco")}</td>
+                        </tr>
                        <tr class="prop">
                             <td valign="top" class="name"><g:message code="paciente.telefone.label" default="Telefone" /></td>
-                            
                             <td valign="top" class="value">${fieldValue(bean: pacienteInstance, field: "telefone")}</td>
-                            
                         </tr>
-                     
                        <tr class="prop">
                             <td valign="top" class="name"><g:message code="paciente.sexo.label" default="Sexo" /></td>
-                            
                             <td valign="top" class="value">${pacienteInstance?.sexo?.encodeAsHTML()}</td>
-                            
                         </tr>
-                     
                        <tr class="prop">
-                            <td valign="top" class="name"><g:message code="paciente.nascimento.label" default="Nascimento" /></td>
-                            
+                            <td valign="top" class="name"><g:message code="paciente.nascimento.label" default="Data de Nascimento" /></td>
                             <td valign="top" class="value"><g:formatDate format="dd-MM-yyyy" date="${pacienteInstance?.nascimento}" /></td>
-                            
                         </tr>
-                     
                        <tr class="prop">
-                            <td valign="top" class="name"><g:message code="paciente.profissao.label" default="Profissao" /></td>
-                            
+                            <td valign="top" class="name"><g:message code="paciente.profissao.label" default="Profiss&atilde;o" /></td>
                             <td valign="top" class="value">${fieldValue(bean: pacienteInstance, field: "profissao")}</td>
-                            
                         </tr>
-                     
                        <tr class="prop">
-                            <td valign="top" class="name"><g:message code="paciente.rg.label" default="Rg" /></td>
-                            
+                            <td valign="top" class="name"><g:message code="paciente.rg.label" default="RG" /></td>
                             <td valign="top" class="value">${fieldValue(bean: pacienteInstance, field: "rg")}</td>
-                            
                         </tr>
-                     
                        <tr class="prop">
-                            <td valign="top" class="name"><g:message code="paciente.informacoesAdicionais.label" default="Informacoes Adicionais" /></td>
-                            
+                            <td valign="top" class="name"><g:message code="paciente.informacoesAdicionais.label" default="Informa&ccedil;&otilde;es Adicionais" /></td>
                             <td valign="top" class="value">${fieldValue(bean: pacienteInstance, field: "informacoesAdicionais")}</td>
-                            
                         </tr>
-                     
                        <tr class="prop">
-                            <td valign="top" class="name"><g:message code="paciente.convenio.label" default="Convenio" /></td>
-                            
+                            <td valign="top" class="name"><g:message code="paciente.convenio.label" default="Conv&ecirc;nio" /></td>
                             <td valign="top" class="value"><g:link controller="convenio" action="show" id="${pacienteInstance?.convenio?.id}">${pacienteInstance?.convenio?.encodeAsHTML()}</g:link></td>
-                            
                         </tr>
-                     
                        <tr class="prop">
-                            <td valign="top" class="name"><g:message code="paciente.idExterno.label" default="Id Externo" /></td>
-                            
+                            <td valign="top" class="name"><g:message code="paciente.idExterno.label" default="ID Externo" /></td>
                             <td valign="top" class="value">${fieldValue(bean: pacienteInstance, field: "idExterno")}</td>
-                            
                         </tr>
-                    
                     </tbody>
                 </table>
             </div>

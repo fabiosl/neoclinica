@@ -17,8 +17,8 @@
 		<div align="center">
 			<neo:linhaDeBotoes>
 				<neo:botao id="linkbuscarpacientes" link="paciente/list" imgsrc="${resource(dir:'images/botoes',file:'busca.png')}" descricao="Buscar Pacientes"/>
-            	<neo:botao id="linkconvenio" link="convenio" imgsrc="${resource(dir:'images/botoes',file:'convenio.png')}" descricao="Controle de Convenios"/>
 				<neo:botao id="linkadicionarpaciente" link="paciente/create" imgsrc="${resource(dir:'images/botoes',file:'adicionarUsuario.png')}" descricao="Adicionar Paciente"/>
+            	<neo:botao id="linkconvenio" link="convenio" imgsrc="${resource(dir:'images/botoes',file:'convenio.png')}" descricao="Controle de Convenios"/>
 			</neo:linhaDeBotoes>
     	</div>
     </body>

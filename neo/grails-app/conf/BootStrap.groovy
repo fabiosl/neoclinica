@@ -5,7 +5,11 @@ class BootStrap {
 	def authenticateService
 	
 	def init = { servletContext ->
-		def userGod = new Usuario(
+		// marcar como true no primeiro run apos as tabelas terem sido criadas
+		final boolean CRIAR_USUARIOS = false;
+		
+		if (CRIAR_USUARIOS) {
+			def userGod = new Usuario(
 			username:'manutencao',
 			userRealName :'Equipe de Manutencao',
 			enabled : true,
@@ -40,6 +44,7 @@ class BootStrap {
 			def roleUser  = new Hierarquia(authority:'ROLE_FUNCIONARIO', description:'Funcionarios da clinica')
 			roleUser.addToPeople(userSec)
 			roleUser.save()
+		}
 	}
 	
 	def destroy = {
