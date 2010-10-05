@@ -4,6 +4,11 @@
 
 _*As estimativas de tempo, se somadas, para a User Story 5 têm valores diferentes das estimadas inicialmente (na página das User Stories), pois já houve ganho de experiência na Iteração 1 em relação a implementação de CRUDs e melhorias de GSPs.*_
 
+Usando a legenda para o status das US:
+  * C: Concluída;
+  * A: Abortado;
+  * D: Desenvolvimento.
+
 ----
 
 == User Story 5 - Implementar funcionalidade de controle de pacientes ==
