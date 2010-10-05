@@ -15,7 +15,7 @@ Essa página tem os planos de release do projeto.
 
 ||_*Release 2*_ || _*07/10/2010 -> 03/11/2010*_ || _*Gerente: Fabio*_ ||
 ||_Iteração_||_User Stories_||_Período_||
-||Iteração 3||7, 8 ||07/10/2010->20/10/2010||
+||Iteração 3||7, 8, 15 ||07/10/2010->20/10/2010||
 ||Iteração 4||9, 11 ||21/10/2010->03/11/2010||
 
 
