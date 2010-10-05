@@ -6,8 +6,8 @@ O bigchart do projeto NEO clínica pode ser visto aqui: [http://code.google.com/
 
 Essa é sempre a versão mais atualizada de acordo com o passo corrente do projeto.
 
-===Big Chart Iteração 1===
+===Big Chart===
 
-O big chart dá iteração 1 pode ser visto aqui:
+O big chart até a iteração 2 pode ser visto aqui:
 
 http://neoclinica.googlecode.com/svn/trunk/documentos/bigChart/BigChartUm.jpg
