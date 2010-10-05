@@ -46,6 +46,13 @@ Objetivos da reunião (por ordem de prioridade):
   * Pedir arquivo da logomarca da clínica (_Já integrado ao sistema_).
   * Validar telas iniciais do sistema já implementadas (_Não realizado. Postergado para próxima reunião_).
 
-==Sexta Reunião com o Cliente (_A definir_)==
+==Sexta Reunião com o Cliente (1/10/2010)==
+Essa reunião foi feita novamente com Camila porque o médico Harrison estava viajando em um congresso.
 _Objetivos da reunião:_
   * Mostrar partes do sistema já implementadas (release 1).
+
+==Sétima Reunião com o Cliente (2/10/2010)==
+Reunião informal que aconteceu por acaso com o cliente. Um dos membros do grupo estava viajando para um congresso e a pessoa sentada ao seu lado era o cliente do projeto (Harrison Sarmento). Assim, foram discutidas (informalmente) algumas questões como:
+  * Hardware a ser adquirido pela clínica;
+  * Possibilidade de reunião antes do fechamento de iteração para mostrar o software (na reunião anterior só foi mostrado para o usuário, porque o cliente mesmo estava em trânsito);
+  * Requisitos do sistema e impactos de seu uso na clínica.
