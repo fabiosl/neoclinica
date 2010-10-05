@@ -203,3 +203,20 @@ Deve ser elaborado um manual de configuração do sistema para a equipe de desen
 
 ===Tempo Real: 1h17m===
 ----
+
+== User Story 15 - Implementar funcionalidade de controle de médicos == 
+O sistema deve prover controle dos médicos que trabalham na clínica (usado para gerência das consultas).
+
+=== Estimativa Inicial: 5 horas ===
+=== Testes de Aceitação ===
+ * Teste de Aceitação 15.1: Cadastrar médico no sistema com todos os dados corretos (Operação Realizada com Sucesso).
+ * Teste de Aceitação 15.2: Cadastrar médico no sistema com dados faltando (Operação Realizada sem Sucesso).
+ * Teste de Aceitação 15.3: Retirar médico existente da lista de médicos (Operação Realizada com Sucesso).
+ * Teste de Aceitação 15.4: Retirar médico inexistente da lista de médico (Operação Realizada sem Sucesso).
+ * Teste de Aceitação 15.5: Consultar dados de médico existente no sistema (Operação Realizada com Sucesso).
+ * Teste de Aceitação 15.6: Consultar dados de médico inexistente no sistema (Operação Realizada sem Sucesso).
+ * Teste de Aceitação 15.7: Atualizar dados de médico existente no sistema (Operação Realizada com Sucesso).
+ * Teste de Aceitação 15.8: Atualizar dados de médico inexistente no sistema (Operação Realizada sem Sucesso).
+
+===Tempo Real: ===
+----
