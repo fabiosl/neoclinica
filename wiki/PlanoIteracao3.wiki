@@ -25,10 +25,10 @@ Usando a legenda para o status das US:
 === Atividades ===
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-|| A7.1 ||  || ||  || || D ||
-|| A7.2 ||  || ||  || || D ||
-|| A7.3 ||  || ||  || || D ||
-|| A7.4 ||  || ||  || || D ||
+|| A7.1 || Implementação das classes de domínio || Fabio ||  || || D ||
+|| A7.2 || Implementação da lógica de CRUD || Solon ||  || || D ||
+|| A7.3 || Elaboração das páginas GSP's || Renato ||  || || D ||
+|| A7.4 || Realização dos Testes || Renato ||  || || D ||
 
 ----
 
@@ -48,10 +48,10 @@ Usando a legenda para o status das US:
 === Atividades ===
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-|| A8.1 ||  || ||  || || D ||
-|| A8.2 ||  || ||  || || D ||
-|| A8.3 ||  || ||  || || D ||
-|| A8.4 ||  || ||  || || D ||
+|| A8.1 || Implementação das classes de domínio || Renato ||  || || D ||
+|| A8.2 || Implementação da lógica de CRUD || Solon ||  || || D ||
+|| A8.3 || Elaboração das páginas GSP's || Solon ||  || || D ||
+|| A8.4 || Realização dos Testes || Renato ||  || || D ||
 
 ----
 
@@ -71,9 +71,9 @@ Usando a legenda para o status das US:
 === Atividades ===
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-|| A15.1 ||  || ||  || || D ||
-|| A15.2 ||  || ||  || || D ||
-|| A15.3 ||  || ||  || || D ||
-|| A15.4 ||  || ||  || || D ||
+|| A15.1 || Implementação das classes de domínio ||  Solon ||  || || D ||
+|| A15.2 || Implementação da lógica de CRUD || Renato ||  || || D ||
+|| A15.3 || Elaboração das páginas GSP's || Fabio ||  || || D ||
+|| A15.4 || Realização dos Testes|| Solon ||  || || D ||
 
 ----
