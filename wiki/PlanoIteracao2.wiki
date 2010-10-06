@@ -28,7 +28,7 @@ Usando a legenda para o status das US:
 || A5.1 || Implementação das classes de domínio || Renato || 1h || 40m|| C ||
 || A5.2 || Implementação da lógica de CRUD || Renato || 2h || 1h12m || C ||
 || A5.3 || Elaboração das páginas GSP's || Solon || 3h || 2h30m|| C ||
-|| A5.4 || Realização dos Testes || Fábio || 2h || || ||
+|| A5.4 || Realização dos Testes || Fábio || 2h || 2h15m || C ||
 
 ----
 
@@ -49,8 +49,8 @@ Usando a legenda para o status das US:
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
 || A6.1 || Implementação das classes de domínio || Solon || 1h || 45m || C ||
 || A6.2 || Implementação da lógica de CRUD || Renato || 2h || 1h36m|| C || 
-|| A6.3 || Elaboração das páginas GSP's || Fabio || 2h ||  || || 
-|| A6.4 || Realizar testes || Fabio || 2h || || || 
+|| A6.3 || Elaboração das páginas GSP's || Fabio || 2h || 1h || C || 
+|| A6.4 || Realizar testes || Fabio || 2h || 2h10m || C || 
 || A6.5 || Mudança de senha para usuário logado || Renato || 1h || 1h30m || C || 
 
 ----
