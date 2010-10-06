@@ -124,7 +124,7 @@ class CRUDPacienteTests extends functionaltestplugin.FunctionalTestCase {
 		}
 		
 		assertContentContains "atualizado"
-		
+		assertContentContains "Rodrigues Alves"
 	}
 	
 	
