@@ -43,7 +43,7 @@ Aqui são guardadas todas as informações essenciais e os links para as outras 
 
  * [http://code.google.com/p/neoclinica/wiki/PlanoIteracao1 Plano de Iteração Um]
 
-==== Iteração 2 *(Em Curso)* ====
+==== Iteração 2 *(Completa)* ====
 
  * [http://code.google.com/p/neoclinica/wiki/PlanoIteracao2 Plano de Iteração Dois]
 
