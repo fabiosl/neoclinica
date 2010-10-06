@@ -10,4 +10,4 @@ Essa é sempre a versão mais atualizada de acordo com o passo corrente do proje
 
 O big chart até a iteração 2 pode ser visto aqui:
 
-http://neoclinica.googlecode.com/svn/trunk/documentos/bigChart/BigChartUm.jpg
+http://neoclinica.googlecode.com/svn/trunk/documentos/bigChart/BigChart.jpg
