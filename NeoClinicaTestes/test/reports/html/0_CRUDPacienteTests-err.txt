@@ -1,0 +1,6 @@
+--Output from testAddPacienteOK--
+--Output from testAddPacienteNotOk--
+--Output from testRemovePacienteOk--
+--Output from testRemovePacienteNotOk--
+--Output from testEditPacientetOk--
+

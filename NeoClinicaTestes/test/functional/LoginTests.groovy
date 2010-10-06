@@ -43,6 +43,7 @@ class LoginTests extends functionaltestplugin.FunctionalTestCase {
 		assertStatus 200
 		assertContentContains "Camila, bem vindo ao SI Neo!"
 		
+		click "linkopcoes"
 		click "linkusuario"
 		assertContentContains "acesso insuficiente"
 		
