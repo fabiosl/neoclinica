@@ -56,3 +56,8 @@ Reunião informal que aconteceu por acaso com o cliente. Um dos membros do grupo
   * Hardware a ser adquirido pela clínica;
   * Possibilidade de reunião antes do fechamento de iteração para mostrar o software (na reunião anterior só foi mostrado para o usuário, porque o cliente mesmo estava em trânsito);
   * Requisitos do sistema e impactos de seu uso na clínica.
+
+==Oitava Reunião com o Cliente (_a definir_)==
+Pontos a serem discutidos:
+
+  * Saber se convênios são únicos para cada cliente ou se um cliente pode ter vários convênios.
