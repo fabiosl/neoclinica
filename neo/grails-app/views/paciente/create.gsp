@@ -21,7 +21,7 @@
                 <g:renderErrors bean="${pacienteInstance}" as="list" />
             </div>
             </g:hasErrors>
-            <g:form action="save" method="post" >
+            <g:form action="save" method="post" name="formAddPaciente" >
                 <div class="dialog">
                     <table>
                         <tbody>
