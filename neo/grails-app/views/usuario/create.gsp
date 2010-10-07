@@ -19,7 +19,7 @@
 			<g:renderErrors bean="${person}" as="list" />
 		</div>
 		</g:hasErrors>
-		<g:form action="save">
+		<g:form action="save" name="addUsuarioForm">
 			<div class="dialog">
 				<table>
 				<tbody>
@@ -89,7 +89,7 @@
 			</div>
 
 			<div class="buttons">
-				<span class="button"><input class="save" type="submit" value="Criar" /></span>
+				<span class="button"><input class="save" type="submit" value="Criar" id="create"/></span>
 			</div>
 
 		</g:form>
