@@ -1,6 +1,3 @@
-Testsuite: CRUDUsuarioTests
-Tests run: 4, Failures: 1, Errors: 0, Time elapsed: 0,73 sec
-------------- Standard Output ---------------
 --Output from testAddUsuarioOK--
 
 
@@ -26,7 +23,7 @@ cache-Control: private
 Content-Type: text/html;charset=utf-8
 Content-Language: en
 Content-Length: 2463
-Date: Wed, 06 Oct 2010 15:52:02 GMT
+Date: Thu, 07 Oct 2010 00:30:22 GMT
 ========================================
 Content
 ========================================
@@ -141,25 +138,25 @@ Added attribute value with value harrison to tag [input] (id: DomAttr[name=id va
 Clicked [OK] which resolved to a [class com.gargoylesoftware.htmlunit.html.HtmlSubmitInput]
 Content of web window [TopLevelWindow[name=""]] changed
 <<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:9000/NEOSoftGrails/j_spring_security_check <<<<<<<<<<<<<<<<<<<<
-Response was a redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=C2B2729793B4702B1E1F5BCF1F66BF9C <<<<<<<<<<<<<<<<<<<<
+Response was a redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=7259D66D18331EC5F91BF3D5B9F62DB7 <<<<<<<<<<<<<<<<<<<<
 Response was 302 'Moved Temporarily', headers:
 ========================================
 Server: Apache-Coyote/1.1
-Set-Cookie: JSESSIONID=C2B2729793B4702B1E1F5BCF1F66BF9C; Path=/NEOSoftGrails
-Location: http://localhost:9000/NEOSoftGrails/;jsessionid=C2B2729793B4702B1E1F5BCF1F66BF9C
+Set-Cookie: JSESSIONID=7259D66D18331EC5F91BF3D5B9F62DB7; Path=/NEOSoftGrails
+Location: http://localhost:9000/NEOSoftGrails/;jsessionid=7259D66D18331EC5F91BF3D5B9F62DB7
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:02 GMT
+Date: Thu, 07 Oct 2010 00:30:22 GMT
 ========================================
 Content
 ========================================
 
 ========================================
 
-#Following redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=C2B2729793B4702B1E1F5BCF1F66BF9C
+#Following redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=7259D66D18331EC5F91BF3D5B9F62DB7
 
 
->>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/;jsessionid=C2B2729793B4702B1E1F5BCF1F66BF9C using method GET >>>>>>>>>>>>>>>>>>>>
-Initializing web request settings for http://localhost:9000/NEOSoftGrails/;jsessionid=C2B2729793B4702B1E1F5BCF1F66BF9C
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/;jsessionid=7259D66D18331EC5F91BF3D5B9F62DB7 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:9000/NEOSoftGrails/;jsessionid=7259D66D18331EC5F91BF3D5B9F62DB7
 Request parameters:
 ========================================
 ========================================
@@ -169,7 +166,7 @@ Accept-Language: en
 Accept: */*
 ========================================
 Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/;jsessionid=C2B2729793B4702B1E1F5BCF1F66BF9C <<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/;jsessionid=7259D66D18331EC5F91BF3D5B9F62DB7 <<<<<<<<<<<<<<<<<<<<
 Response was a redirect to http://localhost:9000/NEOSoftGrails/login/auth <<<<<<<<<<<<<<<<<<<<
 Response was 302 'Moved Temporarily', headers:
 ========================================
@@ -177,7 +174,7 @@ Server: Apache-Coyote/1.1
 Location: http://localhost:9000/NEOSoftGrails/login/auth
 Content-Type: text/html;charset=UTF-8
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:02 GMT
+Date: Thu, 07 Oct 2010 00:30:22 GMT
 ========================================
 Content
 ========================================
@@ -209,7 +206,7 @@ max-age: Thu, 01 Jan 1970 00:00:00 GMT
 cache-Control: private
 Location: http://localhost:9000/NEOSoftGrails/main.gsp
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:02 GMT
+Date: Thu, 07 Oct 2010 00:30:22 GMT
 ========================================
 Content
 ========================================
@@ -236,7 +233,7 @@ Response was 200 'OK', headers:
 Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Length: 2678
-Date: Wed, 06 Oct 2010 15:52:02 GMT
+Date: Thu, 07 Oct 2010 00:30:22 GMT
 ========================================
 Content
 ========================================
@@ -296,7 +293,516 @@ Content
 </html>
 ========================================
 
-#--Output from testAddUsuarioNotOk--
+#Clicked [linkopcoes] which resolved to a [class com.gargoylesoftware.htmlunit.html.HtmlImage]
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/usuario <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=UTF-8
+Content-Language: en
+Content-Length: 2004
+Date: Thu, 07 Oct 2010 00:30:22 GMT
+========================================
+Content
+========================================
+<html>
+    <head>
+        <title>SI Neo</title>
+        <link rel="stylesheet" href="/NEOSoftGrails/css/main_sem_table.css" />
+        <link rel="shortcut icon" href="/NEOSoftGrails/images/icnDoctor.ico" type="image/x-icon" />
+        
+        
+		<meta name="layout" content="main_sem_table"/>
+        <link rel="stylesheet" href="/NEOSoftGrails/css/main_sem_table.css" />
+    
+        <script type="text/javascript" src="/NEOSoftGrails/js/application.js"></script>
+
+    </head>
+    <body>
+		
+<div id="spinner" class="spinner" style="display: none;"><img
+	src="/NEOSoftGrails/images/spinner.gif" alt="Spinner" /></div>
+<div id="grailsLogo" class="logo"><img
+	src="/NEOSoftGrails/images/logoneo.png" alt="Grails"
+	border="0" /></div>
+
+		<div class="nav">
+			<span class="menuButton"><a class="home" href="/NEOSoftGrails">Home</a></span>
+		</div>
+		<div id="pageBody" class="dialog">
+	        <h1>Configurações do sistema:</h1>
+	        <br/>
+			<h2>Navegue pelos serviços abaixo:</h2>
+		</div>
+		<div align="center">
+			<table align="center" cellpadding="2" cellspacing="2" border="0"><tr>
+				<td align="center"><table cellpadding="4" cellspacing="4" border="0"><tr><td><div align="center"><a href="usuario/alterarSenha"><img id="linkalterarsenha" src="/NEOSoftGrails/images/botoes/senha.png" border="0"></a></div></td></tr><tr><td><div align="center"><font size="1">Alterar Senha</font></div></td></tr></table></td>
+            	<td align="center"><table cellpadding="4" cellspacing="4" border="0"><tr><td><div align="center"><a href="usuario/list"><img id="linkusuario" src="/NEOSoftGrails/images/botoes/usuarios.png" border="0"></a></div></td></tr><tr><td><div align="center"><font size="1">Controle de Usuarios</font></div></td></tr></table></td>
+			</tr></table>
+    	</div>
+    
+<br />
+<br />
+<div id="footer">
+<span class="copyright">
+	
+				&copy; 2010 SI Neo
+				<br/> 
+				Fabio Leal, Renato Almeida, Solon Aguiar
+				
+</span></div>
+    </body>
+</html>
+========================================
+
+#Clicked [linkusuario] which resolved to a [class com.gargoylesoftware.htmlunit.html.HtmlImage]
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/usuario/list <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=UTF-8
+Content-Language: en
+Content-Length: 3222
+Date: Thu, 07 Oct 2010 00:30:22 GMT
+========================================
+Content
+========================================
+<html>
+    <head>
+        <title>Lista (Usuario)</title>
+        <link rel="stylesheet" href="/NEOSoftGrails/css/main.css" />
+        <link rel="shortcut icon" href="/NEOSoftGrails/images/icnDoctor.ico" type="image/x-icon" />
+        
+	<meta name="layout" content="main"/>
+	
+
+        <script type="text/javascript" src="/NEOSoftGrails/js/application.js"></script>
+
+    </head>
+    <body>
+		
+<div id="spinner" class="spinner" style="display: none;"><img
+	src="/NEOSoftGrails/images/spinner.gif" alt="Spinner" /></div>
+<div id="grailsLogo" class="logo"><img
+	src="/NEOSoftGrails/images/logoneo.png" alt="Grails"
+	border="0" /></div>
+
+
+	<div class="nav">
+		<span class="menuButton"><a class="home" href="/NEOSoftGrails/">Home</a></span>
+		<span class="menuButton"><a href="/NEOSoftGrails/usuario/create" class="create">Novo Usuario</a></span>
+	</div>
+
+	<div class="body">
+		<h1>Lista (Usuario)</h1>
+		
+		<div class="list">
+			<table>
+			<thead>
+				<tr>
+					<th class="sortable" ><a href="/NEOSoftGrails/usuario/list?sort=id&amp;order=asc">Id</a></th>
+					<th class="sortable" ><a href="/NEOSoftGrails/usuario/list?sort=username&amp;order=asc">Login</a></th>
+					<th class="sortable" ><a href="/NEOSoftGrails/usuario/list?sort=userRealName&amp;order=asc">Nome</a></th>
+					<th class="sortable" ><a href="/NEOSoftGrails/usuario/list?sort=enabled&amp;order=asc">Habilitado</a></th>
+					<th class="sortable" ><a href="/NEOSoftGrails/usuario/list?sort=description&amp;order=asc">Descricao</a></th>
+					<th>&nbsp;</th>
+				</tr>
+			</thead>
+			<tbody>
+			
+				<tr class="odd">
+					<td>1</td>
+					<td>manutencao</td>
+					<td>Equipe de Manutencao</td>
+					<td>true</td>
+					<td></td>
+					<td class="actionButtons">
+						<span class="actionButton">
+							<a href="/NEOSoftGrails/usuario/show/1">Ver</a>
+						</span>
+					</td>
+				</tr>
+			
+				<tr class="even">
+					<td>2</td>
+					<td>harrison</td>
+					<td>Harrison</td>
+					<td>true</td>
+					<td></td>
+					<td class="actionButtons">
+						<span class="actionButton">
+							<a href="/NEOSoftGrails/usuario/show/2">Ver</a>
+						</span>
+					</td>
+				</tr>
+			
+				<tr class="odd">
+					<td>3</td>
+					<td>camila</td>
+					<td>camila</td>
+					<td>true</td>
+					<td></td>
+					<td class="actionButtons">
+						<span class="actionButton">
+							<a href="/NEOSoftGrails/usuario/show/3">Ver</a>
+						</span>
+					</td>
+				</tr>
+			
+				<tr class="even">
+					<td>4</td>
+					<td>fabiosl</td>
+					<td>Fabio</td>
+					<td>true</td>
+					<td>asdj</td>
+					<td class="actionButtons">
+						<span class="actionButton">
+							<a href="/NEOSoftGrails/usuario/show/4">Ver</a>
+						</span>
+					</td>
+				</tr>
+			
+				<tr class="odd">
+					<td>5</td>
+					<td>asdasd</td>
+					<td>Fasfa</td>
+					<td>false</td>
+					<td></td>
+					<td class="actionButtons">
+						<span class="actionButton">
+							<a href="/NEOSoftGrails/usuario/show/5">Ver</a>
+						</span>
+					</td>
+				</tr>
+			
+			</tbody>
+			</table>
+		</div>
+
+		<div class="paginateButtons">
+			
+		</div>
+
+	</div>
+
+<br />
+<br />
+<div id="footer">
+<span class="copyright">
+	
+				&copy; 2010 SI Neo
+				<br/> 
+				Fabio Leal, Renato Almeida, Solon Aguiar
+				
+</span></div>
+    </body>
+</html>
+========================================
+
+#Clicked [Novo Usuario] which resolved to a [class com.gargoylesoftware.htmlunit.html.HtmlAnchor]
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/usuario/create <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=UTF-8
+Content-Language: en
+Content-Length: 3956
+Date: Thu, 07 Oct 2010 00:30:22 GMT
+========================================
+Content
+========================================
+<html>
+    <head>
+        <title>Criar Usuario</title>
+        <link rel="stylesheet" href="/NEOSoftGrails/css/main.css" />
+        <link rel="shortcut icon" href="/NEOSoftGrails/images/icnDoctor.ico" type="image/x-icon" />
+        
+	<meta name="layout" content="main"/>
+	
+
+        <script type="text/javascript" src="/NEOSoftGrails/js/application.js"></script>
+
+    </head>
+    <body>
+		
+<div id="spinner" class="spinner" style="display: none;"><img
+	src="/NEOSoftGrails/images/spinner.gif" alt="Spinner" /></div>
+<div id="grailsLogo" class="logo"><img
+	src="/NEOSoftGrails/images/logoneo.png" alt="Grails"
+	border="0" /></div>
+
+	<div class="nav">
+		<span class="menuButton"><a class="home" href="/NEOSoftGrails/">Home</a></span>
+		<span class="menuButton"><a href="/NEOSoftGrails/usuario/list" class="list">Lista (Usuario)</a></span>
+	</div>
+	<div class="body">
+		<h1>Criar Usuario</h1>
+		
+		
+		<form action="/NEOSoftGrails/usuario/save" method="post" name="addUsuarioForm" id="addUsuarioForm" >
+			<div class="dialog">
+				<table>
+				<tbody>
+
+					<tr class="prop">
+						<td valign="top" class="name"><label for="username">Login:</label></td>
+						<td valign="top" class="value ">
+							<input type="text" id="username" name="username" value=""/>
+						</td>
+					</tr>
+
+					<tr class="prop">
+						<td valign="top" class="name"><label for="userRealName">Nome:</label></td>
+						<td valign="top" class="value ">
+							<input type="text" id="userRealName" name="userRealName" value=""/>
+						</td>
+					</tr>
+
+					<tr class="prop">
+						<td valign="top" class="name"><label for="passwd">Senha:</label></td>
+						<td valign="top" class="value ">
+							<input type="password" id="passwd" name="passwd" value=""/>
+						</td>
+					</tr>
+
+					<tr class="prop">
+						<td valign="top" class="name"><label for="enabled">Habilitado:</label></td>
+						<td valign="top" class="value ">
+							<input type="hidden" name="_enabled" /><input type="checkbox" name="enabled" id="enabled"  />
+						</td>
+					</tr>
+
+					<tr class="prop">
+						<td valign="top" class="name"><label for="description">Descrição:</label></td>
+						<td valign="top" class="value ">
+							<input type="text" id="description" name="description" value=""/>
+						</td>
+					</tr>
+
+					<tr class="prop">
+						<td valign="top" class="name"><label for="email">Email:</label></td>
+						<td valign="top" class="value ">
+							<input type="text" id="email" name="email" value=""/>
+						</td>
+					</tr>
+
+					<tr class="prop">
+						<td valign="top" class="name"><label for="emailShow">Mostrar Email:</label></td>
+						<td valign="top" class="value ">
+							<input type="hidden" name="_emailShow" /><input type="checkbox" name="emailShow" id="emailShow"  />
+						</td>
+					</tr>
+
+					<tr class="prop">
+						<td valign="top" class="name" align="left">Papeis:</td>
+					</tr>
+
+					
+					<tr>
+						<td valign="top" class="name" align="left">ROLE_MANUTENCAO</td>
+						<td align="left"><input type="hidden" name="_ROLE_MANUTENCAO" /><input type="checkbox" name="ROLE_MANUTENCAO" id="ROLE_MANUTENCAO"  /></td>
+					</tr>
+					
+					<tr>
+						<td valign="top" class="name" align="left">ROLE_ADMIN</td>
+						<td align="left"><input type="hidden" name="_ROLE_ADMIN" /><input type="checkbox" name="ROLE_ADMIN" id="ROLE_ADMIN"  /></td>
+					</tr>
+					
+					<tr>
+						<td valign="top" class="name" align="left">ROLE_FUNCIONARIO</td>
+						<td align="left"><input type="hidden" name="_ROLE_FUNCIONARIO" /><input type="checkbox" name="ROLE_FUNCIONARIO" id="ROLE_FUNCIONARIO"  /></td>
+					</tr>
+					
+
+				</tbody>
+				</table>
+			</div>
+
+			<div class="buttons">
+				<span class="button"><input class="save" type="submit" value="Criar" id="create"/></span>
+			</div>
+
+		</form>
+
+	</div>
+
+<br />
+<br />
+<div id="footer">
+<span class="copyright">
+	
+				&copy; 2010 SI Neo
+				<br/> 
+				Fabio Leal, Renato Almeida, Solon Aguiar
+				
+</span></div>
+    </body>
+</html>
+========================================
+
+#Setting value to [teste] on field [name:username id:username] of form [addUsuarioForm]
+Changed attribute value to  on tag [input] (id: DomAttr[name=id value=username] / name: DomAttr[name=name value=username])
+Setting value to [Teste] on field [name:userRealName id:userRealName] of form [addUsuarioForm]
+Changed attribute value to  on tag [input] (id: DomAttr[name=id value=userRealName] / name: DomAttr[name=name value=userRealName])
+Setting value to [teste] on field [name:passwd id:passwd] of form [addUsuarioForm]
+Changed attribute value to  on tag [input] (id: DomAttr[name=id value=passwd] / name: DomAttr[name=name value=passwd])
+Added attribute checked with value checked to tag [input] (id: DomAttr[name=id value=enabled] / name: DomAttr[name=name value=enabled])
+Setting value to [teste@teste.teste] on field [name:email id:email] of form [addUsuarioForm]
+Changed attribute value to  on tag [input] (id: DomAttr[name=id value=email] / name: DomAttr[name=name value=email])
+Added attribute checked with value checked to tag [input] (id: DomAttr[name=id value=ROLE_MANUTENCAO] / name: DomAttr[name=name value=ROLE_MANUTENCAO])
+Clicked [create] which resolved to a [class com.gargoylesoftware.htmlunit.html.HtmlSubmitInput]
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:9000/NEOSoftGrails/usuario/save <<<<<<<<<<<<<<<<<<<<
+Response was a redirect to http://localhost:9000/NEOSoftGrails/usuario/show/7 <<<<<<<<<<<<<<<<<<<<
+Response was 302 'Moved Temporarily', headers:
+========================================
+Server: Apache-Coyote/1.1
+Location: http://localhost:9000/NEOSoftGrails/usuario/show/7
+Content-Length: 0
+Date: Thu, 07 Oct 2010 00:30:23 GMT
+========================================
+Content
+========================================
+
+========================================
+
+#Following redirect to http://localhost:9000/NEOSoftGrails/usuario/show/7
+
+
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/usuario/show/7 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:9000/NEOSoftGrails/usuario/show/7
+Request parameters:
+========================================
+========================================
+Request headers:
+========================================
+Accept-Language: en
+Accept: */*
+========================================
+Content of web window [TopLevelWindow[name=""]] changed
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/usuario/show/7 <<<<<<<<<<<<<<<<<<<<
+Response was 200 'OK', headers:
+========================================
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=UTF-8
+Content-Language: en
+Content-Length: 2787
+Date: Thu, 07 Oct 2010 00:30:23 GMT
+========================================
+Content
+========================================
+<html>
+    <head>
+        <title>Ver Usuario</title>
+        <link rel="stylesheet" href="/NEOSoftGrails/css/main.css" />
+        <link rel="shortcut icon" href="/NEOSoftGrails/images/icnDoctor.ico" type="image/x-icon" />
+        
+	<meta name="layout" content="main"/>
+	
+
+        <script type="text/javascript" src="/NEOSoftGrails/js/application.js"></script>
+
+    </head>
+    <body>
+		
+<div id="spinner" class="spinner" style="display: none;"><img
+	src="/NEOSoftGrails/images/spinner.gif" alt="Spinner" /></div>
+<div id="grailsLogo" class="logo"><img
+	src="/NEOSoftGrails/images/logoneo.png" alt="Grails"
+	border="0" /></div>
+
+
+	<div class="nav">
+		<span class="menuButton"><a class="home" href="/NEOSoftGrails/">Home</a></span>
+		<span class="menuButton"><a href="/NEOSoftGrails/usuario/list" class="list">Lista (Usuario)</a></span>
+		<span class="menuButton"><a href="/NEOSoftGrails/usuario/create" class="create">Novo Usuario</a></span>
+	</div>
+
+	<div class="body">
+		<h1>Ver Usuario</h1>
+		
+		<div class="dialog">
+			<table>
+			<tbody>
+
+				<tr class="prop">
+					<td valign="top" class="name">ID:</td>
+					<td valign="top" class="value">7</td>
+				</tr>
+
+				<tr class="prop">
+					<td valign="top" class="name">Login:</td>
+					<td valign="top" class="value">teste</td>
+				</tr>
+
+				<tr class="prop">
+					<td valign="top" class="name">Nome:</td>
+					<td valign="top" class="value">Teste</td>
+				</tr>
+
+				<tr class="prop">
+					<td valign="top" class="name">Habilitado:</td>
+					<td valign="top" class="value">true</td>
+				</tr>
+
+				<tr class="prop">
+					<td valign="top" class="name">Descrição:</td>
+					<td valign="top" class="value"></td>
+				</tr>
+
+				<tr class="prop">
+					<td valign="top" class="name">Email:</td>
+					<td valign="top" class="value">teste@teste.teste</td>
+				</tr>
+
+				<tr class="prop">
+					<td valign="top" class="name">Ver Email:</td>
+					<td valign="top" class="value">false</td>
+				</tr>
+
+				<tr class="prop">
+					<td valign="top" class="name">Papeis:</td>
+					<td valign="top" class="value">
+						<ul>
+						
+							<li>ROLE_MANUTENCAO</li>
+						
+						</ul>
+					</td>
+				</tr>
+
+			</tbody>
+			</table>
+		</div>
+
+		<div class="buttons">
+			<form action="/NEOSoftGrails/usuario/index" method="post" >
+				<input type="hidden" name="id" value="7" />
+				<span class="button"><input type="submit" name="_action_edit" value="Editar" class="edit" /></span>
+				<span class="button"><input type="submit" name="_action_delete" value="Deletar" class="delete" onclick="return confirm('Voce tem certeza?');" /></span>
+			</form>
+		</div>
+
+	</div>
+
+<br />
+<br />
+<div id="footer">
+<span class="copyright">
+	
+				&copy; 2010 SI Neo
+				<br/> 
+				Fabio Leal, Renato Almeida, Solon Aguiar
+				
+</span></div>
+    </body>
+</html>
+========================================
+
+#--Output from testLogarUsuarioCriado--
 
 
 >>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/login/auth using method GET >>>>>>>>>>>>>>>>>>>>
@@ -321,7 +827,7 @@ cache-Control: private
 Content-Type: text/html;charset=utf-8
 Content-Language: en
 Content-Length: 2463
-Date: Wed, 06 Oct 2010 15:52:02 GMT
+Date: Thu, 07 Oct 2010 00:30:23 GMT
 ========================================
 Content
 ========================================
@@ -429,32 +935,32 @@ Content
 </html>
 ========================================
 
-#Setting value to [camila] on field [name:j_username id:j_username] of form []
+#Setting value to [teste] on field [name:j_username id:j_username] of form []
 Changed attribute value to  on tag [input] (id: DomAttr[name=id value=j_username] / name: DomAttr[name=name value=j_username])
-Setting value to [camila] on field [name:j_password id:j_password] of form []
-Added attribute value with value camila to tag [input] (id: DomAttr[name=id value=j_password] / name: DomAttr[name=name value=j_password])
+Setting value to [teste] on field [name:j_password id:j_password] of form []
+Added attribute value with value teste to tag [input] (id: DomAttr[name=id value=j_password] / name: DomAttr[name=name value=j_password])
 Clicked [OK] which resolved to a [class com.gargoylesoftware.htmlunit.html.HtmlSubmitInput]
 Content of web window [TopLevelWindow[name=""]] changed
 <<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:9000/NEOSoftGrails/j_spring_security_check <<<<<<<<<<<<<<<<<<<<
-Response was a redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=E912FB9B2827218889DE9D38DA280B11 <<<<<<<<<<<<<<<<<<<<
+Response was a redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=3FEF78EEAC8158396A55E23725E9E5C0 <<<<<<<<<<<<<<<<<<<<
 Response was 302 'Moved Temporarily', headers:
 ========================================
 Server: Apache-Coyote/1.1
-Set-Cookie: JSESSIONID=E912FB9B2827218889DE9D38DA280B11; Path=/NEOSoftGrails
-Location: http://localhost:9000/NEOSoftGrails/;jsessionid=E912FB9B2827218889DE9D38DA280B11
+Set-Cookie: JSESSIONID=3FEF78EEAC8158396A55E23725E9E5C0; Path=/NEOSoftGrails
+Location: http://localhost:9000/NEOSoftGrails/;jsessionid=3FEF78EEAC8158396A55E23725E9E5C0
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:02 GMT
+Date: Thu, 07 Oct 2010 00:30:23 GMT
 ========================================
 Content
 ========================================
 
 ========================================
 
-#Following redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=E912FB9B2827218889DE9D38DA280B11
+#Following redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=3FEF78EEAC8158396A55E23725E9E5C0
 
 
->>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/;jsessionid=E912FB9B2827218889DE9D38DA280B11 using method GET >>>>>>>>>>>>>>>>>>>>
-Initializing web request settings for http://localhost:9000/NEOSoftGrails/;jsessionid=E912FB9B2827218889DE9D38DA280B11
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/;jsessionid=3FEF78EEAC8158396A55E23725E9E5C0 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:9000/NEOSoftGrails/;jsessionid=3FEF78EEAC8158396A55E23725E9E5C0
 Request parameters:
 ========================================
 ========================================
@@ -464,7 +970,7 @@ Accept-Language: en
 Accept: */*
 ========================================
 Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/;jsessionid=E912FB9B2827218889DE9D38DA280B11 <<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/;jsessionid=3FEF78EEAC8158396A55E23725E9E5C0 <<<<<<<<<<<<<<<<<<<<
 Response was a redirect to http://localhost:9000/NEOSoftGrails/login/auth <<<<<<<<<<<<<<<<<<<<
 Response was 302 'Moved Temporarily', headers:
 ========================================
@@ -472,7 +978,7 @@ Server: Apache-Coyote/1.1
 Location: http://localhost:9000/NEOSoftGrails/login/auth
 Content-Type: text/html;charset=UTF-8
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:02 GMT
+Date: Thu, 07 Oct 2010 00:30:23 GMT
 ========================================
 Content
 ========================================
@@ -504,7 +1010,7 @@ max-age: Thu, 01 Jan 1970 00:00:00 GMT
 cache-Control: private
 Location: http://localhost:9000/NEOSoftGrails/main.gsp
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:02 GMT
+Date: Thu, 07 Oct 2010 00:30:23 GMT
 ========================================
 Content
 ========================================
@@ -530,8 +1036,8 @@ Response was 200 'OK', headers:
 ========================================
 Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
-Content-Length: 2676
-Date: Wed, 06 Oct 2010 15:52:02 GMT
+Content-Length: 2675
+Date: Thu, 07 Oct 2010 00:30:23 GMT
 ========================================
 Content
 ========================================
@@ -557,7 +1063,7 @@ Content
 		    <span class="menuButton"><a href="/NEOSoftGrails/logout/index" class="login">Logout</a></span>
 		</div>
 		<div id="pageBody" class="dialog">
-	        <h1>Olá, camila, bem vindo ao SI Neo!</h1>
+	        <h1>Olá, Teste, bem vindo ao SI Neo!</h1>
 	        <br/>
 			<h2>Navegue pelos serviços abaixo:</h2>
 		</div>
@@ -592,642 +1098,3 @@ Content
 ========================================
 
 #
-Failed: java.lang.IllegalArgumentException: No such element for id or anchor text [linkusuario]
-
-Failed: java.lang.IllegalArgumentException: No such element for id or anchor text [linkusuario]
-URL: http://localhost:9000/NEOSoftGrails/main.gsp
-
---Output from testRemoveUsuarioOK--
-
-
->>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/login/auth using method GET >>>>>>>>>>>>>>>>>>>>
-Initializing web request settings for http://localhost:9000/NEOSoftGrails/login/auth
-Request parameters:
-========================================
-========================================
-Request headers:
-========================================
-Accept-Language: en
-Accept: */*
-========================================
-Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/login/auth <<<<<<<<<<<<<<<<<<<<
-Response was 200 'OK', headers:
-========================================
-Server: Apache-Coyote/1.1
-Cache-Control: no-cache
-Expires: -1
-max-age: Thu, 01 Jan 1970 00:00:00 GMT
-cache-Control: private
-Content-Type: text/html;charset=utf-8
-Content-Language: en
-Content-Length: 2463
-Date: Wed, 06 Oct 2010 15:52:03 GMT
-========================================
-Content
-========================================
-<html>
-    <head>
-        <title>SI Neo</title>
-        <link rel="stylesheet" href="/NEOSoftGrails/css/main.css" />
-        <link rel="shortcut icon" href="/NEOSoftGrails/images/icnDoctor.ico" type="image/x-icon" />
-        
-<meta name="layout" content="main"/>
-
-<style type='text/css' media='screen'>
-#login {
-	margin:15px 0px; padding:0px;
-	text-align:center;
-}
-#login .inner {
-	width:300px;
-	margin:0px auto;
-	text-align:left;
-	padding:10px;
-	border-top:1px solid green;
-	border-bottom:1px solid green;
-	background-color:white;
-}
-#login .inner .fheader {
-	padding:4px;margin:3px 0px 3px 0;color:#2e3741;font-size:14px;font-weight:bold;
-}
-#login .inner .cssform p {
-	clear: left;
-	margin: 0;
-	padding: 5px 0 8px 0;
-	padding-left: 105px;
-	border-top: 1px dotted gray;
-	margin-bottom: 10px;
-	height: 1%;
-}
-#login .inner .cssform input[type='text'] {
-	width: 180px;
-}
-#login .inner .cssform label {
-	font-weight: bold;
-	float: left;
-	margin-left: -105px;
-	width: 100px;
-}
-#login .inner .login_message {color:red;}
-#login .inner .text_ {width:180px;}
-#login .inner .chk {height:12px;}
-</style>
-
-        <script type="text/javascript" src="/NEOSoftGrails/js/application.js"></script>
-
-    </head>
-    <body>
-		
-<div id="spinner" class="spinner" style="display: none;"><img
-	src="/NEOSoftGrails/images/spinner.gif" alt="Spinner" /></div>
-<div id="grailsLogo" class="logo"><img
-	src="/NEOSoftGrails/images/logoneo.png" alt="Grails"
-	border="0" /></div>
-
-	<div class="nav">
-		<span class="menuButton"><a class="info" href="/NEOSoftGrails/sobre.gsp">Sobre</a></span>
-	</div>
-	
-	<div id='login'>
-		<div class='inner'>
-			<div class='fheader'>Digite login e senha</div>
-			<br/>
-			<form action='/NEOSoftGrails/j_spring_security_check' method='POST' id='loginForm' class='cssform'>
-				<p>
-					<label for='j_username'>Login</label>
-					<input type='text' class='text_' name='j_username' id='j_username' value='' />
-				</p>
-				<p>
-					<label for='j_password'>Senha</label>
-					<input type='password' class='text_' name='j_password' id='j_password' />
-				</p>
-				<p>
-					<input type='submit' value='OK' />
-				</p>
-			</form>
-		</div>
-	</div>
-<script type='text/javascript'>
-<!--
-(function(){
-	document.forms['loginForm'].elements['j_username'].focus();
-})();
-// -->
-</script>
-
-<br />
-<br />
-<div id="footer">
-<span class="copyright">
-	
-				&copy; 2010 SI Neo
-				<br/> 
-				Fabio Leal, Renato Almeida, Solon Aguiar
-				
-</span></div>
-    </body>
-</html>
-========================================
-
-#Setting value to [harrison] on field [name:j_username id:j_username] of form []
-Changed attribute value to  on tag [input] (id: DomAttr[name=id value=j_username] / name: DomAttr[name=name value=j_username])
-Setting value to [harrison] on field [name:j_password id:j_password] of form []
-Added attribute value with value harrison to tag [input] (id: DomAttr[name=id value=j_password] / name: DomAttr[name=name value=j_password])
-Clicked [OK] which resolved to a [class com.gargoylesoftware.htmlunit.html.HtmlSubmitInput]
-Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:9000/NEOSoftGrails/j_spring_security_check <<<<<<<<<<<<<<<<<<<<
-Response was a redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=657A9E9CFB62EA6319AF12163D1701F5 <<<<<<<<<<<<<<<<<<<<
-Response was 302 'Moved Temporarily', headers:
-========================================
-Server: Apache-Coyote/1.1
-Set-Cookie: JSESSIONID=657A9E9CFB62EA6319AF12163D1701F5; Path=/NEOSoftGrails
-Location: http://localhost:9000/NEOSoftGrails/;jsessionid=657A9E9CFB62EA6319AF12163D1701F5
-Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:03 GMT
-========================================
-Content
-========================================
-
-========================================
-
-#Following redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=657A9E9CFB62EA6319AF12163D1701F5
-
-
->>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/;jsessionid=657A9E9CFB62EA6319AF12163D1701F5 using method GET >>>>>>>>>>>>>>>>>>>>
-Initializing web request settings for http://localhost:9000/NEOSoftGrails/;jsessionid=657A9E9CFB62EA6319AF12163D1701F5
-Request parameters:
-========================================
-========================================
-Request headers:
-========================================
-Accept-Language: en
-Accept: */*
-========================================
-Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/;jsessionid=657A9E9CFB62EA6319AF12163D1701F5 <<<<<<<<<<<<<<<<<<<<
-Response was a redirect to http://localhost:9000/NEOSoftGrails/login/auth <<<<<<<<<<<<<<<<<<<<
-Response was 302 'Moved Temporarily', headers:
-========================================
-Server: Apache-Coyote/1.1
-Location: http://localhost:9000/NEOSoftGrails/login/auth
-Content-Type: text/html;charset=UTF-8
-Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:03 GMT
-========================================
-Content
-========================================
-
-========================================
-
-#Following redirect to http://localhost:9000/NEOSoftGrails/login/auth
-
-
->>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/login/auth using method GET >>>>>>>>>>>>>>>>>>>>
-Initializing web request settings for http://localhost:9000/NEOSoftGrails/login/auth
-Request parameters:
-========================================
-========================================
-Request headers:
-========================================
-Accept-Language: en
-Accept: */*
-========================================
-Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/login/auth <<<<<<<<<<<<<<<<<<<<
-Response was a redirect to http://localhost:9000/NEOSoftGrails/main.gsp <<<<<<<<<<<<<<<<<<<<
-Response was 302 'Moved Temporarily', headers:
-========================================
-Server: Apache-Coyote/1.1
-Cache-Control: no-cache
-Expires: -1
-max-age: Thu, 01 Jan 1970 00:00:00 GMT
-cache-Control: private
-Location: http://localhost:9000/NEOSoftGrails/main.gsp
-Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:03 GMT
-========================================
-Content
-========================================
-
-========================================
-
-#Following redirect to http://localhost:9000/NEOSoftGrails/main.gsp
-
-
->>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/main.gsp using method GET >>>>>>>>>>>>>>>>>>>>
-Initializing web request settings for http://localhost:9000/NEOSoftGrails/main.gsp
-Request parameters:
-========================================
-========================================
-Request headers:
-========================================
-Accept-Language: en
-Accept: */*
-========================================
-Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/main.gsp <<<<<<<<<<<<<<<<<<<<
-Response was 200 'OK', headers:
-========================================
-Server: Apache-Coyote/1.1
-Content-Type: text/html;charset=UTF-8
-Content-Length: 2678
-Date: Wed, 06 Oct 2010 15:52:03 GMT
-========================================
-Content
-========================================
-<html>
-    <head>
-        <title>SI Neo</title>
-        <link rel="stylesheet" href="/NEOSoftGrails/css/main_sem_table.css" />
-        <link rel="shortcut icon" href="/NEOSoftGrails/images/icnDoctor.ico" type="image/x-icon" />
-        
-
-        <script type="text/javascript" src="/NEOSoftGrails/js/application.js"></script>
-
-    </head>
-    <body>
-		
-<div id="spinner" class="spinner" style="display: none;"><img
-	src="/NEOSoftGrails/images/spinner.gif" alt="Spinner" /></div>
-<div id="grailsLogo" class="logo"><img
-	src="/NEOSoftGrails/images/logoneo.png" alt="Grails"
-	border="0" /></div>
-
-		<div class="nav">
-		    <span class="menuButton"><a href="/NEOSoftGrails/logout/index" class="login">Logout</a></span>
-		</div>
-		<div id="pageBody" class="dialog">
-	        <h1>Olá, Harrison, bem vindo ao SI Neo!</h1>
-	        <br/>
-			<h2>Navegue pelos serviços abaixo:</h2>
-		</div>
-        
-<head>
-</head>
-<div align="center">
-	<!-- USAR TAG ifrole QUE FOI CRIADA NA NeoTagLib PRA RESTRINGIR BOTOES AOS PAPEIS -->
-    <table align="center" cellpadding="2" cellspacing="2" border="0"><tr>
-       <td align="center"><table cellpadding="4" cellspacing="4" border="0"><tr><td><div align="center"><a href="paciente"><img id="linkpaciente" src="/NEOSoftGrails/images/botoes/paciente.png" border="0"></a></div></td></tr><tr><td><div align="center"><font size="1">Controle de Pacientes</font></div></td></tr></table></td>
-       <td align="center"><table cellpadding="4" cellspacing="4" border="0"><tr><td><div align="center"><a href="lente"><img id="linklentes" src="/NEOSoftGrails/images/botoes/lentes.png" border="0"></a></div></td></tr><tr><td><div align="center"><font size="1">Controle de Estoque</font></div></td></tr></table></td>
-       <td align="center"><table cellpadding="4" cellspacing="4" border="0"><tr><td><div align="center"><a href="usuario"><img id="linkopcoes" src="/NEOSoftGrails/images/botoes/opcoes.png" border="0"></a></div></td></tr><tr><td><div align="center"><font size="1">Configurações</font></div></td></tr></table></td>
-    </tr></table>
-    <!--neo:botao id="linkagenda" link="" imgsrc="/NEOSoftGrails/images/botoes/calendario.png" descricao="Agenda M\u00E9dica"/ -->
-    <!-- neo:botao link="fornecedor" imgsrc="/NEOSoftGrails/images/botoes/fornecedor.png" descricao="Controle de Fornecedores"/ -->
-    <!-- neo:botao link="" imgsrc="/NEOSoftGrails/images/botoes/financas.png" descricao="Controle Financeiro"/ -->
-</div>
-
-    
-<br />
-<br />
-<div id="footer">
-<span class="copyright">
-	
-				&copy; 2010 SI Neo
-				<br/> 
-				Fabio Leal, Renato Almeida, Solon Aguiar
-				
-</span></div>
-    </body>
-</html>
-========================================
-
-#--Output from testEditUsuarioOK--
-
-
->>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/login/auth using method GET >>>>>>>>>>>>>>>>>>>>
-Initializing web request settings for http://localhost:9000/NEOSoftGrails/login/auth
-Request parameters:
-========================================
-========================================
-Request headers:
-========================================
-Accept-Language: en
-Accept: */*
-========================================
-Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/login/auth <<<<<<<<<<<<<<<<<<<<
-Response was 200 'OK', headers:
-========================================
-Server: Apache-Coyote/1.1
-Cache-Control: no-cache
-Expires: -1
-max-age: Thu, 01 Jan 1970 00:00:00 GMT
-cache-Control: private
-Content-Type: text/html;charset=utf-8
-Content-Language: en
-Content-Length: 2463
-Date: Wed, 06 Oct 2010 15:52:03 GMT
-========================================
-Content
-========================================
-<html>
-    <head>
-        <title>SI Neo</title>
-        <link rel="stylesheet" href="/NEOSoftGrails/css/main.css" />
-        <link rel="shortcut icon" href="/NEOSoftGrails/images/icnDoctor.ico" type="image/x-icon" />
-        
-<meta name="layout" content="main"/>
-
-<style type='text/css' media='screen'>
-#login {
-	margin:15px 0px; padding:0px;
-	text-align:center;
-}
-#login .inner {
-	width:300px;
-	margin:0px auto;
-	text-align:left;
-	padding:10px;
-	border-top:1px solid green;
-	border-bottom:1px solid green;
-	background-color:white;
-}
-#login .inner .fheader {
-	padding:4px;margin:3px 0px 3px 0;color:#2e3741;font-size:14px;font-weight:bold;
-}
-#login .inner .cssform p {
-	clear: left;
-	margin: 0;
-	padding: 5px 0 8px 0;
-	padding-left: 105px;
-	border-top: 1px dotted gray;
-	margin-bottom: 10px;
-	height: 1%;
-}
-#login .inner .cssform input[type='text'] {
-	width: 180px;
-}
-#login .inner .cssform label {
-	font-weight: bold;
-	float: left;
-	margin-left: -105px;
-	width: 100px;
-}
-#login .inner .login_message {color:red;}
-#login .inner .text_ {width:180px;}
-#login .inner .chk {height:12px;}
-</style>
-
-        <script type="text/javascript" src="/NEOSoftGrails/js/application.js"></script>
-
-    </head>
-    <body>
-		
-<div id="spinner" class="spinner" style="display: none;"><img
-	src="/NEOSoftGrails/images/spinner.gif" alt="Spinner" /></div>
-<div id="grailsLogo" class="logo"><img
-	src="/NEOSoftGrails/images/logoneo.png" alt="Grails"
-	border="0" /></div>
-
-	<div class="nav">
-		<span class="menuButton"><a class="info" href="/NEOSoftGrails/sobre.gsp">Sobre</a></span>
-	</div>
-	
-	<div id='login'>
-		<div class='inner'>
-			<div class='fheader'>Digite login e senha</div>
-			<br/>
-			<form action='/NEOSoftGrails/j_spring_security_check' method='POST' id='loginForm' class='cssform'>
-				<p>
-					<label for='j_username'>Login</label>
-					<input type='text' class='text_' name='j_username' id='j_username' value='' />
-				</p>
-				<p>
-					<label for='j_password'>Senha</label>
-					<input type='password' class='text_' name='j_password' id='j_password' />
-				</p>
-				<p>
-					<input type='submit' value='OK' />
-				</p>
-			</form>
-		</div>
-	</div>
-<script type='text/javascript'>
-<!--
-(function(){
-	document.forms['loginForm'].elements['j_username'].focus();
-})();
-// -->
-</script>
-
-<br />
-<br />
-<div id="footer">
-<span class="copyright">
-	
-				&copy; 2010 SI Neo
-				<br/> 
-				Fabio Leal, Renato Almeida, Solon Aguiar
-				
-</span></div>
-    </body>
-</html>
-========================================
-
-#Setting value to [harrison] on field [name:j_username id:j_username] of form []
-Changed attribute value to  on tag [input] (id: DomAttr[name=id value=j_username] / name: DomAttr[name=name value=j_username])
-Setting value to [harrison] on field [name:j_password id:j_password] of form []
-Added attribute value with value harrison to tag [input] (id: DomAttr[name=id value=j_password] / name: DomAttr[name=name value=j_password])
-Clicked [OK] which resolved to a [class com.gargoylesoftware.htmlunit.html.HtmlSubmitInput]
-Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:9000/NEOSoftGrails/j_spring_security_check <<<<<<<<<<<<<<<<<<<<
-Response was a redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=20B1FBC474274083721FD32320B657DB <<<<<<<<<<<<<<<<<<<<
-Response was 302 'Moved Temporarily', headers:
-========================================
-Server: Apache-Coyote/1.1
-Set-Cookie: JSESSIONID=20B1FBC474274083721FD32320B657DB; Path=/NEOSoftGrails
-Location: http://localhost:9000/NEOSoftGrails/;jsessionid=20B1FBC474274083721FD32320B657DB
-Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:03 GMT
-========================================
-Content
-========================================
-
-========================================
-
-#Following redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=20B1FBC474274083721FD32320B657DB
-
-
->>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/;jsessionid=20B1FBC474274083721FD32320B657DB using method GET >>>>>>>>>>>>>>>>>>>>
-Initializing web request settings for http://localhost:9000/NEOSoftGrails/;jsessionid=20B1FBC474274083721FD32320B657DB
-Request parameters:
-========================================
-========================================
-Request headers:
-========================================
-Accept-Language: en
-Accept: */*
-========================================
-Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/;jsessionid=20B1FBC474274083721FD32320B657DB <<<<<<<<<<<<<<<<<<<<
-Response was a redirect to http://localhost:9000/NEOSoftGrails/login/auth <<<<<<<<<<<<<<<<<<<<
-Response was 302 'Moved Temporarily', headers:
-========================================
-Server: Apache-Coyote/1.1
-Location: http://localhost:9000/NEOSoftGrails/login/auth
-Content-Type: text/html;charset=UTF-8
-Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:03 GMT
-========================================
-Content
-========================================
-
-========================================
-
-#Following redirect to http://localhost:9000/NEOSoftGrails/login/auth
-
-
->>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/login/auth using method GET >>>>>>>>>>>>>>>>>>>>
-Initializing web request settings for http://localhost:9000/NEOSoftGrails/login/auth
-Request parameters:
-========================================
-========================================
-Request headers:
-========================================
-Accept-Language: en
-Accept: */*
-========================================
-Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/login/auth <<<<<<<<<<<<<<<<<<<<
-Response was a redirect to http://localhost:9000/NEOSoftGrails/main.gsp <<<<<<<<<<<<<<<<<<<<
-Response was 302 'Moved Temporarily', headers:
-========================================
-Server: Apache-Coyote/1.1
-Cache-Control: no-cache
-Expires: -1
-max-age: Thu, 01 Jan 1970 00:00:00 GMT
-cache-Control: private
-Location: http://localhost:9000/NEOSoftGrails/main.gsp
-Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:03 GMT
-========================================
-Content
-========================================
-
-========================================
-
-#Following redirect to http://localhost:9000/NEOSoftGrails/main.gsp
-
-
->>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/main.gsp using method GET >>>>>>>>>>>>>>>>>>>>
-Initializing web request settings for http://localhost:9000/NEOSoftGrails/main.gsp
-Request parameters:
-========================================
-========================================
-Request headers:
-========================================
-Accept-Language: en
-Accept: */*
-========================================
-Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/main.gsp <<<<<<<<<<<<<<<<<<<<
-Response was 200 'OK', headers:
-========================================
-Server: Apache-Coyote/1.1
-Content-Type: text/html;charset=UTF-8
-Content-Length: 2678
-Date: Wed, 06 Oct 2010 15:52:03 GMT
-========================================
-Content
-========================================
-<html>
-    <head>
-        <title>SI Neo</title>
-        <link rel="stylesheet" href="/NEOSoftGrails/css/main_sem_table.css" />
-        <link rel="shortcut icon" href="/NEOSoftGrails/images/icnDoctor.ico" type="image/x-icon" />
-        
-
-        <script type="text/javascript" src="/NEOSoftGrails/js/application.js"></script>
-
-    </head>
-    <body>
-		
-<div id="spinner" class="spinner" style="display: none;"><img
-	src="/NEOSoftGrails/images/spinner.gif" alt="Spinner" /></div>
-<div id="grailsLogo" class="logo"><img
-	src="/NEOSoftGrails/images/logoneo.png" alt="Grails"
-	border="0" /></div>
-
-		<div class="nav">
-		    <span class="menuButton"><a href="/NEOSoftGrails/logout/index" class="login">Logout</a></span>
-		</div>
-		<div id="pageBody" class="dialog">
-	        <h1>Olá, Harrison, bem vindo ao SI Neo!</h1>
-	        <br/>
-			<h2>Navegue pelos serviços abaixo:</h2>
-		</div>
-        
-<head>
-</head>
-<div align="center">
-	<!-- USAR TAG ifrole QUE FOI CRIADA NA NeoTagLib PRA RESTRINGIR BOTOES AOS PAPEIS -->
-    <table align="center" cellpadding="2" cellspacing="2" border="0"><tr>
-       <td align="center"><table cellpadding="4" cellspacing="4" border="0"><tr><td><div align="center"><a href="paciente"><img id="linkpaciente" src="/NEOSoftGrails/images/botoes/paciente.png" border="0"></a></div></td></tr><tr><td><div align="center"><font size="1">Controle de Pacientes</font></div></td></tr></table></td>
-       <td align="center"><table cellpadding="4" cellspacing="4" border="0"><tr><td><div align="center"><a href="lente"><img id="linklentes" src="/NEOSoftGrails/images/botoes/lentes.png" border="0"></a></div></td></tr><tr><td><div align="center"><font size="1">Controle de Estoque</font></div></td></tr></table></td>
-       <td align="center"><table cellpadding="4" cellspacing="4" border="0"><tr><td><div align="center"><a href="usuario"><img id="linkopcoes" src="/NEOSoftGrails/images/botoes/opcoes.png" border="0"></a></div></td></tr><tr><td><div align="center"><font size="1">Configurações</font></div></td></tr></table></td>
-    </tr></table>
-    <!--neo:botao id="linkagenda" link="" imgsrc="/NEOSoftGrails/images/botoes/calendario.png" descricao="Agenda M\u00E9dica"/ -->
-    <!-- neo:botao link="fornecedor" imgsrc="/NEOSoftGrails/images/botoes/fornecedor.png" descricao="Controle de Fornecedores"/ -->
-    <!-- neo:botao link="" imgsrc="/NEOSoftGrails/images/botoes/financas.png" descricao="Controle Financeiro"/ -->
-</div>
-
-    
-<br />
-<br />
-<div id="footer">
-<span class="copyright">
-	
-				&copy; 2010 SI Neo
-				<br/> 
-				Fabio Leal, Renato Almeida, Solon Aguiar
-				
-</span></div>
-    </body>
-</html>
-========================================
-
-#------------- ---------------- ---------------
-------------- Standard Error -----------------
---Output from testAddUsuarioOK--
---Output from testAddUsuarioNotOk--
---Output from testRemoveUsuarioOK--
---Output from testEditUsuarioOK--
-------------- ---------------- ---------------
-
-Testcase: testAddUsuarioOK took 0,164 sec
-Testcase: testAddUsuarioNotOk took 0,24 sec
-	FAILED
-No such element for id or anchor text [linkusuario]
-URL Stack that resulted in java.lang.IllegalArgumentException: No such element for id or anchor text [linkusuario]
----------------
-http://localhost:9000/NEOSoftGrails/main.gsp (webWindowContentChange event)
-http://localhost:9000/NEOSoftGrails/login/auth (webWindowContentChange event)
-http://localhost:9000/NEOSoftGrails/;jsessionid=E912FB9B2827218889DE9D38DA280B11 (webWindowContentChange event)
-http://localhost:9000/NEOSoftGrails/j_spring_security_check (webWindowContentChange event)
-http://localhost:9000/NEOSoftGrails/login/auth (webWindowContentChange event)
----------------
-java.lang.IllegalArgumentException: No such element for id or anchor text [linkusuario]
-	at functionaltestplugin.FunctionalTestCase.click(FunctionalTestCase.groovy:551)
-	at functionaltestplugin.FunctionalTestCase.invokeMethod(FunctionalTestCase.groovy:201)
-	at CRUDUsuarioTests.testAddUsuarioNotOk(CRUDUsuarioTests.groovy:22)
-	at _GrailsTest_groovy$_run_closure4.doCall(_GrailsTest_groovy:203)
-	at _GrailsTest_groovy$_run_closure4.call(_GrailsTest_groovy)
-	at _GrailsTest_groovy$_run_closure2.doCall(_GrailsTest_groovy:147)
-	at _GrailsTest_groovy$_run_closure1_closure19.doCall(_GrailsTest_groovy:113)
-	at _GrailsTest_groovy$_run_closure1.doCall(_GrailsTest_groovy:96)
-	at TestApp$_run_closure1.doCall(TestApp.groovy:66)
-	at gant.Gant$_dispatch_closure4.doCall(Gant.groovy:324)
-	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy:334)
-	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy)
-	at gant.Gant.withBuildListeners(Gant.groovy:344)
-	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
-	at gant.Gant$this$2$withBuildListeners.callCurrent(Unknown Source)
-	at gant.Gant.dispatch(Gant.groovy:334)
-	at gant.Gant.this$2$dispatch(Gant.groovy)
-	at gant.Gant.invokeMethod(Gant.groovy)
-	at gant.Gant.processTargets(Gant.groovy:495)
-	at gant.Gant.processTargets(Gant.groovy:480)
-
-Testcase: testRemoveUsuarioOK took 0,163 sec
-Testcase: testEditUsuarioOK took 0,151 sec

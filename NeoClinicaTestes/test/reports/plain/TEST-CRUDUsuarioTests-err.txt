@@ -1,4 +1,0 @@
---Output from testAddUsuarioOK--
---Output from testAddUsuarioNotOk--
---Output from testRemoveUsuarioOK--
---Output from testEditUsuarioOK--

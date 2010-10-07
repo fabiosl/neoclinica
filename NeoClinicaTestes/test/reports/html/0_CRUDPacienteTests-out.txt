@@ -23,7 +23,7 @@ cache-Control: private
 Content-Type: text/html;charset=utf-8
 Content-Language: en
 Content-Length: 2463
-Date: Wed, 06 Oct 2010 15:51:57 GMT
+Date: Thu, 07 Oct 2010 00:30:16 GMT
 ========================================
 Content
 ========================================
@@ -138,25 +138,25 @@ Added attribute value with value harrison to tag [input] (id: DomAttr[name=id va
 Clicked [OK] which resolved to a [class com.gargoylesoftware.htmlunit.html.HtmlSubmitInput]
 Content of web window [TopLevelWindow[name=""]] changed
 <<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:9000/NEOSoftGrails/j_spring_security_check <<<<<<<<<<<<<<<<<<<<
-Response was a redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=C79199B2D6416FF63B9D84E8F1006B0E <<<<<<<<<<<<<<<<<<<<
+Response was a redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=D8AE778F9247493BC7B716645DE19C8B <<<<<<<<<<<<<<<<<<<<
 Response was 302 'Moved Temporarily', headers:
 ========================================
 Server: Apache-Coyote/1.1
-Set-Cookie: JSESSIONID=C79199B2D6416FF63B9D84E8F1006B0E; Path=/NEOSoftGrails
-Location: http://localhost:9000/NEOSoftGrails/;jsessionid=C79199B2D6416FF63B9D84E8F1006B0E
+Set-Cookie: JSESSIONID=D8AE778F9247493BC7B716645DE19C8B; Path=/NEOSoftGrails
+Location: http://localhost:9000/NEOSoftGrails/;jsessionid=D8AE778F9247493BC7B716645DE19C8B
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:51:58 GMT
+Date: Thu, 07 Oct 2010 00:30:18 GMT
 ========================================
 Content
 ========================================
 
 ========================================
 
-#Following redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=C79199B2D6416FF63B9D84E8F1006B0E
+#Following redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=D8AE778F9247493BC7B716645DE19C8B
 
 
->>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/;jsessionid=C79199B2D6416FF63B9D84E8F1006B0E using method GET >>>>>>>>>>>>>>>>>>>>
-Initializing web request settings for http://localhost:9000/NEOSoftGrails/;jsessionid=C79199B2D6416FF63B9D84E8F1006B0E
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/;jsessionid=D8AE778F9247493BC7B716645DE19C8B using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:9000/NEOSoftGrails/;jsessionid=D8AE778F9247493BC7B716645DE19C8B
 Request parameters:
 ========================================
 ========================================
@@ -166,7 +166,7 @@ Accept-Language: en
 Accept: */*
 ========================================
 Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/;jsessionid=C79199B2D6416FF63B9D84E8F1006B0E <<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/;jsessionid=D8AE778F9247493BC7B716645DE19C8B <<<<<<<<<<<<<<<<<<<<
 Response was a redirect to http://localhost:9000/NEOSoftGrails/login/auth <<<<<<<<<<<<<<<<<<<<
 Response was 302 'Moved Temporarily', headers:
 ========================================
@@ -174,7 +174,7 @@ Server: Apache-Coyote/1.1
 Location: http://localhost:9000/NEOSoftGrails/login/auth
 Content-Type: text/html;charset=UTF-8
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:51:58 GMT
+Date: Thu, 07 Oct 2010 00:30:18 GMT
 ========================================
 Content
 ========================================
@@ -206,7 +206,7 @@ max-age: Thu, 01 Jan 1970 00:00:00 GMT
 cache-Control: private
 Location: http://localhost:9000/NEOSoftGrails/main.gsp
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:51:58 GMT
+Date: Thu, 07 Oct 2010 00:30:18 GMT
 ========================================
 Content
 ========================================
@@ -233,7 +233,7 @@ Response was 200 'OK', headers:
 Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Length: 2678
-Date: Wed, 06 Oct 2010 15:51:58 GMT
+Date: Thu, 07 Oct 2010 00:30:18 GMT
 ========================================
 Content
 ========================================
@@ -302,7 +302,7 @@ Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Language: en
 Content-Length: 2341
-Date: Wed, 06 Oct 2010 15:51:58 GMT
+Date: Thu, 07 Oct 2010 00:30:18 GMT
 ========================================
 Content
 ========================================
@@ -366,7 +366,7 @@ Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Language: en
 Transfer-Encoding: chunked
-Date: Wed, 06 Oct 2010 15:51:58 GMT
+Date: Thu, 07 Oct 2010 00:30:18 GMT
 ========================================
 Content
 ========================================
@@ -788,24 +788,24 @@ Selecting option [MASCULINO] on select field [name:sexo id:sexo] of form [formAd
 Clicked [create] which resolved to a [class com.gargoylesoftware.htmlunit.html.HtmlSubmitInput]
 Content of web window [TopLevelWindow[name=""]] changed
 <<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:9000/NEOSoftGrails/paciente/save <<<<<<<<<<<<<<<<<<<<
-Response was a redirect to http://localhost:9000/NEOSoftGrails/paciente/show/88 <<<<<<<<<<<<<<<<<<<<
+Response was a redirect to http://localhost:9000/NEOSoftGrails/paciente/show/116 <<<<<<<<<<<<<<<<<<<<
 Response was 302 'Moved Temporarily', headers:
 ========================================
 Server: Apache-Coyote/1.1
-Location: http://localhost:9000/NEOSoftGrails/paciente/show/88
+Location: http://localhost:9000/NEOSoftGrails/paciente/show/116
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:51:59 GMT
+Date: Thu, 07 Oct 2010 00:30:18 GMT
 ========================================
 Content
 ========================================
 
 ========================================
 
-#Following redirect to http://localhost:9000/NEOSoftGrails/paciente/show/88
+#Following redirect to http://localhost:9000/NEOSoftGrails/paciente/show/116
 
 
->>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/paciente/show/88 using method GET >>>>>>>>>>>>>>>>>>>>
-Initializing web request settings for http://localhost:9000/NEOSoftGrails/paciente/show/88
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/paciente/show/116 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:9000/NEOSoftGrails/paciente/show/116
 Request parameters:
 ========================================
 ========================================
@@ -815,14 +815,14 @@ Accept-Language: en
 Accept: */*
 ========================================
 Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/paciente/show/88 <<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/paciente/show/116 <<<<<<<<<<<<<<<<<<<<
 Response was 200 'OK', headers:
 ========================================
 Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Language: en
-Content-Length: 4645
-Date: Wed, 06 Oct 2010 15:51:59 GMT
+Content-Length: 4648
+Date: Thu, 07 Oct 2010 00:30:18 GMT
 ========================================
 Content
 ========================================
@@ -855,14 +855,14 @@ Content
         <div class="body">
             <h1>Ver Paciente</h1>
             
-            <div class="message" id="pacienteCriadoMessage">Paciente 88 criado</div>
+            <div class="message" id="pacienteCriadoMessage">Paciente 116 criado</div>
             
             <div class="dialog">
                 <table>
                     <tbody>
                        <tr class="prop">
                             <td valign="top" class="name">Id</td>
-                            <td valign="top" class="value">88</td>
+                            <td valign="top" class="value">116</td>
                         </tr>
                        <tr class="prop">
                             <td valign="top" class="name">Nome</td>
@@ -913,7 +913,7 @@ Content
             </div>
             <div class="buttons">
                 <form action="/NEOSoftGrails/paciente/index" method="post" >
-                    <input type="hidden" name="id" value="88" id="id" />
+                    <input type="hidden" name="id" value="116" id="id" />
                     <span class="button"><input type="submit" name="_action_edit" value="Editar" id="editar" class="edit" /></span>
                 	<span class="button"><input type="submit" name="_action_delete" value="Deletar" id="deletar" class="delete" /></span>
                 </form>
@@ -959,7 +959,7 @@ cache-Control: private
 Content-Type: text/html;charset=utf-8
 Content-Language: en
 Content-Length: 2463
-Date: Wed, 06 Oct 2010 15:51:59 GMT
+Date: Thu, 07 Oct 2010 00:30:18 GMT
 ========================================
 Content
 ========================================
@@ -1074,25 +1074,25 @@ Added attribute value with value harrison to tag [input] (id: DomAttr[name=id va
 Clicked [OK] which resolved to a [class com.gargoylesoftware.htmlunit.html.HtmlSubmitInput]
 Content of web window [TopLevelWindow[name=""]] changed
 <<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:9000/NEOSoftGrails/j_spring_security_check <<<<<<<<<<<<<<<<<<<<
-Response was a redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=8A03FB1C2F930C08948041375FD2427F <<<<<<<<<<<<<<<<<<<<
+Response was a redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=4B78BA0884B8EE84CC8771DF85B861F6 <<<<<<<<<<<<<<<<<<<<
 Response was 302 'Moved Temporarily', headers:
 ========================================
 Server: Apache-Coyote/1.1
-Set-Cookie: JSESSIONID=8A03FB1C2F930C08948041375FD2427F; Path=/NEOSoftGrails
-Location: http://localhost:9000/NEOSoftGrails/;jsessionid=8A03FB1C2F930C08948041375FD2427F
+Set-Cookie: JSESSIONID=4B78BA0884B8EE84CC8771DF85B861F6; Path=/NEOSoftGrails
+Location: http://localhost:9000/NEOSoftGrails/;jsessionid=4B78BA0884B8EE84CC8771DF85B861F6
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:51:59 GMT
+Date: Thu, 07 Oct 2010 00:30:18 GMT
 ========================================
 Content
 ========================================
 
 ========================================
 
-#Following redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=8A03FB1C2F930C08948041375FD2427F
+#Following redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=4B78BA0884B8EE84CC8771DF85B861F6
 
 
->>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/;jsessionid=8A03FB1C2F930C08948041375FD2427F using method GET >>>>>>>>>>>>>>>>>>>>
-Initializing web request settings for http://localhost:9000/NEOSoftGrails/;jsessionid=8A03FB1C2F930C08948041375FD2427F
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/;jsessionid=4B78BA0884B8EE84CC8771DF85B861F6 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:9000/NEOSoftGrails/;jsessionid=4B78BA0884B8EE84CC8771DF85B861F6
 Request parameters:
 ========================================
 ========================================
@@ -1102,7 +1102,7 @@ Accept-Language: en
 Accept: */*
 ========================================
 Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/;jsessionid=8A03FB1C2F930C08948041375FD2427F <<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/;jsessionid=4B78BA0884B8EE84CC8771DF85B861F6 <<<<<<<<<<<<<<<<<<<<
 Response was a redirect to http://localhost:9000/NEOSoftGrails/login/auth <<<<<<<<<<<<<<<<<<<<
 Response was 302 'Moved Temporarily', headers:
 ========================================
@@ -1110,7 +1110,7 @@ Server: Apache-Coyote/1.1
 Location: http://localhost:9000/NEOSoftGrails/login/auth
 Content-Type: text/html;charset=UTF-8
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:51:59 GMT
+Date: Thu, 07 Oct 2010 00:30:18 GMT
 ========================================
 Content
 ========================================
@@ -1142,7 +1142,7 @@ max-age: Thu, 01 Jan 1970 00:00:00 GMT
 cache-Control: private
 Location: http://localhost:9000/NEOSoftGrails/main.gsp
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:51:59 GMT
+Date: Thu, 07 Oct 2010 00:30:19 GMT
 ========================================
 Content
 ========================================
@@ -1169,7 +1169,7 @@ Response was 200 'OK', headers:
 Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Length: 2678
-Date: Wed, 06 Oct 2010 15:51:59 GMT
+Date: Thu, 07 Oct 2010 00:30:19 GMT
 ========================================
 Content
 ========================================
@@ -1238,7 +1238,7 @@ Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Language: en
 Content-Length: 2341
-Date: Wed, 06 Oct 2010 15:51:59 GMT
+Date: Thu, 07 Oct 2010 00:30:19 GMT
 ========================================
 Content
 ========================================
@@ -1302,7 +1302,7 @@ Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Language: en
 Transfer-Encoding: chunked
-Date: Wed, 06 Oct 2010 15:51:59 GMT
+Date: Thu, 07 Oct 2010 00:30:19 GMT
 ========================================
 Content
 ========================================
@@ -1723,7 +1723,7 @@ Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=utf-8
 Content-Language: en
 Transfer-Encoding: chunked
-Date: Wed, 06 Oct 2010 15:51:59 GMT
+Date: Thu, 07 Oct 2010 00:30:19 GMT
 ========================================
 Content
 ========================================
@@ -2164,7 +2164,7 @@ cache-Control: private
 Content-Type: text/html;charset=utf-8
 Content-Language: en
 Content-Length: 2463
-Date: Wed, 06 Oct 2010 15:52:00 GMT
+Date: Thu, 07 Oct 2010 00:30:20 GMT
 ========================================
 Content
 ========================================
@@ -2279,25 +2279,25 @@ Added attribute value with value harrison to tag [input] (id: DomAttr[name=id va
 Clicked [OK] which resolved to a [class com.gargoylesoftware.htmlunit.html.HtmlSubmitInput]
 Content of web window [TopLevelWindow[name=""]] changed
 <<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:9000/NEOSoftGrails/j_spring_security_check <<<<<<<<<<<<<<<<<<<<
-Response was a redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=5F53B21617FE3034E494D0A114230D93 <<<<<<<<<<<<<<<<<<<<
+Response was a redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=25DA55D4BEF5C2CDD9304FF54CC0660F <<<<<<<<<<<<<<<<<<<<
 Response was 302 'Moved Temporarily', headers:
 ========================================
 Server: Apache-Coyote/1.1
-Set-Cookie: JSESSIONID=5F53B21617FE3034E494D0A114230D93; Path=/NEOSoftGrails
-Location: http://localhost:9000/NEOSoftGrails/;jsessionid=5F53B21617FE3034E494D0A114230D93
+Set-Cookie: JSESSIONID=25DA55D4BEF5C2CDD9304FF54CC0660F; Path=/NEOSoftGrails
+Location: http://localhost:9000/NEOSoftGrails/;jsessionid=25DA55D4BEF5C2CDD9304FF54CC0660F
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:00 GMT
+Date: Thu, 07 Oct 2010 00:30:20 GMT
 ========================================
 Content
 ========================================
 
 ========================================
 
-#Following redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=5F53B21617FE3034E494D0A114230D93
+#Following redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=25DA55D4BEF5C2CDD9304FF54CC0660F
 
 
->>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/;jsessionid=5F53B21617FE3034E494D0A114230D93 using method GET >>>>>>>>>>>>>>>>>>>>
-Initializing web request settings for http://localhost:9000/NEOSoftGrails/;jsessionid=5F53B21617FE3034E494D0A114230D93
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/;jsessionid=25DA55D4BEF5C2CDD9304FF54CC0660F using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:9000/NEOSoftGrails/;jsessionid=25DA55D4BEF5C2CDD9304FF54CC0660F
 Request parameters:
 ========================================
 ========================================
@@ -2307,7 +2307,7 @@ Accept-Language: en
 Accept: */*
 ========================================
 Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/;jsessionid=5F53B21617FE3034E494D0A114230D93 <<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/;jsessionid=25DA55D4BEF5C2CDD9304FF54CC0660F <<<<<<<<<<<<<<<<<<<<
 Response was a redirect to http://localhost:9000/NEOSoftGrails/login/auth <<<<<<<<<<<<<<<<<<<<
 Response was 302 'Moved Temporarily', headers:
 ========================================
@@ -2315,7 +2315,7 @@ Server: Apache-Coyote/1.1
 Location: http://localhost:9000/NEOSoftGrails/login/auth
 Content-Type: text/html;charset=UTF-8
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:00 GMT
+Date: Thu, 07 Oct 2010 00:30:20 GMT
 ========================================
 Content
 ========================================
@@ -2347,7 +2347,7 @@ max-age: Thu, 01 Jan 1970 00:00:00 GMT
 cache-Control: private
 Location: http://localhost:9000/NEOSoftGrails/main.gsp
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:00 GMT
+Date: Thu, 07 Oct 2010 00:30:20 GMT
 ========================================
 Content
 ========================================
@@ -2374,7 +2374,7 @@ Response was 200 'OK', headers:
 Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Length: 2678
-Date: Wed, 06 Oct 2010 15:52:00 GMT
+Date: Thu, 07 Oct 2010 00:30:20 GMT
 ========================================
 Content
 ========================================
@@ -2443,7 +2443,7 @@ Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Language: en
 Content-Length: 2341
-Date: Wed, 06 Oct 2010 15:52:00 GMT
+Date: Thu, 07 Oct 2010 00:30:20 GMT
 ========================================
 Content
 ========================================
@@ -2507,7 +2507,7 @@ Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Language: en
 Transfer-Encoding: chunked
-Date: Wed, 06 Oct 2010 15:52:00 GMT
+Date: Thu, 07 Oct 2010 00:30:20 GMT
 ========================================
 Content
 ========================================
@@ -2929,24 +2929,24 @@ Selecting option [MASCULINO] on select field [name:sexo id:sexo] of form [formAd
 Clicked [create] which resolved to a [class com.gargoylesoftware.htmlunit.html.HtmlSubmitInput]
 Content of web window [TopLevelWindow[name=""]] changed
 <<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:9000/NEOSoftGrails/paciente/save <<<<<<<<<<<<<<<<<<<<
-Response was a redirect to http://localhost:9000/NEOSoftGrails/paciente/show/89 <<<<<<<<<<<<<<<<<<<<
+Response was a redirect to http://localhost:9000/NEOSoftGrails/paciente/show/117 <<<<<<<<<<<<<<<<<<<<
 Response was 302 'Moved Temporarily', headers:
 ========================================
 Server: Apache-Coyote/1.1
-Location: http://localhost:9000/NEOSoftGrails/paciente/show/89
+Location: http://localhost:9000/NEOSoftGrails/paciente/show/117
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:00 GMT
+Date: Thu, 07 Oct 2010 00:30:20 GMT
 ========================================
 Content
 ========================================
 
 ========================================
 
-#Following redirect to http://localhost:9000/NEOSoftGrails/paciente/show/89
+#Following redirect to http://localhost:9000/NEOSoftGrails/paciente/show/117
 
 
->>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/paciente/show/89 using method GET >>>>>>>>>>>>>>>>>>>>
-Initializing web request settings for http://localhost:9000/NEOSoftGrails/paciente/show/89
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/paciente/show/117 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:9000/NEOSoftGrails/paciente/show/117
 Request parameters:
 ========================================
 ========================================
@@ -2956,14 +2956,14 @@ Accept-Language: en
 Accept: */*
 ========================================
 Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/paciente/show/89 <<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/paciente/show/117 <<<<<<<<<<<<<<<<<<<<
 Response was 200 'OK', headers:
 ========================================
 Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Language: en
-Content-Length: 4645
-Date: Wed, 06 Oct 2010 15:52:00 GMT
+Content-Length: 4648
+Date: Thu, 07 Oct 2010 00:30:20 GMT
 ========================================
 Content
 ========================================
@@ -2996,14 +2996,14 @@ Content
         <div class="body">
             <h1>Ver Paciente</h1>
             
-            <div class="message" id="pacienteCriadoMessage">Paciente 89 criado</div>
+            <div class="message" id="pacienteCriadoMessage">Paciente 117 criado</div>
             
             <div class="dialog">
                 <table>
                     <tbody>
                        <tr class="prop">
                             <td valign="top" class="name">Id</td>
-                            <td valign="top" class="value">89</td>
+                            <td valign="top" class="value">117</td>
                         </tr>
                        <tr class="prop">
                             <td valign="top" class="name">Nome</td>
@@ -3054,7 +3054,7 @@ Content
             </div>
             <div class="buttons">
                 <form action="/NEOSoftGrails/paciente/index" method="post" >
-                    <input type="hidden" name="id" value="89" id="id" />
+                    <input type="hidden" name="id" value="117" id="id" />
                     <span class="button"><input type="submit" name="_action_edit" value="Editar" id="editar" class="edit" /></span>
                 	<span class="button"><input type="submit" name="_action_delete" value="Deletar" id="deletar" class="delete" /></span>
                 </form>
@@ -3084,7 +3084,7 @@ Response was 302 'Moved Temporarily', headers:
 Server: Apache-Coyote/1.1
 Location: http://localhost:9000/NEOSoftGrails/paciente/list
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:00 GMT
+Date: Thu, 07 Oct 2010 00:30:20 GMT
 ========================================
 Content
 ========================================
@@ -3112,7 +3112,7 @@ Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Language: en
 Transfer-Encoding: chunked
-Date: Wed, 06 Oct 2010 15:52:00 GMT
+Date: Thu, 07 Oct 2010 00:30:21 GMT
 ========================================
 Content
 ========================================
@@ -3144,7 +3144,7 @@ Content
         <div class="body">
             <h1>Lista (Paciente)</h1>
             
-            <div class="message">Paciente 89 deletado</div>
+            <div class="message">Paciente 117 deletado</div>
             
             <div class="list">
                 <table>
@@ -3298,7 +3298,7 @@ Content
                 </table>
             </div>
             <div class="paginateButtons">
-                <span class="currentStep">1</span><a href="/NEOSoftGrails/paciente/list?offset=10&amp;max=10" class="step">2</a><a href="/NEOSoftGrails/paciente/list?offset=20&amp;max=10" class="step">3</a><a href="/NEOSoftGrails/paciente/list?offset=30&amp;max=10" class="step">4</a><a href="/NEOSoftGrails/paciente/list?offset=40&amp;max=10" class="step">5</a><a href="/NEOSoftGrails/paciente/list?offset=10&amp;max=10" class="nextLink">Próximo</a>
+                <span class="currentStep">1</span><a href="/NEOSoftGrails/paciente/list?offset=10&amp;max=10" class="step">2</a><a href="/NEOSoftGrails/paciente/list?offset=20&amp;max=10" class="step">3</a><a href="/NEOSoftGrails/paciente/list?offset=30&amp;max=10" class="step">4</a><a href="/NEOSoftGrails/paciente/list?offset=40&amp;max=10" class="step">5</a><a href="/NEOSoftGrails/paciente/list?offset=50&amp;max=10" class="step">6</a><a href="/NEOSoftGrails/paciente/list?offset=60&amp;max=10" class="step">7</a><a href="/NEOSoftGrails/paciente/list?offset=10&amp;max=10" class="nextLink">Próximo</a>
             </div>
         </div>
     
@@ -3341,7 +3341,7 @@ cache-Control: private
 Content-Type: text/html;charset=utf-8
 Content-Language: en
 Content-Length: 2463
-Date: Wed, 06 Oct 2010 15:52:00 GMT
+Date: Thu, 07 Oct 2010 00:30:21 GMT
 ========================================
 Content
 ========================================
@@ -3456,25 +3456,25 @@ Added attribute value with value harrison to tag [input] (id: DomAttr[name=id va
 Clicked [OK] which resolved to a [class com.gargoylesoftware.htmlunit.html.HtmlSubmitInput]
 Content of web window [TopLevelWindow[name=""]] changed
 <<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:9000/NEOSoftGrails/j_spring_security_check <<<<<<<<<<<<<<<<<<<<
-Response was a redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=04245564766682632D446E6A755CE095 <<<<<<<<<<<<<<<<<<<<
+Response was a redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=42F6A85B20AD2859006EDD831A8894E7 <<<<<<<<<<<<<<<<<<<<
 Response was 302 'Moved Temporarily', headers:
 ========================================
 Server: Apache-Coyote/1.1
-Set-Cookie: JSESSIONID=04245564766682632D446E6A755CE095; Path=/NEOSoftGrails
-Location: http://localhost:9000/NEOSoftGrails/;jsessionid=04245564766682632D446E6A755CE095
+Set-Cookie: JSESSIONID=42F6A85B20AD2859006EDD831A8894E7; Path=/NEOSoftGrails
+Location: http://localhost:9000/NEOSoftGrails/;jsessionid=42F6A85B20AD2859006EDD831A8894E7
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:01 GMT
+Date: Thu, 07 Oct 2010 00:30:21 GMT
 ========================================
 Content
 ========================================
 
 ========================================
 
-#Following redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=04245564766682632D446E6A755CE095
+#Following redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=42F6A85B20AD2859006EDD831A8894E7
 
 
->>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/;jsessionid=04245564766682632D446E6A755CE095 using method GET >>>>>>>>>>>>>>>>>>>>
-Initializing web request settings for http://localhost:9000/NEOSoftGrails/;jsessionid=04245564766682632D446E6A755CE095
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/;jsessionid=42F6A85B20AD2859006EDD831A8894E7 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:9000/NEOSoftGrails/;jsessionid=42F6A85B20AD2859006EDD831A8894E7
 Request parameters:
 ========================================
 ========================================
@@ -3484,7 +3484,7 @@ Accept-Language: en
 Accept: */*
 ========================================
 Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/;jsessionid=04245564766682632D446E6A755CE095 <<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/;jsessionid=42F6A85B20AD2859006EDD831A8894E7 <<<<<<<<<<<<<<<<<<<<
 Response was a redirect to http://localhost:9000/NEOSoftGrails/login/auth <<<<<<<<<<<<<<<<<<<<
 Response was 302 'Moved Temporarily', headers:
 ========================================
@@ -3492,7 +3492,7 @@ Server: Apache-Coyote/1.1
 Location: http://localhost:9000/NEOSoftGrails/login/auth
 Content-Type: text/html;charset=UTF-8
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:01 GMT
+Date: Thu, 07 Oct 2010 00:30:21 GMT
 ========================================
 Content
 ========================================
@@ -3524,7 +3524,7 @@ max-age: Thu, 01 Jan 1970 00:00:00 GMT
 cache-Control: private
 Location: http://localhost:9000/NEOSoftGrails/main.gsp
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:01 GMT
+Date: Thu, 07 Oct 2010 00:30:21 GMT
 ========================================
 Content
 ========================================
@@ -3551,7 +3551,7 @@ Response was 200 'OK', headers:
 Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Length: 2678
-Date: Wed, 06 Oct 2010 15:52:01 GMT
+Date: Thu, 07 Oct 2010 00:30:21 GMT
 ========================================
 Content
 ========================================
@@ -3620,7 +3620,7 @@ Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Language: en
 Content-Length: 2341
-Date: Wed, 06 Oct 2010 15:52:01 GMT
+Date: Thu, 07 Oct 2010 00:30:21 GMT
 ========================================
 Content
 ========================================
@@ -3684,7 +3684,7 @@ Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Language: en
 Transfer-Encoding: chunked
-Date: Wed, 06 Oct 2010 15:52:01 GMT
+Date: Thu, 07 Oct 2010 00:30:21 GMT
 ========================================
 Content
 ========================================
@@ -4106,24 +4106,24 @@ Selecting option [MASCULINO] on select field [name:sexo id:sexo] of form [formAd
 Clicked [create] which resolved to a [class com.gargoylesoftware.htmlunit.html.HtmlSubmitInput]
 Content of web window [TopLevelWindow[name=""]] changed
 <<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:9000/NEOSoftGrails/paciente/save <<<<<<<<<<<<<<<<<<<<
-Response was a redirect to http://localhost:9000/NEOSoftGrails/paciente/show/90 <<<<<<<<<<<<<<<<<<<<
+Response was a redirect to http://localhost:9000/NEOSoftGrails/paciente/show/118 <<<<<<<<<<<<<<<<<<<<
 Response was 302 'Moved Temporarily', headers:
 ========================================
 Server: Apache-Coyote/1.1
-Location: http://localhost:9000/NEOSoftGrails/paciente/show/90
+Location: http://localhost:9000/NEOSoftGrails/paciente/show/118
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:01 GMT
+Date: Thu, 07 Oct 2010 00:30:21 GMT
 ========================================
 Content
 ========================================
 
 ========================================
 
-#Following redirect to http://localhost:9000/NEOSoftGrails/paciente/show/90
+#Following redirect to http://localhost:9000/NEOSoftGrails/paciente/show/118
 
 
->>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/paciente/show/90 using method GET >>>>>>>>>>>>>>>>>>>>
-Initializing web request settings for http://localhost:9000/NEOSoftGrails/paciente/show/90
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/paciente/show/118 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:9000/NEOSoftGrails/paciente/show/118
 Request parameters:
 ========================================
 ========================================
@@ -4133,14 +4133,14 @@ Accept-Language: en
 Accept: */*
 ========================================
 Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/paciente/show/90 <<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/paciente/show/118 <<<<<<<<<<<<<<<<<<<<
 Response was 200 'OK', headers:
 ========================================
 Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Language: en
-Content-Length: 4645
-Date: Wed, 06 Oct 2010 15:52:01 GMT
+Content-Length: 4648
+Date: Thu, 07 Oct 2010 00:30:21 GMT
 ========================================
 Content
 ========================================
@@ -4173,14 +4173,14 @@ Content
         <div class="body">
             <h1>Ver Paciente</h1>
             
-            <div class="message" id="pacienteCriadoMessage">Paciente 90 criado</div>
+            <div class="message" id="pacienteCriadoMessage">Paciente 118 criado</div>
             
             <div class="dialog">
                 <table>
                     <tbody>
                        <tr class="prop">
                             <td valign="top" class="name">Id</td>
-                            <td valign="top" class="value">90</td>
+                            <td valign="top" class="value">118</td>
                         </tr>
                        <tr class="prop">
                             <td valign="top" class="name">Nome</td>
@@ -4231,7 +4231,7 @@ Content
             </div>
             <div class="buttons">
                 <form action="/NEOSoftGrails/paciente/index" method="post" >
-                    <input type="hidden" name="id" value="90" id="id" />
+                    <input type="hidden" name="id" value="118" id="id" />
                     <span class="button"><input type="submit" name="_action_edit" value="Editar" id="editar" class="edit" /></span>
                 	<span class="button"><input type="submit" name="_action_delete" value="Deletar" id="deletar" class="delete" /></span>
                 </form>
@@ -4277,7 +4277,7 @@ cache-Control: private
 Content-Type: text/html;charset=utf-8
 Content-Language: en
 Content-Length: 2463
-Date: Wed, 06 Oct 2010 15:52:01 GMT
+Date: Thu, 07 Oct 2010 00:30:21 GMT
 ========================================
 Content
 ========================================
@@ -4392,25 +4392,25 @@ Added attribute value with value harrison to tag [input] (id: DomAttr[name=id va
 Clicked [OK] which resolved to a [class com.gargoylesoftware.htmlunit.html.HtmlSubmitInput]
 Content of web window [TopLevelWindow[name=""]] changed
 <<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:9000/NEOSoftGrails/j_spring_security_check <<<<<<<<<<<<<<<<<<<<
-Response was a redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=CABD7E09A764170DE04A57211E32F612 <<<<<<<<<<<<<<<<<<<<
+Response was a redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=6023AA24E4FB9396949554AE08D374E6 <<<<<<<<<<<<<<<<<<<<
 Response was 302 'Moved Temporarily', headers:
 ========================================
 Server: Apache-Coyote/1.1
-Set-Cookie: JSESSIONID=CABD7E09A764170DE04A57211E32F612; Path=/NEOSoftGrails
-Location: http://localhost:9000/NEOSoftGrails/;jsessionid=CABD7E09A764170DE04A57211E32F612
+Set-Cookie: JSESSIONID=6023AA24E4FB9396949554AE08D374E6; Path=/NEOSoftGrails
+Location: http://localhost:9000/NEOSoftGrails/;jsessionid=6023AA24E4FB9396949554AE08D374E6
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:01 GMT
+Date: Thu, 07 Oct 2010 00:30:21 GMT
 ========================================
 Content
 ========================================
 
 ========================================
 
-#Following redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=CABD7E09A764170DE04A57211E32F612
+#Following redirect to http://localhost:9000/NEOSoftGrails/;jsessionid=6023AA24E4FB9396949554AE08D374E6
 
 
->>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/;jsessionid=CABD7E09A764170DE04A57211E32F612 using method GET >>>>>>>>>>>>>>>>>>>>
-Initializing web request settings for http://localhost:9000/NEOSoftGrails/;jsessionid=CABD7E09A764170DE04A57211E32F612
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/;jsessionid=6023AA24E4FB9396949554AE08D374E6 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:9000/NEOSoftGrails/;jsessionid=6023AA24E4FB9396949554AE08D374E6
 Request parameters:
 ========================================
 ========================================
@@ -4420,7 +4420,7 @@ Accept-Language: en
 Accept: */*
 ========================================
 Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/;jsessionid=CABD7E09A764170DE04A57211E32F612 <<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/;jsessionid=6023AA24E4FB9396949554AE08D374E6 <<<<<<<<<<<<<<<<<<<<
 Response was a redirect to http://localhost:9000/NEOSoftGrails/login/auth <<<<<<<<<<<<<<<<<<<<
 Response was 302 'Moved Temporarily', headers:
 ========================================
@@ -4428,7 +4428,7 @@ Server: Apache-Coyote/1.1
 Location: http://localhost:9000/NEOSoftGrails/login/auth
 Content-Type: text/html;charset=UTF-8
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:01 GMT
+Date: Thu, 07 Oct 2010 00:30:21 GMT
 ========================================
 Content
 ========================================
@@ -4460,7 +4460,7 @@ max-age: Thu, 01 Jan 1970 00:00:00 GMT
 cache-Control: private
 Location: http://localhost:9000/NEOSoftGrails/main.gsp
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:01 GMT
+Date: Thu, 07 Oct 2010 00:30:21 GMT
 ========================================
 Content
 ========================================
@@ -4487,7 +4487,7 @@ Response was 200 'OK', headers:
 Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Length: 2678
-Date: Wed, 06 Oct 2010 15:52:01 GMT
+Date: Thu, 07 Oct 2010 00:30:21 GMT
 ========================================
 Content
 ========================================
@@ -4556,7 +4556,7 @@ Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Language: en
 Content-Length: 2341
-Date: Wed, 06 Oct 2010 15:52:01 GMT
+Date: Thu, 07 Oct 2010 00:30:21 GMT
 ========================================
 Content
 ========================================
@@ -4620,7 +4620,7 @@ Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Language: en
 Transfer-Encoding: chunked
-Date: Wed, 06 Oct 2010 15:52:01 GMT
+Date: Thu, 07 Oct 2010 00:30:21 GMT
 ========================================
 Content
 ========================================
@@ -5042,24 +5042,24 @@ Selecting option [MASCULINO] on select field [name:sexo id:sexo] of form [formAd
 Clicked [create] which resolved to a [class com.gargoylesoftware.htmlunit.html.HtmlSubmitInput]
 Content of web window [TopLevelWindow[name=""]] changed
 <<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:9000/NEOSoftGrails/paciente/save <<<<<<<<<<<<<<<<<<<<
-Response was a redirect to http://localhost:9000/NEOSoftGrails/paciente/show/91 <<<<<<<<<<<<<<<<<<<<
+Response was a redirect to http://localhost:9000/NEOSoftGrails/paciente/show/119 <<<<<<<<<<<<<<<<<<<<
 Response was 302 'Moved Temporarily', headers:
 ========================================
 Server: Apache-Coyote/1.1
-Location: http://localhost:9000/NEOSoftGrails/paciente/show/91
+Location: http://localhost:9000/NEOSoftGrails/paciente/show/119
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:02 GMT
+Date: Thu, 07 Oct 2010 00:30:22 GMT
 ========================================
 Content
 ========================================
 
 ========================================
 
-#Following redirect to http://localhost:9000/NEOSoftGrails/paciente/show/91
+#Following redirect to http://localhost:9000/NEOSoftGrails/paciente/show/119
 
 
->>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/paciente/show/91 using method GET >>>>>>>>>>>>>>>>>>>>
-Initializing web request settings for http://localhost:9000/NEOSoftGrails/paciente/show/91
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/paciente/show/119 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:9000/NEOSoftGrails/paciente/show/119
 Request parameters:
 ========================================
 ========================================
@@ -5069,14 +5069,14 @@ Accept-Language: en
 Accept: */*
 ========================================
 Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/paciente/show/91 <<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/paciente/show/119 <<<<<<<<<<<<<<<<<<<<
 Response was 200 'OK', headers:
 ========================================
 Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Language: en
-Content-Length: 4645
-Date: Wed, 06 Oct 2010 15:52:02 GMT
+Content-Length: 4648
+Date: Thu, 07 Oct 2010 00:30:22 GMT
 ========================================
 Content
 ========================================
@@ -5109,14 +5109,14 @@ Content
         <div class="body">
             <h1>Ver Paciente</h1>
             
-            <div class="message" id="pacienteCriadoMessage">Paciente 91 criado</div>
+            <div class="message" id="pacienteCriadoMessage">Paciente 119 criado</div>
             
             <div class="dialog">
                 <table>
                     <tbody>
                        <tr class="prop">
                             <td valign="top" class="name">Id</td>
-                            <td valign="top" class="value">91</td>
+                            <td valign="top" class="value">119</td>
                         </tr>
                        <tr class="prop">
                             <td valign="top" class="name">Nome</td>
@@ -5167,7 +5167,7 @@ Content
             </div>
             <div class="buttons">
                 <form action="/NEOSoftGrails/paciente/index" method="post" >
-                    <input type="hidden" name="id" value="91" id="id" />
+                    <input type="hidden" name="id" value="119" id="id" />
                     <span class="button"><input type="submit" name="_action_edit" value="Editar" id="editar" class="edit" /></span>
                 	<span class="button"><input type="submit" name="_action_delete" value="Deletar" id="deletar" class="delete" /></span>
                 </form>
@@ -5197,7 +5197,7 @@ Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Language: en
 Transfer-Encoding: chunked
-Date: Wed, 06 Oct 2010 15:52:02 GMT
+Date: Thu, 07 Oct 2010 00:30:22 GMT
 ========================================
 Content
 ========================================
@@ -5232,7 +5232,7 @@ Content
             
             
             <form action="/NEOSoftGrails/paciente/index" method="post" name="formEditPaciente" id="formEditPaciente" >
-                <input type="hidden" name="id" value="91" id="id" />
+                <input type="hidden" name="id" value="119" id="id" />
                 <input type="hidden" name="version" value="0" id="version" />
                 <div class="dialog">
                     <table>
@@ -5619,24 +5619,24 @@ Content
 Clicked [atualizar] which resolved to a [class com.gargoylesoftware.htmlunit.html.HtmlSubmitInput]
 Content of web window [TopLevelWindow[name=""]] changed
 <<<<<<<<<<<<<<<<<<<< Received response from POST http://localhost:9000/NEOSoftGrails/paciente/index <<<<<<<<<<<<<<<<<<<<
-Response was a redirect to http://localhost:9000/NEOSoftGrails/paciente/show/91 <<<<<<<<<<<<<<<<<<<<
+Response was a redirect to http://localhost:9000/NEOSoftGrails/paciente/show/119 <<<<<<<<<<<<<<<<<<<<
 Response was 302 'Moved Temporarily', headers:
 ========================================
 Server: Apache-Coyote/1.1
-Location: http://localhost:9000/NEOSoftGrails/paciente/show/91
+Location: http://localhost:9000/NEOSoftGrails/paciente/show/119
 Content-Length: 0
-Date: Wed, 06 Oct 2010 15:52:02 GMT
+Date: Thu, 07 Oct 2010 00:30:22 GMT
 ========================================
 Content
 ========================================
 
 ========================================
 
-#Following redirect to http://localhost:9000/NEOSoftGrails/paciente/show/91
+#Following redirect to http://localhost:9000/NEOSoftGrails/paciente/show/119
 
 
->>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/paciente/show/91 using method GET >>>>>>>>>>>>>>>>>>>>
-Initializing web request settings for http://localhost:9000/NEOSoftGrails/paciente/show/91
+>>>>>>>>>>>>>>>>>>>> Making request to http://localhost:9000/NEOSoftGrails/paciente/show/119 using method GET >>>>>>>>>>>>>>>>>>>>
+Initializing web request settings for http://localhost:9000/NEOSoftGrails/paciente/show/119
 Request parameters:
 ========================================
 ========================================
@@ -5646,14 +5646,14 @@ Accept-Language: en
 Accept: */*
 ========================================
 Content of web window [TopLevelWindow[name=""]] changed
-<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/paciente/show/91 <<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<< Received response from GET http://localhost:9000/NEOSoftGrails/paciente/show/119 <<<<<<<<<<<<<<<<<<<<
 Response was 200 'OK', headers:
 ========================================
 Server: Apache-Coyote/1.1
 Content-Type: text/html;charset=UTF-8
 Content-Language: en
-Content-Length: 4646
-Date: Wed, 06 Oct 2010 15:52:02 GMT
+Content-Length: 4649
+Date: Thu, 07 Oct 2010 00:30:22 GMT
 ========================================
 Content
 ========================================
@@ -5686,14 +5686,14 @@ Content
         <div class="body">
             <h1>Ver Paciente</h1>
             
-            <div class="message" id="pacienteCriadoMessage">Paciente 91 atualizado</div>
+            <div class="message" id="pacienteCriadoMessage">Paciente 119 atualizado</div>
             
             <div class="dialog">
                 <table>
                     <tbody>
                        <tr class="prop">
                             <td valign="top" class="name">Id</td>
-                            <td valign="top" class="value">91</td>
+                            <td valign="top" class="value">119</td>
                         </tr>
                        <tr class="prop">
                             <td valign="top" class="name">Nome</td>
@@ -5744,7 +5744,7 @@ Content
             </div>
             <div class="buttons">
                 <form action="/NEOSoftGrails/paciente/index" method="post" >
-                    <input type="hidden" name="id" value="91" id="id" />
+                    <input type="hidden" name="id" value="119" id="id" />
                     <span class="button"><input type="submit" name="_action_edit" value="Editar" id="editar" class="edit" /></span>
                 	<span class="button"><input type="submit" name="_action_delete" value="Deletar" id="deletar" class="delete" /></span>
                 </form>
