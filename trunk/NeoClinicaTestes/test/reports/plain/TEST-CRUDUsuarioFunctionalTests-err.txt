@@ -1,0 +1,2 @@
+--Output from testAddUsuarioOK--
+--Output from testLogarUsuarioCriado--
