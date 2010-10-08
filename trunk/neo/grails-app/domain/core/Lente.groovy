@@ -1,6 +1,7 @@
 package core
 
 class Lente {
+	
 	String tipo;
 	int quantidade;
 	float valor;
@@ -12,6 +13,6 @@ class Lente {
 	}
 	
 	public String toString() {
-		return getTipo();
+		return "Lente do tipo: " + getTipo() + ". Valor de compra: " + valor
 	}
 }
