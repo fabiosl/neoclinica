@@ -1,0 +1,10 @@
+    * Teste de Aceitação 8.1: Cadastrar fornecedor no sistema com todos os dados corretos (Operação Realizada com Sucesso).
+    * Teste de Aceitação 8.2: Cadastrar fornecedor no sistema com dados faltando (Operação Realizada sem Sucesso).
+    * Teste de Aceitação 8.3: Retirar fornecedor existente da lista dos fornecedores (Operação Realizada com Sucesso).
+    * Teste de Aceitação 8.4: Retirar fornecedor inexistente da lista dos fornecedores (Operação Realizada sem Sucesso).
+    * Teste de Aceitação 8.5: Consultar dados de fornecedor existente no sistema (Operação Realizada com Sucesso).
+    * Teste de Aceitação 8.6: Consultar dados de fornecedor inexistente no sistema (Operação Realizada sem Sucesso).
+    * Teste de Aceitação 8.7: Atualizar dados de fornecedor existente no sistema (Operação Realizada com Sucesso).
+    * Teste de Aceitação 8.8: Atualizar dados de fornecedor inexistente no sistema (Operação Realizada sem Sucesso). 
+    
+    Ver test/integration. Para executar, grails test-app -integration no projeto principal.

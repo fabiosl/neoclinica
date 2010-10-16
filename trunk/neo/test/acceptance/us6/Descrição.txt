@@ -1,0 +1,9 @@
+    * Teste de Aceitação 6.1: Cadastrar um usuário com todos os dados corretos (Cadastro Realizado com Sucesso - se logado como administrador).
+    * Teste de Aceitação 6.2: Cadastrar um usuário com todos os dados corretos (Cadastro Realizado sem Sucesso - se não logado como administrador).
+    * Teste de Aceitação 6.3: Cadastrar um usuário com dados obrigatórios faltando (Cadastro Realizado sem Sucesso - se logado como administrador ou secretária).
+    * Teste de Aceitação 6.4: Retirar usuário existente (Operação Realizada com Sucesso - se logado como administrador).
+    * Teste de Aceitação 6.5: Retirar usuário existente (Operação Realizada sem Sucesso - se logado como funcionario)
+    * Teste de Aceitação 6.6: Retirar usuário inexistente (Operação Realizada sem Sucesso - se logado como administrador ou funcionario).
+    * Teste de Aceitação 6.7: Atualizar dados do usuário logado (Operação Realizada com Sucesso - se logado com o usuário que se quer editar os dados). 
+    
+    Ver o projeto de testes (http://code.google.com/p/neoclinica/source/browse/#svn/trunk/NeoClinicaTestes/test/functional)
