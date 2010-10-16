@@ -28,11 +28,11 @@
                             <td valign="top" class="value">${fieldValue(bean: lenteInstance, field: "tipo")}</td>
                         </tr>
                        <tr class="prop">
-                            <td valign="top" class="name"><g:message code="lente.quantidade.label" default="Quantidade" /></td>
+                            <td valign="top" class="name"><g:message code="lente.quantidade.label" default="Quantidade em Estoque" /></td>
                             <td valign="top" class="value">${fieldValue(bean: lenteInstance, field: "quantidade")}</td>
                         </tr>
                        <tr class="prop">
-                            <td valign="top" class="name"><g:message code="lente.valor.label" default="Valor de Compra" /></td>
+                            <td valign="top" class="name"><g:message code="lente.valor.label" default="Valor de Venda" /></td>
                             <td valign="top" class="value">${fieldValue(bean: lenteInstance, field: "valor")}</td>
                         </tr>
                     </tbody>

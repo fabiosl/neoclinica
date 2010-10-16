@@ -22,7 +22,7 @@
                             <g:sortableColumn property="id" title="${message(code: 'lente.id.label', default: 'Id')}" />
                             <g:sortableColumn property="tipo" title="${message(code: 'lente.tipo.label', default: 'Tipo')}" />
                             <g:sortableColumn property="quantidade" title="${message(code: 'lente.quantidade.quantidade', default: 'Quantidade')}" />
-                            <g:sortableColumn property="valor" title="${message(code: 'lente.valor.label', default: 'Valor De Compra')}" />
+                            <g:sortableColumn property="valor" title="${message(code: 'lente.valor.label', default: 'Valor de Venda')}" />
                         </tr>
                     </thead>
                     <tbody>

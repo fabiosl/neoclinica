@@ -23,7 +23,7 @@ class Usuario {
 	/**
 	 * Diz se o usuario esta habilitado
 	 */
-	boolean enabled
+	boolean enabled = true
 	
 	/**
 	 * Email do usuario
@@ -33,7 +33,7 @@ class Usuario {
 	/**
 	 * Diz se o email deve ser publicado
 	 */
-	boolean emailShow
+	boolean emailShow = true
 	
 	/**
 	 * Descricao do usuario

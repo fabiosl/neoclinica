@@ -8,7 +8,7 @@
 		<span class="menuButton"><a class="home" href="${createLinkTo(dir:'/')}">Home</a></span>
 	</div>
 	<div class="body">
-		<h1>Alterar senha</h1>
+		<h1>Alterar senha (${loggedInUserInfo(field:'userRealName')})</h1>
 		<g:if test="${flash.message}">
 			<div class="message">${flash.message}</div>
 			<br/>

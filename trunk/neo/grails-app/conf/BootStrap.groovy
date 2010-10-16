@@ -1,12 +1,13 @@
 import acesso.Hierarquia;
 import acesso.Usuario;
+import core.Medico 
 
 class BootStrap {
 	def authenticateService
 	
 	def init = { servletContext ->
 		// marcar como true no primeiro run apos as tabelas terem sido criadas
-		final boolean CRIAR_USUARIOS = false;
+		final boolean CRIAR_USUARIOS = true;
 		
 		if (CRIAR_USUARIOS) {
 			def userGod = new Usuario(
@@ -17,12 +18,14 @@ class BootStrap {
 			passwd : authenticateService.encodePassword('admin'));
 			userGod.save();
 			
-			def userMed = new Usuario(
+			def userMed = new Medico(
 			username:'harrison',
-			userRealName : 'Harrison',
+			userRealName : 'Harrison Sarmento',
 			enabled : true,
 			email : 'harrison73oft@gmail.com',
-			passwd : authenticateService.encodePassword('harrison'));
+			passwd : authenticateService.encodePassword('harrison'),
+			crm: null,
+			especialidade : null);
 			userMed.save();
 			
 			def userSec = new Usuario(

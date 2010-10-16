@@ -38,7 +38,7 @@
 
 				<tr class="prop">
 					<td valign="top" class="name">Habilitado:</td>
-					<td valign="top" class="value">${person.enabled}</td>
+					<td valign="top" class="value"><g:formatBoolean boolean="${person.enabled}"/></td>
 				</tr>
 
 				<tr class="prop">
@@ -53,7 +53,7 @@
 
 				<tr class="prop">
 					<td valign="top" class="name">Ver Email:</td>
-					<td valign="top" class="value">${person.emailShow}</td>
+					<td valign="top" class="value"><g:formatBoolean boolean="${person.emailShow}"/></td>
 				</tr>
 
 				<tr class="prop">
