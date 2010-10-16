@@ -21,14 +21,9 @@
 		</div>
 		</g:hasErrors>
 
-		<div class="prop">
-			<span class="name">ID:</span>
-			<span class="value">${person.id}</span>
-		</div>
-
 		<g:form>
-			<input type="hidden" name="id" value="${person.id}" />
-			<input type="hidden" name="version" value="${person.version}" />
+			<g:hiddenField name="id" value="${person.id}" />
+			<g:hiddenField name="version" value="${person.version}" />
 			<div class="dialog">
 				<table>
 				<tbody>

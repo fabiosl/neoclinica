@@ -1,9 +1,7 @@
 package controllers
 
 import core.Fornecimento;
-class FornecimentoController {
 
-	def index = {}
-	
+class FornecimentoController {
 	def scaffold = Fornecimento;
 }

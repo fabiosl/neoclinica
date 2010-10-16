@@ -36,7 +36,7 @@
                         
                             <tr class="prop">
                                 <td valign="top" class="name">
-                                    <label for="quantidade"><g:message code="lente.quantidade.label" default="Quantidade Adquirida" /></label>
+                                    <label for="quantidade"><g:message code="lente.quantidade.label" default="Quantidade em Estoque" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: lenteInstance, field: 'quantidade', 'errors')}">
                                     <g:textField name="quantidade" maxlength="15" value="${lenteInstance?.quantidade}" />
@@ -45,7 +45,7 @@
                         
                             <tr class="prop">
                                 <td valign="top" class="name">
-                                    <label for="valor"><g:message code="lente.valor.label" default="Valor de Compra" /></label>
+                                    <label for="valor"><g:message code="lente.valor.label" default="Valor de Venda" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: lenteInstance, field: 'valor', 'errors')}">
                                     <g:textField name="valor" maxlength="15" value="${lenteInstance?.valor}" />
