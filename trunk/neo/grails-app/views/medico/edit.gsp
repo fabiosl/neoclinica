@@ -59,7 +59,7 @@
                     </table>
                 </div>
                 
-                <p><br/>* Dados de usuario (login, senha) podem ser editados no controle de usuarios.<br/></p>
+                <p><br/><i>Obs.:</i> Dados de usuario (login, senha) podem ser editados no controle de usuarios.<br/></p>
 
 			    <div class="buttons">
                     <span class="button"><g:actionSubmit class="save" action="update" value="${message(code: 'default.button.update.label', default: 'Update')}" /></span>

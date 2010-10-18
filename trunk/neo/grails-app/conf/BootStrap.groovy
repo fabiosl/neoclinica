@@ -7,19 +7,19 @@ class BootStrap {
 	
 	def init = { servletContext ->
 		// marcar como true no primeiro run apos as tabelas terem sido criadas
-		final boolean CRIAR_USUARIOS = true;
+		final boolean CRIAR_USUARIOS = false;
 		
 		if (CRIAR_USUARIOS) {
 			def userGod = new Usuario(
-			username:'manutencao',
-			userRealName :'Equipe de Manutencao',
+			username : 'manutencao',
+			userRealName : 'Equipe de Manutencao',
 			enabled : true,
 			email : '',
 			passwd : authenticateService.encodePassword('admin'));
 			userGod.save();
 			
 			def userMed = new Medico(
-			username:'harrison',
+			username : 'harrison',
 			userRealName : 'Harrison Sarmento',
 			enabled : true,
 			email : 'harrison73oft@gmail.com',
@@ -29,7 +29,7 @@ class BootStrap {
 			userMed.save();
 			
 			def userSec = new Usuario(
-			username:'camila',
+			username : 'camila',
 			userRealName : 'camila',
 			enabled : true,
 			email : 'camilaXYZ@gmail.com',

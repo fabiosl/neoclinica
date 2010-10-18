@@ -103,11 +103,6 @@ class MedicoController {
 				}
 			}
 			
-			def oldPassword = medicoInstance.passwd
-			medicoInstance.properties = params
-			if (!params.passwd.equals(oldPassword)) {
-				medicoInstance.passwd = authenticateService.encodePassword(params.passwd)
-			}
 			if (!medicoInstance.hasErrors() && medicoInstance.save(flush: true)) {
 				flash.message = "${message(code: 'default.updated.message', args: [message(code: 'medico.label', default: 'Medico'), medicoInstance.id])}"
 				redirect(action: "show", id: medicoInstance.id)
@@ -129,6 +124,8 @@ class MedicoController {
 		def medicoInstance = Medico.get(params.id)
 		if (medicoInstance) {
 			try {
+				Hierarquia.findAll().each { it.removeFromPeople(medicoInstance)
+				}
 				medicoInstance.delete(flush: true)
 				flash.message = "${message(code: 'default.deleted.message', args: [message(code: 'medico.label', default: 'Medico'), params.id])}"
 				redirect(action: "list")
