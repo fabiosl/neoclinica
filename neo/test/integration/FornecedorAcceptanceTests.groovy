@@ -1,6 +1,5 @@
-import groovy.util.GroovyTestCase;
 import core.Fornecedor;
-import core.Lente 
+import groovy.util.GroovyTestCase;
 
 /**
  * Testes de aceitacao da user story 8 (Controle de Fornecedores)
