@@ -103,6 +103,7 @@ class MedicoController {
 				}
 			}
 			
+			medicoInstance.properties = params
 			if (!medicoInstance.hasErrors() && medicoInstance.save(flush: true)) {
 				flash.message = "${message(code: 'default.updated.message', args: [message(code: 'medico.label', default: 'Medico'), medicoInstance.id])}"
 				redirect(action: "show", id: medicoInstance.id)
