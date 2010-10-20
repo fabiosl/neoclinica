@@ -1,14 +1,19 @@
 == User Story 9 - Implementar funcionalidade de controle do controle de procedimentos == 
+
 === Testes de Aceitação === 
+
 * Teste de Aceitação 9.1: Cadastrar procedimento no sistema com todos os dados corretos (Operação Realizada com Sucesso). 
 * Teste de Aceitação 9.2: Cadastrar procedimento no sistema com dados faltando (Operação Realizada sem Sucesso).
- * Teste de Aceitação 9.3: Retirar procedimento existente da lista de procedimentos (Operação Realizada com Sucesso). 
+* Teste de Aceitação 9.3: Retirar procedimento existente da lista de procedimentos (Operação Realizada com Sucesso). 
 * Teste de Aceitação 9.4: Retirar procedimento inexistente da lista de procedimentos (Operação Realizada sem Sucesso).
- * Teste de Aceitação 9.5: Consultar dados de procedimento existente no sistema (Operação Realizada com Sucesso). 
+* Teste de Aceitação 9.5: Consultar dados de procedimento existente no sistema (Operação Realizada com Sucesso). 
 * Teste de Aceitação 9.6: Consultar dados de procedimento inexistente no sistema (Operação Realizada sem Sucesso).
  * Teste de Aceitação 9.7: Atualizar dados de procedimento existente no sistema (Operação Realizada com Sucesso). 
 * Teste de Aceitação 9.8: Atualizar dados de procedimento inexistente no sistema (Operação Realizada sem Sucesso). 
+
+
 === Atividades === 
+
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || 
 || A9.1 || Implementação das classes de domínio || Solon || 45min || 42 min || D || 
 || A9.2 || Implementação da lógica de CRUD || Solon || 1hm || || D || 
@@ -16,13 +21,17 @@
 || A9.4 || Realização dos Testes || Renato || 3h || 2h 12min || D || 
 || A9.5 || Integrar controle de procedimentos com estoque || Renato || 4h || ||D || 
 || A9.6 || Integrar controle de procedimentos com medicos || Renato || 4h || || D ||
- == User Story 11 - Implementar funcionalidade emissão de relatórios do estoque ==
- === Testes de Aceitação ===
+
+== User Story 11 - Implementar funcionalidade emissão de relatórios do estoque ==
+
+=== Testes de Aceitação ===
 * Teste de Aceitação 11.1: Emitir relatório do estoque disponível de lentes (Operação Realizada com Sucesso se logado como Administrador). 
 * Teste de Aceitação 11.2: Emitir relatório da atividade do estoque de lentes (Operação Realizada com Sucesso se logado como Administrador).
- === Atividades === 
+
+=== Atividades === 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || 
-|| A11.1 || Estudo do plugin de geração de relatórios Jasper || Renato || 1h 30min || || D || || A11.2 || Estudo de plugin de envio de emails || Renato || 2h || || D || 
+|| A11.1 || Estudo do plugin de geração de relatórios Jasper || Renato || 1h 30min || || D || 
+|| A11.2 || Estudo de plugin de envio de emails || Renato || 2h || || D || 
 || A11.3 || Elaboração das GSP's || Renato || 2h || || D || 
 || A11.4 || Implementacao das classes || Renato || 5h || || D || 
 || A11.5 || Realização dos testes || Renato || 2h || || D || 
