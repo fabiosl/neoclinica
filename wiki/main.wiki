@@ -48,6 +48,10 @@ Aqui são guardadas todas as informações essenciais e os links para as outras 
 
  * [http://code.google.com/p/neoclinica/wiki/PlanoIteracao2 Plano de Iteração Dois]
 
-==== Iteração 3 *(Em Andamento)* ====
+==== Iteração 3 *(Completa)* ====
 
  * [http://code.google.com/p/neoclinica/wiki/PlanoIteracao3 Plano de Iteração Três]
+
+==== Iteração 4 *(Em Andamento)* ====
+
+ * [http://code.google.com/p/neoclinica/wiki/PlanoIteracao4 Plano de Iteração Quatro]
