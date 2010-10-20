@@ -25,9 +25,9 @@
 || A9.1 || Implementação das classes de domínio || Solon || 45min || 42 min || D || 
 || A9.2 || Implementação da lógica de CRUD || Solon || 1hm || || D || 
 || A9.3 || Elaboração das páginas GSP's || Renato || 3h || 1h || D || 
-|| A9.4 || Realização dos Testes || Renato || 3h || 2h 12min || D || 
+|| A9.4 || Realização dos Testes || Fabio, Renato || 3h || 2h 12min || D || 
 || A9.5 || Integrar controle de procedimentos com estoque || Renato || 4h || ||D || 
-|| A9.6 || Integrar controle de procedimentos com medicos || Renato || 4h || || D ||
+|| A9.6 || Integrar controle de procedimentos com medicos || Fabio|| 4h || || D ||
 
 == User Story 11 - Implementar funcionalidade emissão de relatórios do estoque ==
 
@@ -39,8 +39,8 @@
 === Atividades === 
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || 
-|| A11.1 || Estudo do plugin de geração de relatórios Jasper || Renato || 1h 30min || || D || 
-|| A11.2 || Estudo de plugin de envio de emails || Renato || 2h || || D || 
-|| A11.3 || Elaboração das GSP's || Renato || 2h || || D || 
-|| A11.4 || Implementacao das classes || Renato || 5h || || D || 
+|| A11.1 || Estudo do plugin de geração de relatórios Jasper || Todos || 1h 30min || || D || 
+|| A11.2 || Estudo de plugin de envio de emails || Todos || 2h || || D || 
+|| A11.3 || Elaboração das GSP's || Fabio || 2h || || D || 
+|| A11.4 || Implementacao das classes || Solon || 5h || || D || 
 || A11.5 || Realização dos testes || Renato || 2h || || D || 
