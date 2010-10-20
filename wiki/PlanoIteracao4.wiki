@@ -27,7 +27,7 @@ Usando a legenda para o status das US:
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || 
 || A9.1 || Implementação das classes de domínio || Solon || 45min ||  || D || 
-|| A9.2 || Implementação da lógica de CRUD || Solon || 1hm || || D || 
+|| A9.2 || Implementação da lógica de CRUD || Solon || 1h || || D || 
 || A9.3 || Elaboração das páginas GSP's || Renato || 3h ||  || D || 
 || A9.4 || Realização dos Testes || Fabio, Renato || 3h ||  || D || 
 || A9.5 || Integrar controle de procedimentos com estoque || Renato || 4h || ||D || 
