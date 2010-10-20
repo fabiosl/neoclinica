@@ -61,3 +61,4 @@ Reunião informal que aconteceu por acaso com o cliente. Um dos membros do grupo
 Pontos a serem discutidos:
 
   * Saber se convênios são únicos para cada cliente ou se um cliente pode ter vários convênios.
+  * Pegar detalhes sobre relatórios.
