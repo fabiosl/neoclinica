@@ -25,10 +25,10 @@ Usando a legenda para o status das US:
 === Atividades ===
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-|| A7.1 || Implementação das classes de domínio || Solon || 1h || || D ||
-|| A7.2 || Implementação da lógica de CRUD || Solon || 1h30m || || D ||
-|| A7.3 || Elaboração das páginas GSP's || Renato || 1h30m || || D ||
-|| A7.4 || Realização dos Testes || Renato || 2h || || D ||
+|| A7.1 || Implementação das classes de domínio || Solon || 1h || 42 min || C ||
+|| A7.2 || Implementação da lógica de CRUD || Solon || 1h30m || 36 min || C ||
+|| A7.3 || Elaboração das páginas GSP's || Renato || 1h30m || 1h || C ||
+|| A7.4 || Realização dos Testes || Renato || 2h || 2h 12min || C ||
 
 ----
 
@@ -48,10 +48,10 @@ Usando a legenda para o status das US:
 === Atividades ===
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-|| A8.1 || Implementação das classes de domínio || Renato || 1h  || || D ||
-|| A8.2 || Implementação da lógica de CRUD || Fabio || 2h || || D ||
-|| A8.3 || Elaboração das páginas GSP's || Solon || 2h  || || D ||
-|| A8.4 || Realização dos Testes || Renato || 2h  || || D ||
+|| A8.1 || Implementação das classes de domínio || Renato || 1h  || 1h || C ||
+|| A8.2 || Implementação da lógica de CRUD || Fabio || 2h || 1h 30min || C ||
+|| A8.3 || Elaboração das páginas GSP's || Solon || 2h  || 1h 12min || C ||
+|| A8.4 || Realização dos Testes || Renato || 2h  || 1h 24min || C ||
 
 ----
 
@@ -71,9 +71,9 @@ Usando a legenda para o status das US:
 === Atividades ===
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* ||
-|| A15.1 || Implementação das classes de domínio ||  Fabio || 1h  || || D ||
-|| A15.2 || Implementação da lógica de CRUD || Renato || 1h || || D ||
-|| A15.3 || Elaboração das páginas GSP's || Fabio || 1h30m || || D ||
-|| A15.4 || Realização dos Testes|| Solon || 2h  || || D ||
+|| A15.1 || Implementação das classes de domínio ||  Fabio || 1h  || 1h || C ||
+|| A15.2 || Implementação da lógica de CRUD || Renato || 1h || 48min || C ||
+|| A15.3 || Elaboração das páginas GSP's || Fabio || 1h30m || 1h 42min || C ||
+|| A15.4 || Realização dos Testes|| Solon || 2h  || 1h 20min  || C ||
 
 ----
