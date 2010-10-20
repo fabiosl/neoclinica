@@ -8,6 +8,6 @@ Essa é sempre a versão mais atualizada de acordo com o passo corrente do proje
 
 ===Big Chart===
 
-O big chart até a iteração 2 pode ser visto aqui:
+O big chart até a iteração 4 pode ser visto aqui:
 
-http://neoclinica.googlecode.com/svn/trunk/documentos/bigChart/BigChart.jpg
+http://neoclinica.googlecode.com/svn/trunk/documentos/bigChart/bigChart.jpg
