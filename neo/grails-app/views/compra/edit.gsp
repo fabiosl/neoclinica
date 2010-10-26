@@ -36,7 +36,6 @@
 				<g:textField name="tipo" maxlength="100"
 					value="${lenteInstance?.tipo}" /></td>
 			</tr>
-			<!--
 			<tr class="prop">
 			<td valign="top" class="name"><label for="quantidade"><g:message
 				code="lente.quantidade.label" default="Quantidade em Estoque" /></label></td>
@@ -46,7 +45,6 @@
 				value="${lenteInstance?.quantidade}" /></td>
 			</tr>
 
-			-->
 			<tr class="prop">
 				<td valign="top" class="name"><label for="valor"><g:message
 					code="lente.valor.label" default="Valor de Venda" /></label></td>

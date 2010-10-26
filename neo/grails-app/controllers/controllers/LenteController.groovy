@@ -9,7 +9,20 @@ import core.Lente
  * @see core.Lente
  */
 class LenteController {
-	def index = {}
+	def index = {
+
+	}
 	
 	def scaffold = Lente;
+	
+	def venda = {
+		def lentes = Lente.findAll()
+		def lista = []
+		for(Lente l: lentes){
+			lista.add(l.getTipo())
+		}
+		return [validos : lista]
+	}
+	
+	def fazVenda = {}
 }

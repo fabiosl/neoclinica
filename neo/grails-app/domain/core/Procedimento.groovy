@@ -1,5 +1,9 @@
 package core
 
-abstract class Procedimento {
+class Procedimento {
 	float valor;
+	
+	static constraints = {
+		valor(nullable:false);
+	}
 }
