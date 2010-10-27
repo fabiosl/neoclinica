@@ -10,15 +10,15 @@
 			<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>
 		</div>
 		<div id="pageBody" class="dialog">
-	        <h1>Controle de Compras:</h1>
+	        <h1>Controle de Mercadorias:</h1>
 	        <br/>
 			<h2>Navegue pelos serviços abaixo:</h2>
 		</div>
 		<div align="center">
 			<neo:linhaDeBotoes>
+			<neo:botao id="linklentes" link="lente" imgsrc="${resource(dir:'images/botoes',file:'lentes.png')}" descricao="Controle de Lentes"/>
             	<neo:botao id="linkRecebimento" link="fornecimento/list" imgsrc="${resource(dir:'images/botoes',file:'fornecimento.png')}" descricao="Chegada de Mercadorias"/>
-            	<neo:botao id="linkRecebimento" link="fornecimento/create" imgsrc="${resource(dir:'images/botoes',file:'fazerPedido.png')}" descricao="Realizar de Pedido"/>
-            	<neo:botao id="linkProcedimento" link="procedimento" imgsrc="${resource(dir:'images/botoes',file:'procedimento.png')}" descricao="Procedimentos"/>
+            	<neo:botao id="linkRecebimento" link="fornecimento/create" imgsrc="${resource(dir:'images/botoes',file:'fazerPedido.png')}" descricao="Cadastrar de Pedido de Mercadorias"/>
 			</neo:linhaDeBotoes>
     	</div>
     </body>

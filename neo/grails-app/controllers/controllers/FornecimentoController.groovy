@@ -24,4 +24,10 @@ class FornecimentoController {
 		}
 		return [validos : lista, validos2: lista2]
 	}
+	
+	def save = {
+		System.out.print("CHAMOU!! com ");
+		System.out.println(params.f);
+		redirect(action : 'create')
+	}
 }

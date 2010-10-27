@@ -6,6 +6,7 @@
     <neo:linhaDeBotoes>
        <neo:botao id="linkpaciente" link="paciente" imgsrc="${resource(dir:'images/botoes',file:'paciente.png')}" descricao="Controle de Pacientes"/>
        <neo:botao id="linkestoque" link="estoque" imgsrc="${resource(dir:'images/botoes',file:'estoque.png')}" descricao="Controle de Estoque"/>
+       <neo:botao id="linkProcedimento" link="procedimento" imgsrc="${resource(dir:'images/botoes',file:'procedimento.png')}" descricao="Controle de Procedimentos"/>
        <neo:botao id="linkmedicos" link="medico" imgsrc="${resource(dir:'images/botoes',file:'adicionarMedico.png')}" descricao="Controle de M\u00E9dicos"/>
        <neo:botao id="linkopcoes" link="usuario" imgsrc="${resource(dir:'images/botoes',file:'opcoes.png')}" descricao="Configura\u00e7\u00f5es"/>
     </neo:linhaDeBotoes>

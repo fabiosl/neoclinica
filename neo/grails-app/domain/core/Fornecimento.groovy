@@ -3,7 +3,7 @@ package core
 class Fornecimento {
 	
 	static belongsTo = [f: Fornecedor, l: Lente]
-	Date dataEntrega
+	Date dataPedido
 	int quantidade
 	float preco
 }

@@ -4,7 +4,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="layout" content="main" />
-        <g:set var="entityName" value="${message(code: 'lente.label', default: 'Lentes')}" />
+        <g:set var="entityName" value="${message(code: 'fornecimento.label', default: 'Pedido')}" />
         <title><g:message code="default.create.label" args="[entityName]" /></title>
     </head>
     <body>
@@ -21,21 +21,21 @@
                 <g:renderErrors bean="${fornecimentoInstance}" as="list" />
             </div>
             </g:hasErrors>
-            <g:form action="save" method="post" name="formAddFornecimento" >
+            <g:form action="save" >
                 <div class="dialog">
                     <table>
                         <tbody>
                             <tr class="prop">
                                 <td valign="top" class="name">
-                                    <label for="nome"><g:message code="fornecimento.quantidade.label" default="Quantidade Pedida (*)" /></label>
+                                    <label for="quantidade"><g:message code="fornecimento.quantidade.label" default="Quantidade Pedida (*)" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: fornecimentoInstance, field: 'quantidade', 'errors')}">
-                                    <g:textField name="quantiadade" maxlength="15" value="${fornecimentoInstance?.quantidade}" />
+                                    <g:textField name="quantidade" maxlength="15" />
                                 </td>
                             </tr>
                             <tr class="prop">
                                 <td valign="top" class="name">
-                                    <label for="preco"><g:message code="fornecimento.valor.label" default="Valor do Pedido" /></label>
+                                    <label for="preco"><g:message code="fornecimento.preco.label" default="Valor do Pedido" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: fornecimentoInstance, field: 'preco', 'errors')}">
                                     <g:textField name="preco" maxlength="15" value="${fornecimentoInstance?.preco}" />
@@ -44,7 +44,7 @@
                             
                              <tr class="prop">
                                 <td valign="top" class="name">
-                                    <label for="valor"><g:message code="fornecimento.l.label" default="Lente Pedida" /></label>
+                                    <label for="l"><g:message code="fornecimento.l.label" default="Lente Pedida" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: fornecimentoInstance, field: 'l', 'errors')}">
                                     	<g:select name="lente" noSelection="${['null':'Escolha um tipo de lente...']}" from="${validos}" />
@@ -53,7 +53,7 @@
                             
                               <tr class="prop">
                                 <td valign="top" class="name">
-                                    <label for="valor"><g:message code="fornecimento.f.label" default="Fornecedor do Produto" /></label>
+                                    <label for="f"><g:message code="fornecimento.f.label" default="Fornecedor do Produto" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: fornecimentoInstance, field: 'f', 'errors')}">
                                     	<g:select name="fornecedor" noSelection="${['null':'Escolha um fornecedor...']}" from="${validos2}" />

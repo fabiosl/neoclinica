@@ -18,7 +18,7 @@
 			<neo:linhaDeBotoes>
 				<neo:botao id="linkListarLentes" link="lente/list" imgsrc="${resource(dir:'images/botoes',file:'listarLentes.png')}" descricao="Listar Lentes"/>
 				<neo:botao id="linkAdicionarLente" link="lente/create" imgsrc="${resource(dir:'images/botoes',file:'adicionarLente.png')}" descricao="Adicionar Lente"/>
-				<neo:botao id="linkVenderLente" link="lente/venda" imgsrc="${resource(dir:'images/botoes',file:'vendaLentes.png')}" descricao="Cadastrar Saida de Lente"/>
+				<neo:botao id="linkVenderLente" link="lente/venda" imgsrc="${resource(dir:'images/botoes',file:'vendaMercadorias.png')}" descricao="Cadastrar Saida de Lente"/>
             	<!--<neo:botao id="linkconvenio" link="fornecedor" imgsrc="${resource(dir:'images/botoes',file:'adicionarFornecedor.png')}" descricao="Controle Fornecedores"/>-->
             	<!--<neo:botao id="linkcompras" link="compra" imgsrc="${resource(dir:'images/botoes',file:'pedidos.png')}" descricao="Controle de Mercadorias"/>-->
 			</neo:linhaDeBotoes>
