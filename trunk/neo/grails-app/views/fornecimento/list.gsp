@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="layout" content="main" />
-        <g:set var="entityName" value="${message(code: 'lente.label', default: 'Lente')}" />
+        <g:set var="entityName" value="${message(code: 'fonecimento.label', default: 'Fornecimento')}" />
         <title><g:message code="default.list.label" args="[entityName]" /></title>
     </head>
     <body>
@@ -19,26 +19,30 @@
                 <table>
                     <thead>
                         <tr>
-                            <g:sortableColumn property="id" title="${message(code: 'lente.id.label', default: 'Id')}" />
-                            <g:sortableColumn property="tipo" title="${message(code: 'lente.tipo.label', default: 'Tipo')}" />
-                            <g:sortableColumn property="quantidade" title="${message(code: 'lente.quantidade.quantidade', default: 'Quantidade')}" />
-                            <g:sortableColumn property="valor" title="${message(code: 'lente.valor.label', default: 'Valor de Venda')}" />
+                        <g:sortableColumn property="id" title="${message(code: 'lente.id.label', default: 'Id')}" />
+                            <g:sortableColumn property="fornecedor" title="${message(code: 'fornecimento.f.label', default: 'Fornecedor')}" />
+                            <g:sortableColumn property="lente" title="${message(code: 'fornecimento.l.label', default: 'Tipo da Lente')}" />
+                            <g:sortableColumn property="quantidade" title="${message(code: 'fornecimento.quantidade.quantidade', default: 'Quantidade Comprada')}" />
+                            <g:sortableColumn property="preco" title="${message(code: 'fornecimento.preco.label', default: 'Preco da Compra')}" />
+                            <g:sortableColumn property="data" title="${message(code: 'fornecimento.dataPedido.label', default: 'Data do Pedido')}" />
                         </tr>
                     </thead>
                     <tbody>
-                    <g:each in="${lenteInstanceList}" status="i" var="lenteInstance">
+                    <g:each in="${fornecimentoInstanceList}" status="i" var="fornecimentoInstance">
                         <tr class="${(i % 2) == 0 ? 'odd' : 'even'}">
-                            <td><g:link action="show" id="${lenteInstance.id}" name="${lenteInstance.id}">${fieldValue(bean: lenteInstance, field: "id")}</g:link></td>
-                            <td>${fieldValue(bean: lenteInstance, field: "tipo")}</td>
-                            <td>${fieldValue(bean: lenteInstance, field: "quantidade")}</td>
-                            <td>${fieldValue(bean: lenteInstance, field: "valor")}</td>
+                            <td><g:link action="show" id="${fornecimentoInstanceList.id}" name="${fornecimentoInstanceList.id}">${fieldValue(bean: fornecimentoInstanceList, field: "id")}</g:link></td>
+                            <td>${fieldValue(bean: fornecimentoInstanceList, field: "f")}</td>
+                            <td>${fieldValue(bean: fornecimentoInstanceList, field: "l")}</td>
+                            <td>${fieldValue(bean: fornecimentoInstanceList, field: "quantidade")}</td>
+                            <td>${fieldValue(bean: fornecimentoInstanceList, field: "preco")}</td>
+                            <td>${fieldValue(bean: fornecimentoInstanceList, field: "dataPedido")}</td>
                         </tr>
                     </g:each>
                     </tbody>
                 </table>
             </div>
             <div class="paginateButtons">
-                <g:paginate total="${lenteInstanceTotal}" />
+                <g:paginate total="${fornecimentoInstanceTotal}" />
             </div>
         </div>
     </body>
