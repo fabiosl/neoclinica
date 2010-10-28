@@ -51,14 +51,14 @@ Essa reunião foi feita novamente com Camila porque o médico Harrison estava vi
 _Objetivos da reunião:_
   * Mostrar partes do sistema já implementadas (release 1).
 
-==Sétima Reunião com o Cliente (2/10/2010)==
+==Sétima Reunião com o Cliente (02/10/2010)==
 Reunião informal que aconteceu por acaso com o cliente. Um dos membros do grupo estava viajando para um congresso e a pessoa sentada ao seu lado era o cliente do projeto (Harrison Sarmento). Assim, foram discutidas (informalmente) algumas questões como:
   * Hardware a ser adquirido pela clínica;
   * Possibilidade de reunião antes do fechamento de iteração para mostrar o software (na reunião anterior só foi mostrado para o usuário, porque o cliente mesmo estava em trânsito);
   * Requisitos do sistema e impactos de seu uso na clínica.
 
-==Oitava Reunião com o Cliente (_a definir_)==
-Pontos a serem discutidos:
-
+==Oitava Reunião com o Cliente (28/10/2010)==
+_Objetivos da reunião:_
   * Saber se convênios são únicos para cada cliente ou se um cliente pode ter vários convênios.
   * Pegar detalhes sobre relatórios.
+  * Tirar pequenas dúvidas sobre o controle financeiro.
