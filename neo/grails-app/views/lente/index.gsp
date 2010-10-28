@@ -16,8 +16,10 @@
 		</div>
 		<div align="center">
 			<neo:linhaDeBotoes>
-				<neo:botao id="linkListarLentes" link="lente/list" imgsrc="${resource(dir:'images/botoes',file:'listarLentes.png')}" descricao="Listar Lentes"/>
-				<neo:botao id="linkAdicionarLente" link="lente/create" imgsrc="${resource(dir:'images/botoes',file:'adicionarLente.png')}" descricao="Adicionar Lente"/>
+				<neo:botao id="linkListarLentes" link="lente/list" imgsrc="${resource(dir:'images/botoes',file:'listarLentes.png')}" descricao="Ver Lentes"/>
+				<neo:botao id="linkAdicionarLente" link="lente/create" imgsrc="${resource(dir:'images/botoes',file:'adicionarLente.png')}" descricao="Cadastrar Lente"/>
+				<neo:botao id="linkrecebimentos" link="fornecimento/list" imgsrc="${resource(dir:'images/botoes',file:'fornecimento.png')}" descricao="Registro de Fornecimentos"/>
+            	<neo:botao id="linkpedidos" link="fornecimento/create" imgsrc="${resource(dir:'images/botoes',file:'fazerPedido.png')}" descricao="Pedido de Lentes"/>
 			</neo:linhaDeBotoes>
     	</div>
     </body>
