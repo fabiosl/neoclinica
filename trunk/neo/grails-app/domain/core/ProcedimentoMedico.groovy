@@ -13,6 +13,6 @@ class ProcedimentoMedico extends Procedimento {
 	static constraints = {
 		tipo(nullable : false);
 		data(nullable : false);
-		informacoes(nullable : true, maxSize : 255)
+		informacoes(nullable : true, maxSize : 2000)
 	}
 }
