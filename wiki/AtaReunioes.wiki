@@ -62,3 +62,11 @@ _Objetivos da reunião:_
   * Saber se convênios são únicos para cada cliente ou se um cliente pode ter vários convênios.
   * Pegar detalhes sobre relatórios.
   * Tirar pequenas dúvidas sobre o controle financeiro.
+
+Na reunião foi mostrado o software à usuária principal, pois o cliente não estava disponível. A usuária gostou bastante do que viu e tirou algumas dúvidas dos membros do grupo. Ficou definido a próxima reunião com o cliente propriamente dito. Ela será realizada antes do fechamento da release. Também foi evidenciado a compra do computador que servirá como servidor. Dessa forma, já se pode começar a transferir o sistema para o ambiente real onde ele será usado.
+
+==Oitava Reunião com o Cliente (03/11/2010 _a ser realizada_)==
+_Objetivos da reunião:_
+  * Fechar a release com o cliente.
+  * Mostrar planejamento.
+  * Receber feedback do cliente.
