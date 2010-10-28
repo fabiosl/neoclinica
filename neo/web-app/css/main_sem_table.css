@@ -173,6 +173,21 @@ input:focus, select:focus, textarea:focus {
     color: #333;
     padding-left: 25px;
 }
+.menuButton a.add_procedimento {
+    background: url(../images/botoes/menu_add_proc.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+.menuButton a.list_proc {
+    background: url(../images/botoes/menu_listar_proc.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+.menuButton a.add_compra {
+    background: url(../images/botoes/menu_add_compra.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
 .menuButton a.manage {
     background: url(../images/skin/manage.png) center left no-repeat;
     color: #333;

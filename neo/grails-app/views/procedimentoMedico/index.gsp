@@ -10,15 +10,14 @@
 			<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>
 		</div>
 		<div id="pageBody" class="dialog">
-	        <h1>Controle de Mercadorias:</h1>
+	        <h1>Controle de Procedimentos Médicos:</h1>
 	        <br/>
 			<h2>Navegue pelos serviços abaixo:</h2>
 		</div>
 		<div align="center">
 			<neo:linhaDeBotoes>
-			<neo:botao id="linklentes" link="lente" imgsrc="${resource(dir:'images/botoes',file:'lentes.png')}" descricao="Controle de Lentes"/>
-            	<neo:botao id="linkRecebimento" link="fornecimento/list" imgsrc="${resource(dir:'images/botoes',file:'fornecimento.png')}" descricao="Chegada de Mercadorias"/>
-            	<neo:botao id="linkRecebimento" link="fornecimento/create" imgsrc="${resource(dir:'images/botoes',file:'fazerPedido.png')}" descricao="Cadastrar de Pedido de Mercadorias"/>
+			<neo:botao id="linkprocedimentos" link="tipoProcedimentoMedico" imgsrc="${resource(dir:'images/botoes',file:'addProcedimento.png')}" descricao="Tipos de Procedimento"/>
+			<neo:botao id="linkexames" link="procedimentoMedico/create" imgsrc="${resource(dir:'images/botoes',file:'procedimentoPaciente.png')}" descricao="Marcar Procedimento"/>
 			</neo:linhaDeBotoes>
     	</div>
     </body>

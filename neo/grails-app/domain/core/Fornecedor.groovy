@@ -23,4 +23,8 @@ class Fornecedor {
 		cnpj(nullable : true, maxSize : 15, unique : true)
 		telefone(nullable : true, blank : true, maxSize : 13)
 	}
+	
+	public String toString() {
+		return getNome();
+	}
 }

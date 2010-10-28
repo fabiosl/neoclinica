@@ -36,4 +36,33 @@ class Paciente extends Pessoa {
 		convenio(nullable : true)
 		idExterno(nullable : true)
 	}
+	
+	/**
+	 * Representacao string do paciente
+	 */
+	public String toString() {
+		return getNome();
+	}
+	
+	/**
+	 * Diz se dois pacientes sao iguais
+	 */
+	public boolean equals(Object o) {
+		if (!(o instanceof Paciente)) {
+			return false;
+		}
+		return o.id == id
+	}
+	
+	/**
+	 * Funcao de ordenacao para pacientes
+	 * @param outro paciente a comparar
+	 * @return -1 se este paciente for menor, 0 se forem iguais, e 1 se for maior
+	 */
+	public int compareTo(outro) {
+		if (!(outro instanceof Paciente)) {
+			return 1;
+		}
+		return nome.compareTo(outro.nome)
+	}
 }
