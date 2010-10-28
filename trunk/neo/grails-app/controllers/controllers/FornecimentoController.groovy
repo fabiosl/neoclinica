@@ -4,6 +4,12 @@ import core.Fornecedor;
 import core.Fornecimento;
 import core.Lente 
 
+/**
+ * Controladora de fornecimentos. Controla as atividades de CRUD sob
+ * os fornecimentos realizados a clinica. Classe gerada pelo framework Grails.
+ *
+ * @see core.Fornecimento
+ */
 class FornecimentoController {
 	def scaffold = Fornecimento;
 	
