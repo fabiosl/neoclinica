@@ -17,6 +17,8 @@ class EstoqueController {
 		def lentes = Lente.findAll();
 		 
 		System.out.println(lentes);
+		
+		//gerar pdf com a lista das lentes
 		}
 	
 	def escolher = {
