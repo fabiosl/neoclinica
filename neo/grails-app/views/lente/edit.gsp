@@ -8,8 +8,6 @@
 <title><g:message code="default.edit.label" args="[entityName]" /></title>
 </head>
 <body>
-<span class="menuButton"><a class="voltar"
-	href="javascript:history.back()">Voltar</a></span>
 <div class="nav"><span class="menuButton"><a class="voltar"
 	href="javascript:history.back()">Voltar</a></span> <span class="menuButton"><a
 	class="home" href="${createLink(uri: '/')}"><g:message
