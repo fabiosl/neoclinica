@@ -9,6 +9,7 @@
     </head>
     <body>
         <div class="nav">
+        	<span class="menuButton"><a class="voltar" href="javascript:history.back()">Voltar</a></span>
             <span class="menuButton"><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></span>
             <span class="menuButton"><g:link class="create" action="create" params="[idPaciente : paciente.id]">Cadastrar novo Procedimento para ${paciente}</g:link></span>
         </div>

@@ -7,6 +7,7 @@
 <body>
 
 	<div class="nav">
+		<span class="menuButton"><a class="voltar" href="javascript:history.back()">Voltar</a></span>
 		<span class="menuButton"><a class="home" href="${createLinkTo(dir:'/')}">Home</a></span>
 		<span class="menuButton"><g:link class="list" action="list">Lista (Usuario)</g:link></span>
 		<span class="menuButton"><g:link class="create" action="create">Novo Usuario</g:link></span>

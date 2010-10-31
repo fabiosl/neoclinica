@@ -8,9 +8,13 @@
 <title><g:message code="default.edit.label" args="[entityName]" /></title>
 </head>
 <body>
-<div class="nav"><span class="menuButton"><a class="home"
-	href="${createLink(uri: '/')}"><g:message code="default.home.label" /></a></span>
-<span class="menuButton"><g:link class="list" action="list">
+<span class="menuButton"><a class="voltar"
+	href="javascript:history.back()">Voltar</a></span>
+<div class="nav"><span class="menuButton"><a class="voltar"
+	href="javascript:history.back()">Voltar</a></span> <span class="menuButton"><a
+	class="home" href="${createLink(uri: '/')}"><g:message
+	code="default.home.label" /></a></span> <span class="menuButton"><g:link
+	class="list" action="list">
 	<g:message code="default.list.label" args="[entityName]" />
 </g:link></span></div>
 <div class="body">
