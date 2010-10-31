@@ -10,4 +10,16 @@ import core.Compra
  */
 class CompraController {
 	def scaffold = Compra;
+//	
+//	def save = {
+//		def compraRealizada = new Compra(params);
+//		def transacaoRealizada = new TransacaoEstoque();
+//		transacaoRealizada.dataRealizacao = compraRealizada.dataPedido;
+//		transacaoRealizada.tipoTransacao = TransacaoKind.VENDA;
+//		transacaoRealizada.valor = compraRealizada.valor;
+//		System.out.println("Salvando " + transacaoRealizada);
+//		transacaoRealizada.save();
+//		compraRealizada.save(); 
+//		render(view: "create", model: [compraInstance: compraRealizada])
+//	}
 }
