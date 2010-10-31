@@ -31,7 +31,7 @@
                             <td><g:link action="show" id="${lenteInstance.id}" name="${lenteInstance.id}">${fieldValue(bean: lenteInstance, field: "id")}</g:link></td>
                             <td>${fieldValue(bean: lenteInstance, field: "tipo")}</td>
                             <td>${fieldValue(bean: lenteInstance, field: "quantidade")}</td>
-                            <td>${fieldValue(bean: lenteInstance, field: "valor")}</td>
+                            <td>${formatNumber(number : lenteInstance?.valor)}</td>
                         </tr>
                     </g:each>
                     </tbody>

@@ -80,11 +80,12 @@ class UsuarioController {	// TODO traduzir frases
 			def authPrincipal = authenticateService.principal()
 			//avoid self-delete if the logged-in user is an admin
 			if (!(authPrincipal instanceof String) && authPrincipal.username == person.username) {
-				flash.message = "Voce n�o pode deletar voc� mesmo do sistema"
+				flash.message = "Voce nao pode deletar voce mesmo do sistema"
 			}
 			else {
 				//first, delete this person from People_Authorities table.
-				Hierarquia.findAll().each { it.removeFromPeople(person)
+				Hierarquia.findAll().each {
+					it.removeFromPeople(person)
 				}
 				person.delete()
 				flash.message = "Usuario $params.id deletado."

@@ -41,7 +41,7 @@
                                     <label for="valorBase"><g:message code="tipoProcedimentoMedico.valorBase.label" default="Valor Sugerido (*)" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: tipoProcedimentoMedicoInstance, field: 'valorBase', 'errors')}">
-                                    <g:textField name="valorBase" value="${fieldValue(bean: tipoProcedimentoMedicoInstance, field: 'valorBase')}" />
+                                    <g:textField name="valorBase" value="${formatNumber(number : tipoProcedimentoMedicoInstance?.valorBase)}" />
                                 </td>
                             </tr>
                         

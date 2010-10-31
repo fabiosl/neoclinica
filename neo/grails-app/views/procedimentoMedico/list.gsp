@@ -34,7 +34,7 @@
                     <g:each in="${procedimentoMedicoInstanceList}" status="i" var="procedimentoMedicoInstance">
                         <tr class="${(i % 2) == 0 ? 'odd' : 'even'}">
                             <td><g:link action="show" id="${procedimentoMedicoInstance.id}">${fieldValue(bean: procedimentoMedicoInstance, field: "id")}</g:link></td>
-                            <td>${fieldValue(bean: procedimentoMedicoInstance, field: "valor")}</td>
+                            <td>${formatNumber(number : procedimentoMedicoInstance.valor)}</td>
                             <td>${fieldValue(bean: procedimentoMedicoInstance, field: "tipo")}</td>
                             <td><g:formatDate format="dd/MM/yyyy - hh:mm" date="${procedimentoMedicoInstance.data}" /></td>
                             <td>${fieldValue(bean: procedimentoMedicoInstance, field: "informacoes")}</td>

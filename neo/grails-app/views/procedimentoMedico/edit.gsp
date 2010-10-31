@@ -17,22 +17,29 @@
             <div class="message">${flash.message}</div>
             </g:if>
             <g:hasErrors bean="${procedimentoMedicoInstance}">
-            <div class="errors">
-                <g:renderErrors bean="${procedimentoMedicoInstance}" as="list" />
-            </div>
+            	<div class="errors">
+                	<g:renderErrors bean="${procedimentoMedicoInstance}" as="list" />
+            	</div>
             </g:hasErrors>
+            <g:each in="${procedimentoMedicoInstance.pagamento.prestacoes}" var="prestacao">
+            	<g:hasErrors bean="${prestacao}">
+            		<div class="errors">
+                		<g:renderErrors bean="${prestacao}" as="list" />
+            		</div>              
+            	</g:hasErrors>
+            </g:each>
             <g:form method="post" >
                 <g:hiddenField name="id" value="${procedimentoMedicoInstance?.id}" />
                 <g:hiddenField name="version" value="${procedimentoMedicoInstance?.version}" />
                 <div class="dialog">
-                    <table>
+                    <table width="100%">
                         <tbody>
                             <tr class="prop">
                                 <td valign="top" class="name">
                                   <label for="valor"><g:message code="procedimentoMedico.valor.label" default="Valor (*)" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: procedimentoMedicoInstance, field: 'valor', 'errors')}">
-                                    <g:textField name="valor" value="${fieldValue(bean: procedimentoMedicoInstance, field: 'valor')}" />
+                                    <g:textField name="valor" value="${formatNumber(number : procedimentoMedicoInstance.valor)}" />
                                 </td>
                             </tr>
                         
@@ -81,6 +88,32 @@
                                 </td>
                             </tr>
                         
+                            <tr class="prop">
+                                <td valign="top" class="name">
+                                    <g:message code="NO-CODE" default="Pagamento (*)" />
+                                </td>
+                                <td valign="top" class="value ${hasErrors(bean: procedimentoMedicoInstance, field: 'pagamento', 'errors')}">
+                                	<table width=700>
+                        				<tbody>
+                                			<g:each in="${procedimentoMedicoInstance?.pagamento?.prestacoes}">
+                                				<tr class="prop">
+                                					<td width="15">
+                                    					<g:message code="NO-CODE" default="${(it.posicao+1)}&ordm;" />
+                                					</td>
+                                					<td width=600 class="value ${hasErrors(bean: it, 'errors')}">
+                                						Paga?
+														&nbsp;<g:checkBox name="parcela_${it.id}_paga" value="${it.paga}"/>
+                                						&nbsp;&nbsp;&nbsp;Data
+                                						&nbsp;<g:datePicker name="parcela_${it.id}_data" precision="day" value="${it.dataDePagamento}"  />
+                                						&nbsp;&nbsp;&nbsp;Valor
+                                						&nbsp;<g:textField name="parcela_${it.id}_valor" value="${formatNumber(number : it.valor)}" />
+                                					</td>
+                            					</tr>
+                                			</g:each>
+                        				</tbody>
+                                	</table>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>

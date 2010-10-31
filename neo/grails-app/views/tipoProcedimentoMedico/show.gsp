@@ -5,7 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="layout" content="main" />
         <g:set var="entityName" value="${message(code: 'tipoProcedimentoMedico.label', default: 'TipoProcedimentoMedico')}" />
-        <title><g:message code="default.show.label" args="[entityName]" /></title>
+        <title>Ver Tipo de Procedimento Medico</title>
     </head>
     <body>
         <div class="nav">
@@ -14,7 +14,7 @@
             <span class="menuButton"><g:link class="create" action="create">Novo Tipo de Procedimento</g:link></span>
         </div>
         <div class="body">
-            <h1><g:message code="default.show.label" args="[entityName]" /></h1>
+            <h1>Ver Tipo de Procedimento Medico</h1>
             <g:if test="${flash.message}">
             <div class="message">${flash.message}</div>
             </g:if>
@@ -39,7 +39,7 @@
                        <tr class="prop">
                             <td valign="top" class="name"><g:message code="tipoProcedimentoMedico.valorBase.label" default="Valor Sugerido" /></td>
                             
-                            <td valign="top" class="value">${fieldValue(bean: tipoProcedimentoMedicoInstance, field: "valorBase")}</td>
+                            <td valign="top" class="value">${formatNumber(number : tipoProcedimentoMedicoInstance?.valorBase)}</td>
                             
                         </tr>
                     
