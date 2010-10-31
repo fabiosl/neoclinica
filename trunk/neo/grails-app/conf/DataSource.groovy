@@ -13,7 +13,7 @@ hibernate {
 environments {
 	development {
 		dataSource {
-			dbCreate =  "create" //"update"           // "create"
+			dbCreate =  "update"           // "create"
 			// or "update"   (after you run with create-drop )
 			username = "root"
 			password = "r00tpa55"
@@ -22,13 +22,13 @@ environments {
 	}
 	test {
 		dataSource {
-			dbCreate =  "create" //"create-drop"
+			dbCreate =  "create-drop"
 			url = "jdbc:hsqldb:mem:testDb"
 		}
 	}
 	production {
 		dataSource {
-			dbCreate =  "create" //"update"           // "create"
+			dbCreate =  "update"           // "create"
 			// or "update"   (after you run with create-drop )
 			username = "root"
 			password = "r00tpa55"
