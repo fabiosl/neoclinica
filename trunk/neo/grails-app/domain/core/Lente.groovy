@@ -19,6 +19,6 @@ class Lente {
 	}
 	
 	public String toString() {
-		return "Lente do tipo: " + getTipo() + ". Valor de compra: " + valor
+		return "Lente do tipo: " + getTipo() + ". Valor de compra: " + valor + ". Quantidade em estoque: " + quantidade
 	}
 }
