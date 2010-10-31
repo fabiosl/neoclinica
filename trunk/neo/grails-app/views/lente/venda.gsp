@@ -8,7 +8,9 @@
 <title><g:message code="default.venda.label" args="[entityName]" /></title>
 </head>
 <body>
-<div class="nav"><span class="menuButton"><a class="home"
+<div class="nav">
+<span class="menuButton"><a class="voltar" href="javascript:history.back()">Voltar</a></span>
+<span class="menuButton"><a class="home"
 	href="${createLink(uri: '/')}"><g:message code="default.home.label" /></a></span>
 </div>
 <div class="body">

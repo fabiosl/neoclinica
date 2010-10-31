@@ -7,7 +7,7 @@ class BootStrap {
 	
 	def init = { servletContext ->
 		// marcar como true no primeiro run apos as tabelas terem sido criadas
-		final boolean CRIAR_USUARIOS = false;
+		final boolean CRIAR_USUARIOS = true;
 		
 		if (CRIAR_USUARIOS) {
 			def userGod = new Usuario(

@@ -7,6 +7,7 @@
     </head>
     <body>
 		<div class="nav">
+			<span class="menuButton"><a class="voltar" href="javascript:history.back()">Voltar</a></span>
 			<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>
 		</div>
 		<div id="pageBody" class="dialog">
