@@ -48,7 +48,7 @@
                                     <label for="valor"><g:message code="lente.valor.label" default="Valor de Venda" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: lenteInstance, field: 'valor', 'errors')}">
-                                    <g:textField name="valor" maxlength="15" value="${lenteInstance?.valor}" />
+                                    <g:textField name="valor" maxlength="15" value="${formatNumber(number : lenteInstance?.valor)}" />
                                 </td>
                             </tr>
                         </tbody>

@@ -38,7 +38,7 @@
                                     <label for="preco"><g:message code="fornecimento.preco.label" default="Valor do Pedido" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: fornecimentoInstance, field: 'preco', 'errors')}">
-                                    <g:textField name="preco" maxlength="15" value="${fornecimentoInstance?.preco}" />
+                                    <g:textField name="preco" maxlength="15" value="${formatNumber(number : fornecimentoInstance?.preco)}" />
                                 </td>
                             </tr>
                             

@@ -6,7 +6,7 @@ package core;
  */
 class TipoProcedimentoMedico {
 	String nome;
-	float valorBase = 0.0;
+	Float valorBase = 0.0;
 	
 	/**
 	 * Restricoes de integridade

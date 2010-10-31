@@ -5,7 +5,8 @@ package core
  * da clinica, valor e paciente.
  */
 abstract class Procedimento {
-	float valor;
+	Float valor = 0.0;
+	Pagamento pagamento;
 	
 	/**
 	 * Relacionamentos 1:1
@@ -16,6 +17,6 @@ abstract class Procedimento {
 	 * Restricoes de integridade
 	 */
 	static constraints = {
-		valor(nullable : false);
+		valor(nullable : false, min : 0F);
 	}
 }

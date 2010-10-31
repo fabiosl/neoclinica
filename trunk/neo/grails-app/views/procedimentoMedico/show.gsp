@@ -15,7 +15,7 @@
         <div class="body">
             <h1><g:message code="default.show.label" args="[entityName]" /></h1>
             <g:if test="${flash.message}">
-            <div class="message">${flash.message}</div>
+            	<div class="message">${flash.message}</div>
             </g:if>
             <div class="dialog">
                 <table>
@@ -26,7 +26,7 @@
                         </tr>
                        <tr class="prop">
                             <td valign="top" class="name"><g:message code="procedimentoMedico.valor.label" default="Valor" /></td>
-                            <td valign="top" class="value">${fieldValue(bean: procedimentoMedicoInstance, field: "valor")}</td>
+                            <td valign="top" class="value">${formatNumber(number : procedimentoMedicoInstance.valor)}</td>
                         </tr>
                        <tr class="prop">
                             <td valign="top" class="name"><g:message code="procedimentoMedico.tipo.label" default="Tipo" /></td>
@@ -48,8 +48,39 @@
                             <td valign="top" class="name"><g:message code="procedimentoMedico.medico.label" default="M&eacute;dico" /></td>
                             <td valign="top" class="value"><g:link controller="medico" action="show" id="${procedimentoMedicoInstance?.medico?.id}">${procedimentoMedicoInstance?.medico?.encodeAsHTML()}</g:link></td>
                         </tr>
+                        <tr class="prop">
+                            <td valign="top" class="name"><g:message code="procedimentoMedico.medico.label" default="Pagamento" /></td>
+                            <td valign="top" class="value">
+                                <table>
+                    				<tbody>
+                       					<tr class="prop">
+                            				<td width="150"><i>${procedimentoMedicoInstance?.pagamento?.formaDePagamento()}</i></td>
+                            				<td width="100"><i>Pago</i></td>
+                            				<td width="150"><i>Data de Pagamento</i></td>
+                            				<td width="100"><i>Valor</i></td>
+                       					</tr>
+                       					<g:each in="${procedimentoMedicoInstance?.pagamento?.prestacoes}">
+                            					<tr class="prop">
+                            						<td>${it.posicao + 1}</td>
+                            						<td><g:formatBoolean boolean="${it.paga}"/></td>
+                            						<g:if test="${it.isPaga()}">
+                            							<td><g:formatDate format="dd-MM-yyyy" date="${it.dataDePagamento}" /></td>
+                            							<td>${formatNumber(number : it.valor)}</td>
+                            						</g:if>
+                            						<g:else>
+                            							<td>-</td>
+                            							<td>-</td>
+                            						</g:else>
+                       							</tr>
+                            			</g:each>
+                    				</tbody>
+                				</table>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
+                
+
             </div>
             <div class="buttons">
                 <g:form>

@@ -6,8 +6,8 @@ package core
  */
 class Lente {
 	String tipo;
-	int quantidade;
-	float valor;
+	Integer quantidade = 0;
+	Float valor = 0.0;
 	
 	/**
 	 * Restricoes de integridade

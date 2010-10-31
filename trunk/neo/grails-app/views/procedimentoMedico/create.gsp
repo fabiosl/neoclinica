@@ -12,13 +12,18 @@
             <span class="menuButton"><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></span>
         </div>
         <div class="body">
-            <h1>Criar Procedimento Medico</h1>
+            <h1>Marcar Procedimento Medico</h1>
             <g:if test="${flash.message}">
             <div class="message">${flash.message}</div>
             </g:if>
             <g:hasErrors bean="${procedimentoMedicoInstance}">
             <div class="errors">
                 <g:renderErrors bean="${procedimentoMedicoInstance}" as="list" />
+            </div>
+            </g:hasErrors>
+            <g:hasErrors bean="${procedimentoMedicoInstance.pagamento}">
+            <div class="errors">
+                <g:renderErrors bean="${procedimentoMedicoInstance.pagamento}" as="list" />
             </div>
             </g:hasErrors>
             <g:form action="save" method="post" >
@@ -31,7 +36,7 @@
                                     <label for="valor"><g:message code="procedimentoMedico.valor.label" default="Valor (*)" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: procedimentoMedicoInstance, field: 'valor', 'errors')}">
-                                    <g:textField name="valor" value="${fieldValue(bean: procedimentoMedicoInstance, field: 'valor')}" />
+                                    <g:textField name="valor" value="${formatNumber(number : procedimentoMedicoInstance.valor)}" />
                                 </td>
                             </tr>
                         
@@ -84,7 +89,33 @@
                                     <g:select name="medico.id" from="${core.Medico.list()}" optionKey="id" value="${procedimentoMedicoInstance?.medico?.id}"  />
                                 </td>
                             </tr>
-                        
+                            
+                            <tr class="prop">
+                                <td valign="top" class="name">
+                                    <g:message code="NO-CODE" default="Quantidade de Parcelas (*)" />
+                                </td>
+                                <td valign="top" class="value ${hasErrors(bean: procedimentoMedicoInstance.pagamento, field: 'pagamento', 'errors')}">
+                                    <g:select name="quantidadeDeParcelas" from="${2..24}" noSelection="[ 1 : 'A Vista']"/>
+                                </td>
+                            </tr>
+                            
+                            <tr class="prop">
+                                <td valign="top" class="name">
+                                    <g:message code="NO-CODE" default="Forma de Pagamento (*)" />
+                                </td>
+                                <td valign="top" class="value ${hasErrors(bean: procedimentoMedicoInstance.pagamento, field: 'formaDePagamento', 'errors')}">
+                                    <g:select name="formaDePagamento" from="${core.FormaDePagamento?.values()}" value="${procedimentoMedicoInstance?.pagamento?.formaDePagamento}"  />
+                                </td>
+                            </tr>
+                            
+                            <tr class="prop">
+                                <td valign="top" class="name">
+                                    <g:message code="NO-CODE" default="Cart&atilde;o" /></label>
+                                </td>
+                                <td valign="top" class="value ${hasErrors(bean: procedimentoMedicoInstance.pagamento, field: 'formaDePagamento', 'errors')}">
+                                    <g:textField name="cartao" value="${fieldValue(bean: procedimentoMedicoInstance.pagamento, field: 'cartao')}" />
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>

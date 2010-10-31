@@ -31,7 +31,7 @@
                         <tr class="${(i % 2) == 0 ? 'odd' : 'even'}">
                             <td><g:link action="show" id="${tipoProcedimentoMedicoInstance.id}">${fieldValue(bean: tipoProcedimentoMedicoInstance, field: "id")}</g:link></td>
                             <td>${fieldValue(bean: tipoProcedimentoMedicoInstance, field: "nome")}</td>
-                            <td>${fieldValue(bean: tipoProcedimentoMedicoInstance, field: "valorBase")}</td>
+                            <td>${formatNumber(number : tipoProcedimentoMedicoInstance?.valorBase)}</td>
                         </tr>
                     </g:each>
                     </tbody>

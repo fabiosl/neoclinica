@@ -51,7 +51,7 @@
 				<td valign="top"
 					class="value ${hasErrors(bean: lenteInstance, field: 'valor', 'errors')}">
 				<g:textField name="valor" maxlength="15"
-					value="${lenteInstance?.valor}" /></td>
+					value="${formatNumber(number : fornecimentoInstance?.preco)}" /></td>
 			</tr>
 		</tbody>
 	</table>
