@@ -1,16 +1,15 @@
 package core
 
+import java.text.DateFormat;
 import java.text.DecimalFormat;
-import java.text.DecimalFormatSymbols;
 
 class TransacaoEstoque {
 	
 	Date dataRealizacao
 	TransacaoKind tipoTransacao
-	float valor
-	
+	String usuario
+	int quantidade
 	public String toString(){
-		DecimalFormat formato = new DecimalFormat("0.00");
-		return "Transacao do tipo " + tipoTransacao + ". Data Realizacao " + dataRealizacao.toString() + ". Valor (em reais): " + formato.format(valor);
+		return "Transacao do tipo " + tipoTransacao + ". Data Realizacao " + DateFormat.format(dataRealizacao) + ". Operador: " + usuario + ". Quantidade de itens mexidos: " + quantidade;
 	}
 }
