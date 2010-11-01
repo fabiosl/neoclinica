@@ -77,7 +77,7 @@
                                 		<g:select name="paciente.id" from="${core.Paciente.list()}" optionKey="id" value="${procedimentoMedicoInstance?.paciente?.id}"  />
                                 	</g:if>
                                 	<g:else>
-                                		<g:select name="paciente.id" from="${core.Paciente.list()}" optionKey="id" value="${pacientePreDefinido?.id}" />
+                                		<g:select name="paciente.id" from="${[pacientePreDefinido]}" optionKey="id" value="${pacientePreDefinido?.id}" />
                                 	</g:else>
                                 </td>
                             </tr>
