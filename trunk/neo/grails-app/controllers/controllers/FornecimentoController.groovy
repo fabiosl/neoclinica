@@ -31,7 +31,22 @@ class FornecimentoController {
 		return [validos : lista, validos2: lista2]
 	}
 	
+	def edit = {
+		//		def transacaoRealizada = new TransacaoEstoque();
+		//		transacaoRealizada.dataRealizacao = params.dataPedido;
+		//		transacaoRealizada.tipoTransacao = TransacaoKind.RECEBIMENTO;
+		//		transacaoRealizada.usuario = pegar login do usuario logado;
+		//		transacaoRealizada.quantidade = FornecimentoAtual.quantidade;
+		//		transacaoRealizada.save();
+		}
+	
 	def save = {
+		//		def transacaoRealizada = new TransacaoEstoque();
+		//		transacaoRealizada.dataRealizacao = params.dataPedido;
+		//		transacaoRealizada.tipoTransacao = TransacaoKind.FORNECIMENTO;
+		//		transacaoRealizada.usuario = pegar login do usuario logado;
+		//		transacaoRealizada.quantidade = params.quantidade;
+		//		transacaoRealizada.save();
 		System.out.print("CHAMOU!! com ");
 		System.out.println(params.f);
 		redirect(action : 'create')
