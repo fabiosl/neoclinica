@@ -1,4 +1,3 @@
-
 <%@ page import="core.ProcedimentoMedico" %>
 <html>
     <head>
@@ -76,7 +75,7 @@
                                   <label for="paciente"><g:message code="procedimentoMedico.paciente.label" default="Paciente (*)" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: procedimentoMedicoInstance, field: 'paciente', 'errors')}">
-                                    <g:select name="paciente.id" from="${core.Paciente.list()}" optionKey="id" value="${procedimentoMedicoInstance?.paciente?.id}"  />
+                                    <g:select name="paciente.id" from="${[procedimentoMedicoInstance?.paciente]}" optionKey="id" value="${procedimentoMedicoInstance?.paciente?.id}"  />
                                 </td>
                             </tr>
                         

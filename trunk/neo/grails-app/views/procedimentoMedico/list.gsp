@@ -11,10 +11,12 @@
         <div class="nav">
         	<span class="menuButton"><a class="voltar" href="javascript:history.back()">Voltar</a></span>
             <span class="menuButton"><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></span>
-            <span class="menuButton"><g:link class="create" action="create" params="[idPaciente : paciente.id]">Cadastrar novo Procedimento para ${paciente}</g:link></span>
+            <g:if test="${paciente != null}">
+            	<span class="menuButton"><g:link class="create" action="create" params="[idPaciente : paciente.id]">Cadastrar novo Procedimento para ${paciente}</g:link></span>
+        	</g:if>
         </div>
         <div class="body">
-            <h1>Lista de Procedimentos do(a) paciente ${paciente}</h1>
+            <h1>Lista de Procedimentos<g:if test="${paciente != null}"> do(a) paciente ${paciente}</g:if></h1>
             <g:if test="${flash.message}">
             <div class="message">${flash.message}</div>
             </g:if>
@@ -22,13 +24,13 @@
                 <table>
                     <thead>
                         <tr>
-                            <g:sortableColumn property="id" title="${message(code: 'procedimentoMedico.id.label', default: 'Id')}" params="[idPaciente : paciente.id]" />
-                            <g:sortableColumn property="valor" title="${message(code: 'procedimentoMedico.valor.label', default: 'Valor')}" params="[idPaciente : paciente.id]" />
-                            <g:sortableColumn property="tipo" title="${message(code: 'procedimentoMedico.tipo.label', default: 'Tipo')}" params="[idPaciente : paciente.id]" />
-                            <g:sortableColumn property="data" title="${message(code: 'procedimentoMedico.data.label', default: 'Data')}" params="[idPaciente : paciente.id]" />
-                            <g:sortableColumn property="informacoes" title="${message(code: 'procedimentoMedico.informacoes.label', default: 'Informa&ccedil;&otilde;es')}" params="[idPaciente : paciente.id]" />
-                            <g:sortableColumn property="paciente" title="${message(code: 'procedimentoMedico.paciente.label', default: 'Paciente')}" params="[idPaciente : paciente.id]" />
-                            <g:sortableColumn property="medico" title="${message(code: 'procedimentoMedico.medico.label', default: 'Medico')}" params="[idPaciente : paciente.id]" />
+                            <g:sortableColumn property="id" title="${message(code: 'procedimentoMedico.id.label', default: 'Id')}" params="[idPaciente : paciente?.id]" />
+                            <g:sortableColumn property="valor" title="${message(code: 'procedimentoMedico.valor.label', default: 'Valor')}" params="[idPaciente : paciente?.id]" />
+                            <g:sortableColumn property="tipo" title="${message(code: 'procedimentoMedico.tipo.label', default: 'Tipo')}" params="[idPaciente : paciente?.id]" />
+                            <g:sortableColumn property="data" title="${message(code: 'procedimentoMedico.data.label', default: 'Data')}" params="[idPaciente : paciente?.id]" />
+                            <g:sortableColumn property="informacoes" title="${message(code: 'procedimentoMedico.informacoes.label', default: 'Informa&ccedil;&otilde;es')}" params="[idPaciente : paciente?.id]" />
+                            <g:sortableColumn property="paciente" title="${message(code: 'procedimentoMedico.paciente.label', default: 'Paciente')}" params="[idPaciente : paciente?.id]" />
+                            <g:sortableColumn property="medico" title="${message(code: 'procedimentoMedico.medico.label', default: 'Medico')}" params="[idPaciente : paciente?.id]" />
                         </tr>
                     </thead>
                     <tbody>

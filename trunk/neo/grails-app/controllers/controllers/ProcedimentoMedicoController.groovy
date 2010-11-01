@@ -20,12 +20,16 @@ class ProcedimentoMedicoController {
 	
 	def list = {
 		params.max = Math.min(params.max ? params.int('max') : 10, 100)
-		def paciente = Paciente.get(params.idPaciente)
-		def consulta = ProcedimentoMedico.createCriteria().list(params) {
-			eq("paciente", paciente)
+		if (params.idPaciente) {
+			def paciente = Paciente.get(params.idPaciente)
+			def consulta = ProcedimentoMedico.createCriteria().list(params) {
+				eq("paciente", paciente)
+			}
+			def cont = consulta != null ? consulta.count() : 0
+			return [procedimentoMedicoInstanceList: consulta, procedimentoMedicoInstanceTotal: cont, paciente : paciente]
+		} else {
+			return [procedimentoMedicoInstanceList : ProcedimentoMedico.list(params), procedimentoMedicoInstanceTotal: ProcedimentoMedico.count()]
 		}
-		def cont = consulta != null ? consulta.count() : 0
-		[procedimentoMedicoInstanceList: consulta, procedimentoMedicoInstanceTotal: cont, paciente : paciente]
 	}
 	
 	def create = {
@@ -58,7 +62,7 @@ class ProcedimentoMedicoController {
 		def procedimentoMedicoInstance = ProcedimentoMedico.get(params.id)
 		if (!procedimentoMedicoInstance) {
 			flash.message = "${message(code: 'default.not.found.message', args: [message(code: 'procedimentoMedico.label', default: 'ProcedimentoMedico'), params.id])}"
-			redirect(action: "index")
+			redirect(action: "list")
 		} else {
 			[procedimentoMedicoInstance: procedimentoMedicoInstance]
 		}
@@ -68,7 +72,7 @@ class ProcedimentoMedicoController {
 		def procedimentoMedicoInstance = ProcedimentoMedico.get(params.id)
 		if (!procedimentoMedicoInstance) {
 			flash.message = "${message(code: 'default.not.found.message', args: [message(code: 'procedimentoMedico.label', default: 'ProcedimentoMedico'), params.id])}"
-			redirect(action: "list", params : [idPaciente : procedimentoMedicoInstance.paciente.id])
+			redirect(action: "list")
 		}
 		else {
 			return [procedimentoMedicoInstance: procedimentoMedicoInstance]
@@ -119,7 +123,7 @@ class ProcedimentoMedicoController {
 		}
 		else {
 			flash.message = "${message(code: 'default.not.found.message', args: [message(code: 'procedimentoMedico.label', default: 'ProcedimentoMedico'), params.id])}"
-			redirect(action: "list", params : [idPaciente : procedimentoMedicoInstance.paciente.id])
+			redirect(action: "list")
 		}
 	}
 	
@@ -139,7 +143,7 @@ class ProcedimentoMedicoController {
 		}
 		else {
 			flash.message = "${message(code: 'default.not.found.message', args: [message(code: 'procedimentoMedico.label', default: 'ProcedimentoMedico'), params.id])}"
-			redirect(action: "list", params : [idPaciente : procedimentoMedicoInstance.paciente.id])
+			redirect(action: "list")
 		}
 	}
 }

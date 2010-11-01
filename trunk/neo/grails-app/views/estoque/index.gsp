@@ -10,6 +10,9 @@
 			<span class="menuButton"><a class="voltar" href="javascript:history.back()">Voltar</a></span>
 			<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>
 		</div>
+        <g:if test="${flash.message}">
+            <div class="message">${flash.message}</div>
+        </g:if>
 		<div id="pageBody" class="dialog">
 	        <h1>Controle de Estoque:</h1>
 	        <br/>
@@ -19,7 +22,7 @@
 			<neo:linhaDeBotoes>
 				<neo:botao id="linklentes" link="lente" imgsrc="${resource(dir:'images/botoes',file:'lentes.png')}" descricao="Controle de Lentes"/>
             	<neo:botao id="linkfornecedor" link="fornecedor" imgsrc="${resource(dir:'images/botoes',file:'adicionarFornecedor.png')}" descricao="Cadastro de Fornecedores"/>
-				<neo:botao id="linkVenderLente" link="compra" imgsrc="${resource(dir:'images/botoes',file:'vendaMercadorias.png')}" descricao="Cadastrar Venda"/>
+				<neo:botao id="linkVenderLente" link="compra/create" imgsrc="${resource(dir:'images/botoes',file:'vendaMercadorias.png')}" descricao="Cadastrar Venda"/>
 			</neo:linhaDeBotoes>
     	</div>
     </body>
