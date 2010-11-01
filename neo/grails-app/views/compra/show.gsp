@@ -11,8 +11,7 @@
         <div class="nav">
         	<span class="menuButton"><a class="voltar" href="javascript:history.back()">Voltar</a></span>
             <span class="menuButton"><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></span>
-            <span class="menuButton"><g:link class="list" action="list"><g:message code="default.list.label" args="[entityName]" /></g:link></span>
-            <span class="menuButton"><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></span>
+       		<span class="menuButton"><g:link class="list_proc" action="list" params="[idPaciente : compraInstance.paciente.id]">Listar compras de ${compraInstance.paciente}</g:link></span>
         </div>
         <div class="body">
             <h1><g:message code="default.show.label" args="[entityName]" /></h1>
@@ -22,42 +21,64 @@
             <div class="dialog">
                 <table>
                     <tbody>
-                     
                        <tr class="prop">
                             <td valign="top" class="name"><g:message code="compra.id.label" default="Id" /></td>
-                            
                             <td valign="top" class="value">${fieldValue(bean: compraInstance, field: "id")}</td>
-                            
-                        </tr>
-                     
+                       </tr>
                        <tr class="prop">
                             <td valign="top" class="name"><g:message code="compra.valor.label" default="Valor" /></td>
-                            
-                            <td valign="top" class="value">${fieldValue(bean: compraInstance, field: "valor")}</td>
-                            
-                        </tr>
-                     
+                            <td valign="top" class="value">${formatNumber(number : fieldValue(bean: compraInstance, field: "valor"))}</td>
+                       </tr>
                        <tr class="prop">
-                            <td valign="top" class="name"><g:message code="compra.dataPedido.label" default="Data Pedido" /></td>
-                            
-                            <td valign="top" class="value"><g:formatDate date="${compraInstance?.dataPedido}" /></td>
-                            
-                        </tr>
-                     
+                            <td valign="top" class="name"><g:message code="compra.dataPedido.label" default="Data do Pedido" /></td>
+                            <td valign="top" class="value"><g:formatDate format="dd/MM/yyyy" date="${compraInstance?.dataPedido}" /></td>
+                       </tr>
                        <tr class="prop">
                             <td valign="top" class="name"><g:message code="compra.paciente.label" default="Paciente" /></td>
-                            
                             <td valign="top" class="value"><g:link controller="paciente" action="show" id="${compraInstance?.paciente?.id}">${compraInstance?.paciente?.encodeAsHTML()}</g:link></td>
-                            
-                        </tr>
-                     
+                       </tr>
                        <tr class="prop">
-                            <td valign="top" class="name"><g:message code="compra.dataRecebimento.label" default="Data Recebimento" /></td>
-                            
-                            <td valign="top" class="value"><g:formatDate date="${compraInstance?.dataRecebimento}" /></td>
-                            
+                       		<td valign="top" class="name">Situa&ccedil;&atilde;o de Entrega</td>
+                            <td valign="top" class="value">${compraInstance?.statusDeEntrega()}</td>
+                       </tr>
+                       <g:if test="${compraInstance.dataRecebimento != null}">
+                       		<tr class="prop">
+                            	<td valign="top" class="name"><g:message code="compra.dataRecebimento.label" default="Data de Entrega" /></td>
+                            	<td valign="top" class="value"><g:formatDate format="dd/MM/yyyy" date="${compraInstance?.dataRecebimento}" /></td>
+                       		</tr>
+                       </g:if>
+                       <tr class="prop">
+                          	<td valign="top" class="name"><g:message code="compra.dataRecebimento.label" default="Itens" /></td>
+                       </tr>
+                       <tr class="prop">
+                            <td valign="top" class="name"><g:message code="compra.medico.label" default="Pagamento" /></td>
+                            <td valign="top" class="value">
+                                <table>
+                    				<tbody>
+                       					<tr class="prop">
+                            				<td width="150"><i>${compraInstance?.pagamento?.formaDePagamento()}</i></td>
+                            				<td width="100"><i>Pago</i></td>
+                            				<td width="150"><i>Data de Pagamento</i></td>
+                            				<td width="100"><i>Valor</i></td>
+                       					</tr>
+                       					<g:each in="${compraInstance?.pagamento?.prestacoes}">
+                            					<tr class="prop">
+                            						<td>${it.posicao + 1}</td>
+                            						<td><g:formatBoolean boolean="${it.paga}"/></td>
+                            						<g:if test="${it.isPaga()}">
+                            							<td><g:formatDate format="dd-MM-yyyy" date="${it.dataDePagamento}" /></td>
+                            							<td>${formatNumber(number : it.valor)}</td>
+                            						</g:if>
+                            						<g:else>
+                            							<td>-</td>
+                            							<td>-</td>
+                            						</g:else>
+                       							</tr>
+                            			</g:each>
+                    				</tbody>
+                				</table>
+                            </td>
                         </tr>
-                    
                     </tbody>
                 </table>
             </div>

@@ -1,5 +1,27 @@
 package core
 
+/**
+ * Classe de dominio pertencente ao "core" do sistema. Mantem as informacoes especificadas no modelo
+ * de dados do projeto para representar os itens de venda: a lente associada e a quantidade comprada dessa lente
+ */
 class ItemDeVenda {
-	static hasMany = [compras : Compra]
+	Lente lente;
+	Integer quantidadeComprada = 1;
+	
+	/**
+	 * Restricoes de integridade
+	 */
+	static constraints = {
+		lente(nullable : false)
+		quantidadeComprada(nullable : false, min : 1)
+	}
+	
+	/**
+	 * Restricao de dependencia entre item de venda e compra.
+	 */
+	static belongsTo = [compra : Compra]
+	
+	public Float valorTotal() {
+		return lente.getValor() * quantidadeComprada
+	}
 }
