@@ -10,6 +10,12 @@ import core.Compra
  */
 class CompraController {
 	
+	def scaffold = Compra;
+	
+	def index = {
+		redirect(action : 'create')
+		}
+	
 //	def save = {
 //		def transacaoRealizada = new TransacaoEstoque();
 //		transacaoRealizada.dataRealizacao = params.dataPedido;
