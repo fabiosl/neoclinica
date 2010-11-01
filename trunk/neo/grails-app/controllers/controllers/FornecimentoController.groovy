@@ -47,8 +47,11 @@ class FornecimentoController {
 		//		transacaoRealizada.usuario = pegar login do usuario logado;
 		//		transacaoRealizada.quantidade = params.quantidade;
 		//		transacaoRealizada.save();
-		System.out.print("CHAMOU!! com ");
+		
+		def fornecimento = new Fornecimento();
+		System.out.print("CHAMOUUUUUUUUUUU!! com ");
 		System.out.println(params.f);
-		redirect(action : 'create')
+		System.out.println("Params: "  + params);
+		redirect(action: "show", id: transacaoRealizada.id)
 	}
 }

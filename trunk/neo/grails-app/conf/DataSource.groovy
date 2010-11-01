@@ -28,7 +28,7 @@ environments {
 	}
 	production {
 		dataSource {
-			dbCreate =  "update"           // "create"
+			dbCreate =  "update"          // "create"
 			// or "update"   (after you run with create-drop )
 			username = "root"
 			password = "r00tpa55"
