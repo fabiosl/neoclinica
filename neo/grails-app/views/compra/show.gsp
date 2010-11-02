@@ -11,12 +11,17 @@
         <div class="nav">
         	<span class="menuButton"><a class="voltar" href="javascript:history.back()">Voltar</a></span>
             <span class="menuButton"><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></span>
-       		<span class="menuButton"><g:link class="list_proc" action="list" params="[idPaciente : compraInstance.paciente.id]">Listar compras de ${compraInstance.paciente}</g:link></span>
+       		<g:if test="${compraInstance.paciente != null}">
+       			<span class="menuButton"><g:link class="list_proc" action="list" params="[idPaciente : compraInstance?.paciente?.id]">Listar compras de ${compraInstance?.paciente}</g:link></span>
+       		</g:if>
+       		<g:if test="${compraInstance.dataRecebimento == null}">
+        		<span class="menuButton"><g:link class="confirmar" action="confirmarEntregaCompra" params="[id : compraInstance?.id]" onclick="return confirm('Deseja realmente confirmar a compra?');" >Confirmar entrega</g:link></span>
+   			</g:if>
         </div>
         <div class="body">
             <h1><g:message code="default.show.label" args="[entityName]" /></h1>
             <g:if test="${flash.message}">
-            <div class="message">${flash.message}</div>
+            	<div class="message">${flash.message}</div>
             </g:if>
             <div class="dialog">
                 <table>
@@ -49,6 +54,24 @@
                        </g:if>
                        <tr class="prop">
                           	<td valign="top" class="name"><g:message code="compra.dataRecebimento.label" default="Itens" /></td>
+                          	 <td valign="top" class="value">
+                                <table>
+                    				<tbody>
+                       					<tr class="prop">
+                            				<td width="100"><i>Lente</i></td>
+                            				<td width="100"><i>Quantidade</i></td>
+                            				<td width="100"><i>Valor do Item</i></td>
+                       					</tr>
+                       					<g:each in="${compraInstance?.itens?}">
+                            					<tr class="prop">
+                            						<td>${it.lente?.tipo}</td>
+                            						<td>${it.quantidadeComprada}</td>
+                            						<td>${formatNumber(number : it.valorTotal())}</td>
+                       							</tr>
+                            			</g:each>
+                    				</tbody>
+                				</table>
+                            </td>
                        </tr>
                        <tr class="prop">
                             <td valign="top" class="name"><g:message code="compra.medico.label" default="Pagamento" /></td>

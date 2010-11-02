@@ -1,10 +1,12 @@
 package controllers
 
 import core.Compra;
+import core.ItemDeVenda 
+import core.Lente 
 import core.Paciente;
 import core.Pagamento;
 import core.FormaDePagamento;
-import core.Parcela 
+import core.Parcela;
 
 /**
  * Controladora de compras. Controla as atividades de CRUD sob
@@ -13,16 +15,17 @@ import core.Parcela
  * @see core.Compra
  */
 class CompraController {
+	def transacoesService
+	
 	def scaffold = Compra
 	
 	def list = {
-		params.max = Math.min(params.max ? params.int('max') : 10, 100)
 		if (params.idPaciente) {
 			def paciente = Paciente.get(params.idPaciente)
-			def consulta = Compra.createCriteria().list(params) {
+			def consulta = Compra.createCriteria().list {
 				eq("paciente", paciente)
 			}
-			def cont = consulta != null ? consulta.count() : 0
+			def cont = consulta != null ? consulta.size() : 0
 			return [compraInstanceList : consulta, compraInstanceTotal: cont, paciente : paciente]
 		} else {
 			return [compraInstanceList : Compra.list(params), compraInstanceTotal: Compra.count()]
@@ -42,12 +45,14 @@ class CompraController {
 	def save = {
 		def compraInstance = new Compra(params)
 		
+		def	itensTemErros = getItensDeVenda(params, compraInstance);
+		
 		def formaDePagamento = FormaDePagamento.getByDescricao(params.formaDePagamento);
 		def cartao = params.cartao;
 		def parcelas = Integer.valueOf(params.quantidadeDeParcelas)
 		
 		compraInstance.pagamento = new Pagamento(parcelas, formaDePagamento, cartao);
-		if (compraInstance.pagamento.save() && compraInstance.save(flush: true)) {
+		if (!itensTemErros && compraInstance.pagamento.save() && compraInstance.save(flush: true)) {
 			flash.message = "${message(code: 'default.created.message', args: [message(code: 'compra.label', default: 'Compra'), compraInstance.id])}"
 			redirect(action: "show", id: compraInstance.id)
 		} else {
@@ -57,6 +62,7 @@ class CompraController {
 	
 	def show = {
 		def compraInstance = Compra.get(params.id)
+		
 		if (!compraInstance) {
 			flash.message = "${message(code: 'default.not.found.message', args: [message(code: 'compra.label', default: 'Compra'), params.id])}"
 			redirect(action : "list")
@@ -90,8 +96,7 @@ class CompraController {
 		if (!compraInstance) {
 			flash.message = "${message(code: 'default.not.found.message', args: [message(code: 'compra.label', default: 'Compra'), params.id])}"
 			redirect(action: "list")
-		}
-		else {
+		} else {
 			return [compraInstance : compraInstance]
 		}
 	}
@@ -132,25 +137,76 @@ class CompraController {
 				}
 			}
 			
-			if (!parcelasTemErros && !compraInstance.hasErrors() && compraInstance.save(flush: true)) {
+			def itensTemErros = false;
+			if (compraInstance.dataRecebimento == null) {
+				itensTemErros = getItensDeVenda(params, compraInstance);
+			}
+			
+			if (!itensTemErros && !parcelasTemErros && !compraInstance.hasErrors() && compraInstance.save(flush: true)) {
 				flash.message = "${message(code: 'default.updated.message', args: [message(code: 'compra.label', default: 'Compra'), compraInstance.id])}"
 				redirect(action: "show", id: compraInstance.id)
 			} else {
 				render(view: "edit", model: [compraInstance: compraInstance])
 			}
-		}
-		else {
+		} else {
 			flash.message = "${message(code: 'default.not.found.message', args: [message(code: 'compra.label', default: 'Compra'), params.id])}"
 			redirect(action: "list")
 		}
 	}
 	
-	//	def save = {
-	//		def transacaoRealizada = new TransacaoEstoque();
-	//		transacaoRealizada.dataRealizacao = params.dataPedido;
-	//		transacaoRealizada.tipoTransacao = TransacaoKind.VENDA;
-	//		transacaoRealizada.usuario = pegar login do usuario logado;
-	//		transacaoRealizada.quantidade = params.quantidade;
-	//		transacaoRealizada.save();
-	//	}
+	def confirmarEntregaCompra = {
+		def compraInstance = Compra.get(params.id)
+		if (compraInstance) {
+			try {
+				transacoesService.confirmarRealizacaoCompra(compraInstance)
+				flash.message = "Compra confirmada, estoque atualizado!"
+				redirect(action: "show", id : compraInstance.id)
+			} catch (Exception e) {
+				flash.message = e.getMessage()
+				redirect(action: "show", id : compraInstance.id)
+			}
+		} else {
+			flash.message = "${message(code: 'default.not.found.message', args: [message(code: 'compra.label', default: 'Compra'), params.id])}"
+			redirect(action: "list")
+		}
+	}
+	
+	def getItensDeVenda(params, compra) {
+		def lentes = new HashMap()
+		def quantidades = new HashMap()
+		def campos = []
+		
+		params.keySet().each() { chave ->
+			if (chave.startsWith("item")) {
+				def valores = chave.split("_");
+				def tipoField = valores[1];
+				def idField = valores[2];
+				if (tipoField == "input") {
+					quantidades.put(idField, params[chave]);
+				} else if (tipoField == "select") {
+					lentes.put(idField, params[chave]);
+				}
+				campos.add(idField);
+			}
+		}
+		
+		def itens = new HashSet();
+		def itensTemErros = false;
+		lentes.keySet().each() { field ->
+			def lente = lentes[field];
+			def qtd = quantidades[field];
+			
+			def parametros = [lente : Lente.get(lente), quantidadeComprada : qtd, compra : compra]
+			def itemDeVenda = new ItemDeVenda()
+			bindData(itemDeVenda, parametros);
+			if (!itemDeVenda.validate()) {
+				itensTemErros = true
+			}
+			itens.add(itemDeVenda);
+		}
+		
+		compra.getItens()*.delete();
+		compra.setItens(itens);
+		return itensTemErros;
+	}
 }

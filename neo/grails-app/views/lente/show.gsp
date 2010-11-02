@@ -34,7 +34,7 @@
                         </tr>
                        <tr class="prop">
                             <td valign="top" class="name"><g:message code="lente.valor.label" default="Valor de Venda" /></td>
-                            <td valign="top" class="value">${fieldValue(bean: lenteInstance, field: "valor")}</td>
+                            <td valign="top" class="value">${formatNumber(number : fieldValue(bean: lenteInstance, field: "valor"))}</td>
                         </tr>
                     </tbody>
                 </table>

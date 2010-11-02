@@ -1,4 +1,5 @@
 package core
+
 /**
  * Classe que mantem informacoes dos procedimentos medicos da clinica. Um procedimento medico
  * eh realizado por um medico, possui um tipo pre definido e informacoes adicionais, alem das propriedades

@@ -21,6 +21,11 @@ class Compra extends Procedimento {
 	 */
 	static hasMany = [itens : ItemDeVenda]
 	
+	public void setItens(itens) {
+		this.itens = itens;
+		atualizaValor();
+	}
+	
 	public Float getValor() {
 		Float valor = 0.0;
 		for (ItemDeVenda item : itens) {
@@ -31,5 +36,13 @@ class Compra extends Procedimento {
 	
 	public String statusDeEntrega() {
 		return dataRecebimento != null ? "Entregue" : "Pendente";
+	}
+	
+	private void atualizaValor() {
+		Float valor = 0.0;
+		for (ItemDeVenda item : itens) {
+			valor += item.valorTotal()
+		}
+		this.valor = valor;
 	}
 }

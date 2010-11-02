@@ -197,6 +197,21 @@ input:focus, select:focus, textarea:focus {
     color: #333;
     padding-left: 25px;
 }
+.menuButton a.delete {
+    background: url(../images/botoes/delete.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+.menuButton a.add {
+    background: url(../images/botoes/add.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+.menuButton a.confirmar {
+    background: url(../images/botoes/aceitar.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
 .menuButton a.manage {
     background: url(../images/skin/manage.png) center left no-repeat;
     color: #333;

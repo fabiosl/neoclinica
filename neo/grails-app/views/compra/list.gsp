@@ -36,7 +36,7 @@
                     <g:each in="${compraInstanceList}" status="i" var="compraInstance">
                         <tr class="${(i % 2) == 0 ? 'odd' : 'even'}">
                             <td><g:link action="show" id="${compraInstance.id}">${fieldValue(bean: compraInstance, field: "id")}</g:link></td>
-                            <td>${fieldValue(bean: compraInstance, field: "valor")}</td>
+                            <td>${formatNumber(number : fieldValue(bean: compraInstance, field: "valor"))}</td>
                             <td><g:formatDate format="dd/MM/yyyy" date="${compraInstance.dataPedido}" /></td>
                             <td>${fieldValue(bean: compraInstance, field: "paciente")}</td>
                             <td>${compraInstance?.statusDeEntrega()}</td>
@@ -45,9 +45,6 @@
                     </g:each>
                     </tbody>
                 </table>
-            </div>
-            <div class="paginateButtons">
-                <g:paginate total="${compraInstanceTotal}" />
             </div>
         </div>
     </body>
