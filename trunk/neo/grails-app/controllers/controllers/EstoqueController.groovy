@@ -33,6 +33,7 @@ class EstoqueController {
 		def Date agora = new Date();
 		def outra = DateParser.getStartingDate(agora);
 		def transacoes = TransacaoEstoque.findAllByDataRealizacaoBetween(outra, agora);
+		
 		System.out.println("Invevalo entre " + outra.toString() + " e " + agora.toString());
 		System.out.println("Minhas transacoes " + transacoes);
 		//gerar pdf com a lista das lentes
