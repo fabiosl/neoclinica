@@ -23,4 +23,8 @@ class ProcedimentoMedico extends Procedimento {
 		data(nullable : false);
 		informacoes(nullable : true, maxSize : 2000)
 	}
+	
+	public String getInformacoes(){
+		return informacoes
+	}
 }
