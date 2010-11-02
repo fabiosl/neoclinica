@@ -66,8 +66,8 @@
 				</line>
 				<staticText>
 					<reportElement
-						x="61"
-						y="6"
+						x="62"
+						y="3"
 						width="412"
 						height="38"
 						forecolor="#000000"
@@ -78,10 +78,84 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 </box>
 					<textElement textAlignment="Center">
-						<font size="18"/>
+						<font size="14"/>
 					</textElement>
-				<text><![CDATA[Relatório de Transações de estoque]]></text>
+				<text><![CDATA[Relatório de Transações de estoque - Clínica Neo]]></text>
 				</staticText>
+				<staticText>
+					<reportElement
+						x="179"
+						y="27"
+						width="97"
+						height="13"
+						key="staticText-2"/>
+					<box></box>
+					<textElement>
+						<font/>
+					</textElement>
+				<text><![CDATA[Período de ]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="236"
+						y="27"
+						width="100"
+						height="18"
+						key="textField"/>
+					<box></box>
+					<textElement>
+						<font/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[$P{dateStart}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement
+						x="304"
+						y="27"
+						width="97"
+						height="13"
+						key="staticText-3"/>
+					<box></box>
+					<textElement>
+						<font/>
+					</textElement>
+				<text><![CDATA[a]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="false" isBlankWhenNull="false" evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="317"
+						y="27"
+						width="100"
+						height="18"
+						key="textField-1"/>
+					<box></box>
+					<textElement>
+						<font/>
+					</textElement>
+				<textFieldExpression   class="java.lang.String"><![CDATA[$P{dateEnd}]]></textFieldExpression>
+				</textField>
+				<image  evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="28"
+						y="5"
+						width="74"
+						height="40"
+						key="image-1"/>
+					<box></box>
+					<graphicElement stretchType="NoStretch"/>
+					<imageExpression class="java.lang.String"><![CDATA["C:\\Users\\Fabio\\Desktop\\logo.jpg"]]></imageExpression>
+				</image>
+				<image  evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
+					<reportElement
+						x="440"
+						y="6"
+						width="78"
+						height="38"
+						key="image-2"/>
+					<box></box>
+					<graphicElement stretchType="NoStretch"/>
+					<imageExpression class="java.lang.String"><![CDATA["C:\\Users\\Fabio\\Desktop\\nome.jpg"]]></imageExpression>
+				</image>
 			</band>
 		</title>
 		<pageHeader>
