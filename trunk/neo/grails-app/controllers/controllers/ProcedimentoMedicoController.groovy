@@ -19,13 +19,12 @@ class ProcedimentoMedicoController {
 	}
 	
 	def list = {
-		params.max = Math.min(params.max ? params.int('max') : 10, 100)
 		if (params.idPaciente) {
 			def paciente = Paciente.get(params.idPaciente)
 			def consulta = ProcedimentoMedico.createCriteria().list(params) {
 				eq("paciente", paciente)
 			}
-			def cont = consulta != null ? consulta.count() : 0
+			def cont = consulta != null ? consulta.size() : 0
 			return [procedimentoMedicoInstanceList: consulta, procedimentoMedicoInstanceTotal: cont, paciente : paciente]
 		} else {
 			return [procedimentoMedicoInstanceList : ProcedimentoMedico.list(params), procedimentoMedicoInstanceTotal: ProcedimentoMedico.count()]

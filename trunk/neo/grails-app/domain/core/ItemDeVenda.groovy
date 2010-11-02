@@ -22,6 +22,9 @@ class ItemDeVenda {
 	static belongsTo = [compra : Compra]
 	
 	public Float valorTotal() {
+		if (lente == null || quantidadeComprada == null) {
+			return 0.0;
+		}
 		return lente.getValor() * quantidadeComprada
 	}
 }

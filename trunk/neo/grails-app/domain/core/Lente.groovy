@@ -18,12 +18,18 @@ class Lente {
 		valor(nullable : false, min : 0F)
 	}
 	
+	public boolean equals(outraLente) {
+		if (!(outraLente instanceof Lente)) {
+			return false
+		}
+		return this.id == outraLente.id
+	}
+	
+	public String descricao() {
+		return getTipo() + " / Quantidade em estoque: (" + getQuantidade() + ")";
+	}
 	
 	public String toString() {
 		return getTipo();
 	}
-	
-	/*public String toString() {
-		return "Lente do tipo: " + getTipo() + ". Valor de compra: " + valor + ". Quantidade em estoque: " + quantidade
-	}*/
 }

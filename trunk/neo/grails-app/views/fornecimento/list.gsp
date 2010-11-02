@@ -45,7 +45,7 @@
                         
                             <td>${fieldValue(bean: fornecimentoInstance, field: "quantidade")}</td>
                         
-                            <td>${fieldValue(bean: fornecimentoInstance, field: "preco")}</td>
+                            <td>${formatNumber(number : fieldValue(bean: fornecimentoInstance, field: "preco"))}</td>
                         
                             <td><g:formatDate date="${fornecimentoInstance.dataPedido}" /></td>
                         

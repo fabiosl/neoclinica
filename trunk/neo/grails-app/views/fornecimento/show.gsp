@@ -40,7 +40,7 @@
                        <tr class="prop">
                             <td valign="top" class="name"><g:message code="fornecimento.preco.label" default="Preco" /></td>
                             
-                            <td valign="top" class="value">${fieldValue(bean: fornecimentoInstance, field: "preco")}</td>
+                            <td valign="top" class="value">${formatNumber(number : fieldValue(bean: fornecimentoInstance, field: "preco"))}</td>
                             
                         </tr>
                      

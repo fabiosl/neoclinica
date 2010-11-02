@@ -7,7 +7,7 @@ import acesso.Usuario;
  * Funcionalidade a mais que o Acegi nao prove nativamente.
  */
 class AcessoService {
-	// TODO definir propriedades do servico (VER LINKS UTEIS NO GRUPO)
+	boolean transactional = true
 	
 	def authenticateService /* Acegi */
 	

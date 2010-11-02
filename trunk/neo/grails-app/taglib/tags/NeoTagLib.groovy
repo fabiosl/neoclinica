@@ -1,3 +1,5 @@
+package tags
+
 class NeoTagLib {
 	static namespace = 'neo'
 	

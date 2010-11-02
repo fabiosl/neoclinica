@@ -48,9 +48,6 @@
                     </tbody>
                 </table>
             </div>
-            <div class="paginateButtons">
-                <g:paginate total="${procedimentoMedicoInstanceTotal}" />
-            </div>
         </div>
     </body>
 </html>

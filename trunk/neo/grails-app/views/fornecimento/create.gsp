@@ -42,7 +42,7 @@
                                     <label for="preco"><g:message code="fornecimento.preco.label" default="Preco (*)" /></label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean: fornecimentoInstance, field: 'preco', 'errors')}">
-                                    <g:textField name="preco" value="${fieldValue(bean: fornecimentoInstance, field: 'preco')}" />
+                                    <g:textField name="preco" value="${formatNumber(number : fieldValue(bean: fornecimentoInstance, field: 'preco'))}" />
                                 </td>
                             </tr>
                         
