@@ -76,11 +76,13 @@
             </div>
             <div class="buttons">
                 <g:form>
-                    <g:hiddenField name="id" value="${pacienteInstance?.id}" />
                     <span class="button"><g:actionSubmit id="editar" class="edit" action="edit" value="${message(code: 'default.button.edit.label', default: 'Edit')}" /></span>
                 	<span class="button"><g:actionSubmit id="deletar" class="delete" action="delete" value="${message(code: 'default.button.delete.label', default: 'Delete')}"  /></span>
                 </g:form>
             </div>
-        </div>
+            <g:jasperReport jasper="procedimentos" format="PDF" name="Procedimentos"> 
+            <input type="hidden" name="pacienteId" value="${fieldValue(bean: pacienteInstance, field: "id").toString()}" /> 
+            </g:jasperReport>
+			</div>
     </body>
 </html>
