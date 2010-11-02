@@ -134,28 +134,6 @@
 					</textElement>
 				<textFieldExpression   class="java.lang.String"><![CDATA[$P{dateEnd}]]></textFieldExpression>
 				</textField>
-				<image  evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
-					<reportElement
-						x="28"
-						y="5"
-						width="74"
-						height="40"
-						key="image-1"/>
-					<box></box>
-					<graphicElement stretchType="NoStretch"/>
-					<imageExpression class="java.lang.String"><![CDATA["C:\\Users\\Fabio\\Desktop\\logo.jpg"]]></imageExpression>
-				</image>
-				<image  evaluationTime="Now" hyperlinkType="None"  hyperlinkTarget="Self" >
-					<reportElement
-						x="440"
-						y="6"
-						width="78"
-						height="38"
-						key="image-2"/>
-					<box></box>
-					<graphicElement stretchType="NoStretch"/>
-					<imageExpression class="java.lang.String"><![CDATA["C:\\Users\\Fabio\\Desktop\\nome.jpg"]]></imageExpression>
-				</image>
 			</band>
 		</title>
 		<pageHeader>
