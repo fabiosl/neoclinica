@@ -26,20 +26,28 @@ class ProcedimentosAcceptanceTests extends GroovyTestCase {
 	 * Teste de Aceitação 9.1: Cadastrar procedimento no sistema com todos os dados corretos (Operação Realizada com Sucesso).
 	 */
 	void test9_1() {
-		def data = new Date();
-		def p = new Paciente(nome: 'Jose', sexo: Sexo.MASCULINO)
+		def p = new Paciente(nome: 'Jose', sexo: Sexo.MASCULINO, nascimento: new Date())
 		p.save()
-		def hierar = new Hierarquia(authority: 'Super Usuario')
-		hierar.save()
-		def med = new Medico(username: 'u',userRealName: 'Jose', passwd: '123', authorities: hierar)
-		med.save()
+		def medicoValido = new Medico(
+				username : 'renato',
+				userRealName : 'renato',
+				enabled : true,
+				email : 'drrenato@gmail.com',
+				passwd : 'drrenato',
+				crm: '12441214',
+				especialidade : 'Oftalmologista');
+		medicoValido.save()
+		def tipoProc = new TipoProcedimentoMedico(nome: 'Exame', valorBase: 10.0f)
+		tipoProc.save()
+		def tipoPag = new Pagamento(formaDePagamento: FormaDePagamento.DINHEIRO)
+		tipoPag.save()
 		def procedimento = new ProcedimentoMedico(
-				tipo : new TipoProcedimentoMedico(nome: 'Exame', valorBase: 10.0f),
+				tipo : tipoProc,
 				data : new Date(),
 				informacoes : 'Exames realizados na clinica',
 				valor: 10.0f,
-				pagamento: new Pagamento(formaDePagamento: FormaDePagamento.DINHEIRO),
-				medico: med,
+				pagamento: tipoPag,
+				medico: medicoValido,
 				paciente: p);
 		assertTrue procedimento.validate()
 		procedimento.save()
@@ -64,10 +72,10 @@ class ProcedimentosAcceptanceTests extends GroovyTestCase {
 		assertNull ProcedimentoMedico.findByValor(10.0f)
 		
 		def procedimento2 = new ProcedimentoMedico(
-			tipo : tipoProc,
-			informacoes : 'Exames realizados',
-			valor: 14.0f,
-			pagamento: new Pagamento(formaDePagamento: FormaDePagamento.DINHEIRO));
+				tipo : tipoProc,
+				informacoes : 'Exames realizados',
+				valor: 14.0f,
+				pagamento: new Pagamento(formaDePagamento: FormaDePagamento.DINHEIRO));
 		assertFalse procedimento2.validate()
 		procedimento2.save()
 		assertNull ProcedimentoMedico.findByTipo(tipoProc)
@@ -75,10 +83,10 @@ class ProcedimentosAcceptanceTests extends GroovyTestCase {
 		assertNull ProcedimentoMedico.findByData(new Date())
 		
 		def procedimento3 = new ProcedimentoMedico(
-			tipo : tipoProc,
-			data : new Date(),
-			informacoes : 'Exames realizados',
-			pagamento: new Pagamento(formaDePagamento: FormaDePagamento.DINHEIRO));
+				tipo : tipoProc,
+				data : new Date(),
+				informacoes : 'Exames realizados',
+				pagamento: new Pagamento(formaDePagamento: FormaDePagamento.DINHEIRO));
 		assertFalse procedimento3.validate()
 		procedimento3.save()
 		assertNull ProcedimentoMedico.findByTipo(tipoProc)
@@ -90,17 +98,30 @@ class ProcedimentosAcceptanceTests extends GroovyTestCase {
 	 * Teste de Aceitação 9.3: Retirar procedimento existente da lista de procedimentos (Operação Realizada com Sucesso).
 	 */
 	void test9_3() {
+		def dataAgora = new Date()
+		def p = new Paciente(nome: 'Jose', sexo: Sexo.MASCULINO, nascimento: new Date())
+		p.save()
+		def medicoValido = new Medico(
+				username : 'renato',
+				userRealName : 'renato',
+				enabled : true,
+				email : 'drrenato@gmail.com',
+				passwd : 'drrenato',
+				crm: '12441214',
+				especialidade : 'Oftalmologista');
+		medicoValido.save()
 		def tipoProc = new TipoProcedimentoMedico(nome: 'Exame', valorBase: 10.0f)
 		tipoProc.save()
-		def dataAgora = new Date()
-		def pagamentoCartao = new Pagamento(formaDePagamento: FormaDePagamento.DINHEIRO)
-		pagamentoCartao.save()
+		def tipoPag = new Pagamento(formaDePagamento: FormaDePagamento.DINHEIRO)
+		tipoPag.save()
 		def procedimento = new ProcedimentoMedico(
-			tipo : tipoProc,
-			data : dataAgora,
-			informacoes : 'Exames realizados na clinica',
-			valor: 10.0f,
-			pagamento: pagamentoCartao);
+				tipo : tipoProc,
+				data : new Date(),
+				informacoes : 'Exames realizados na clinica',
+				valor: 10.0f,
+				pagamento: tipoPag,
+				medico: medicoValido,
+				paciente: p);
 		assertTrue procedimento.validate()
 		procedimento.save()
 		assertNotNull ProcedimentoMedico.findByInformacoes('Exames realizados na clinica')
@@ -109,17 +130,21 @@ class ProcedimentosAcceptanceTests extends GroovyTestCase {
 		assertNull ProcedimentoMedico.findByValor(10.0f)
 		
 		def procedimento2 = new ProcedimentoMedico(
-			tipo : tipoProc,
-			data : dataAgora,
-			informacoes : 'Exames realizados na clinica',
-			valor: 10.0f,
-			pagamento: pagamentoCartao);
+				tipo : tipoProc,
+				data : dataAgora,
+				informacoes : 'Exames realizados na clinica',
+				valor: 10.0f,
+				pagamento: tipoPag,
+				medico: medicoValido,
+				paciente: p);
 		def procedimento3 =  new ProcedimentoMedico(
-			tipo : tipoProc,
-			data : dataAgora,
-			informacoes : 'Exames realizados no hospital',
-			valor: 100.0f,
-			pagamento: pagamentoCartao);
+				tipo : tipoProc,
+				data : dataAgora,
+				informacoes : 'Exames realizados no hospital',
+				valor: 100.0f,
+				pagamento: tipoPag,
+				medico: medicoValido,
+				paciente: p);
 		assertTrue procedimento2.validate()
 		assertTrue procedimento3.validate()
 		procedimento2.save()
@@ -129,7 +154,6 @@ class ProcedimentosAcceptanceTests extends GroovyTestCase {
 		procedimento2.delete()
 		assertNull ProcedimentoMedico.findByInformacoes('Exames realizados na clinica')
 		assertNotNull ProcedimentoMedico.findByInformacoes('Exames realizados no hospital')
-		
 	}
 	
 	
@@ -144,23 +168,23 @@ class ProcedimentosAcceptanceTests extends GroovyTestCase {
 		tipoProc.save()
 		pagamentoCartao.save()
 		def procedimento = new ProcedimentoMedico(
-			tipo : tipoProc,
-			data : dataAgora,
-			informacoes : 'Exames realizados na clinica',
-			valor: 10.0f,
-			pagamento: pagamentoCartao);
+				tipo : tipoProc,
+				data : dataAgora,
+				informacoes : 'Exames realizados na clinica',
+				valor: 10.0f,
+				pagamento: pagamentoCartao);
 		def procedimento2 = new ProcedimentoMedico(
-			tipo : tipoProc,
-			data : dataAgora,
-			informacoes : 'Exames realizados no hospital',
-			valor: 10.0f,
-			pagamento: pagamentoCartao);
+				tipo : tipoProc,
+				data : dataAgora,
+				informacoes : 'Exames realizados no hospital',
+				valor: 10.0f,
+				pagamento: pagamentoCartao);
 		def procedimento3 =  new ProcedimentoMedico(
-			tipo : tipoProc,
-			data : dataAgora,
-			informacoes : 'Exames realizados no hospital',
-			valor: 100.0f,
-			pagamento: pagamentoCartao);
+				tipo : tipoProc,
+				data : dataAgora,
+				informacoes : 'Exames realizados no hospital',
+				valor: 100.0f,
+				pagamento: pagamentoCartao);
 		assertNull ProcedimentoMedico.findByInformacoes('Exames realizados no hospital')
 		assertNull ProcedimentoMedico.findByInformacoes('Exames realizados na clinica')
 		assertNull ProcedimentoMedico.findByValor(10.0f)
@@ -172,24 +196,37 @@ class ProcedimentosAcceptanceTests extends GroovyTestCase {
 	 * Teste de Aceitação 9.5: Consultar dados de procedimento existente no sistema (Operação Realizada com Sucesso).
 	 */
 	void test9_5() {
-		def tipoProc = new TipoProcedimentoMedico(nome: 'Exame', valorBase: 10.0f)
 		def dataAgora = new Date()
-		def pagamentoCartao = new Pagamento(cartao: '')
+		def p = new Paciente(nome: 'Jose', sexo: Sexo.MASCULINO, nascimento: new Date())
+		p.save()
+		def medicoValido = new Medico(
+				username : 'renato',
+				userRealName : 'renato',
+				enabled : true,
+				email : 'drrenato@gmail.com',
+				passwd : 'drrenato',
+				crm: '12441214',
+				especialidade : 'Oftalmologista');
+		medicoValido.save()
+		def tipoProc = new TipoProcedimentoMedico(nome: 'Exame', valorBase: 10.0f)
 		tipoProc.save()
-		pagamentoCartao.save()
+		def tipoPag = new Pagamento(formaDePagamento: FormaDePagamento.DINHEIRO)
+		tipoPag.save()
 		def procedimento = new ProcedimentoMedico(
-			tipo : tipoProc,
-			data : dataAgora,
-			informacoes : 'Exames realizados na clinica',
-			valor: 10.0f,
-			pagamento: pagamentoCartao);
+				tipo : tipoProc,
+				data : dataAgora,
+				informacoes : 'Exames realizados na clinica',
+				valor: 10.0f,
+				pagamento: tipoPag,
+				medico: medicoValido,
+				paciente: p);
 		procedimento.save()
-//		assertNotNull ProcedimentoMedico.findByInformacoes('Exames realizados na clinica')
+		assertNotNull ProcedimentoMedico.findByInformacoes('Exames realizados na clinica')
 		assertNull ProcedimentoMedico.findByInformacoes('Exames realizados no hospital')
 		assertNotNull ProcedimentoMedico.findByValor(10.0)
 		assertNotNull ProcedimentoMedico.findByData(dataAgora)
 		assertEquals 'Exame', ProcedimentoMedico.findByTipo(tipoProc).getTipo().toString()
-		assertEquals 0f, ProcedimentoMedico.findByInfor(tipoProc).getValor()
+		assertEquals 10.0f, ProcedimentoMedico.findByTipo(tipoProc).getValor()
 		assertEquals 'Exames realizados na clinica', ProcedimentoMedico.findByValor(10.0f).getInformacoes()
 	}
 	
@@ -203,11 +240,11 @@ class ProcedimentosAcceptanceTests extends GroovyTestCase {
 		tipoProc.save()
 		pagamentoCartao.save()
 		def procedimento = new ProcedimentoMedico(
-			tipo : tipoProc,
-			data : dataAgora,
-			informacoes : 'Exames realizados na clinica',
-			valor: 10.0f,
-			pagamento: pagamentoCartao);
+				tipo : tipoProc,
+				data : dataAgora,
+				informacoes : 'Exames realizados na clinica',
+				valor: 10.0f,
+				pagamento: pagamentoCartao);
 		assertNull ProcedimentoMedico.findByValor(100.0f)
 		try {
 			assertEquals 'ProcedimentoNaoCadastrado', ProcedimentoMedico.findByTipo(tipoProc).getTipo()
@@ -221,17 +258,30 @@ class ProcedimentosAcceptanceTests extends GroovyTestCase {
 	 * Teste de Aceitação 9.7: Atualizar dados de procedimento existente no sistema (Operação Realizada com Sucesso).
 	 */
 	void test9_7() {
-		def tipoProc = new TipoProcedimentoMedico(nome: 'Exame', valorBase: 10.0f)
 		def dataAgora = new Date()
-		def pagamentoCartao = new Pagamento(cartao: '')
+		def p = new Paciente(nome: 'Jose', sexo: Sexo.MASCULINO, nascimento: new Date())
+		p.save()
+		def medicoValido = new Medico(
+				username : 'renato',
+				userRealName : 'renato',
+				enabled : true,
+				email : 'drrenato@gmail.com',
+				passwd : 'drrenato',
+				crm: '12441214',
+				especialidade : 'Oftalmologista');
+		medicoValido.save()
+		def tipoProc = new TipoProcedimentoMedico(nome: 'Exame', valorBase: 10.0f)
 		tipoProc.save()
-		pagamentoCartao.save()
+		def tipoPag = new Pagamento(formaDePagamento: FormaDePagamento.DINHEIRO)
+		tipoPag.save()
 		def procedimento = new ProcedimentoMedico(
-			tipo : tipoProc,
-			data : dataAgora,
-			informacoes : 'Exames realizados na clinica',
-			valor: 10.0f,
-			pagamento: pagamentoCartao);
+				tipo : tipoProc,
+				data : dataAgora,
+				informacoes : 'Exames realizados na clinica',
+				valor: 10.0f,
+				pagamento: tipoPag,
+				medico: medicoValido,
+				paciente: p);
 		procedimento.save()
 		
 		assertNotNull ProcedimentoMedico.findByValor(10.0f)
