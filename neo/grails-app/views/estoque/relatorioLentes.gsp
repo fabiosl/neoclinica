@@ -4,6 +4,8 @@
         <title>SI Neo</title>
 		<meta name="layout" content="main_sem_table" />
         <link rel="stylesheet" href="${resource(dir:'css',file:'main_sem_table.css')}" />
+        <g:javascript src="jquery.js" />
+        <g:javascript src="jquery.maskedinput.js" />
     </head>
     <body>
 		<div class="nav">
@@ -11,15 +13,17 @@
 			<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>
 		</div>
 		<div id="pageBody" class="dialog">
-	        <h1>Relatórios de Estoque:</h1>
-	        <h2>Navegue pelas opções abaixo</h2>
+	        <h1>Relatório de Transações (por Data)</h1>
 	        <br/>
 		</div>
+		<g:if test="${flash.message}">
+            <div class="message">${flash.message}</div>
+	        <br/>
+        </g:if>
 		<div align="center">
-			<neo:linhaDeBotoes>
-				<neo:botao id="linkRelatoriosEstoqueData" link="relatorioData" imgsrc="${resource(dir:'images/botoes',file:'relatorioData.png')}" descricao="Relatorio de Transações (por data)" />
-				<neo:botao id="linkRelatoriosLentes" link="${createLinkTo(dir:'/jasper/?_format=PDF&_file=relatorioLentes')}" imgsrc="${resource(dir:'images/botoes',file:'planilha.png')}" descricao="Relatorio das Lentes" />
-			</neo:linhaDeBotoes>
+			<g:form id="report" name="report" controller="relatorios" action="relatorioDeTransacoesPorData">
+				<span class="menuButton"><a class="pdf" href="javascript:void(0);" onclick="document.report.submit();return false;">Download</a></span>
+			</g:form>
     	</div>
     </body>
 </html>
