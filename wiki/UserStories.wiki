@@ -65,7 +65,7 @@ O sistema deve prover o controle dos pacientes da clínica. Ele armazenará dado
  * Teste de Aceitação 5.5: Atualizar dados de paciente existente no sistema (Operação Realizada com Sucesso).
  * Teste de Aceitação 5.6: Atualizar dados de paciente inexistente no sistema (Operação Realizada sem Sucesso).
 
-===Tempo Real: 6h 37min ===
+===Tempo Real: 6h37m ===
 ----
 
 == User Story 6 - Implementar funcionalidade de controle de usuários do sistema ==
@@ -82,7 +82,7 @@ O sistema deve prover o controle dos usuários que o utilizam.
  * Teste de Aceitação 6.6: Retirar usuário inexistente (Operação Realizada sem Sucesso - se logado como administrador ou funcionario).
  * Teste de Aceitação 6.7: Atualizar dados do usuário logado (Operação Realizada com Sucesso - se logado com o usuário que se quer editar os dados).
 
-===Tempo Real: 7h 01min===
+===Tempo Real: 7h01m===
 ----
 
 == User Story 7 - Implementar funcionalidade de controle do estoque de lentes ==
@@ -100,7 +100,7 @@ O sistema deve prover o controle do estoque de lentes da clínica. Cada lente po
  * Teste de Aceitação 7.7: Modificar a quantidade de lentes de um certo tipo (existente no sistema) disponíveis (Operação Realizada com Sucesso).
  * Teste de Aceitação 7.8: Modificar a quantidade de lentes de um certo tipo (inexistente no sistema) disponíveis (Operação Realizada sem Sucesso).
 
-===Tempo Real: 3h 30min===
+===Tempo Real: 3h30m===
 ----
 
 == User Story 8 - Implementar funcionalidade de cadastro de fornecedores ==
@@ -118,7 +118,7 @@ O sistema deve armazenar os fornecedores de lentes da clínica.
  * Teste de Aceitação 8.7: Atualizar dados de fornecedor existente no sistema (Operação Realizada com Sucesso).
  * Teste de Aceitação 8.8: Atualizar dados de fornecedor inexistente no sistema (Operação Realizada sem Sucesso).
 
-===Tempo Real: 5h 06min ===
+===Tempo Real: 5h06m ===
 ----
 
 == User Story 9 - Implementar funcionalidade de controle de procedimentos ==
@@ -166,7 +166,7 @@ O sistema deve emitir relatórios do estoque de lentes para consulta por parte d
  * Teste de Aceitação 11.1: Emitir relatório do estoque disponível de lentes (Operação Realizada com Sucesso se logado como Administrador).
  * Teste de Aceitação 11.2: Emitir relatório da atividade do estoque de lentes (Operação Realizada com Sucesso se logado como Administrador).
 
-===Tempo Real: ===
+===Tempo Real: 9h33m ===
 ----
 
 == User Story 12 - Implementar funcionalidade de agenda médica ==
@@ -201,7 +201,7 @@ Deve ser elaborado um manual de configuração do sistema para a equipe de desen
 === Testes de Aceitação ===
  * Teste de Aceitação 14.1: Manual do sistema.  _Condição de sucesso: Instalar corretamente ambiente em máquina que não o tem instalado_.
 
-===Tempo Real: 1h17m===
+===Tempo Real: 1h17m ===
 ----
 
 == User Story 15 - Implementar funcionalidade de controle de médicos == 
@@ -218,5 +218,5 @@ O sistema deve prover controle dos médicos que trabalham na clínica (usado par
  * Teste de Aceitação 15.7: Atualizar dados de médico existente no sistema (Operação Realizada com Sucesso).
  * Teste de Aceitação 15.8: Atualizar dados de médico inexistente no sistema (Operação Realizada sem Sucesso).
 
-===Tempo Real: 04h 50 min ===
+===Tempo Real: 04h50m ===
 ----
