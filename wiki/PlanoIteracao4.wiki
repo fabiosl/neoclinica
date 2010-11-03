@@ -30,8 +30,8 @@ Usando a legenda para o status das US:
 || A9.2 || Implementação da lógica de CRUD || Solon || 1h || || D || 
 || A9.3 || Elaboração das páginas GSP's || Renato || 3h || 8h || C || 
 || A9.4 || Realização dos Testes || Fabio, Renato || 3h || 2h || C || 
-|| A9.5 || Integrar controle de procedimentos com estoque || Renato || 4h || 3h ||D || 
-|| A9.6 || Integrar controle de procedimentos com medicos || Fabio|| 4h || 4h || D ||
+|| A9.5 || Integrar controle de procedimentos com estoque || Renato || 4h || 3h ||C || 
+|| A9.6 || Integrar controle de procedimentos com medicos || Fabio|| 4h || 4h || C ||
 
 == User Story 11 - Implementar funcionalidade emissão de relatórios do estoque ==
 
