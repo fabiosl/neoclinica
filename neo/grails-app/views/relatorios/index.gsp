@@ -18,8 +18,8 @@
 		<div align="center">
 			<neo:linhaDeBotoes>
 				<neo:botao id="linkRelatoriosEstoque" link="estoque/relatorio" imgsrc="${resource(dir:'images/botoes',file:'relatorios.png')}" descricao="Relatorios do Estoque"/>
-				<neo:botao id="linkRelaotriosFinanceiros" link="relatorios/financeiros" imgsrc="${resource(dir:'images/botoes',file:'relatorio.png')}" descricao="Relatorios Financeiros"/>
-            	<neo:botao id="linkRelatoriosEmail" link="relatorios/email" imgsrc="${resource(dir:'images/botoes',file:'relatorioEmail.png')}" descricao="Envio de Relatorios por Email"/>
+				<!--neo:botao id="linkRelaotriosFinanceiros" link="relatorios/financeiros" imgsrc="${resource(dir:'images/botoes',file:'relatorio.png')}" descricao="Relatorios Financeiros"/-->
+            	<!--neo:botao id="linkRelatoriosEmail" link="relatorios/email" imgsrc="${resource(dir:'images/botoes',file:'relatorioEmail.png')}" descricao="Envio de Relatorios por Email"/-->
 			</neo:linhaDeBotoes>
     	</div>
     </body>

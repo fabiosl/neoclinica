@@ -9,7 +9,7 @@ import core.Fornecimento
  * @see core.Fornecimento
  */
 class FornecimentoController {
-	static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
+	def transacoesService
 	
 	def index = {
 		redirect(action: "list", params: params)
@@ -53,8 +53,10 @@ class FornecimentoController {
 		if (!fornecimentoInstance) {
 			flash.message = "${message(code: 'default.not.found.message', args: [message(code: 'fornecimento.label', default: 'Fornecimento'), params.id])}"
 			redirect(action: "list")
-		}
-		else {
+		} else if (fornecimentoInstance.getDataRecebimento() != null) {
+			flash.message = "Esse fornecimento ja foi confirmado, impossivel editar!"
+			redirect(action: "show", id: fornecimentoInstance.id)
+		} else { 
 			return [fornecimentoInstance: fornecimentoInstance]
 		}
 	}
@@ -105,17 +107,20 @@ class FornecimentoController {
 		}
 	}
 	
-	//		def transacaoRealizada = new TransacaoEstoque();
-	//		transacaoRealizada.dataRealizacao = params.dataPedido;
-	//		transacaoRealizada.tipoTransacao = TransacaoKind.RECEBIMENTO;
-	//		transacaoRealizada.usuario = pegar login do usuario logado;
-	//		transacaoRealizada.quantidade = FornecimentoAtual.quantidade;
-	//		transacaoRealizada.save();
-	
-	//		def transacaoRealizada = new TransacaoEstoque();
-	//		transacaoRealizada.dataRealizacao = params.dataPedido;
-	//		transacaoRealizada.tipoTransacao = TransacaoKind.FORNECIMENTO;
-	//		transacaoRealizada.usuario = pegar login do usuario logado;
-	//		transacaoRealizada.quantidade = params.quantidade;
-	//		transacaoRealizada.save();
+	def confirmarEntregaFornecimento = {
+		def fornecimentoInstance = Fornecimento.get(params.id)
+		if (fornecimentoInstance) {
+			try {
+				transacoesService.confirmarFornecimento(fornecimentoInstance)
+				flash.message = "Fornecimento confirmado, estoque atualizado!"
+				redirect(action: "show", id : fornecimentoInstance.id)
+			} catch (Exception e) {
+				flash.message = e.getMessage()
+				redirect(action: "show", id : fornecimentoInstance.id)
+			}
+		} else {
+			flash.message = "${message(code: 'default.not.found.message', args: [message(code: 'fornecimento.label', default: 'Fornecimento'), params.id])}"
+			redirect(action: "list")
+		}
+	}
 }

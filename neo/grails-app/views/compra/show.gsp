@@ -62,11 +62,11 @@
                             				<td width="100"><i>Quantidade</i></td>
                             				<td width="100"><i>Valor do Item</i></td>
                        					</tr>
-                       					<g:each in="${compraInstance?.itens?}">
+                       					<g:each in="${compraInstance?.itens?}" var="item">
                             					<tr class="prop">
-                            						<td>${it.lente?.tipo}</td>
-                            						<td>${it.quantidadeComprada}</td>
-                            						<td>${formatNumber(number : it.valorTotal())}</td>
+                            						<td><g:link controller="lente" action="show" id="${item.lente?.id}">${item.lente?.tipo}</g:link></td>
+                            						<td>${item.quantidadeComprada}</td>
+                            						<td>${formatNumber(number : item.valorTotal())}</td>
                        							</tr>
                             			</g:each>
                     				</tbody>

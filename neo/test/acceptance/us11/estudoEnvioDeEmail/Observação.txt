@@ -1,0 +1,8 @@
+Como estudo do envio de email em Grails, foram geradas duas classes. Uma é fornecida pelo plugin Acegi
+(EmailerService) e a outra pelo plugin Mail do Grails (EmailServiceController).
+
+O envio de email em Grails é viável, mas não será implementado agora por questões de prioridade do cliente.
+
+Referências:
+http://www.grails.org/Mail+plugin
+http://www.grails.org/AcegiSecurity%20Plugin%20-%20Basic%20Tutorial

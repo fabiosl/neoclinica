@@ -43,13 +43,6 @@
 		<g:renderErrors	bean="${compraInstance.pagamento}" as="list" />
 	</div>
 </g:hasErrors>
-<%-- <g:each in="${compraInstance.itens}" var="item">
-	<g:hasErrors bean="${item}">
-		<div class="errors">
-			<g:renderErrors	bean="${item}" as="list" />
-		</div>
-	</g:hasErrors>
-</g:each> --%>
 <g:form action="save" method="post">
 	<div class="dialog">
 	<table>

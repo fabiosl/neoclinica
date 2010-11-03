@@ -8,37 +8,29 @@
         <g:javascript src="jquery.maskedinput.js" />
     </head>
     <body>
-    	 <g:javascript>
-        jQuery(function($){
-          $.mask.definitions['A']='[A-Z]';
-          $("#dateStart").mask("9999-99-99");
-          $("#dateEnd").mask("9999-99-99");
-        });
-		 </g:javascript>
-
-    
 		<div class="nav">
 			<span class="menuButton"><a class="voltar" href="javascript:history.back()">Voltar</a></span>
 			<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>
 		</div>
 		<div id="pageBody" class="dialog">
-	        <h1>Relatórios de Estoque:</h1>
+	        <h1>Relatório de Transações (por Data)</h1>
 	        <br/>
 		</div>
+		<g:if test="${flash.message}">
+            <div class="message">${flash.message}</div>
+	        <br/>
+        </g:if>
 		<div align="center">
-            <g:jasperReport jasper="transacoesEstoque" format="PDF" name="Relatório"> 
-			
-<br></br>
-			
-			<p> Data Inicial (AAAA-MM-DD): 
-			<input name="dateStart" id="dateStart" precision="day" />
-			</p>
-			<p> Data Final (AAAA-MM-DD):   
-            <input name="dateEnd" id="dateEnd" precision="day" />
-            </p>
-            </td>
-            
-            </g:jasperReport>
+			<g:form id="report" name="report" controller="relatorios" action="relatorioDeTransacoesPorData">
+				<p>Data Inicial:
+					<g:datePicker name="dateStart" id="dateStart" precision="day" />
+				</p>
+				<p>Data Final:   
+					<g:datePicker name="dateEnd" id="dateEnd" precision="day" />
+            	</p>
+            	<br/><br/>
+            	<span class="menuButton"><a class="pdf" href="javascript:void(0);" onclick="document.report.submit();return false;">Download</a></span>
+			</g:form>
     	</div>
     </body>
 </html>

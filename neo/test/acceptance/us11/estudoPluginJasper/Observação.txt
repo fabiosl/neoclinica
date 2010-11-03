@@ -1,0 +1,6 @@
+Para utilização do plugin Jasper foi utilizada a documentação oficial do plugin.
+
+http://www.grails.org/plugin/jasper
+
+Que serviu como base do estudo e da implementação dos relatórios.
+Os arquivos gerados podem ser encontrados em web-app/reports.

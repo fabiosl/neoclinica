@@ -54,7 +54,7 @@
                 <g:paginate total="${pacienteInstanceTotal}" />
             </div>
             
-        	<g:jasperReport jasper="all-paciente" format="PDF" name="Todos os Pacientes" />
+        	<!--  g:jasperReport jasper="all-paciente" format="PDF" name="Todos os Pacientes" / -->
         </div>
     </body>
 </html>

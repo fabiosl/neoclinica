@@ -22,7 +22,7 @@ class CompraController {
 	def list = {
 		if (params.idPaciente) {
 			def paciente = Paciente.get(params.idPaciente)
-			def consulta = Compra.createCriteria().list {
+			def consulta = Compra.createCriteria().list(params) {
 				eq("paciente", paciente)
 			}
 			def cont = consulta != null ? consulta.size() : 0
