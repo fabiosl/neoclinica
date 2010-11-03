@@ -12,7 +12,6 @@ Usando a legenda para o status das US:
 == User Story 10 - Implementar funcionalidade de emissão de relatórios financeiros == 
 
 === Testes de Aceitação === 
-
  * Teste de Aceitação 10.1: Emitir relatório das atividades do dia (Operação Realizada com Sucesso se logado como Administrador).
  * Teste de Aceitação 10.2: Emitir relatório das atividades da semana (Operação Realizada com Sucesso se logado como Administrador).
  * Teste de Aceitação 10.3: Emitir relatório das atividades da quinzena (Operação Realizada com Sucesso se logado como Administrador).
