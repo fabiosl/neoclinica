@@ -8,20 +8,17 @@ import grails.test.GrailsUnitTestCase;
 
 
 class LenteTests extends GrailsUnitTestCase {
-
 	def testCreate() {
 		def l1 = new Lente(
-			tipo : "ZYX",
-			quantidade : 10,
-			valor : 10.2
-		);
-	
-	assertEquals "ZYX", l1.getTipo();
-	assertEquals 10, l1.getQuantidade();
-	float f = 10.2
-	assertEquals f, l1.getValor();
-	
+				tipo : "ZYX",
+				quantidade : 10,
+				valor : 10.2
+				);
+		
+		assertEquals "ZYX", l1.getTipo();
+		assertEquals 10, l1.getQuantidade();
+		float f = 10.2
+		assertEquals f, l1.getValor();
 	}
-	
 }
 

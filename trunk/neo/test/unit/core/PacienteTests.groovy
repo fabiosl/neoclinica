@@ -32,12 +32,10 @@ class PacienteTests extends GrailsUnitTestCase {
 		
 		assertEquals p1.getNome(), "Renato";
 		assertEquals p1.getEndereco(), "Rua Teste, 250, Santa Rosa, Campina Grande, PB";
-		assertEquals p1.toString(), "Renato (25/5/1990)";
 		assertEquals p1.calculaIdade(), 20;
 		assertEquals p1.getIdExterno(), 0;
 		
 		assertEquals p2.getNome(), "Fabio Leal";
-		assertEquals p2.toString(), "Fabio Leal (30/12/1990)";
 		assertEquals p2.calculaIdade(), 19;
 		assertEquals p2.getIdExterno(), 1;
 	}
