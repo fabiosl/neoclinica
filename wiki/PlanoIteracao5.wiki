@@ -1,0 +1,49 @@
+#summary Plano da iteração 5
+
+= Iteração 4 (_04/11/2010 -> 17/11/2010_) =
+
+Usando a legenda para o status das US:
+  * C: Concluída;
+  * A: Abortado;
+  * D: Desenvolvimento.
+
+----
+
+== User Story 10 - Implementar funcionalidade de emissão de relatórios financeiros == 
+
+=== Testes de Aceitação === 
+
+ * Teste de Aceitação 10.1: Emitir relatório das atividades do dia (Operação Realizada com Sucesso se logado como Administrador).
+ * Teste de Aceitação 10.2: Emitir relatório das atividades da semana (Operação Realizada com Sucesso se logado como Administrador).
+ * Teste de Aceitação 10.3: Emitir relatório das atividades da quinzena (Operação Realizada com Sucesso se logado como Administrador).
+ * Teste de Aceitação 10.4: Emitir relatório das atividades do mês (Operação Realizada com Sucesso se logado como Administrador).
+ * Teste de Aceitação 10.5: Emitir relatório das atividades de cada médico (Operação Realizada com Sucesso se logado como Administrador).
+ * Teste de Aceitação 10.6: Emitir relatório organizado por convênio médico (Operação Realizada com Sucesso se logado como Administrador).
+ * Teste de Aceitação 10.7: Emitir relatório organizado por tipo de lente (Operação Realizada com Sucesso se logado como Administrador).
+ * Teste de Aceitação 10.8: Emitir relatório organizado por paciente (Operação Realizada com Sucesso se logado como Administrador).
+
+
+
+=== Atividades === 
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || 
+|| A10.1 || Implementar classes de domínio || Fabio || 2h ||  || D || 
+|| A10.2 || Implementar lógica de CRUD || Fabio || 1h ||  || D || 
+|| A10.3 || Realizar Testes  || Solon || 1h || || D || 
+|| A10.4 || Elaborar GSP's || Renato || 40min || 8h || D || 
+|| A10.5 || Avaliar alternativas para geraçao de XLS's do plugin Jasper || Fabio || 2h || 8h || D || 
+|| A10.6 || Gerar arquivos .jrxml || Fabio || 1h ||  || D || 
+
+
+== User Story 13 - Implementar funcionalidade de relatório de paciente ==
+=== Testes de Aceitação ===
+ * Teste de Aceitação 13.1: Pesquisar dados de paciente existente no sistema (Operação Realizada com Sucesso).
+ * Teste de Aceitação 13.2: Pesquisar dados de paciente inexistente no sistema (Operação Realizada sem Sucesso). 
+
+=== Atividades === 
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || 
+|| A13.1 || Implementação das páginas GSP's || Solon, Renato || 3h || || D || 
+|| A13.2 || Implementação das controladoras necessárias || Renato || 1h || || D || 
+|| A13.3 || Realizar testes || Fabio || 2h ||  || D || 
+|| A13.4 || Gerar arquivos .jrxml || Fabio || 1h ||  || D || 
