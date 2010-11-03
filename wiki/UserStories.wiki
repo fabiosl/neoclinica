@@ -136,7 +136,7 @@ O sistema deve prover controle dos procedimentos (procedimentos médicos e compr
  * Teste de Aceitação 9.7: Atualizar dados de procedimento existente no sistema (Operação Realizada com Sucesso).
  * Teste de Aceitação 9.8: Atualizar dados de procedimento inexistente no sistema (Operação Realizada sem Sucesso).
 
-===Tempo Real: ===
+===Tempo Real: 18:12m===
 ----
 
 == User Story 10 - Implementar funcionalidade de emissão de relatórios financeiros ==
