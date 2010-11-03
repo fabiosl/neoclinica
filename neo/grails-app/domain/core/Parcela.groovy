@@ -20,6 +20,9 @@ class Parcela {
 	}
 	
 	public Parcela(int posicao) {
+		if(posicao < 1){
+			posicao = 1;
+		}
 		this.posicao = posicao;
 	}
 	

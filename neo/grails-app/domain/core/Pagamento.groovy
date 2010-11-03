@@ -9,24 +9,28 @@ class Pagamento {
 	String cartao;
 	
 	/**
+	 * Relacao 1:N para as prestacoes (1 prestacao equivale a pagamento a vista)
+	 */
+	static hasMany = [prestacoes : Parcela]
+	
+	/**
 	 * Construtor vazio, requerido pelo Hibernate.
 	 */
 	public Pagamento() {
 	}
 	
 	public Pagamento(int quantidadeDeParcelas, FormaDePagamento formaDePagamento, String cartao) {
-		for (int i = 0; i < quantidadeDeParcelas; i++) {
-			addToPrestacoes(new Parcela(i))
+		if(quantidadeDeParcelas < 1){
+			quantidadeDeParcelas = 1;
 		}
-		
+		this.prestacoes = [];
+		for (int i = 0; i < quantidadeDeParcelas; i++) {
+			prestacoes.add(new Parcela(i))
+		}
 		this.formaDePagamento = formaDePagamento;
 		this.cartao = cartao;
 	}
-	
-	/**
-	 * Relacao 1:N para as prestacoes (1 prestacao equivale a pagamento a vista)
-	 */
-	static hasMany = [prestacoes : Parcela]
+
 	
 	/**
 	 * Define a ordenacao das prestacoes pela posicao

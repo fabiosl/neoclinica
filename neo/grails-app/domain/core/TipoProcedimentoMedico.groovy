@@ -29,6 +29,13 @@ class TipoProcedimentoMedico {
 		if (!(outro instanceof TipoProcedimentoMedico)) {
 			return 1;
 		}
-		return nome.compareTo(outro.nome)
+		int valor = nome.compareTo(outro.nome)
+		if(valor < 0){
+			return -1;
+		}
+		else if(valor > 0){
+			return 1;
+		}
+		return valor 
 	}
 }

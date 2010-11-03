@@ -35,6 +35,6 @@ class TransacaoEstoque {
 	}
 	
 	public String toString(){
-		return "Transação do tipo " + tipoTransacao + ". Data Realizacao " + DateFormat.format(dataRealizacao) + ". Operador: " + usuario + ". Quantidade de itens mexidos: " + quantidade;
+		return "Transação do tipo " + tipoTransacao + ". Data Realizacao " + dataRealizacao.toString() + ". Operador: " + usuario + ". Quantidade de itens mexidos: " + quantidade;
 	}
 }
