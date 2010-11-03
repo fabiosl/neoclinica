@@ -24,7 +24,6 @@ Usando a legenda para o status das US:
 
 === Atividades === 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || 
-
 || A10.1 || Realizar Testes  || Solon || 2h || || D || 
 || A10.2 || Elaborar GSP's || Renato || 40min || || D || 
 || A10.3 || Avaliar alternativas para geraçao de XLS's do plugin Jasper || Fabio || 2h ||  || D || 
