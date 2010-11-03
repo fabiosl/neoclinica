@@ -1,5 +1,7 @@
 package core;
 
+import java.util.HashSet;
+
 /**
  * Classe de dominio pertencente ao "core" do sistema. Mantem as informacoes especificadas no modelo
  * de dados do projeto para modelar um pagamento da clinica.
@@ -23,14 +25,13 @@ class Pagamento {
 		if(quantidadeDeParcelas < 1){
 			quantidadeDeParcelas = 1;
 		}
-		this.prestacoes = [];
 		for (int i = 0; i < quantidadeDeParcelas; i++) {
-			prestacoes.add(new Parcela(i))
+			addToPrestacoes(new Parcela(i))
 		}
 		this.formaDePagamento = formaDePagamento;
 		this.cartao = cartao;
 	}
-
+	
 	
 	/**
 	 * Define a ordenacao das prestacoes pela posicao
