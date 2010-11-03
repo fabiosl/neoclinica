@@ -1,0 +1,5 @@
+    * Teste de Aceitação 11.1: Emitir relatório do estoque disponível de lentes (Operação Realizada com Sucesso se logado como Administrador).
+    * Teste de Aceitação 11.2: Emitir relatório da atividade do estoque de lentes (Operação Realizada com Sucesso se logado como Administrador). 
+    
+    Ver test/integration. Para executar, grails test-app -integration no projeto principal.
+    OBS.: Como seria inviável testar a geração do relatório, foram testadas as consultas utilizadas pelo plugin Jasper no relatório.

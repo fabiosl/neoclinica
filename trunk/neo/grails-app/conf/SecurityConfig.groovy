@@ -31,5 +31,6 @@ security {
 	/estoque/**=ROLE_ADMIN, ROLE_FUNCIONARIO, ROLE_MANUTENCAO
 	/procedimentomedico/**=ROLE_ADMIN, ROLE_FUNCIONARIO, ROLE_MANUTENCAO
 	/tipoprocedimentomedico/**=ROLE_ADMIN, ROLE_FUNCIONARIO, ROLE_MANUTENCAO
+	/relatorios/**=ROLE_ADMIN, ROLE_FUNCIONARIO
 	"""
 }

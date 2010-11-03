@@ -180,8 +180,11 @@ input:focus, select:focus, textarea:focus {
     color: #333;
     padding-left: 25px;
 }
-
-
+.menuButton a.pdf {
+    background: url(../images/botoes/pdf.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
 .menuButton a.add_procedimento {
     background: url(../images/botoes/menu_add_proc.png) center left no-repeat;
     color: #333;

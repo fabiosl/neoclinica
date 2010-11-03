@@ -2,6 +2,7 @@ package services;
 
 import core.Lente;
 import java.util.HashMap;
+import core.Fornecimento 
 import core.ItemDeVenda;
 import core.Compra 
 import core.TransacaoEstoque;
@@ -12,7 +13,33 @@ class TransacoesService {
 	
 	def authenticateService /* Acegi */
 	
+	def confirmarFornecimento(Fornecimento fornecimento) {
+		if (fornecimento.getDataRecebimento() != null) {
+			throw new TransacaoEstoqueException("Fornecimento ja confirmado!");
+		}
+		
+		Date dataAtual = new Date();
+		
+		def lente = fornecimento.getLente();
+		lente.setQuantidade(lente.getQuantidade() + fornecimento.getQuantidade());
+		
+		def logInfo = new TransacaoEstoque(lente, dataAtual, TransacaoKind.CHEGADA, authenticateService.principal().getUsername(), fornecimento.getQuantidade(), fornecimento.getFornecedor())
+		
+		fornecimento.setDataRecebimento(dataAtual);
+		
+		if (!logInfo.save()) {
+			throw new TransacaoEstoqueException("Impossível salvar o log!");
+		}
+		if (!fornecimento.save()) {
+			throw new TransacaoEstoqueException("Impossível salvar o fornecimento!");
+		}
+	}
+	
 	def confirmarRealizacaoCompra(Compra compra) {
+		if (compra.getDataRecebimento() != null) {
+			throw new TransacaoEstoqueException("Compra ja confirmada!");
+		}
+		
 		verificarCompra(compra);
 		
 		Date dataAtual = new Date()
