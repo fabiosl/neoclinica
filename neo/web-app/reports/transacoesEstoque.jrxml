@@ -25,7 +25,8 @@
 
 	<parameter name="dateStart" isForPrompting="false" class="java.lang.String"/>
 	<parameter name="dateEnd" isForPrompting="false" class="java.lang.String"/>
-	<queryString><![CDATA[SELECT * FROM transacao_estoque t, fornecedor f, lente l WHERE t.fornecedor_id = f.id AND t.lente_id=l.id AND t.data_realizacao BETWEEN '$P!{dateStart}%' AND '$P!{dateEnd}%' ORDER BY t.data_realizacao DESC ;]]></queryString>
+	
+	<queryString><![CDATA[SELECT * FROM (transacao_estoque t LEFT JOIN fornecedor f ON t.fornecedor_id = f.id) LEFT JOIN lente l ON t.lente_id = l.id WHERE DATE_FORMAT(t.data_realizacao,'%Y-%m-%d') BETWEEN DATE('$P!{dateStart}%') AND DATE('$P!{dateEnd}%') ORDER BY t.data_realizacao DESC;]]></queryString>
 
 	<field name="data_realizacao" class="java.sql.Timestamp"/>
 	<field name="quantidade" class="java.lang.Integer"/>
@@ -33,7 +34,6 @@
 	<field name="usuario" class="java.lang.String"/>
 	<field name="nome" class="java.lang.String"/>
 	<field name="tipo" class="java.lang.String"/>
-	<field name="valor" class="java.lang.Float"/>
 
 		<background>
 			<band height="0"  isSplitAllowed="true" >
@@ -80,7 +80,7 @@
 					<textElement>
 						<font/>
 					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA[$P{dateEnd}]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA[new java.text.SimpleDateFormat("dd/MM/yyyy").format(new java.text.SimpleDateFormat("yyyy-MM-dd").parse($P{dateEnd}))]]></textFieldExpression>
 				</textField>
 				<staticText>
 					<reportElement
@@ -106,7 +106,7 @@
 					<textElement>
 						<font/>
 					</textElement>
-				<textFieldExpression   class="java.lang.String"><![CDATA[$P{dateStart}]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA[new java.text.SimpleDateFormat("dd/MM/yyyy").format(new java.text.SimpleDateFormat("yyyy-MM-dd").parse($P{dateStart}))]]></textFieldExpression>
 				</textField>
 				<staticText>
 					<reportElement
@@ -223,7 +223,7 @@
 					<textElement textAlignment="Center">
 						<font fontName="Arial" size="8"/>
 					</textElement>
-				<text><![CDATA[Usuário]]></text>
+				<text><![CDATA[Usuário (Operador)]]></text>
 				</staticText>
 				<staticText>
 					<reportElement
@@ -247,7 +247,7 @@
 					<reportElement
 						x="380"
 						y="1"
-						width="76"
+						width="85"
 						height="16"
 						forecolor="#FFFFFF"
 						key="element-90"/>
@@ -259,13 +259,13 @@
 					<textElement textAlignment="Center">
 						<font fontName="Arial" size="8"/>
 					</textElement>
-				<text><![CDATA[Tipo da lente]]></text>
+				<text><![CDATA[Tipo da Lente]]></text>
 				</staticText>
 				<staticText>
 					<reportElement
 						x="456"
 						y="1"
-						width="76"
+						width="70"
 						height="16"
 						forecolor="#FFFFFF"
 						key="element-90"/>
@@ -277,7 +277,6 @@
 					<textElement textAlignment="Center">
 						<font fontName="Arial" size="8"/>
 					</textElement>
-				<text><![CDATA[Valor]]></text>
 				</staticText>
 			</band>
 		</columnHeader>
@@ -413,7 +412,6 @@
 					<textElement textAlignment="Center">
 						<font fontName="Arial" size="8"/>
 					</textElement>
-				<textFieldExpression   class="java.lang.Float"><![CDATA[$F{valor}]]></textFieldExpression>
 				</textField>
 			</band>
 		</detail>

@@ -3,9 +3,11 @@ package core
 import grails.test.GrailsUnitTestCase;
 
 class PagamentoTests extends GrailsUnitTestCase{
-
+	
 	def testAVista(){
-		def pagamentoUm = new Pagamento(1, FormaDePagamento.DINHEIRO, null)
+		def pagamentoUm = new Pagamento()
+		configuraPrestacoes(pagamentoUm, 1)
+		pagamentoUm.setFormaDePagamento(FormaDePagamento.DINHEIRO)
 		assertNull pagamentoUm.getCartao()
 		assertTrue pagamentoUm.pagoAVista()
 		assertEquals('Dinheiro', pagamentoUm.formaDePagamento.getDescricao())
@@ -13,7 +15,9 @@ class PagamentoTests extends GrailsUnitTestCase{
 		assertEquals("À vista / Dinheiro", pagamentoUm.toString())
 		pagamentoUm.jaFinalizado()
 		
-		def pagamentoDois = new Pagamento(0, FormaDePagamento.DINHEIRO, null)
+		def pagamentoDois = new Pagamento()
+		configuraPrestacoes(pagamentoDois, 1)
+		pagamentoDois.setFormaDePagamento(FormaDePagamento.DINHEIRO)
 		assertNull pagamentoDois.getCartao()
 		assertTrue pagamentoDois.pagoAVista()
 		assertEquals('Dinheiro', pagamentoDois.formaDePagamento.getDescricao())
@@ -23,7 +27,10 @@ class PagamentoTests extends GrailsUnitTestCase{
 	}
 	
 	def testCartao(){
-		def pagamentoUm = new Pagamento(3, FormaDePagamento.CARTAO, '12345')
+		def pagamentoUm = new Pagamento()
+		configuraPrestacoes(pagamentoUm, 3)
+		pagamentoUm.setCartao('12345')
+		pagamentoUm.setFormaDePagamento(FormaDePagamento.CARTAO)
 		assertFalse pagamentoUm.pagoAVista()
 		assertNotNull pagamentoUm.getCartao()
 		assertEquals('12345', pagamentoUm.getCartao())
@@ -32,7 +39,10 @@ class PagamentoTests extends GrailsUnitTestCase{
 		assertEquals("À prazo (3x) / Cartao (12345)", pagamentoUm.toString())
 		pagamentoUm.jaFinalizado()
 		
-		def pagamentoDois = new Pagamento(1, FormaDePagamento.CARTAO, '98765')
+		def pagamentoDois = new Pagamento()
+		configuraPrestacoes(pagamentoDois, 1)
+		pagamentoDois.setCartao('98765')
+		pagamentoDois.setFormaDePagamento(FormaDePagamento.CARTAO)
 		assertTrue pagamentoDois.pagoAVista()
 		assertNotNull pagamentoDois.getCartao()
 		assertEquals('98765', pagamentoDois.getCartao())
@@ -43,18 +53,29 @@ class PagamentoTests extends GrailsUnitTestCase{
 	}
 	
 	def testCheque(){
-		def pagamentoUm = new Pagamento(3, FormaDePagamento.CHEQUE, null)
+		def pagamentoUm = new Pagamento()
+		configuraPrestacoes(pagamentoUm, 3)
+		pagamentoUm.setFormaDePagamento(FormaDePagamento.CHEQUE)
 		assertFalse pagamentoUm.pagoAVista()
 		assertNull pagamentoUm.getCartao()
 		assertEquals("À prazo (3x) / Cheque", pagamentoUm.formaDePagamento())
 		assertEquals("À prazo (3x) / Cheque", pagamentoUm.toString())
 		pagamentoUm.jaFinalizado()
 		
-		def pagamentoDois = new Pagamento(1, FormaDePagamento.CHEQUE, null)
+		def pagamentoDois = new Pagamento()
+		configuraPrestacoes(pagamentoDois, 1)
+		pagamentoDois.setFormaDePagamento(FormaDePagamento.CHEQUE)
 		assertTrue pagamentoDois.pagoAVista()
 		assertNull pagamentoDois.getCartao()
 		assertEquals("À vista / Cheque", pagamentoDois.formaDePagamento())
 		assertEquals("À vista / Cheque", pagamentoDois.toString())
 		assertFalse pagamentoDois.jaFinalizado()
+	}
+	
+	def configuraPrestacoes(Pagamento p, int quantidade) {
+		p.setPrestacoes(new HashSet())
+		for (int i = 1; i <= quantidade; i++) {
+			p.getPrestacoes().add(new Parcela(i))
+		}
 	}
 }
