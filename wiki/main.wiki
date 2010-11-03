@@ -28,17 +28,17 @@ Aqui são guardadas todas as informações essenciais e os links para as outras 
 
 === Releases e Iterações (Geral) ===
 
- * [http://code.google.com/p/neoclinica/wiki/MatrizDeCompetencias Matriz de Competências] (_Atualizado Iteração 3_)
- * [http://code.google.com/p/neoclinica/wiki/PlanoRelease Plano de Release] (_Atualizado Iteração 3_)
- * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo/test/ Testes] (_Atualizado Iteração 3_)
+ * [http://code.google.com/p/neoclinica/wiki/MatrizDeCompetencias Matriz de Competências] (_Atualizado Iteração 4_)
+ * [http://code.google.com/p/neoclinica/wiki/PlanoRelease Plano de Release] (_Atualizado Iteração 4_)
+ * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo/test/ Testes] (_Atualizado Iteração 4_)
     * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo/test/acceptance Testes de aceitação (descrições e outros artefatos)] 
     * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/NeoClinicaTestes/test/functional Testes de aceitação/interface utilizando requisições HTTP]
     * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo/test/integration Testes de aceitação utilizando testes de integração]
     * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo/test/unit/ Testes de unidade]
     * _Obs.:_ Alguns artefatos de estudo definidos como teste de aceitação também podem ser encontrados no wiki.
- * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo Código produzido] (_Atualizado Iteração 3_)
- * [http://code.google.com/p/neoclinica/wiki/BigChart BigChart] (_Atualizado Iteração 3_)
- * [http://code.google.com/p/neoclinica/wiki/Riscos Riscos do Projeto] (_Atualizado Iteração 3_)
+ * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo Código produzido] (_Atualizado Iteração 4_)
+ * [http://code.google.com/p/neoclinica/wiki/BigChart BigChart] (_Atualizado Iteração 4_)
+ * [http://code.google.com/p/neoclinica/wiki/Riscos Riscos do Projeto] (_Atualizado Iteração 4_)
 
 ==== Iteração 1 *(Completa)* ====
 
@@ -52,6 +52,10 @@ Aqui são guardadas todas as informações essenciais e os links para as outras 
 
  * [http://code.google.com/p/neoclinica/wiki/PlanoIteracao3 Plano de Iteração Três]
 
-==== Iteração 4 *(Em Andamento)* ====
+==== Iteração 4 *(Completa)* ====
 
  * [http://code.google.com/p/neoclinica/wiki/PlanoIteracao4 Plano de Iteração Quatro]
+
+==== Iteração 5 *(Em Andamento)* ====
+
+ * [http://code.google.com/p/neoclinica/wiki/PlanoIteracao5 Plano de Iteração Cinco]
