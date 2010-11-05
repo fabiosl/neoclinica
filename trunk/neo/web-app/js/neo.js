@@ -1,17 +1,19 @@
 var fieldId = 1;
 
 function removerItem() {
-	this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);
+	this.parentNode.parentNode.parentNode
+			.removeChild(this.parentNode.parentNode);
 }
-        
+
 function addItem(area, ids, valores) {
-	if(!document.getElementById) return; // Prevent older browsers from getting any further.
+	if (!document.getElementById)
+		return; // Prevent older browsers from getting any further.
 	var field = "item_";
 	var field_area = document.getElementById(area);
 
 	var tr = document.createElement("tr");
 	var td = document.createElement("td");
-	
+
 	var select = document.createElement("select");
 	select.id = field + "select_" + fieldId;
 	select.name = field + "select_" + fieldId;
@@ -21,13 +23,14 @@ function addItem(area, ids, valores) {
 		var option = document.createElement("option");
 		option.text = tipos[i];
 		option.value = ids[i];
-		if(document.all && !window.opera) {
-		  select.add(option);
+		if (document.all && !window.opera) {
+			select.add(option);
 		} else {
-		  select.add(option, null);
-		};
+			select.add(option, null);
+		}
+		;
 	}
-		
+
 	var input = document.createElement("input");
 	input.id = field + "input_" + fieldId;
 	input.name = field + "input_" + fieldId;
@@ -54,3 +57,4 @@ function addItem(area, ids, valores) {
 
 	fieldId += 1;
 }
+
