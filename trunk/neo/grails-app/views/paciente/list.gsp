@@ -2,6 +2,7 @@
 <html>
     <head>
     	<g:javascript library="prototype" />
+		<g:javascript src="neo.js" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="layout" content="main" />
         <g:set var="entityName" value="${message(code: 'paciente.label', default: 'Paciente')}" />
@@ -20,12 +21,15 @@
             </g:if>
 			<br/>
 			<g:formRemote name="formBusca" url="[action : 'search']" update="resultadoDeBusca"
-			   onFailure="alert('Algo deu errado ao executar sua consulta');">
+			   onSuccess="showDiv('loading');" onFailure="alert('Algo deu errado ao executar sua consulta');showDiv('loading');"
+			   onLoading="showDiv('loading');">
 				Nome  <g:textField name="nome" id="nome" />
 				<g:submitButton name="Buscar"/>
+				
+				<div id="loading" style="left:5px; top:5px; background-color: #FFFFCC; visibility: hidden;">
+					<table><tr><td>Aguarde... carregando...</td></tr></table>
+				</div>
 			</g:formRemote>
-			
-			<br/>
 			<div id="resultadoDeBusca">
 				<g:if test="${pacienteInstanceList != null}">
 					<g:render template="/common/listaPacientes" model="['pacienteInstanceList' : pacienteInstanceList, 'nomeBuscado' : nomeBuscado]" />
