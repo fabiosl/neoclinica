@@ -58,3 +58,10 @@ function addItem(area, ids, valores) {
 	fieldId += 1;
 }
 
+function showDiv(nomeDiv) { 
+    if (document.getElementById(nomeDiv).style.visibility == "hidden" ) {
+        document.getElementById(nomeDiv).style.visibility = "visible"; 
+    } else { 
+        document.getElementById(nomeDiv).style.visibility = "hidden"; 
+    } 
+}
