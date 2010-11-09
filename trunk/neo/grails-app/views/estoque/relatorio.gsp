@@ -17,8 +17,8 @@
 		</div>
 		<div align="center">
 			<neo:linhaDeBotoes>
-				<neo:botao id="linkRelatoriosEstoqueData" link="relatorioData" imgsrc="${resource(dir:'images/botoes',file:'relatorioData.png')}" descricao="Relatorio de Transações (por data)" />
-				<neo:botao id="linkRelatoriosLentes" link="${createLinkTo(dir:'/jasper/?_format=PDF&_file=relatorioLentes')}" imgsrc="${resource(dir:'images/botoes',file:'planilha.png')}" descricao="Relatorio das Lentes" />
+				<neo:botao id="linkRelatoriosEstoqueData" link="relatorioData" imgsrc="${resource(dir:'images/botoes',file:'relatorioData.png')}" descricao="Relat&oacute;rio de Estoque (por data)" />
+				<neo:botao id="linkRelatoriosLentes" link="${createLinkTo(dir:'/jasper/?_format=PDF&_file=relatorioLentes')}" imgsrc="${resource(dir:'images/botoes',file:'planilha.png')}" descricao="Relat&oacute;rio das Lentes" />
 			</neo:linhaDeBotoes>
     	</div>
     </body>

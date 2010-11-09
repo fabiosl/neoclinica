@@ -12,6 +12,11 @@ class RelatoriosController {
 	def index = {
 	}
 	
+	def relatorio = {
+	}
+	
+	def relatorioFinancaData = {}
+	
 	def relatorioDeTransacoesPorData = {
 		def dataInicial = params["dateStart"]
 		def dataFinal = params["dateEnd"]
