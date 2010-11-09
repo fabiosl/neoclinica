@@ -13,7 +13,7 @@
 			<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>
 		</div>
 		<div id="pageBody" class="dialog">
-	        <h1>Relatório de Estoque (por Data)</h1>
+	        <h1>Relatório de Transações (por Data)</h1>
 	        <br/>
 		</div>
 		<g:if test="${flash.message}">
