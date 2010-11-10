@@ -18,7 +18,7 @@
 		<g:form action="escolherMedico">
 	    	<fieldset>
 	    	 	<legend>Escolha o médico</legend>
-				<g:select name="medico" from="${core.Medico.list()}" />
+				<g:select name="medico" optionKey="id" from="${core.Medico.list()}" />
 				<div align="center">
 				<g:submitButton name="submit" value="Avançar" />
 				</div>

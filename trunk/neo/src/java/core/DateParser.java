@@ -7,6 +7,20 @@ import java.util.Date;
 
 public class DateParser {
 
+	public static Date getDateFromString(String date) throws ParseException{
+		SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy");
+		return formato.parse(date);
+	}
+	
+	public static Date getFirstDayOfWeek(Date data){
+		Calendar c = Calendar.getInstance();
+		c.setTime(data);
+		while(c.get(Calendar.DAY_OF_WEEK) != Calendar.MONDAY){
+			c.add(Calendar.DAY_OF_WEEK, -1);
+		}
+		return c.getTime();
+	}
+
 	public static Date getStartingDate(Date atual){
 		Calendar calendar = Calendar.getInstance();
 		calendar.setTime(atual);
@@ -24,7 +38,7 @@ public class DateParser {
 		return diaAtual;
 	}
 	
-	private static String addZeros(int field, int legth){
+	public static String addZeros(int field, int legth){
 		String s = String.valueOf(field);
 		while(s.length() < legth){
 			s = "0" + s;
