@@ -19,6 +19,24 @@ public class DataParserTest extends TestCase{
 	Calendar calendar = Calendar.getInstance();
 
 	@Test
+	public void testAddZeros(){
+		int dia = 9;
+		int mes = 1;
+		int ano = 90;
+		String saidaCorretaUm = "09";
+		String saidaCorretaDois = "01";
+		String saidaCorretaTres = "0090";
+		String saidaCorretaQuatro = "0000000090";
+		String saidaCorretaCinco = "90";
+		assertEquals(saidaCorretaUm, DateParser.addZeros(dia, 2));
+		assertEquals(saidaCorretaDois, DateParser.addZeros(mes, 2));
+		assertEquals(saidaCorretaTres, DateParser.addZeros(ano, 4));
+		assertEquals(saidaCorretaQuatro, DateParser.addZeros(ano, 10));
+		assertEquals(saidaCorretaCinco, DateParser.addZeros(ano, 2));
+		assertEquals(saidaCorretaCinco, DateParser.addZeros(ano, 1));
+	}
+	
+	@Test
 	public void testGetStartingDate(){
 		//Crio as datas e faco os testes.
 		String dateOne = "30/04/1990 18:38";
