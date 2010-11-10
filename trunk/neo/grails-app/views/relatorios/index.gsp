@@ -18,7 +18,7 @@
 		<div align="center">
 			<neo:linhaDeBotoes>
 				<neo:botao id="linkRelatoriosEstoque" link="estoque/relatorio" imgsrc="${resource(dir:'images/botoes',file:'relatorios.png')}" descricao="Relat&oacute;rios do Estoque"/>
-				<neo:botao id="financas" link="relatorios/relatorio" imgsrc="${resource(dir:'images/botoes',file:'relatorio.png')}" descricao="Relat&oacute;rios Financeiros"/>
+				<!-- neo:botao id="financas" link="relatorios/relatorio" imgsrc="${resource(dir:'images/botoes',file:'relatorio.png')}" descricao="Relat&oacute;rios Financeiros"/ -->
 			</neo:linhaDeBotoes>
     	</div>
     </body>
