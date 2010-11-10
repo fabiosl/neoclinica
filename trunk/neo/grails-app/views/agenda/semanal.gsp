@@ -33,7 +33,7 @@ h2 {
 	<br />
     <div align="center">
    		<g:form action="inicio">
-			<richui:calendarWeekView startHour="07" endHour="19" date="${date}" format="dd.MM.yyyy" items="${tudo}" constraintDateFields="['data']" createLink="true" displayField="toString()" teaser="false" teaserLength="20" controller="procedimentomedico" action="show" dayAction="day" />
+			<richui:calendarWeekView startHour="07" endHour="19" date="${data}" format="dd.MM.yyyy" items="${tudo}" constraintDateFields="['data']" createLink="true" displayField="toString()" teaser="false" teaserLength="20" controller="procedimentoMedico" action="show" dayAction="day" />
 			<br/><g:submitButton name="submit" value="Voltar"/>
     	</g:form>
 	</div>
