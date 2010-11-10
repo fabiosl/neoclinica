@@ -1,7 +1,7 @@
 package controllers
 
-import core.Medico 
-import core.ProcedimentoMedico 
+import core.Medico
+import core.ProcedimentoMedico
 
 class AgendaController {
 	
@@ -11,13 +11,13 @@ class AgendaController {
 	
 	def escolherMedico = {
 		def nomeMedico = params.medico
-		def medico = Medico.findByUserRealName(nomeMedico)
-		procedimentos = ProcedimentoMedico.findByMedico(medico)
-		redirect(action:'semanal', params : [procs: procedimentos])
+		redirect(action:'semanal', params : [medico: nomeMedico])
 	}
 	
 	def semanal = {
-		return [tudo: params.procs]
+		def medico = Medico.findByUserRealName(params.medico)
+		procedimentos = ProcedimentoMedico.findByMedico(medico)
+		return [tudo: procedimentos]
 	}
 	
 	def inicio = {
