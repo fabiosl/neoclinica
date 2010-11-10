@@ -65,8 +65,7 @@ _Objetivos da reunião:_
 
 Na reunião foi mostrado o software à usuária principal, pois o cliente não estava disponível. A usuária gostou bastante do que viu e tirou algumas dúvidas dos membros do grupo. Ficou definido a próxima reunião com o cliente propriamente dito. Ela será realizada antes do fechamento da release. Também foi evidenciado a compra do computador que servirá como servidor. Dessa forma, já se pode começar a transferir o sistema para o ambiente real onde ele será usado.
 
-==Oitava Reunião com o Cliente (03/11/2010 _a ser realizada_)==
-_Objetivos da reunião:_
-  * Fechar a release com o cliente.
-  * Mostrar planejamento.
-  * Receber feedback do cliente.
+==Oitava Reunião com o Cliente (10/11/2010)==
+O software foi apresentado diretamente ao cliente, as funcionalidades novas e da primeira release. O cliente aprovou a release, pedindo apenas que o grupo antes da entrega, encontre uma solução de backup automático para o banco de dados.
+
+A máquina que irá hospedar o sistema já está instalada, e os primeiros passos para implantar o SI Neo já foram realizados.
