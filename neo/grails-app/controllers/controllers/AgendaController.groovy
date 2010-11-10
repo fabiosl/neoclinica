@@ -1,5 +1,8 @@
 package controllers
 
+import java.util.Calendar;
+import java.util.Date;
+
 import core.Medico
 import core.ProcedimentoMedico
 
@@ -17,7 +20,12 @@ class AgendaController {
 	def semanal = {
 		def medico = Medico.findByUserRealName(params.medico)
 		procedimentos = ProcedimentoMedico.findByMedico(medico)
-		return [tudo: procedimentos]
+		Calendar c = Calendar.getInstance();
+		c.setTime(new Date());
+		while(c.get(Calendar.DAY_OF_WEEK) != Calendar.MONDAY){
+			c.add(Calendar.DAY_OF_WEEK, -1);
+		}
+		return [tudo: procedimentos, dataCalendar: c.getTime()]
 	}
 	
 	def inicio = {

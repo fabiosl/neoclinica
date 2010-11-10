@@ -3,7 +3,7 @@
 <html>
 <head>
 <resource:calendarWeekView />
-<title>Visualização de Consultas Semanais</title>
+<title>Agenda - Visualização Semanal</title>
 <meta name="layout" content="main" />
 <style type="text/css" media="screen">
 .homePagePanel .panelBody ul {
@@ -30,12 +30,13 @@ h2 {
 </style>
 </head>
 <body>
+	<div class="nav">
+		<span class="menuButton"><a class="voltar" href="javascript:history.back()">Voltar</a></span>
+			<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>
+	</div>
 	<br />
     <div align="center">
-   		<g:form action="inicio">
-			<richui:calendarWeekView startHour="07" endHour="19" date="${data}" format="dd.MM.yyyy" items="${tudo}" constraintDateFields="['data']" createLink="true" displayField="toString()" teaser="false" teaserLength="20" controller="procedimentoMedico" action="show" dayAction="day" />
-			<br/><g:submitButton name="submit" value="Voltar"/>
-    	</g:form>
+		<richui:calendarWeekView startHour="07" endHour="19" date="${dataCalendar}" format="dd/MM/yyyy" items="${tudo}" constraintDateFields="['data']" createLink="true" displayField="toString()" teaser="false" teaserLength="20" controller="procedimentoMedico" action="show" dayAction="day" />
 	</div>
 	<br/>
 </body>
