@@ -1,0 +1,9 @@
+#summary Página que guarda o planejamento da fase de Test Review
+
+= Test Review =
+
+O Test Review no sistema consistirá nas seguintes etapas (_cada uma será discutida mais afundo_) não necessariamente disjuntas:
+  * Unificação dos Testes de Integração;
+  * Revisão dos Testes de Integração;
+  * Melhoria dos Testes de Integração existentes;
+  * Revisão dos Testes de Unidade.
