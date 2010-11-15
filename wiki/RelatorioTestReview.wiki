@@ -5,5 +5,12 @@
 O Test Review no sistema consistirá nas seguintes etapas (_cada uma será discutida mais afundo_) não necessariamente disjuntas:
   * Unificação dos Testes de Integração;
   * Revisão dos Testes de Integração;
-  * Melhoria dos Testes de Integração existentes;
   * Revisão dos Testes de Unidade.
+
+== Unificação dos Testes de Integração ==
+Os Testes de Integração da [http://code.google.com/p/neoclinica/wiki/PlanoIteracao1 Iteração 1] e da [http://code.google.com/p/neoclinica/wiki/PlanoIteracao1 Iteração 2] faziam uso de um plugin chamado FunctionalTest Plugin. Por questões de incompatibilidade com e versão do framework grails utilizada até então, tínhamos que utilizá-lo em um projeto à parte para que ele pudesse fazer os testes de maneira adequada. Essa atividade, ao nosso modo de enxergar, era onerosa e trazia alguns empecilhos para a atividade de testes. Dessa forma, continuamos buscando melhor alternativa para elaboração dos Testes de Integração que foi encontrada através da extensão da classe GroovyTestCase. Essa alternativa nos possibilitou criar e rodar Testes de Integração de uma maneira mais direta e precisa. Sendo assim, essa alternativa foi a utilizada durante as demais iterações. Com o desenrrolar do projeto, não houve tempo efetivo para trazer aqueles testes da _Iteração 1_ e da _Iteração 2_ para o plugin atual. Logo, uma das principais atividades da etapa de Test Review será a adequação daqueles casos de testes do plugin FunctionalTest para o plugin atual.
+
+== Revisão dos Testes de Integração ==
+A atividade de Revisão dos Testes de Integração é uma atividade que será como objetivo de dar maior segurança de que os casos de testes existentes têm a maior cobertura possível. Buscaremos atingir essa métrica com a elaboração de casos que cobrem a maior parte das situações possíveis que podem existir à medida que um usuário externo lida com o sistema.
+
+== Revisão dos Testes de Unidade == 
