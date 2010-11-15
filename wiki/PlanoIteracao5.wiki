@@ -40,5 +40,5 @@ Usando a legenda para o status das US:
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || 
 || A13.1 || Implementação das páginas GSP's || Solon, Renato || 3h || || D || 
 || A13.2 || Implementação das controladoras necessárias || Renato || 2h || || D || 
-|| A13.3 || Realizar testes || Fabio || 2h ||  || D || 
+|| A13.3 || Realizar testes e teste review || Fabio || 2h ||  || D || 
 || A13.4 || Gerar arquivos .jrxml || Fabio || 2h ||  || D || 
