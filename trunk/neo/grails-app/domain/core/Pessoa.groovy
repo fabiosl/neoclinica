@@ -46,7 +46,9 @@ public abstract class Pessoa implements Comparable {
 	 * @return a data de nascimento formatada
 	 */
 	public String dataNascimentoDDMMYY() {
-		return (nascimento.getDate()) + "/" + (1 + nascimento.getMonth()) + "/" + (1900 + nascimento.getYear());
+		def dia = DateParser.addZeros(nascimento.getDate(), 2);
+		def mes = DateParser.addZeros(nascimento.getMonth(), 2)
+		return dia + "/" +mes+ "/" + (1900 + nascimento.getYear());
 	}
 	
 	/**

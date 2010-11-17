@@ -4,6 +4,7 @@ import grails.test.GrailsUnitTestCase;
 
 class CompraTests extends GrailsUnitTestCase {
 	def testCreate() {
+		
 		def p1 = new Paciente(
 				nome : "Renato",
 				endereco : "Rua Teste, 250, Santa Rosa, Campina Grande, PB",
@@ -21,6 +22,18 @@ class CompraTests extends GrailsUnitTestCase {
 		assertNull(c1.getPagamento());
 		assertEquals(c1.getPaciente().getNome(), "Renato");
 		assertEquals(c1.getValor(), 0.0);
+		
+		def pag = new Pagamento(formaDePagamento: FormaDePagamento.DINHEIRO, cartao: null);
+		
+		def c2 = new Compra(pagamento: pag,
+			paciente: p1, dataPedido: new Date(),
+			dataRecebimento: new Date());
+		
+		assertNotNull(c2.getPagamento());
+		assertEquals(pag, c2.getPagamento())
+		assertEquals(c1.getPaciente().getNome(), "Renato");
+		assertEquals(c1.getValor(), 0.0);
+		
 	}
 	
 	def testStatusEntrega() {

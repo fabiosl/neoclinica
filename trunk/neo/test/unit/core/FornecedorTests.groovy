@@ -19,5 +19,13 @@ class FornecedorTests extends GrailsUnitTestCase {
 		assertEquals "Fornecedor", f1.getNome();
 		assertEquals "Rua rodrigues alves ", f1.getEndereco();
 		assertEquals "32244444", f1.getTelefone();
+		assertEquals "Fornecedor", f1.toString();
+		
+		def f2 = new Fornecedor(
+			cnpj : "123456",
+			nome : "Rio do Peixe",
+			endereco : "Shopping",
+			telefone : "999999999");
+		assertEquals "Rio do Peixe", f2.toString();
 	}
 }

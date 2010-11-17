@@ -11,7 +11,7 @@
     </neo:linhaDeBotoes>
     <neo:linhaDeBotoes>
        <neo:botao id="linkRelatorios" link="relatorios" imgsrc="${resource(dir:'images/botoes',file:'financas.png')}" descricao="Relat&oacute;rios"/>
-       <!--  neo:botao id="linkAgenda" link="agenda" imgsrc="${resource(dir:'images/botoes',file:'agenda.png')}" descricao="Agenda M\u00E9dica"/ -->
+       <neo:botao id="linkAgenda" link="agenda" imgsrc="${resource(dir:'images/botoes',file:'agenda.png')}" descricao="Agenda M\u00E9dica"/>
        <neo:botao id="linkopcoes" link="usuario" imgsrc="${resource(dir:'images/botoes',file:'opcoes.png')}" descricao="Configura\u00e7\u00f5es"/>
     </neo:linhaDeBotoes>
 </div>

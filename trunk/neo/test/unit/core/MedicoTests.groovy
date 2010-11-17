@@ -23,7 +23,7 @@ class MedicoTests extends GrailsUnitTestCase {
 		assertEquals "1234", m1.getCrm()
 		assertEquals "harrison73oft@gmail.com", m1.getEmail();
 		assertEquals "Oftalmologia", m1.getEspecialidade();
-		
+		assertEquals "Harrison Sarmento", m1.toString()
 		
 		
 	}
