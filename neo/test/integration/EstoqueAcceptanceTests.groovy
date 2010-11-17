@@ -20,6 +20,19 @@ class EstoqueAcceptanceTests extends GroovyTestCase {
 		assertTrue lenteValida.validate()
 		lenteValida.save()
 		assertNotNull Lente.findByTipo('Look')
+		
+		def novaLenteValida = new Lente(
+				tipo : 'RayBan',
+				quantidade : 389,
+				valor : 89.9f);
+		assertTrue novaLenteValida.validate()
+		novaLenteValida.save()
+		assertNotNull Lente.findByTipo('Look')
+		assertNotNull Lente.findByTipo('RayBan')
+		assertNotNull Lente.findByValor(89.9f)
+		
+		//Duas lentes no banco
+		assertEquals 2, Lente.list().size()
 	}
 	
 	/**
@@ -33,6 +46,30 @@ class EstoqueAcceptanceTests extends GroovyTestCase {
 		assertFalse lenteInvalida.validate()
 		lenteInvalida.save()
 		assertNull Lente.findByTipo('Look')
+		
+		def novaLenteInvalida = new Lente(
+				tipo : 'RayBan',
+				quantidade : -1, /* DADO INVALIDO */
+				valor : 0f);
+		assertFalse novaLenteInvalida.validate()
+		novaLenteInvalida.save()
+		assertNull Lente.findByTipo('RayBan')
+		
+		def maisUmaLenteInvalida = new Lente(
+				tipo : null, /* DADO FALTANDO */
+				quantidade : 10,
+				valor : 0f);
+		assertFalse maisUmaLenteInvalida.validate()
+		maisUmaLenteInvalida.save()
+		assertNull Lente.findByQuantidade(10)
+		
+		def outraLenteInvalida = new Lente(
+				tipo : 'RayBan',
+				quantidade : 10,
+				valor : -2.0f); /* DADO INVALIDO */
+		assertFalse outraLenteInvalida.validate()
+		outraLenteInvalida.save()
+		assertNull Lente.findByQuantidade(10)
 	}
 	
 	/**
@@ -43,11 +80,29 @@ class EstoqueAcceptanceTests extends GroovyTestCase {
 				tipo : 'Look',
 				quantidade : 15,
 				valor : 0f);
+			
 		assertTrue lenteValida.validate()
 		lenteValida.save()
+		assertEquals 1, Lente.list().size()
 		assertNotNull Lente.findByTipo('Look')
 		lenteValida.delete()
 		assertNull Lente.findByTipo('Look')
+		
+		assertEquals 0, Lente.list().size()
+		def novaLenteValida = new Lente(
+				tipo : 'RayBan',
+				quantidade : 389,
+				valor : 89.9f);
+		assertTrue novaLenteValida.validate()
+		novaLenteValida.save()
+		assertEquals 1, Lente.list().size()
+		assertNotNull Lente.findByTipo('RayBan')
+		assertNotNull Lente.findByValor(89.9f)
+		novaLenteValida.delete()
+		assertNull Lente.findByTipo('RayBan')
+		assertNull Lente.findByValor(89.9f)
+		
+		assertEquals 0, Lente.list().size()
 	}
 	
 	/**
@@ -76,6 +131,18 @@ class EstoqueAcceptanceTests extends GroovyTestCase {
 		assertEquals 'Look', Lente.findByTipo('Look').getTipo()
 		assertEquals 0f, Lente.findByTipo('Look').getValor()
 		assertEquals 15, Lente.findByTipo('Look').getQuantidade()
+		
+		def novaLenteValida = new Lente(
+			tipo : 'RayBan',
+			quantidade : 389,
+			valor : 89.9f);
+		assertTrue novaLenteValida.validate()
+		novaLenteValida.save()
+		assertNotNull Lente.findByTipo('RayBan')
+		assertNotNull Lente.findByValor(89.9f)
+		assertEquals 'RayBan', Lente.findByTipo('RayBan').getTipo()
+		assertEquals 89.9f, Lente.findByTipo('RayBan').getValor()
+		assertEquals 389, Lente.findByTipo('RayBan').getQuantidade()
 	}
 	
 	/**
@@ -103,10 +170,22 @@ class EstoqueAcceptanceTests extends GroovyTestCase {
 		lenteValida.save()
 		
 		assertNotNull Lente.findByTipo('Look')
+		assertEquals 15, Lente.findByTipo('Look').getQuantidade()
 		lenteValida.setQuantidade 31
 		lenteValida.save()
 		
 		assertEquals 31, Lente.findByTipo('Look').getQuantidade()
+		
+		def novaLenteValida = new Lente(
+			tipo : 'RayBan',
+			quantidade : 389,
+			valor : 89.9f);
+		assertTrue novaLenteValida.validate()
+		novaLenteValida.save()
+		assertNotNull Lente.findByTipo('RayBan')
+		assertEquals 389, Lente.findByTipo('RayBan').getQuantidade()
+		novaLenteValida.setQuantidade 10
+		novaLenteValida.save()
 	}
 	
 	/**
