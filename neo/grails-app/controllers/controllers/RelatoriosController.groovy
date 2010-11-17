@@ -12,27 +12,30 @@ class RelatoriosController {
 	def index = {
 	}
 	
-	def relatorio = {
+	def relatorioFinancaData = {
 	}
 	
-	def relatorioFinancaData = {
-	
-		def convenioId = params["convenioId"]
-		if(convenioId.equals('null'))
-			convenioId = null;
-		def dataInicial = params["dateStart"]
-		def dataFinal = params["dateEnd"]
+	def doRelatorioFinanceiroData = {
+		def convenio = params["convenioId"] == 'null' ? 'null' : params["convenioId"];
+		def medico = params["medicoId"] == 'null' ? 'null' : params["medicoId"];
+		def tipoProcedimento = params["tipoProcedimento"];
+		def dataInicial = params["dateStart"];
+		def dataFinal = params["dateEnd"];
+		
 		if (dataInicial == null || dataFinal == null ) {
 			flash.message = "Preencha todos os campos!";
-			redirect(controller : "estoque", action : "relatorioData");
+			redirect(action : "relatorioFinancaData");
 		} else if (dataInicial.after(dataFinal)) {
 			flash.message = "Data inicial posterior a data final!";
-			redirect(controller : "estoque", action : "relatorioData");
+			redirect(action : "relatorioFinancaData");
 		} else {
-			redirect(url : g.createLinkTo(dir : "/jasper/?_format=PDF&_file=financas&convenioID=" + convenioId + "&dateStart=" + formato.format(dataInicial) + "&dateEnd=" + formato.format(dataFinal)))
+			if (tipoProcedimento.equals("Vendas de Lente")) {
+			} else if (tipoProcedimento.equals("Procedimento Medico")) {
+				redirect(url : g.createLinkTo(dir : "/jasper/?_format=PDF&_file=relatorioFinanceiroProcedimentoMedico&convenioID=" + convenio + "&dateStart=" + formato.format(dataInicial) + "&dateEnd=" + formato.format(dataFinal)))
+			}
 		}
 	}
-		
+	
 	
 	def relatorioDeTransacoesPorData = {
 		def dataInicial = params["dateStart"]
