@@ -20,6 +20,7 @@ O primeiro passo foi a checagem da viabilidade para realização da transição 
 A atividade de Revisão dos Testes de Integração é uma atividade que será como objetivo de dar maior segurança de que os casos de testes existentes têm a maior cobertura possível. Buscaremos atingir essa métrica com a elaboração de casos que cobrem a maior parte das situações possíveis que podem existir à medida que um usuário externo lida com o sistema.
 
 === Resultados === 
+A atividade de test review para os testes de integração já existentes se deu basicamente para adição de novos casos de teste. Não foi criado nenhum método de teste novo, mas os já existentes foram incrementados com adição de novos testes que pudessem deixá-los ainda mais ricos. Os testes existentes até então exerciam o que se propunham de maneira adequada, mas pequenos detalhes ainda faltavam ser testados. Esses detalhes foram avaliados mediante novos casos adicionados criteriosamente escolhidos. Nenhum erro foi encontrado tanto nos testes antigos quanto no sistema após a adição dos novos casos de teste. O números resultantes da atividade de test review podem ser vistos na tabela abaixo.
 
 || Classes de teste alteradas || Classes de testes adicionadas || Erros encontrados || Casos de teste adicionados ||
 ||3||0||0||26||
