@@ -8,19 +8,16 @@
 	<import value="net.sf.jasperreports.engine.*"/>
 	<import value="java.util.*"/>
 	<import value="net.sf.jasperreports.engine.data.*"/>
-	<parameter name="convenioID" class="java.lang.String" isForPrompting="true"/>
-	<parameter name="dateStart" class="java.lang.String" isForPrompting="true"/>
-	<parameter name="dateEnd" class="java.lang.String" isForPrompting="true"/>
+	<parameter name="dateStart" class="java.lang.String" isForPrompting="false"/>
+	<parameter name="dateEnd" class="java.lang.String" isForPrompting="false"/>
 	<queryString>
-		<![CDATA[SELECT pm.data, u.user_real_name, p.nome, p.rg, c.nome as nomeConv, tpm.nome AS nomeProc, tpm.valor_base, pm.valor 
-FROM procedimento_medico pm, usuario u,  paciente p, convenio c, tipo_procedimento_medico tpm 
+		<![CDATA[SELECT pm.data, u.user_real_name, p.nome, p.rg, c.nome as nomeConv, tpm.nome AS nomeProc, tpm.valor_base, pm.valor
+FROM procedimento_medico pm, usuario u, (paciente p LEFT JOIN convenio c ON p.convenio_id = c.id), tipo_procedimento_medico tpm
 WHERE
 u.id = pm.medico_id AND
 tpm.id = pm.tipo_id AND
 pm.paciente_id = p.id AND
-(p.convenio_id = c.id OR ('$P!{convenioID}%' LIKE '%null%' AND p.convenio_id IS NULL)) AND
-(c.id = '$P!{convenioID}%' OR '$P!{convenioID}%' LIKE '%null%') AND
-DATE(pm.data) BETWEEN DATE('$P!{dateStart}%') AND DATE('$P!{dateEnd}%')]]>
+DATE_FORMAT(pm.data,'%Y-%m-%d') BETWEEN DATE('$P!{dateStart}%') AND DATE('$P!{dateEnd}%')]]>
 	</queryString>
 	<field name="data" class="java.sql.Timestamp"/>
 	<field name="user_real_name" class="java.lang.String"/>
@@ -46,7 +43,7 @@ DATE(pm.data) BETWEEN DATE('$P!{dateStart}%') AND DATE('$P!{dateEnd}%')]]>
 				<textElement textAlignment="Center">
 					<font fontName="Arial" size="30" isBold="true" pdfFontName="Helvetica-Bold"/>
 				</textElement>
-				<text><![CDATA[Relatório de Finanças]]></text>
+				<text><![CDATA[Relatório de Procedimentos]]></text>
 			</staticText>
 			<line>
 				<reportElement key="line" positionType="FixRelativeToBottom" x="0" y="48" width="534" height="1" forecolor="#000000"/>
@@ -97,7 +94,7 @@ DATE(pm.data) BETWEEN DATE('$P!{dateStart}%') AND DATE('$P!{dateEnd}%')]]>
 				<textElement textAlignment="Center">
 					<font fontName="Arial" size="7"/>
 				</textElement>
-				<text><![CDATA[Médico]]></text>
+				<text><![CDATA[Usuário]]></text>
 			</staticText>
 			<staticText>
 				<reportElement key="element-90" x="157" y="1" width="76" height="16" forecolor="#FFFFFF"/>
