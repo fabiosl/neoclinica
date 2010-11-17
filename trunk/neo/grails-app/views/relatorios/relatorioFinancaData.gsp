@@ -13,7 +13,7 @@
 			<span class="menuButton"><a class="home" href="${createLinkTo(dir:'')}">Home</a></span>
 		</div>
 		<div id="pageBody" class="dialog">
-	        <h1>Relatório de Transações (por Data)</h1>
+	        <h1>Relatório Financeiro</h1>
 	        <br/>
 		</div>
 		<g:if test="${flash.message}">
@@ -22,17 +22,20 @@
         </g:if>
         
 		<div align="center">
-			<g:form id="report" name="report" controller="relatorios" action="relatorioFinancaData">
-				<p>Convenio:
-					<g:select name="convenioId" from="${core.Convenio.list()}" optionKey="id" value="${pacienteInstance?.convenio?.id}" noSelection="['null' : 'Todos']" />
+			<g:form id="report" name="report" controller="relatorios" action="doRelatorioFinanceiroData">
+				<h2>Filtros</h2>
+				<p>
+					Conv&ecirc;nio:
+					<g:select name="convenioId" from="${core.Convenio.list()}" optionKey="id" noSelection="['null' : 'Todos']" />
+					&nbsp;&nbsp;M&eacute;dico:
+					<g:select name="medicoId" from="${core.Medico.list()}" optionKey="id" noSelection="['null' : 'Todos']" />
+					&nbsp;&nbsp;Tipo de Procedimento:
+					<g:select name="tipoProcedimento" from="['Vendas de Lente', 'Procedimento Medico']" />
 				</p>
 				
-				<p>Data Inicial:
-					<g:datePicker name="dateStart" id="dateStart" precision="day" />
-				</p>
-				<p>Data Final:   
-					<g:datePicker name="dateEnd" id="dateEnd" precision="day" />
-            	</p>
+				<h2>Período</h2>
+				<p>Data Inicial: <g:datePicker name="dateStart" id="dateStart" precision="day" /></p>
+				<p>Data Final: <g:datePicker name="dateEnd" id="dateEnd" precision="day" /></p>
             	<br/><br/>
             	<span class="menuButton"><a class="pdf" href="javascript:void(0);" onclick="document.report.submit();return false;">Download</a></span>
 			</g:form>
