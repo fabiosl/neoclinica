@@ -16,7 +16,7 @@
 <br />
 </div>
 <div align="center"><neo:linhaDeBotoes>
-	<neo:botao id="linkRelatoriosFinanceirosData" link="relatorioFinancaData"
+	<neo:botao id="linkRelatoriosFinanceirosData" link="relatorioFinancaData.gsp"
 		imgsrc="${resource(dir:'images/botoes',file:'relatorioData.png')}"
 		descricao="Relat&oacute;rio de Transações (por data)" />
 	<neo:botao id="linkRelatoriosAtual"

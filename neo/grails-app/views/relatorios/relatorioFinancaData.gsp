@@ -20,8 +20,13 @@
             <div class="message">${flash.message}</div>
 	        <br/>
         </g:if>
+        
 		<div align="center">
-			<g:form id="report" name="report" controller="relatorios" action="relatorioDeTransacoesPorData">
+			<g:form id="report" name="report" controller="relatorios" action="relatorioFinancaData">
+				<p>Convenio:
+					<g:select name="convenioId" from="${core.Convenio.list()}" optionKey="id" value="${pacienteInstance?.convenio?.id}" noSelection="['null' : 'Todos']" />
+				</p>
+				
 				<p>Data Inicial:
 					<g:datePicker name="dateStart" id="dateStart" precision="day" />
 				</p>
