@@ -16,8 +16,13 @@ O primeiro passo foi a checagem da viabilidade para realização da transição 
 || Classes de teste alteradas || Classes de testes adicionadas || Erros encontrados || Casos de teste adicionados ||
 ||0||2||0||9||
 
-== Revisão dos Testes de Integração (_Status: Não Iniciado_)==
+== Revisão dos Testes de Integração (_Status: Concluído_)==
 A atividade de Revisão dos Testes de Integração é uma atividade que será como objetivo de dar maior segurança de que os casos de testes existentes têm a maior cobertura possível. Buscaremos atingir essa métrica com a elaboração de casos que cobrem a maior parte das situações possíveis que podem existir à medida que um usuário externo lida com o sistema.
+
+=== Resultados === 
+
+|| Classes de teste alteradas || Classes de testes adicionadas || Erros encontrados || Casos de teste adicionados ||
+||3||0||0||26||
 
 == Revisão dos Testes de Unidade (_Status: Concluído_) == 
 Igualmente aos Testes de Integração, os Testes de Unidade existentes também devem ser revisados. A diferença, entretanto, é que essa atividade é bem mais simples e direta já que as classes existentes no sistema têm poucos métodos (Como se usa grails, as classes são classes de domínio, que apenas têm atributos). Serão apenas verificados se todos os métodos são testados (em sua maioria _get's_ e _set's_ implementados pelo próprio framework Grails) e se eles se os testes apresentam cobertura suficiente. Caso seja considerado insuficiente, novos testes serão elaborados.
