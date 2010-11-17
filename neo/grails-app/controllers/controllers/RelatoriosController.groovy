@@ -16,8 +16,6 @@ class RelatoriosController {
 	}
 	
 	def doRelatorioFinanceiroData = {
-		def convenio = params["convenioId"] == 'null' ? 'null' : params["convenioId"];
-		def medico = params["medicoId"] == 'null' ? 'null' : params["medicoId"];
 		def tipoProcedimento = params["tipoProcedimento"];
 		def dataInicial = params["dateStart"];
 		def dataFinal = params["dateEnd"];
@@ -30,8 +28,9 @@ class RelatoriosController {
 			redirect(action : "relatorioFinancaData");
 		} else {
 			if (tipoProcedimento.equals("Vendas de Lente")) {
+				// TODO
 			} else if (tipoProcedimento.equals("Procedimento Medico")) {
-				redirect(url : g.createLinkTo(dir : "/jasper/?_format=PDF&_file=relatorioFinanceiroProcedimentoMedico&convenioID=" + convenio + "&dateStart=" + formato.format(dataInicial) + "&dateEnd=" + formato.format(dataFinal)))
+				redirect(url : g.createLinkTo(dir : "/jasper/?_format=PDF&_file=relatorioFinanceiroProcedimentoMedico&dateStart=" + formato.format(dataInicial) + "&dateEnd=" + formato.format(dataFinal)));
 			}
 		}
 	}

@@ -25,10 +25,6 @@
 			<g:form id="report" name="report" controller="relatorios" action="doRelatorioFinanceiroData">
 				<h2>Filtros</h2>
 				<p>
-					Conv&ecirc;nio:
-					<g:select name="convenioId" from="${core.Convenio.list()}" optionKey="id" noSelection="['null' : 'Todos']" />
-					&nbsp;&nbsp;M&eacute;dico:
-					<g:select name="medicoId" from="${core.Medico.list()}" optionKey="id" noSelection="['null' : 'Todos']" />
 					&nbsp;&nbsp;Tipo de Procedimento:
 					<g:select name="tipoProcedimento" from="['Vendas de Lente', 'Procedimento Medico']" />
 				</p>
