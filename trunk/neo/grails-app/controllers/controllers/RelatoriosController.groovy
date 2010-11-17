@@ -29,7 +29,7 @@ class RelatoriosController {
 			flash.message = "Data inicial posterior a data final!";
 			redirect(controller : "estoque", action : "relatorioData");
 		} else {
-			redirect(url : g.createLinkTo(dir : "/jasper/?_format=PDF&_file=financas&convenioId=" + convenioId +"&dateStart=" + formato.format(dataInicial) + "&dateEnd=" + formato.format(dataFinal)))
+			redirect(url : g.createLinkTo(dir : "/jasper/?_format=PDF&_file=financas&convenioID=" + convenioId + "&dateStart=" + formato.format(dataInicial) + "&dateEnd=" + formato.format(dataFinal)))
 		}
 	}
 		
