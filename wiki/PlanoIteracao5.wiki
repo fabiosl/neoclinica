@@ -24,11 +24,11 @@ Usando a legenda para o status das US:
 
 === Atividades === 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || 
-|| A10.1 || Realizar Testes || Solon || 2h || 2h23m || D || 
+|| A10.1 || Realizar Testes || Solon || 2h || 2h23m || C || 
 || A10.2 || Elaborar GSP's || Renato || 40min || || D || 
 || A10.3 || Avaliar alternativas para geraçao de XLS's do plugin Jasper || Fabio || 2h ||  || D || 
 || A10.4 || Gerar arquivos .jrxml || Fabio || 1h ||  || D || 
-|| A10.5 || Realizar test review || Solon || 4h || 5h36m || D || 
+|| A10.5 || Realizar test review || Solon || 4h || 5h36m || C || 
 
 
 == User Story 13 - Implementar funcionalidade de relatório de paciente ==
@@ -39,7 +39,7 @@ Usando a legenda para o status das US:
 === Atividades === 
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || 
-|| A13.1 || Implementação das páginas GSP's || Renato, Solon || 3h || || D || 
-|| A13.2 || Implementação das controladoras necessárias || Renato || 2h || || D || 
+|| A13.1 || Implementação das páginas GSP's || Renato, Solon || 3h || 54m || C || 
+|| A13.2 || Implementação das controladoras necessárias || Renato || 2h || 1h42m || D || 
 || A13.3 || Realizar testes || Fabio || 2h ||  || D || 
 || A13.4 || Gerar arquivos .jrxml || Fabio || 2h ||  || D || 
