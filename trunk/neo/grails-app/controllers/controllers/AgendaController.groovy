@@ -1,15 +1,22 @@
 package controllers
 
 import java.util.Calendar;
+
 import java.util.Date;
 
 import core.DateParser;
 import core.Medico
 import core.ProcedimentoMedico
 
+/**
+ * Controladora da agenda. Controla as atividades de consulta sob a agenda dos medicos.
+ *
+ * @see core.Medico
+ * @see core.ProcedimentoMedico
+ */
 class AgendaController {
-	
 	def procedimentos
+	
 	def index = {
 	}
 	
@@ -22,8 +29,8 @@ class AgendaController {
 		def idMed = params.medico
 		def medico = Medico.get(idMed)
 		def procedimentos = ProcedimentoMedico.createCriteria().list() {
-                               eq("medico", medico)
-        }
+			eq("medico", medico)
+		}
 		return [tudo: procedimentos, dataCalendar: DateParser.getFirstDayOfWeek(new Date())]
 	}
 	

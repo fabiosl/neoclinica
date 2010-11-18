@@ -1,0 +1,4 @@
+    * Teste de Aceitação 10.1: Emitir relatório por data dos procedimentos médicos realizadas (Operação Realizada com Sucesso se logado como Administrador ou Funcionário).
+    * Teste de Aceitação 10.2: Emitir relatório por data das vendas de lentes realizadas (Operação Realizada com Sucesso se logado como Administrador ou Funcionário). 
+     
+    Ver test/integration. Para executar, grails test-app -integration no projeto principal.

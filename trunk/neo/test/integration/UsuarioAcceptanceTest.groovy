@@ -1,10 +1,10 @@
-import acesso.Hierarquia;
 import acesso.Usuario 
 import groovy.util.GroovyTestCase;
 
-
+/**
+ * Testes de aceitacao da user story 6 (Implementar funcionalidade de controle de usuários do sistema)
+ */
 class UsuarioAcceptanceTest extends GroovyTestCase{
-	
 	void tearDown() {
 		Usuario.list()*.delete();
 	}

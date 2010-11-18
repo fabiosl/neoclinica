@@ -1,12 +1,5 @@
-
-import acesso.Hierarquia;
-import core.FormaDePagamento 
-import core.Medico 
 import core.Paciente 
-import core.Pagamento 
-import core.ProcedimentoMedico 
 import core.Sexo;
-import core.TipoProcedimentoMedico 
 import groovy.util.GroovyTestCase;
 
 /**

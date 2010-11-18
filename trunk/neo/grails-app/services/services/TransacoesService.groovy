@@ -8,11 +8,18 @@ import core.Compra
 import core.TransacaoEstoque;
 import core.TransacaoKind;
 
+/**
+ * Servico que encapsula a logica transacional sob o estoque da clinica.
+ */
 class TransacoesService {
 	boolean transactional = true
 	
 	def authenticateService /* Acegi */
 	
+	/**
+	 * Confirma um fornecimento, refletindo a acao no estoque.
+	 * @param fornecimento o fornecimento a confirmar.
+	 */
 	def confirmarFornecimento(Fornecimento fornecimento) {
 		if (fornecimento.getDataRecebimento() != null) {
 			throw new TransacaoEstoqueException("Fornecimento ja confirmado!");
@@ -35,6 +42,10 @@ class TransacoesService {
 		}
 	}
 	
+	/**
+	 * Confirma uma compra, refletindo a acao no estoque.
+	 * @param compra a compra a confirmar.
+	 */
 	def confirmarRealizacaoCompra(Compra compra) {
 		if (compra.getDataRecebimento() != null) {
 			throw new TransacaoEstoqueException("Compra ja confirmada!");
@@ -58,6 +69,10 @@ class TransacoesService {
 		}
 	}
 	
+	/**
+	 * Verifica se uma compra pode ser confirmada.
+	 * @param compra a compra a verificar.
+	 */
 	def verificarCompra(Compra compra) {
 		Map<Lente, Integer> pedidos = new HashMap<Lente, Integer>()
 		for (ItemDeVenda item : compra.getItens()) {
