@@ -215,3 +215,13 @@ O sistema deve prover controle dos médicos que trabalham na clínica (usado par
 
 ===Tempo Real: 04h50m ===
 ----
+
+== User Story 16 - Implementar solução de backup automático do banco de dados. ==
+
+=== Estimativa Inicial: 4 horas ===
+=== Testes de Aceitação ===
+ * Teste de Aceitação 16.1: Realizar backup automático em certo intervalo configurável por script.
+----
+
+
+_OBS. (17/11/2010):_ Atualizamos as US com a nova funcionalidade pedia pelo cliente (solução de backup automático), priorizada em relação aos relatórios XLS.
