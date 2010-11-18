@@ -148,8 +148,7 @@ O sistema deve emitir relatórios financeiros das atividades realizadas na clín
  * Teste de Aceitação 10.1: Emitir relatório por data dos procedimentos médicos realizadas (Operação Realizada com Sucesso se logado como Administrador ou Funcionário).
  * Teste de Aceitação 10.2: Emitir relatório por data das vendas de lentes realizadas (Operação Realizada com Sucesso se logado como Administrador ou Funcionário).
 
-
-===Tempo Real: ===
+===Tempo Real: 9h42m ===
 ----
 
 == User Story 11 - Implementar funcionalidade de emissão de relatórios de estoque ==
@@ -174,7 +173,7 @@ O sistema deve prover aos usuários (médicos e secretárias) informações sobr
  * Teste de Aceitação 12.2: Mostrar os procedimentos marcados para a semana (Operação Realizada com Sucesso se logado como Administrador ou Funcionário).
  * Teste de Aceitação 12.3: Mostrar os procedimentos marcados para o mês (Operação Realizada com Sucesso se logado como Administrador ou Funcionário).
 
-===Tempo Real: ===
+=== Tempo Real:  ===
 ----
 
 == User Story 13 - Implementar funcionalidade de relatório de paciente ==
@@ -186,7 +185,7 @@ O sistema deve permitir busca por nome dos pacientes no sistema, que deve retorn
  * Teste de Aceitação 13.1: Pesquisar dados de paciente existente no sistema (Operação Realizada com Sucesso).
  * Teste de Aceitação 13.2: Pesquisar dados de paciente inexistente no sistema (Operação Realizada sem Sucesso). 
 
-===Tempo Real: ===
+===Tempo Real: 3h36m ===
 ----
 
 == User Story 14 - Elaborar Manual de Configuração do Sistema == 
@@ -221,6 +220,8 @@ O sistema deve prover controle dos médicos que trabalham na clínica (usado par
 === Estimativa Inicial: 4 horas ===
 === Testes de Aceitação ===
  * Teste de Aceitação 16.1: Realizar backup automático em certo intervalo configurável por script. _Condição de sucesso: Script realiza backup do banco de dados do sistema_.
+
+===Tempo Real: ===
 ----
 
 
