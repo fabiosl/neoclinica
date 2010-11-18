@@ -2,7 +2,7 @@
 
 =Riscos=
 
-|| *Nome* || *Responsável* || *Descrição* || *Probabilidade* || *Efeito* || *Alternativa* || *Status* || *Data Identificação* || *Data Superação* ||
+|| *Nome* || *Responsável* || *Descrição* || *Probabilidade* || *Efeito* || *Alternativa* || *Status* || *Data Identificação* || *Data Fim* ||
 || Viagem de membro do time || Solon || Algum membro da equipe precisar viajar e atrapalhar o desenvolver do projeto (CBSOFT, maratona do ICPC) || Alta || Sério || Adiantar as atividades ou distribuí-las para outros membros da equipe (dependendo da duração). || Superado || 18/08 || 25/10 ||
 || Plugin de Testes de aceitação em Grails || Todos || Testes de aceitação para Grails || Baixa || Sério || Buscar alternativa para testes de aceitação em Grails. || Superado || 25/08 || 15/09 ||
 || Servidor || Cliente || Não existir servidor web para receber o projeto || Baixa || Sério || Cliente adquirir hardware necessário para funcionamento do sistema ou necessidade de um integrante do grupo gastar horas a mais para montar o servidor. || Superado || 25/08 || 28/10 ||
@@ -11,4 +11,6 @@
 || Reunião Cliente || Cliente/Time || Não ser possível estabelecer horário adequado para a reunião durante a semana o que dificulta a validação do que já foi produzido e não possibilita planejamento junto ao cliente || Médio || Sério || Estabelecer horário alternativo ao qual ao menos um membro do time compareça; marcar reunião com antecedência e duração maior.|| Superado || 18/08 || 03/09 ||
 || Dados Financeiros || Cliente/Time || Cliente sonegar informações das planilhas financeiras que devem ser automatizadas por motivos de dúvida em relação ao sigilo || Alto || Sério || Requisitar planilhas sem dados financeiros como forma de saber as fórmulas usadas no cálculo dos valores a serem automatizados.|| Superado || 18/08 || 20/09||
 || Horários para trabalhar junto || Time || Não ser possível estabelecer mais de um horário para a equipe trabalhar junta semana porque estão em dificuldades em relação aos estudos || Médio || Tolerável || Estar sempre em contato via internet (através de Skype e Gtalk) e aproveitar as tardes sem aula de LES || Superado || 18/08 || 25/08 ||
-|| Incompatibilidade do plugin Jasper com o desejo do cliente || Time || Não ser possível gerar as planilhas financeiras elaboradas pedidas pelo cliente (no formato que é utilizado atualmente na clínica) || Alto || Sério || Procurar outras soluções para geração de XLS em Grails/Java || Vigente || 02/11 ||  ||
+|| Incompatibilidade do plugin Jasper com o desejo do cliente || Time || Não ser possível gerar as planilhas financeiras elaboradas pedidas pelo cliente (no formato que é utilizado atualmente na clínica) * || Alto || Sério || Procurar outras soluções para geração de XLS em Grails/Java || Abortado || 02/11 || 10/11 ||
+
+* Na [http://code.google.com/p/neoclinica/wiki/AtaReunioes reunião] do dia 10/11 o cliente preferiu que se priorize uma solução de backup, por isso o risco foi abortado.
