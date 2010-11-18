@@ -22,4 +22,4 @@ Essa página tem os planos de release do projeto.
 ||_*Release 3*_ || _*04/11/2010 -> 01/12/2010*_||_*Gerente: Renato*_||
 ||_Iteração_||_User Stories_||_Período_||
 ||Iteração 5|| 10, 13||04/11/2010->17/11/2010||
-||Iteração 6|| 12 ||18/11/2010->01/12/2010||
+||Iteração 6|| 12, 16 ||18/11/2010->01/12/2010||
