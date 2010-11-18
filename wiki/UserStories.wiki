@@ -145,14 +145,9 @@ O sistema deve emitir relatórios financeiros das atividades realizadas na clín
 === Estimativa Inicial: 8 horas ===
 === Testes de Aceitação ===
 
- * Teste de Aceitação 10.1: Emitir relatório das atividades do dia (Operação Realizada com Sucesso se logado como Administrador).
- * Teste de Aceitação 10.2: Emitir relatório das atividades da semana (Operação Realizada com Sucesso se logado como Administrador).
- * Teste de Aceitação 10.3: Emitir relatório das atividades da quinzena (Operação Realizada com Sucesso se logado como Administrador).
- * Teste de Aceitação 10.4: Emitir relatório das atividades do mês (Operação Realizada com Sucesso se logado como Administrador).
- * Teste de Aceitação 10.5: Emitir relatório das atividades de cada médico (Operação Realizada com Sucesso se logado como Administrador).
- * Teste de Aceitação 10.6: Emitir relatório organizado por convênio médico (Operação Realizada com Sucesso se logado como Administrador).
- * Teste de Aceitação 10.7: Emitir relatório organizado por tipo de lente (Operação Realizada com Sucesso se logado como Administrador).
- * Teste de Aceitação 10.8: Emitir relatório organizado por paciente (Operação Realizada com Sucesso se logado como Administrador).
+ * Teste de Aceitação 10.1: Emitir relatório por data dos procedimentos médicos realizadas (Operação Realizada com Sucesso se logado como Administrador ou Funcionário).
+ * Teste de Aceitação 10.2: Emitir relatório por data das vendas de lentes realizadas (Operação Realizada com Sucesso se logado como Administrador ou Funcionário).
+
 
 ===Tempo Real: ===
 ----
