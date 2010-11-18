@@ -35,6 +35,7 @@ Aqui são guardadas todas as informações essenciais e os links para as outras 
     * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/NeoClinicaTestes/test/functional Testes de aceitação/interface utilizando requisições HTTP]
     * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo/test/integration Testes de aceitação utilizando testes de integração]
     * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo/test/unit/ Testes de unidade]
+    * [http://code.google.com/p/neoclinica/wiki/RelatorioTestReview Relatório do TestReview]
     * _Obs.:_ Alguns artefatos de estudo definidos como teste de aceitação também podem ser encontrados no wiki.
  * [http://code.google.com/p/neoclinica/source/browse/#svn/trunk/neo Código produzido] (_Atualizado Iteração 5_)
  * [http://code.google.com/p/neoclinica/wiki/BigChart BigChart] (_Atualizado Iteração 5_)
