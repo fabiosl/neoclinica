@@ -1,6 +1,6 @@
 #summary Plano da iteração 6
 
-= Iteração 6 (_18/11/2010 -> _01/12/2010_) =
+= Iteração 6 (_18/11/2010 -> 01/12/2010_) =
 
 Usando a legenda para o status das US:
   * C: Concluída;
