@@ -18,9 +18,9 @@ Usando a legenda para o status das US:
 
 === Atividades === 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || 
-|| A12.1 || Implementação das páginas GSPs usando plugin richui || Solon || 1h || || C || 
-|| A12.2 || Implementação das controladoras necessárias || Renato, Solon || 2h || || C || 
-|| A12.3 || Realizar testes || Renato || 1h || || C || 
+|| A12.1 || Implementação das páginas GSPs usando plugin richui || Solon || 1h || || D || 
+|| A12.2 || Implementação das controladoras necessárias || Renato, Solon || 2h || || D || 
+|| A12.3 || Realizar testes || Renato || 1h || || D || 
 || A12.4 || Analisar possibilidade de alterar skin da agenda no plugin richui para exibir hora de 15 em 15min || Solon || 2h || || D || 
 
 ----
