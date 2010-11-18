@@ -13,6 +13,7 @@ class RelatoriosController {
 	}
 	
 	def relatorioFinancaData = {
+		
 	}
 	
 	def doRelatorioFinanceiroData = {
@@ -28,7 +29,7 @@ class RelatoriosController {
 			redirect(action : "relatorioFinancaData");
 		} else {
 			if (tipoProcedimento.equals("Vendas de Lente")) {
-				// TODO
+				redirect(url : g.createLinkTo(dir : "/jasper/?_format=PDF&_file=relatorioFinanceiroVendas&dateStart=" + formato.format(dataInicial) + "&dateEnd=" + formato.format(dataFinal)));
 			} else if (tipoProcedimento.equals("Procedimento Medico")) {
 				redirect(url : g.createLinkTo(dir : "/jasper/?_format=PDF&_file=relatorioFinanceiroProcedimentoMedico&dateStart=" + formato.format(dataInicial) + "&dateEnd=" + formato.format(dataFinal)));
 			}
