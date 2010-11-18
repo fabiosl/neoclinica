@@ -1,0 +1,31 @@
+#summary Plano da iteração 6
+
+= Iteração 6 (_18/11/2010 -> _01/12/2010_) =
+
+Usando a legenda para o status das US:
+  * C: Concluída;
+  * A: Abortado;
+  * D: Desenvolvimento.
+
+----
+
+== User Story 12 - Implementar funcionalidade de agenda médica ==
+=== Testes de Aceitação ===
+
+ * Teste de Aceitação 12.1: Mostrar os procedimentos marcados para o dia atual (Operação Realizada com Sucesso se logado como Administrador ou Funcionário).
+ * Teste de Aceitação 12.2: Mostrar os procedimentos marcados para a semana (Operação Realizada com Sucesso se logado como Administrador ou Funcionário).
+ * Teste de Aceitação 12.3: Mostrar os procedimentos marcados para o mês (Operação Realizada com Sucesso se logado como Administrador ou Funcionário).
+
+=== Atividades === 
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || 
+|| A12.1 || || || || || || 
+
+
+== User Story 16 - ... ==
+=== Testes de Aceitação ===
+ * Teste de Aceitação 16.1: ...
+
+=== Atividades === 
+
+|| *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || 
+|| A16.1 || ||  || || || || 
