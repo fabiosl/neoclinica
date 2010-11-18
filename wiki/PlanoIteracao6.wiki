@@ -18,8 +18,12 @@ Usando a legenda para o status das US:
 
 === Atividades === 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || 
-|| A12.1 || || || || || || 
+|| A12.1 || Implementação das páginas GSPs usando plugin richui || Solon || 1h || || C || 
+|| A12.2 || Implementação das controladoras necessárias || Renato, Solon || 2h || || C || 
+|| A12.3 || Realizar testes || Renato || 1h || || C || 
+|| A12.4 || Analisar possibilidade de alterar skin da agenda no plugin richui para exibir hora de 15 em 15min || Solon || 2h || || D || 
 
+----
 
 == User Story 16 - Implementar solução de backup automático do banco de dados. ==
 === Testes de Aceitação ===
@@ -28,4 +32,6 @@ Usando a legenda para o status das US:
 === Atividades === 
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || 
-|| A16.1 || || || || || || 
+|| A16.1 || Estudo de solução de backup automático com MySQL || Todos || 1h || || D || 
+|| A16.2 || Elaborar script || Fábio || 3h || || D || 
+|| A16.3 || Testar script no ambiente do servidor || Fábio || 1h || || D || 
