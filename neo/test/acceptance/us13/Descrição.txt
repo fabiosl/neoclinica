@@ -1,0 +1,4 @@
+    * Teste de Aceitação 13.1: Pesquisar dados de paciente existente no sistema (Operação Realizada com Sucesso).
+    * Teste de Aceitação 13.2: Pesquisar dados de paciente inexistente no sistema (Operação Realizada sem Sucesso). 
+    
+    Ver test/integration. Para executar, grails test-app -integration no projeto principal.

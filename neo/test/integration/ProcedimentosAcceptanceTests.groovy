@@ -1,4 +1,3 @@
-
 import acesso.Hierarquia;
 import core.FormaDePagamento 
 import core.Medico 
