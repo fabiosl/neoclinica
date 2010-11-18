@@ -21,11 +21,11 @@ Usando a legenda para o status das US:
 || A12.1 || || || || || || 
 
 
-== User Story 16 - ... ==
+== User Story 16 - Implementar solução de backup automático do banco de dados. ==
 === Testes de Aceitação ===
- * Teste de Aceitação 16.1: ...
+ * Teste de Aceitação 16.1: Realizar backup automático em certo intervalo configurável por script.
 
 === Atividades === 
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || 
-|| A16.1 || ||  || || || || 
+|| A16.1 || || || || || || 
