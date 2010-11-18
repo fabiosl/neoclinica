@@ -220,7 +220,7 @@ O sistema deve prover controle dos médicos que trabalham na clínica (usado par
 
 === Estimativa Inicial: 4 horas ===
 === Testes de Aceitação ===
- * Teste de Aceitação 16.1: Realizar backup automático em certo intervalo configurável por script.
+ * Teste de Aceitação 16.1: Realizar backup automático em certo intervalo configurável por script. _Condição de sucesso: Script realiza backup do banco de dados do sistema_.
 ----
 
 
