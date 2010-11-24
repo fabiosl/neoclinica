@@ -31,12 +31,12 @@ class ProcedimentoMedico extends Procedimento {
 	}
 	
 	public String toString(){
-		def formato = new SimpleDateFormat("dd/MM/yyyy");
+		def formato = new SimpleDateFormat("HH:mm");
 		def separator = System.getProperty("line.separator");
 		StringBuilder output = new StringBuilder()
 		output.append(tipo.toString() + " do paciente: " + paciente.toString() +"." +  separator)
-		output.append("Marcado com o Dr(a). " + medico.toString() +"."+ separator)
-		output.append("Data: " + formato.format(data) + "." + separator);
+//		output.append("Marcado com o Dr(a). " + medico.toString() +"."+ separator)
+		output.append("Hora Marcada: " + formato.format(data) + "." + separator);
 		return output.toString()
 	}
 }
