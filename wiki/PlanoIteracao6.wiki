@@ -20,7 +20,7 @@ Usando a legenda para o status das US:
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || 
 || A12.1 || Implementação das páginas GSPs usando plugin richui || Solon || 1h || 42m || C || 
 || A12.2 || Implementação das controladoras necessárias || Renato, Solon || 2h ||1h18m|| C || 
-|| A12.3 || Realizar testes || Renato || 1h || || D || 
+|| A12.3 || Realizar testes || Renato || 1h || 1h06m || C || 
 || A12.4 || Analisar possibilidade de alterar skin da agenda no plugin richui para exibir hora de 15 em 15min || Solon || 2h || 1h || C || 
 
 ----
@@ -32,6 +32,8 @@ Usando a legenda para o status das US:
 === Atividades === 
 
 || *Atividade* || *Descrição* || *Responsável* || *Estimativa* || *Tempo Real* || *Status* || 
-|| A16.1 || Estudo dea solução de backup automático com MySQL || Todos || 1h || 1h || C || 
-|| A16.2 || Elaborar script || Fábio || 3h || 0h || C || 
-|| A16.3 || Testar script no ambiente do servidor || Fábio || 1h || 0h|| C || 
+|| A16.1 || Estudo da solução de backup automático com MySQL || Todos || 1h || 1h || C || 
+|| A16.2 || Elaborar script _(ver observação)_  || Fábio || 3h || 0h || C || 
+|| A16.3 || Testar script _(ver observação)_  no ambiente do servidor || Fábio || 1h || 0h|| C ||
+
+_Obs.:_ Estas atividades não foram necessárias, pois após estudo (ver material na pasta dos testes de aceitação) vimos que o MySQL automatiza esta tarefa através do Mysql Administrator.
