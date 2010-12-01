@@ -173,7 +173,7 @@ O sistema deve prover aos usuários (médicos e secretárias) informações sobr
  * Teste de Aceitação 12.2: Mostrar os procedimentos marcados para a semana (Operação Realizada com Sucesso se logado como Administrador ou Funcionário).
  * Teste de Aceitação 12.3: Mostrar os procedimentos marcados para o mês (Operação Realizada com Sucesso se logado como Administrador ou Funcionário).
 
-=== Tempo Real:  ===
+=== Tempo Real: 4h06m ===
 ----
 
 == User Story 13 - Implementar funcionalidade de relatório de paciente ==
