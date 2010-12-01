@@ -1,0 +1,4 @@
+    * Teste de Aceitação 16.1: Realizar backup automático em certo intervalo configurável por script. 
+    
+    Ver o arquivo gerado Backup do SI NEO.docx, com o tutorial para gerar e restaurar um backup.
+    Não foi utilizado Script, porque a ferramenta MySQL Administrator oferece essa facilidade.
