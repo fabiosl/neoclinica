@@ -36,4 +36,4 @@ Usando a legenda para o status das US:
 || A16.2 || Elaborar script _(ver observação)_  || Fábio || 3h || 0h || C || 
 || A16.3 || Testar script _(ver observação)_  no ambiente do servidor || Fábio || 1h || 0h|| C ||
 
-_Obs.:_ Estas atividades não foram necessárias, pois após estudo (ver material na pasta dos testes de aceitação) vimos que o MySQL automatiza esta tarefa através do Mysql Administrator.
+_Obs.:_ Estas atividades não foram necessárias, pois após [http://code.google.com/p/neoclinica/source/browse/trunk/neo/test/acceptance/us16/Backup%20do%20SI%20NEO.docx estudo] vimos que o MySQL automatiza esta tarefa através do Mysql Administrator.
