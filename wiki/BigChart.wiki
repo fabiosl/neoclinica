@@ -8,6 +8,8 @@ Essa é sempre a versão mais atualizada de acordo com o passo corrente do proje
 
 ===Big Chart===
 
-O big chart até a iteração 5 pode ser visto aqui:
+O big chart até a iteração 6 pode ser visto aqui:
 
 http://neoclinica.googlecode.com/svn/trunk/documentos/bigChart/bigChart.jpg
+
+*_Obs.:_ a atividade de desenvolvimento da iteração 6 (Agenda) foi feita durante a iteração 5, por isso não houve grande mudança.
