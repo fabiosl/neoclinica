@@ -12,4 +12,4 @@ O big chart até a iteração 6 pode ser visto aqui:
 
 http://neoclinica.googlecode.com/svn/trunk/documentos/bigChart/bigChart.jpg
 
-*_Obs.:_ a atividade de desenvolvimento da iteração 6 (Agenda) foi feita durante a iteração 5, por isso não houve grande mudança.
+_Obs.:_ a atividade de desenvolvimento da iteração 6 (Agenda) foi feita durante a iteração 5, por isso não houve grande mudança.
