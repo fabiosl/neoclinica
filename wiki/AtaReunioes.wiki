@@ -68,4 +68,7 @@ Na reunião foi mostrado o software à usuária principal, pois o cliente não e
 ==Nona Reunião com o Cliente (10/11/2010)==
 O software foi apresentado diretamente ao cliente, as funcionalidades da segunda e da primeira release, além de algumas que estão em andamento da 5ª iteração. O cliente aprovou a release, pedindo apenas que o grupo antes da entrega, encontre uma solução de backup automático para o banco de dados.
 
-A máquina que irá hospedar o sistema já está instalada na recepção, assim como a infra-estrutura de rede (wireless), e os primeiros passos para implantar o SI Neo já foram realizados após a reunião.
+A máquina que irá hospedar o sistema já está instalada na recepção, assim como a infra-estrutura de rede (Wireless), e os primeiros passos para implantar o SI Neo já foram realizados após a reunião.
+
+==Décima Reunião com o Cliente (01/12/2010)==
+Objetivo: apresentação da versão final implantada na clínica e configuração da solução de backup no servidor.
